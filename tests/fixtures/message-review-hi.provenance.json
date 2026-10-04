@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "fixturePath": "tests/fixtures/message-review-hi.json",
+  "language": "hi",
+  "authorship": {
+    "kind": "AI-authored synthetic messages",
+    "caseAuthor": "/root/hindi_message_review",
+    "coordinator": "the team",
+    "isolatedAuthorContext": true,
+    "nativeSpeakerValidation": false
+  },
+  "timing": {
+    "metadataRecordedAtUtc": "2026-10-03T13:47:40.448084+00:00",
+    "observedFileCreatedAtUtc": "2026-10-03T13:09:28.079365+00:00",
+    "lastFrozenFileWriteAtUtc": "2026-10-03T13:12:03.165896+00:00",
+    "combinedFixtureFrozenAtUtc": "2026-10-03T13:17:56.583Z",
+    "authoredBeforeRuleInspection": true,
+    "firstRuleInspectionAtUtc": null,
+    "timestampEvidence": "Creation/write times are filesystem metadata; exact authoring-start and first-inspection times were not recorded. Pre-inspection independence is the original isolated author attestation, not a fabricated timestamp."
+  },
+  "freeze": {
+    "sha256": "d583da733fe30b0714818a2029baaf3d4d4d87ac4f60820c21a11476f636e79b",
+    "hashScope": "Exact original UTF-8 file bytes, including whitespace and final newline",
+    "developmentRowsSha256": "3b0a2df605ce3d788f24a822f64072b9867e6c36df425f87c2b0d2e7a3edd618",
+    "holdoutRowsSha256": "d78cae8100600e1d78b462a39a4cc8b0d1dfd53de7a0a81d3e7badef4b33749e",
+    "rowProjectionAlgorithm": "Select rows in original array order; JSON.stringify-equivalent compact JSON retaining object key order and literal Unicode; UTF-8; no final newline. This is not RFC 8785 canonicalization."
+  },
+  "counts": {
+    "total": 120,
+    "development": 80,
+    "developmentAttentionRequired": 40,
+    "developmentAttentionNotExpected": 40,
+    "holdout": 40,
+    "holdoutAttentionRequired": 20,
+    "holdoutAttentionNotExpected": 20
+  },
+  "protocol": {
+    "beforeAuthoring": "No engine, risk, retrieval or existing fixture inspection by this case author. Cases authored in a separate context, not translated from the other authors.",
+    "afterFreeze": "Development cases may be reviewed and scored; held-out outcomes remain aggregate-only and are reserved for the final frozen candidate.",
+    "labels": "Observable wording expectations; neither confirmed criminal conduct nor verified safety.",
+    "updatePolicy": "Frozen payload bytes remain unchanged. Corrections require a separate version with a new hash and preserved baseline."
+  },
+  "independentReview": {
+    "report": "Team FirstBest evaluation review",
+    "reviewer": "Team FirstBest",
+    "reportedAttentionLabelErrorsAcrossContestedDevelopmentCases": 0,
+    "reviewScope": "Attention-disagreement audit, partition/leakage checks and aggregate held-out scoring. Not native-speaker or real-world fraud validation."
+  },
+  "metadataStorage": "Detached sidecar preserves existing array readers and exact frozen file hashes; metadata was added after the original evaluation, not backdated."
+}

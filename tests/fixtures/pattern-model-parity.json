@@ -1,0 +1,381 @@
+{
+ "schemaVersion": 1,
+ "model": "sajag-pattern-model-v1",
+ "cases": [
+  {
+   "fixture": "cycle7-development.json",
+   "id": "cycle7-en-01-request",
+   "probability": 0.903835966681416
+  },
+  {
+   "fixture": "cycle7-development.json",
+   "id": "cycle7-hi-02-benign",
+   "probability": 0.27004984279509947
+  },
+  {
+   "fixture": "cycle7-development.json",
+   "id": "cycle7-bn-04-request",
+   "probability": 0.8966145036280347
+  },
+  {
+   "fixture": "cycle7-development.json",
+   "id": "cycle7-hi-latn-05-benign",
+   "probability": 0.11152067781814028
+  },
+  {
+   "fixture": "cycle7-development.json",
+   "id": "cycle7-bn-latn-07-request",
+   "probability": 0.9034900875028867
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-en-coordinated-pump-offer",
+   "probability": 0.6282575584104384
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-en-insider-variant",
+   "probability": 0.9290914750512455
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-en-ordinary-03",
+   "probability": 0.19675002434121955
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-hi-off-exchange-offer",
+   "probability": 0.9074503627050274
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-hi-tip-variant",
+   "probability": 0.8082508665453496
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-hi-borrow-variant",
+   "probability": 0.902324917809753
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-bn-release-fee-offer",
+   "probability": 0.9024593660299443
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-bn-nav-caution",
+   "probability": 0.009415867399968945
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-bn-secrecy-variant",
+   "probability": 0.7479257047232809
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-hi-Latn-authority-threat-offer",
+   "probability": 0.852826152364066
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-hi-Latn-promotion-offer",
+   "probability": 0.42400746305815096
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-hi-Latn-social-proof-caution",
+   "probability": 0.05855826771547866
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-bn-Latn-account-threat-offer",
+   "probability": 0.8829309646970475
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-bn-Latn-outsized-offer",
+   "probability": 0.9337648871680092
+  },
+  {
+   "fixture": "expanded-development-v2.json",
+   "id": "dev2-bn-Latn-off-platform-caution",
+   "probability": 0.11310147780375376
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "en-credentials-attention-plain",
+   "probability": 0.9741172463690477
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "en-credentials-benign-tabs",
+   "probability": 0.09089683405291916
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "hi-credentials-attention-emoji",
+   "probability": 0.9344244364088323
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "bn-credentials-attention-narrow-space",
+   "probability": 0.9549055266595797
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "bn-credentials-benign-emoji",
+   "probability": 0.07401318758041953
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "hi-Latn-credentials-benign-lower",
+   "probability": 0.07203396980593704
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "bn-Latn-credentials-attention-zero-width-space",
+   "probability": 0.5087746910979598
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "bn-Latn-credentials-benign-leading-benign",
+   "probability": 0.04478023137886998
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "en-guarantee-benign-plain",
+   "probability": 0.08398319118401745
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "hi-guarantee-attention-zero-width-space",
+   "probability": 0.6435377234112033
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "hi-guarantee-benign-html-text",
+   "probability": 0.023582150679131705
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "bn-guarantee-benign-word-joiner",
+   "probability": 0.016126353396855884
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "hi-Latn-guarantee-attention-bengali-digits",
+   "probability": 0.9549910177015062
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "bn-Latn-guarantee-attention-upper",
+   "probability": 0.9729378204517615
+  },
+  {
+   "fixture": "metamorphic-development-v2.json",
+   "id": "bn-Latn-guarantee-benign-nbsp",
+   "probability": 0.031513106167563185
+  },
+  {
+   "fixture": "expanded-independent-holdout-v2.json",
+   "id": "v2-en-attention-11",
+   "probability": 0.5494784302431931
+  },
+  {
+   "fixture": "expanded-independent-holdout-v2.json",
+   "id": "v2-hi-attention-04",
+   "probability": 0.8399014146348305
+  },
+  {
+   "fixture": "expanded-independent-holdout-v2.json",
+   "id": "v2-hi-benign-09",
+   "probability": 0.3838293102095403
+  },
+  {
+   "fixture": "expanded-independent-holdout-v2.json",
+   "id": "v2-bn-benign-02",
+   "probability": 0.16697573286674286
+  },
+  {
+   "fixture": "expanded-independent-holdout-v2.json",
+   "id": "v2-hi-latn-attention-13",
+   "probability": 0.7633529618532704
+  },
+  {
+   "fixture": "expanded-independent-holdout-v2.json",
+   "id": "v2-bn-latn-attention-06",
+   "probability": 0.5462423894667213
+  },
+  {
+   "fixture": "expanded-independent-holdout-v2.json",
+   "id": "v2-bn-latn-benign-11",
+   "probability": 0.08446566862388928
+  },
+  {
+   "fixture": "dev-cycle7-en.json",
+   "id": "syn-c7-en-022",
+   "probability": 0.175435973870669
+  },
+  {
+   "fixture": "dev-cycle7-hi.json",
+   "id": "syn-c7-hi-005",
+   "probability": 0.9627432724754726
+  },
+  {
+   "fixture": "dev-cycle7-hi.json",
+   "id": "syn-c7-hi-Latn-008",
+   "probability": 0.23766837831156298
+  },
+  {
+   "fixture": "dev-cycle7-bn.json",
+   "id": "syn-c7-bn-011",
+   "probability": 0.9163686641729332
+  },
+  {
+   "fixture": "dev-cycle7-bn.json",
+   "id": "syn-c7-bn-Latn-014",
+   "probability": 0.18556060048292253
+  },
+  {
+   "fixture": "message-review-en.json",
+   "id": "syn-en-dev-017",
+   "probability": 0.8993664422671513
+  },
+  {
+   "fixture": "message-review-en.json",
+   "id": "syn-en-dev-040",
+   "probability": 0.734391558189549
+  },
+  {
+   "fixture": "message-review-en.json",
+   "id": "syn-en-dev-063",
+   "probability": 0.14576277884637245
+  },
+  {
+   "fixture": "message-review-en.json",
+   "id": "syn-en-hold-006",
+   "probability": 0.9041218107441892
+  },
+  {
+   "fixture": "message-review-en.json",
+   "id": "syn-en-hold-029",
+   "probability": 0.037751099075251565
+  },
+  {
+   "fixture": "message-review-hi.json",
+   "id": "syn-hi-dev-012",
+   "probability": 0.7826064437153237
+  },
+  {
+   "fixture": "message-review-hi.json",
+   "id": "syn-hi-dev-035",
+   "probability": 0.41721766561435536
+  },
+  {
+   "fixture": "message-review-hi.json",
+   "id": "syn-hi-dev-058",
+   "probability": 0.1468746243972892
+  },
+  {
+   "fixture": "message-review-hi.json",
+   "id": "syn-hi-hold-001",
+   "probability": 0.6617075943563934
+  },
+  {
+   "fixture": "message-review-hi.json",
+   "id": "syn-hi-hold-024",
+   "probability": 0.07048092272926308
+  },
+  {
+   "fixture": "message-review-bn.json",
+   "id": "syn-bn-dev-007",
+   "probability": 0.7185793032506473
+  },
+  {
+   "fixture": "message-review-bn.json",
+   "id": "syn-bn-dev-030",
+   "probability": 0.937266124696231
+  },
+  {
+   "fixture": "message-review-bn.json",
+   "id": "syn-bn-dev-053",
+   "probability": 0.0879846378376726
+  },
+  {
+   "fixture": "message-review-bn.json",
+   "id": "syn-bn-dev-076",
+   "probability": 0.17169753327463644
+  },
+  {
+   "fixture": "message-review-bn.json",
+   "id": "syn-bn-hold-019",
+   "probability": 0.8464345116156229
+  },
+  {
+   "fixture": "cycle8-development.json",
+   "id": "cycle8-en-002",
+   "probability": 0.2125527175155071
+  },
+  {
+   "fixture": "cycle8-development.json",
+   "id": "cycle8-hi-005",
+   "probability": 0.9493772736077217
+  },
+  {
+   "fixture": "cycle8-development.json",
+   "id": "cycle8-bn-008",
+   "probability": 0.19339231174318391
+  },
+  {
+   "fixture": "cycle8-development.json",
+   "id": "cycle8-hi-Latn-011",
+   "probability": 0.768422936346083
+  },
+  {
+   "fixture": "cycle8-development.json",
+   "id": "cycle8-bn-Latn-014",
+   "probability": 0.1704499087725418
+  },
+  {
+   "fixture": "rag-independent-holdout.json",
+   "id": "rag-hi-offer-05",
+   "probability": 0.7928482300814756
+  },
+  {
+   "fixture": "rag-independent-holdout.json",
+   "id": "rag-hinglish-offer-04",
+   "probability": 0.8589669639239279
+  },
+  {
+   "fixture": "independent-review.json",
+   "id": "S03",
+   "probability": 0.811718195267585
+  },
+  {
+   "fixture": "independent-review.json",
+   "id": "B04",
+   "probability": 0.37560916436062586
+  },
+  {
+   "fixture": "round-two.json",
+   "id": "R2-S05",
+   "probability": 0.7276834903174005
+  },
+  {
+   "fixture": "round-two.json",
+   "id": "R2-B10",
+   "probability": 0.14042055261303713
+  },
+  {
+   "fixture": "dataset-development-v1.json",
+   "id": "dev-014",
+   "probability": 0.31970034276665704
+  },
+  {
+   "fixture": "dataset-development-v1.json",
+   "id": "dev-044",
+   "probability": 0.5840940943865903
+  }
+ ]
+}

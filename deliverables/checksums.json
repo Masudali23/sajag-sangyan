@@ -1,0 +1,34 @@
+{
+  "Demo-Transcript.txt": {
+    "bytes": 4205,
+    "sha256": "16f5e71d211c283c6c4486a3939c7b0893a09bf78f1a3745507bcb23586166ff"
+  },
+  "RELEASE-NOTES.txt": {
+    "bytes": 2857,
+    "sha256": "5130965b77845a7e65918c55630007e1f68b9f9ff61b9845d3e178064c04a250"
+  },
+  "SOLUTION-OVERVIEW.txt": {
+    "bytes": 8973,
+    "sha256": "af9b8224b30b439409b7c8e8850b270f5e0343baa16b593dd268f674cf46c731"
+  },
+  "Sajag-Android-Debug.apk": {
+    "bytes": 5201539,
+    "sha256": "2f6849711afb96cd124966b226a5be97362e4069c7edf91b85a4487f083e98af"
+  },
+  "Sajag-Demo-English.srt": {
+    "bytes": 6210,
+    "sha256": "31928756b8e3743ef34fd9570906b5bade741e5cfc24beffe16870252f71dd01"
+  },
+  "Sajag-Prototype-Demo.mp4": {
+    "bytes": 15889275,
+    "sha256": "800abef41a78f34bee51e48fe86e93075fd5dddd5f235a7a393bb4bc7b23846d"
+  },
+  "Sajag-SANGYAN-Pitch.pptx": {
+    "bytes": 1395288,
+    "sha256": "cdaa67508578268eb73978f01402123bab7208e75965c15b6d2a665a7905f13f"
+  },
+  "THIRD-PARTY.txt": {
+    "bytes": 3975,
+    "sha256": "7442a5a19275160316338a2260b475e209e0ec51cfc6c317500018aa87233e37"
+  }
+}

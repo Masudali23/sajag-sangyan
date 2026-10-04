@@ -1,0 +1,1428 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Open synthetic DEVELOPMENT cases for tuning and comparing financial warning-cue behaviour across five language forms. Expectations concern actionable warning cues, not verified fraud or authenticated safety. These messages are not independent accuracy evidence.",
+  "provenance": {
+    "developmentOnly": true,
+    "authoredAsDevelopment": true,
+    "sealedDataUsed": false,
+    "independentAccuracyEvidence": false,
+    "ruleInspection": true,
+    "nativeSpeakerReview": false,
+    "author": "@syn-2 development-fixture reviewer",
+    "priorInspection": "The author previously audited provider architecture, evidence validation, consent, native configuration, and limited engine/risk merge code. No additional engine patterns, existing fixtures or holdouts were inspected for this authoring task.",
+    "method": "One hundred fresh literal synthetic messages arranged as fifty actor/action contrast pairs. Each of en, hi, bn, hi-Latn and bn-Latn has ten actionable solicitations and ten financial lookalikes with no actionable warning expectation. Text is open to developmental tuning; no provider, local model or user data was used.",
+    "limitations": "Synthetic expectations and correlated cross-language scenario families do not estimate real-world prevalence or establish general accuracy. Hindi/Hinglish and Bengali/Banglish wording has no native-speaker review. Harmless expectations mean no reviewed attention cue is intended, not that a sender or transaction is verified safe."
+  },
+  "items": [
+    {
+      "id": "cycle8-en-001",
+      "pairId": "cycle8-en-pair-001",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "I am helping connect your wallet to the bank. Read the six-digit sign-in code from the SMS to me on this call; I will finish the connection for you.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "theme": "credential-request",
+      "rationale": "The caller asks the recipient to disclose a sign-in secret to another person."
+    },
+    {
+      "id": "cycle8-en-002",
+      "pairId": "cycle8-en-pair-001",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "I started a transfer inside my banking app. The app asked for the code sent to my own phone, so I entered it there and completed the transfer without telling anyone the code.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "credential-request",
+      "rationale": "The user enters their own transaction code in the app they opened; no one requests disclosure."
+    },
+    {
+      "id": "cycle8-en-003",
+      "pairId": "cycle8-en-pair-002",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "Your community raffle payout is ready, but the organiser cannot release it until you send a clearance payment. Pay the amount to the collection wallet this afternoon and the winnings will follow.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "release-payment-versus-service-fee",
+      "rationale": "Payment is requested as a condition for receiving purported winnings."
+    },
+    {
+      "id": "cycle8-en-004",
+      "pairId": "cycle8-en-pair-002",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "The community centre charges a fee for a six-session robotics course. I am comparing the timetable and cancellation policy before choosing whether to enrol; the fee pays for classes, not a promised payout.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "release-payment-versus-service-fee",
+      "rationale": "An ordinary course fee purchases a stated service and is not a payment to unlock earnings."
+    },
+    {
+      "id": "cycle8-en-005",
+      "pairId": "cycle8-en-pair-003",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "Our savings circle guarantees a net profit every week, whatever happens in the market. Add your first contribution today and we will place you in the fixed-profit plan.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "return-promise-versus-caution",
+      "rationale": "The speaker solicits participation using an unconditional profit promise."
+    },
+    {
+      "id": "cycle8-en-006",
+      "pairId": "cycle8-en-pair-003",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "The newspaper described a savings circle that had promised guaranteed weekly profits. The consumer column says such promises need scrutiny and tells readers not to join on the strength of that phrase.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "return-promise-versus-caution",
+      "rationale": "Reported news and protective advice describe a promise without making a current offer."
+    },
+    {
+      "id": "cycle8-en-007",
+      "pairId": "cycle8-en-pair-004",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "You owe me money. Transfer it tonight or I will send your private account records to your employer and post them in the neighbourhood group. I have the files ready.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "theme": "financial-extortion-versus-debt-reminder",
+      "rationale": "A financial demand is coupled with threats to expose private information."
+    },
+    {
+      "id": "cycle8-en-008",
+      "pairId": "cycle8-en-pair-004",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "The repair invoice is overdue and I am frustrated about the delay. Please reply with a realistic payment date; if you dispute an item, send the details so we can discuss it.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "financial-extortion-versus-debt-reminder",
+      "rationale": "A debt reminder expresses frustration and asks for repayment without humiliation or harm threats."
+    },
+    {
+      "id": "cycle8-en-009",
+      "pairId": "cycle8-en-pair-005",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "Forwarded from the payout desk today: your app balance can now be withdrawn. Send the activation charge to the desk wallet first. I am still taking registrations, so reply if you want your balance released.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "live-forward-versus-past-report",
+      "rationale": "The forwarded demand remains a live instruction to pay before funds are released."
+    },
+    {
+      "id": "cycle8-en-010",
+      "pairId": "cycle8-en-pair-005",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "Last winter a payout desk asked my uncle for an activation charge before a withdrawal. He refused, kept a screenshot for the complaint, and closed the conversation. I am describing that old demand, not inviting anyone to pay it.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "live-forward-versus-past-report",
+      "rationale": "A completed incident is reported with refusal and no present payment solicitation."
+    },
+    {
+      "id": "cycle8-en-011",
+      "pairId": "cycle8-en-pair-006",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "Never give a stranger your banking code; that is sensible advice. For the refund I am processing right now, however, send the login code to me in this chat so I can release it.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "theme": "caution-with-separate-solicitation",
+      "rationale": "An opening caution is followed by a separate current request for a login secret."
+    },
+    {
+      "id": "cycle8-en-012",
+      "pairId": "cycle8-en-pair-006",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "At our refund-safety session we discussed the line asking a customer to send a login code. The trainer explained why that request should be refused and demonstrated using the official app without sharing a code.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "caution-with-separate-solicitation",
+      "rationale": "An instructional quotation is rejected in a lesson; no live secret is requested."
+    },
+    {
+      "id": "cycle8-en-013",
+      "pairId": "cycle8-en-pair-007",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "Account maintenance: your balance will be frozen unless you complete my check now. Reply with your banking password and the code from the next SMS so I can prevent the freeze.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials",
+        "account-threat"
+      ],
+      "expectedNoStrong": false,
+      "theme": "account-pressure-versus-user-initiated-action",
+      "rationale": "A threatened account restriction pressures the user to disclose credentials."
+    },
+    {
+      "id": "cycle8-en-014",
+      "pairId": "cycle8-en-pair-007",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "My card is temporarily locked because I selected the lock option after misplacing it. I will open the bank app myself to review replacement charges and unlock it if I find it; this message asks nobody for a password.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "account-pressure-versus-user-initiated-action",
+      "rationale": "The customer describes control of their own card and a service charge without a disclosure demand."
+    },
+    {
+      "id": "cycle8-en-015",
+      "pairId": "cycle8-en-pair-008",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "I have reserved a remote packaging job for you. Transfer the refundable security deposit to my account before I activate the tasks; only activated members can start earning their daily pay.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "theme": "pay-before-work-versus-training",
+      "rationale": "An upfront deposit is required to access purported paid work."
+    },
+    {
+      "id": "cycle8-en-016",
+      "pairId": "cycle8-en-pair-008",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "The vocational school lists a fee for its packaging and inventory course. Completion does not guarantee a job; I want to see the course content and compare other schools before paying for the training.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "pay-before-work-versus-training",
+      "rationale": "A paid training service explicitly avoids an earnings or employment guarantee."
+    },
+    {
+      "id": "cycle8-en-017",
+      "pairId": "cycle8-en-pair-009",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "Everyone in this room should buy the same thinly traded share at the opening bell. We will circulate a favourable rumour afterwards, push the price together, and sell our holdings before the outsiders leave.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "expectedNoStrong": false,
+      "theme": "coordinated-market-action-versus-reporting",
+      "rationale": "The group is directed to coordinate purchases, spread a rumour and exit after a price rise."
+    },
+    {
+      "id": "cycle8-en-018",
+      "pairId": "cycle8-en-pair-009",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "In yesterday's market class we reconstructed a group that bought a thinly traded share, spread a rumour and sold after the jump. We discussed the losses suffered by later buyers; there is no trade instruction for our class.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "coordinated-market-action-versus-reporting",
+      "rationale": "A retrospective classroom account of coordinated trading contains no current participation request."
+    },
+    {
+      "id": "cycle8-en-019",
+      "pairId": "cycle8-en-pair-010",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "If you lack the entry amount, take a short loan and send it to our investment desk. The plan guarantees enough profit to repay the loan and leave you a fixed monthly income.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow",
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "borrowing-for-profit-versus-self-report",
+      "rationale": "Borrowing is solicited to fund a scheme with a guaranteed repayment and income claim."
+    },
+    {
+      "id": "cycle8-en-020",
+      "pairId": "cycle8-en-pair-010",
+      "language": "en",
+      "languageForm": "en",
+      "script": "Latin",
+      "text": "I once borrowed to invest because I thought a monthly profit would cover the interest. It did not: I sold at a loss and am still repaying the loan. This is my experience, and I am not asking anyone to copy it.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "borrowing-for-profit-versus-self-report",
+      "rationale": "A historical personal loss account does not recommend borrowing or offer guaranteed returns."
+    },
+    {
+      "id": "cycle8-hi-001",
+      "pairId": "cycle8-hi-pair-001",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "मैं आपके दुकान वाले वॉलेट का रिफंड जोड़ रहा हूँ। बैंक के संदेश में जो लॉगिन कोड आए, वह मुझे फोन पर बता दीजिए; आगे की प्रक्रिया मैं आपके बदले पूरी कर दूँगा।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "theme": "credential-request",
+      "rationale": "A purported helper asks the recipient to tell them a banking login code."
+    },
+    {
+      "id": "cycle8-hi-002",
+      "pairId": "cycle8-hi-pair-001",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "मैंने अपने बैंक ऐप में किराये का भुगतान शुरू किया। उसी ऐप में अपने फोन पर आया कोड दर्ज किया और रसीद देखी। कोड मैंने मकान मालिक या किसी सहायक को नहीं बताया।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "credential-request",
+      "rationale": "The user authorises their own payment inside the app without sharing the code."
+    },
+    {
+      "id": "cycle8-hi-003",
+      "pairId": "cycle8-hi-pair-002",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "आपकी छात्रवृत्ति मंजूर है, लेकिन रकम भेजने से पहले सत्यापन शुल्क जमा करना होगा। हमारे निजी संग्रह खाते में शुल्क भेजिए, फिर पूरी छात्रवृत्ति आपके खाते में जारी होगी।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "release-payment-versus-service-fee",
+      "rationale": "The recipient must pay a fee to obtain a purported scholarship payout."
+    },
+    {
+      "id": "cycle8-hi-004",
+      "pairId": "cycle8-hi-pair-002",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "नगर पुस्तकालय का कम्प्यूटर कोर्स चार सप्ताह का है और उसका प्रवेश शुल्क लिखा हुआ है। मैं समय और पाठ्यक्रम देखकर तय करूँगी कि पढ़ाई के लिए शुल्क दूँ या दूसरे कोर्स का विकल्प चुनूँ।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "release-payment-versus-service-fee",
+      "rationale": "The fee purchases a described educational service rather than unlocking money."
+    },
+    {
+      "id": "cycle8-hi-005",
+      "pairId": "cycle8-hi-pair-003",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "हमारे अनाज निवेश समूह में बाजार गिरने पर भी आपका मुनाफा तय है। पहली रकम अभी जमा करिए; हर महीने निश्चित लाभ मिलने की पूरी गारंटी हम देते हैं।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "return-promise-versus-caution",
+      "rationale": "A current investment solicitation promises profit regardless of market conditions."
+    },
+    {
+      "id": "cycle8-hi-006",
+      "pairId": "cycle8-hi-pair-003",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "गाँव की बैठक में पुराने अनाज निवेश समूह की चर्चा हुई, जिसने हर महीने तय लाभ का दावा किया था। सलाहकार ने कहा कि उस दावे को प्रमाण न मानें और जाँच किए बिना पैसे न लगाएँ।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "return-promise-versus-caution",
+      "rationale": "The message reports and questions a past profit claim without inviting investment."
+    },
+    {
+      "id": "cycle8-hi-007",
+      "pairId": "cycle8-hi-pair-004",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "आज ही मेरे बताए खाते में पैसा भेजो। अगर भुगतान नहीं किया तो तुम्हारी निजी तस्वीरें और बैंक की जानकारी रिश्तेदारों के समूह में डाल दूँगा; फिर सबके सामने सफाई देना।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "theme": "financial-extortion-versus-debt-reminder",
+      "rationale": "Payment is demanded under a threat to expose private information."
+    },
+    {
+      "id": "cycle8-hi-008",
+      "pairId": "cycle8-hi-pair-004",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "पिछले महीने की मरम्मत का बिल अब तक बाकी है और देर से मुझे परेशानी हो रही है। कृपया बताइए कि भुगतान कब कर पाएँगे; किसी मद पर असहमति हो तो हम बैठकर हिसाब देख सकते हैं।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "financial-extortion-versus-debt-reminder",
+      "rationale": "An ordinary overdue-bill discussion has no threat of exposure, humiliation or harm."
+    },
+    {
+      "id": "cycle8-hi-009",
+      "pairId": "cycle8-hi-pair-005",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "आज मिला अग्रेषित संदेश: आपकी पेंशन का बकाया तैयार है। प्रोसेसिंग रकम पहले हमारे एजेंट को भेजिए, तभी बकाया जारी होगा। एजेंट अभी भुगतान लेकर फाइल आगे बढ़ा रहा है।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "live-forward-versus-past-report",
+      "rationale": "A presently actionable forwarded demand conditions a payout on an agent payment."
+    },
+    {
+      "id": "cycle8-hi-010",
+      "pairId": "cycle8-hi-pair-005",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "मेरे पिता को पिछले साल पेंशन का बकाया दिलाने के नाम पर पहले पैसे माँगे गए थे। उन्होंने भुगतान नहीं किया और शिकायत की। मैं उस घटना का विवरण दे रही हूँ, किसी एजेंट को रकम भेजने के लिए नहीं कह रही।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "live-forward-versus-past-report",
+      "rationale": "An old demand is recounted with refusal rather than repeated as a live offer."
+    },
+    {
+      "id": "cycle8-hi-011",
+      "pairId": "cycle8-hi-pair-006",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "ऑनलाइन झूठी कमाई से सावधान रहिए। हमारी अपनी योजना में जोखिम नहीं है और लाभ की गारंटी है; चेतावनी समझने के बाद इस संदेश का जवाब देकर आज ही अपना निवेश जोड़िए।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "caution-with-separate-solicitation",
+      "rationale": "General caution precedes a distinct investment invitation with a guaranteed-profit claim."
+    },
+    {
+      "id": "cycle8-hi-012",
+      "pairId": "cycle8-hi-pair-006",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "सत्र की शुरुआत ऑनलाइन झूठी कमाई की चेतावनी से हुई। फिर प्रशिक्षक ने समझाया कि लाभ की गारंटी लिखे होने से कोई योजना सही नहीं हो जाती; उन्होंने किसी को निवेश जोड़ने के लिए नहीं कहा।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "caution-with-separate-solicitation",
+      "rationale": "The whole message describes a protective lesson and contains no separate investment offer."
+    },
+    {
+      "id": "cycle8-hi-013",
+      "pairId": "cycle8-hi-pair-007",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "मैं राजस्व विभाग से बोल रहा हूँ। अभी मेरे भेजे निजी भुगतान पते पर समझौते की रकम जमा करो, नहीं तो गिरफ्तारी की कार्रवाई शुरू होगी। कार्यालय जाने की जरूरत नहीं, भुगतान मुझे दिखाओ।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat",
+        "impersonation"
+      ],
+      "expectedNoStrong": false,
+      "theme": "authority-pressure-versus-ordinary-charge",
+      "rationale": "A claimed official uses arrest pressure to demand payment through a private channel."
+    },
+    {
+      "id": "cycle8-hi-014",
+      "pairId": "cycle8-hi-pair-007",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "मैं अपना संपत्ति कर भरने से पहले नगर कार्यालय में दरों और पिछली रसीद की जानकारी पूछूँगा। भुगतान अपने चुने आधिकारिक माध्यम से करूँगा; इस बातचीत में कोई अधिकारी धमकी देकर निजी खाते में पैसा नहीं माँग रहा।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "authority-pressure-versus-ordinary-charge",
+      "rationale": "The user describes checking and paying their own tax without a coercive private demand."
+    },
+    {
+      "id": "cycle8-hi-015",
+      "pairId": "cycle8-hi-pair-008",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "घर से डाटा जाँचने के काम में आपकी जगह रखी है। काम खुलवाने के लिए सुरक्षा रकम मेरे खाते में भेजिए; रकम मिलते ही आपको रोज कमाने वाले कार्य भेज दूँगा।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "theme": "pay-before-work-versus-training",
+      "rationale": "Access to purported paid tasks is conditional on an upfront transfer."
+    },
+    {
+      "id": "cycle8-hi-016",
+      "pairId": "cycle8-hi-pair-008",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "तकनीकी संस्थान डाटा जाँचने का प्रशिक्षण देता है और उसकी फीस तथा रिफंड नीति दोनों लिखी हैं। प्रशिक्षण से नौकरी मिलने का वादा नहीं है; पहले मैं पाठ्यक्रम समझना चाहती हूँ।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "pay-before-work-versus-training",
+      "rationale": "The charge is for training with no promised paid-task activation or guaranteed employment."
+    },
+    {
+      "id": "cycle8-hi-017",
+      "pairId": "cycle8-hi-pair-009",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "हम सब सुबह एक ही छोटे शेयर को एक साथ खरीदेंगे। उसके बाद समूह बाहर तेजी की खबर फैलाएगा ताकि भाव चढ़े, और तय समय पर हम पहले बेचकर निकलेंगे। अपनी खरीद की तैयारी रखो।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "expectedNoStrong": false,
+      "theme": "coordinated-market-action-versus-reporting",
+      "rationale": "The message directs coordinated buying, promotion and a planned early exit."
+    },
+    {
+      "id": "cycle8-hi-018",
+      "pairId": "cycle8-hi-pair-009",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "अखबार की रिपोर्ट में बताया गया कि एक समूह ने छोटे शेयर में खरीद करके तेजी की खबर फैलाई और फिर बेच दिया। कॉलेज में हमने बाद के खरीदारों का नुकसान पढ़ा; हम उस शेयर को खरीदने की योजना नहीं बना रहे।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "coordinated-market-action-versus-reporting",
+      "rationale": "News and classroom analysis describe past trading without asking readers to join it."
+    },
+    {
+      "id": "cycle8-hi-019",
+      "pairId": "cycle8-hi-pair-010",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "प्रवेश राशि कम पड़ रही हो तो उधार ले लीजिए। हमारी योजना का तय मुनाफा ब्याज भी चुकाएगा और बचत भी देगा; कर्ज लेकर निवेश भेजने वालों का नाम मैं आज जोड़ रहा हूँ।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow",
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "borrowing-for-profit-versus-self-report",
+      "rationale": "The promoter urges borrowing to fund a scheme advertised as reliably covering the debt."
+    },
+    {
+      "id": "cycle8-hi-020",
+      "pairId": "cycle8-hi-pair-010",
+      "language": "hi",
+      "languageForm": "hi",
+      "script": "Devanagari",
+      "text": "दो साल पहले मैंने यह सोचकर उधार लिया था कि निवेश की कमाई ब्याज चुका देगी। बाजार गिरा और मुझे नुकसान हुआ। यह मेरी पुरानी गलती है; मैं किसी को कर्ज लेकर निवेश करने के लिए नहीं कह रहा।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "borrowing-for-profit-versus-self-report",
+      "rationale": "A personal retrospective account explains a loss and does not solicit leveraged investing."
+    },
+    {
+      "id": "cycle8-bn-001",
+      "pairId": "cycle8-bn-pair-001",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "আপনার দোকানের পেমেন্ট ফেরত দেওয়ার কাজ আমি করছি। ফোনে যে ব্যাংক লগইন কোড আসবে, সেটি আমাকে এই চ্যাটে পাঠান; আপনার হয়ে আমি ফেরত পাওয়ার ব্যবস্থা শেষ করব।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "theme": "credential-request",
+      "rationale": "Another person requests disclosure of a bank login code to process a refund."
+    },
+    {
+      "id": "cycle8-bn-002",
+      "pairId": "cycle8-bn-pair-001",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "আমি নিজের ব্যাংক অ্যাপ খুলে বিদ্যুতের বিল দিয়েছি। আমার ফোনে আসা কোডটি সেই অ্যাপে লিখেছি এবং রসিদ রেখেছি; দোকানদার বা অন্য কাউকে কোডটি পাঠাইনি।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "credential-request",
+      "rationale": "The user completes their own bill payment without disclosing the authorisation code."
+    },
+    {
+      "id": "cycle8-bn-003",
+      "pairId": "cycle8-bn-pair-002",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "আপনার পুরস্কারের টাকা প্রস্তুত আছে। টাকা ছাড়ার আগে আমাদের সংগ্রহ নম্বরে অনুমোদন ফি পাঠাতে হবে; ফি পেলেই পুরো পুরস্কার আপনার হিসাবে যাবে।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "release-payment-versus-service-fee",
+      "rationale": "An advance fee is demanded before a purported prize is released."
+    },
+    {
+      "id": "cycle8-bn-004",
+      "pairId": "cycle8-bn-pair-002",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "পাড়ার সেলাই কোর্সে দশটি ক্লাস আছে এবং ভর্তির ফি প্রকাশ করা হয়েছে। আমি সময়সূচি ও ফেরতের শর্ত দেখে সিদ্ধান্ত নেব; এই ফি কোনও পুরস্কার বা আটকে থাকা টাকা পাওয়ার জন্য নয়।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "release-payment-versus-service-fee",
+      "rationale": "A stated fee buys sewing classes rather than obtaining a financial payout."
+    },
+    {
+      "id": "cycle8-bn-005",
+      "pairId": "cycle8-bn-pair-003",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "আমাদের মাছচাষ বিনিয়োগ দলে লোক নিচ্ছি। আবহাওয়া বা বাজার যাই হোক, প্রতি মাসে আপনার লাভ নিশ্চিত; আজ মূলধন পাঠিয়ে নির্দিষ্ট লাভের সদস্য হয়ে যান।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "return-promise-versus-caution",
+      "rationale": "The speaker invites investment with an unconditional monthly-profit promise."
+    },
+    {
+      "id": "cycle8-bn-006",
+      "pairId": "cycle8-bn-pair-003",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "স্থানীয় সংবাদে এমন একটি মাছচাষ দলের কথা এসেছে যারা প্রতি মাসে নিশ্চিত লাভের দাবি করেছিল। আলোচনায় আমরা বলেছি, ওই কথাই যথেষ্ট প্রমাণ নয় এবং যাচাই ছাড়া টাকা দেওয়া উচিত নয়।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "return-promise-versus-caution",
+      "rationale": "News and caution discuss a promise without endorsing it or soliciting funds."
+    },
+    {
+      "id": "cycle8-bn-007",
+      "pairId": "cycle8-bn-pair-004",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "আমার পাঠানো হিসাবে আজ রাতেই টাকা দাও। না দিলে তোমার ব্যক্তিগত ঋণের কাগজ আর ছবি অফিসের সবাইকে পাঠিয়ে দেব, তারপর সামাজিক মাধ্যমে তোমাকে অপমান করব।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "theme": "financial-extortion-versus-debt-reminder",
+      "rationale": "A money demand is backed by threats of private disclosure and public humiliation."
+    },
+    {
+      "id": "cycle8-bn-008",
+      "pairId": "cycle8-bn-pair-004",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "মেরামতির বিলটি এখনও বাকি, তাই আমার হিসাব মেলাতে সমস্যা হচ্ছে। কবে দিতে পারবেন জানাবেন; কোনও খরচ নিয়ে আপত্তি থাকলে রসিদ দেখে আমরা কথা বলতে পারি।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "financial-extortion-versus-debt-reminder",
+      "rationale": "An overdue-payment reminder invites discussion and has no exposure or harm threat."
+    },
+    {
+      "id": "cycle8-bn-009",
+      "pairId": "cycle8-bn-pair-005",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "আজকের ফরওয়ার্ড: আপনার গেমের আয় তোলা যাবে, তবে আগে সক্রিয়করণ চার্জ পাঠাতে হবে। আমি এখন সেই দলের হয়ে টাকা নিচ্ছি; চার্জ পাঠালে আটকে থাকা আয় ছাড়ার তালিকায় নাম তুলব।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "live-forward-versus-past-report",
+      "rationale": "The forwarded withdrawal offer is active and asks for payment to unlock earnings."
+    },
+    {
+      "id": "cycle8-bn-010",
+      "pairId": "cycle8-bn-pair-005",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "গত বছর আমার ভাইকে গেমের আয় তুলতে সক্রিয়করণ চার্জ দিতে বলা হয়েছিল। সে টাকা দেয়নি, কথোপকথনের ছবি রেখে অভিযোগ করেছিল। আমি পুরোনো ঘটনাটি বলছি, কাউকে চার্জ দিতে বলছি না।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "live-forward-versus-past-report",
+      "rationale": "A past demand is reported with refusal and no current payment invitation."
+    },
+    {
+      "id": "cycle8-bn-011",
+      "pairId": "cycle8-bn-pair-006",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "অচেনা কাউকে ব্যাংকের কোড দেবেন না। তবে আমি এখন আপনার ফেরত জমা করার কাজ করছি, তাই এইবার কোডটি আমাকে পাঠান; আমি দিলেই কাজটি দ্রুত শেষ হবে।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "theme": "caution-with-separate-solicitation",
+      "rationale": "An initial safety warning is followed by a distinct current request to disclose a bank code."
+    },
+    {
+      "id": "cycle8-bn-012",
+      "pairId": "cycle8-bn-pair-006",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "ফেরত পাওয়ার নামে কোড চাওয়ার কথাটি আজকের সচেতনতা ক্লাসে পড়ানো হয়েছে। শিক্ষক পুরো অনুরোধটি প্রত্যাখ্যান করতে বলেছেন এবং নিজের অ্যাপ দিয়ে কাজ করার উদাহরণ দিয়েছেন; কারও আসল কোড নেওয়া হয়নি।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "caution-with-separate-solicitation",
+      "rationale": "A lesson rejects the quoted request and seeks no real credentials."
+    },
+    {
+      "id": "cycle8-bn-013",
+      "pairId": "cycle8-bn-pair-007",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "আপনার ব্যাংক হিসাব আজ বন্ধ হয়ে যাবে যদি আমার যাচাই শেষ না হয়। এখনই পাসওয়ার্ড আর পরের বার্তায় আসা কোড আমাকে পাঠান, তাহলে আমি বন্ধ হওয়া আটকে দেব।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials",
+        "account-threat"
+      ],
+      "expectedNoStrong": false,
+      "theme": "account-pressure-versus-user-initiated-action",
+      "rationale": "Account-closure pressure is used to obtain a password and authorisation code."
+    },
+    {
+      "id": "cycle8-bn-014",
+      "pairId": "cycle8-bn-pair-007",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "আমি কার্ড হারানোর পরে নিজের অ্যাপে সেটি বন্ধ করেছি। নতুন কার্ডের ফি কত তা ব্যাংকের শাখায় জিজ্ঞেস করব; এই নোটে কাউকে পাসওয়ার্ড পাঠাতে বা বন্ধ হওয়া ঠেকাতে টাকা দিতে বলা হচ্ছে না।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "account-pressure-versus-user-initiated-action",
+      "rationale": "The customer describes their own protective card action and replacement fee."
+    },
+    {
+      "id": "cycle8-bn-015",
+      "pairId": "cycle8-bn-pair-008",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "বাড়িতে বসে নথি সাজানোর কাজ পেতে আগে আমার হিসাবে জামানত পাঠান। জামানত এলেই কাজের তালিকা চালু হবে এবং প্রতিদিনের আয় শুরু করতে পারবেন; দলে আপনার জায়গা রাখা আছে।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "theme": "pay-before-work-versus-training",
+      "rationale": "An upfront payment is required to activate purported earning opportunities."
+    },
+    {
+      "id": "cycle8-bn-016",
+      "pairId": "cycle8-bn-pair-008",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "দক্ষতা কেন্দ্র নথি সাজানো ও স্প্রেডশিট শেখায়। কোর্সের ফি আছে, কিন্তু চাকরি বা দৈনিক আয়ের নিশ্চয়তা নেই; আমি সিলেবাস ও শিক্ষকের তথ্য পড়ে সিদ্ধান্ত নিচ্ছি।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "pay-before-work-versus-training",
+      "rationale": "A disclosed training fee is not a deposit required to access promised paid work."
+    },
+    {
+      "id": "cycle8-bn-017",
+      "pairId": "cycle8-bn-pair-009",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "কাল খোলার সময় আমরা সবাই ওই অল্প লেনদেনের শেয়ারটি কিনব। তারপর বাইরে লাভের খবর ছড়িয়ে দাম বাড়াব এবং নতুন ক্রেতারা এলে আগে বিক্রি করে বেরিয়ে যাব। দলের কেনার তালিকায় নাম দিন।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "expectedNoStrong": false,
+      "theme": "coordinated-market-action-versus-reporting",
+      "rationale": "The group solicits coordinated trading, promotion and a planned exit before later buyers."
+    },
+    {
+      "id": "cycle8-bn-018",
+      "pairId": "cycle8-bn-pair-009",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "পাঠচক্রে আমরা একটি পুরোনো ঘটনার বিবরণ পড়েছি: একটি দল অল্প লেনদেনের শেয়ার কিনে খবর ছড়িয়েছিল, পরে বিক্রি করেছিল। আলোচনাটি ক্ষতির কারণ বুঝতে, এখন কোনও শেয়ার কেনার নির্দেশ দিতে নয়।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "coordinated-market-action-versus-reporting",
+      "rationale": "A retrospective study of manipulation has no live trading instruction."
+    },
+    {
+      "id": "cycle8-bn-019",
+      "pairId": "cycle8-bn-pair-010",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "মূলধন না থাকলে ঋণ নিয়ে আমাদের পরিকল্পনায় দিন। নিশ্চিত লাভ থেকে সুদ মিটিয়েও প্রতি মাসে টাকা থাকবে; ঋণ নিয়ে যোগ দেওয়ার আবেদন আজ গ্রহণ করছি।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow",
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "borrowing-for-profit-versus-self-report",
+      "rationale": "The promoter asks people to borrow for a guaranteed-profit investment plan."
+    },
+    {
+      "id": "cycle8-bn-020",
+      "pairId": "cycle8-bn-pair-010",
+      "language": "bn",
+      "languageForm": "bn",
+      "script": "Bengali",
+      "text": "আগে আমি ভেবেছিলাম বিনিয়োগের মাসিক লাভ দিয়ে ঋণের সুদ মেটাব। তা হয়নি, ক্ষতি হয়েছে এবং ঋণ শোধ করতে হচ্ছে। এটি আমার অভিজ্ঞতা, কাউকে একই কাজ করার পরামর্শ নয়।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "borrowing-for-profit-versus-self-report",
+      "rationale": "A past personal loss account does not recommend borrowing or promise a return."
+    },
+    {
+      "id": "cycle8-hi-Latn-001",
+      "pairId": "cycle8-hi-Latn-pair-001",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Main aapke phone wallet ka refund sambhal raha hoon. Bank ka login code SMS mein aate hi mujhe call par padhkar bata do, main aapki taraf se refund ka kaam poora kar dunga.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "theme": "credential-request",
+      "rationale": "A supposed refund helper asks another person to disclose a bank login code."
+    },
+    {
+      "id": "cycle8-hi-Latn-002",
+      "pairId": "cycle8-hi-Latn-pair-001",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Maine apne banking app mein school ki fees ka transfer shuru kiya tha. Apne phone par aaya code usi app mein dala aur receipt save ki; teacher ko sirf receipt bheji, code nahi.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "credential-request",
+      "rationale": "The user enters a code in their own transaction and sends only the receipt."
+    },
+    {
+      "id": "cycle8-hi-Latn-003",
+      "pairId": "cycle8-hi-Latn-pair-002",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Aapka contest reward hamare paas ready hai. Release se pehle clearance charge mere collection wallet mein bhejna hoga; charge aane ke baad hi poora reward transfer kar sakta hoon.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "release-payment-versus-service-fee",
+      "rationale": "Payment to a collection wallet is required before releasing a purported contest reward."
+    },
+    {
+      "id": "cycle8-hi-Latn-004",
+      "pairId": "cycle8-hi-Latn-pair-002",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Driving school ne practical lessons ki fee aur cancellation terms likhkar diye hain. Main instructor aur timings compare kar raha hoon; fee lessons ke liye hai, kisi reward ko nikalne ke liye nahi.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "release-payment-versus-service-fee",
+      "rationale": "A fee for a described driving course is an ordinary service charge."
+    },
+    {
+      "id": "cycle8-hi-Latn-005",
+      "pairId": "cycle8-hi-Latn-pair-003",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Hamare storage investment club mein abhi members le rahe hain. Sale ho ya na ho, monthly profit ki guarantee hum denge; pehla contribution bhejo aur fixed-profit list mein naam likhwao.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "return-promise-versus-caution",
+      "rationale": "A current membership solicitation promises profit even without underlying sales."
+    },
+    {
+      "id": "cycle8-hi-Latn-006",
+      "pairId": "cycle8-hi-Latn-pair-003",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "News discussion mein us storage club ka zikr hua jisne monthly profit ki guarantee boli thi. Speaker ne logon ko sirf is vaade par paisa na dene aur records ki jaanch karne ko kaha.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "return-promise-versus-caution",
+      "rationale": "A reported promise is discussed critically without inviting readers to invest."
+    },
+    {
+      "id": "cycle8-hi-Latn-007",
+      "pairId": "cycle8-hi-Latn-pair-004",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Mere bataye account mein aaj payment karo. Nahi kiya to tumhari private bank statement aur personal chats colleagues ko bhej dunga; office ke saamne tumhari beizzati bhi karunga.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "theme": "financial-extortion-versus-debt-reminder",
+      "rationale": "A payment demand includes threats to expose private data and humiliate the recipient."
+    },
+    {
+      "id": "cycle8-hi-Latn-008",
+      "pairId": "cycle8-hi-Latn-pair-004",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Design project ka final invoice abhi pending hai aur mujhe delay se pareshaani hai. Please payment ki date confirm karo; deliverables par koi concern ho to baat karke account settle karte hain.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "financial-extortion-versus-debt-reminder",
+      "rationale": "A frustrated invoice reminder offers discussion without exposure or harm threats."
+    },
+    {
+      "id": "cycle8-hi-Latn-009",
+      "pairId": "cycle8-hi-Latn-pair-005",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Abhi ka forwarded offer: delivery app mein jo bonus atka hai use nikalne ke liye agent ko activation fee bhejo. Main agent ke saath aaj cases le raha hoon; fee bhejne walon ka bonus release karwayenge.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "live-forward-versus-past-report",
+      "rationale": "The forward remains a live demand for an activation fee before releasing a bonus."
+    },
+    {
+      "id": "cycle8-hi-Latn-010",
+      "pairId": "cycle8-hi-Latn-pair-005",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Pichhle saal mere cousin se delivery bonus nikalne ke naam par activation fee maangi gayi thi. Usne payment rok di aur complaint ki. Main purana experience bata raha hoon, us agent ko paise bhejne ka offer nahi.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "live-forward-versus-past-report",
+      "rationale": "A past demand is reported with refusal and no current solicitation."
+    },
+    {
+      "id": "cycle8-hi-Latn-011",
+      "pairId": "cycle8-hi-Latn-pair-006",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Social media ke fake earning offers se bachna chahiye. Lekin mera yeh plan guaranteed profit deta hai aur market ka risk aap par nahi aayega; aaj investment bhejkar meri members list join karo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "caution-with-separate-solicitation",
+      "rationale": "A general caution is followed by a separate live guaranteed-profit offer."
+    },
+    {
+      "id": "cycle8-hi-Latn-012",
+      "pairId": "cycle8-hi-Latn-pair-006",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Aaj ki workshop mein fake earning offers se bachne ki baat hui. Trainer ne guaranteed profit wale advertisements ke examples dikhaye aur kaha ki unhe dekhkar members list join na karein; workshop mein koi investment nahi liya gaya.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "caution-with-separate-solicitation",
+      "rationale": "The message describes a protective workshop that rejects the quoted advertisements."
+    },
+    {
+      "id": "cycle8-hi-Latn-013",
+      "pairId": "cycle8-hi-Latn-pair-007",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Main investigation team ka officer hoon. Case band karna hai to mere diye personal payment address par settlement amount abhi bhejo, warna arrest ki process aage badhegi. Is call ko office mein verify mat karna.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat",
+        "impersonation"
+      ],
+      "expectedNoStrong": false,
+      "theme": "authority-pressure-versus-ordinary-charge",
+      "rationale": "An alleged official threatens arrest and demands a private-channel payment."
+    },
+    {
+      "id": "cycle8-hi-Latn-014",
+      "pairId": "cycle8-hi-Latn-pair-007",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Mujhe traffic fine ki receipt samajhni hai, isliye main khud department ke office mein query karunga. Amount aur appeal process dekhne ke baad apna decision loonga; koi caller mujhe personal account mein settlement nahi mang raha.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "authority-pressure-versus-ordinary-charge",
+      "rationale": "The user describes independently reviewing a fine, without a coercive private payment request."
+    },
+    {
+      "id": "cycle8-hi-Latn-015",
+      "pairId": "cycle8-hi-Latn-pair-008",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Online translation tasks se earning shuru karne ke liye refundable deposit pehle mere account mein bhejo. Deposit milte hi paid task access unlock hoga aur main tumhe assignments bhejunga.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "theme": "pay-before-work-versus-training",
+      "rationale": "A deposit is required before access to purported paid assignments."
+    },
+    {
+      "id": "cycle8-hi-Latn-016",
+      "pairId": "cycle8-hi-Latn-pair-008",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Language institute translation ka course bechta hai aur course fee clearly di hai. Unhone placement ya paid assignments ka promise nahi kiya; main syllabus aur refund policy padhkar decide karunga.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "pay-before-work-versus-training",
+      "rationale": "The payment is for optional instruction without a paid-work activation claim."
+    },
+    {
+      "id": "cycle8-hi-Latn-017",
+      "pairId": "cycle8-hi-Latn-pair-009",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Hamari trading team subah ek hi small-company share ek saath buy karegi. Uske baad dusre groups mein positive rumour bhejenge, price ko upar le jayenge aur naye buyers ke aane par pehle exit karenge. Buy order ready rakho.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "expectedNoStrong": false,
+      "theme": "coordinated-market-action-versus-reporting",
+      "rationale": "The live plan coordinates purchases, rumour distribution and selling to later buyers."
+    },
+    {
+      "id": "cycle8-hi-Latn-018",
+      "pairId": "cycle8-hi-Latn-pair-009",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Finance class ne ek old trading chat study ki jahan group ne small-company share kharidkar rumour failaya aur baad mein becha. Humne late buyers ka loss discuss kiya; class ne koi buy order ya group joining nahi maangi.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "coordinated-market-action-versus-reporting",
+      "rationale": "A classroom study reports prior manipulation without proposing a current trade."
+    },
+    {
+      "id": "cycle8-hi-Latn-019",
+      "pairId": "cycle8-hi-Latn-pair-010",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Entry amount nahi hai to short loan le lo aur hamare desk par invest karo. Guaranteed profit loan ka interest chuka dega aur har mahine extra income bhi bachegi; main borrowed funds se joining accept kar raha hoon.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow",
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "borrowing-for-profit-versus-self-report",
+      "rationale": "The speaker invites borrowing to fund a supposedly guaranteed income plan."
+    },
+    {
+      "id": "cycle8-hi-Latn-020",
+      "pairId": "cycle8-hi-Latn-pair-010",
+      "language": "hi",
+      "languageForm": "hi-Latn",
+      "script": "Latin",
+      "text": "Maine kabhi loan lekar invest kiya tha kyunki laga profit se interest bhar dunga. Return nahi mila aur ab loan repayment chal raha hai. Yeh meri past mistake hai, dusron ko loan lekar invest karne ka suggestion nahi.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "borrowing-for-profit-versus-self-report",
+      "rationale": "A retrospective account of a bad outcome does not solicit borrowing or investment."
+    },
+    {
+      "id": "cycle8-bn-Latn-001",
+      "pairId": "cycle8-bn-Latn-pair-001",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Apnar dokaner wallet refund ami kore dichhi. Bank theke je login code phone e ashbe, seta amake chat e pathan; apnar hoye ami refund er kaj shesh korbo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "theme": "credential-request",
+      "rationale": "Another person asks for a bank login code while offering to process a refund."
+    },
+    {
+      "id": "cycle8-bn-Latn-002",
+      "pairId": "cycle8-bn-Latn-pair-001",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Ami nijer bank app khule barir bhara pathiyechhi. Nijer phone e asha code oi app ei diyechhi; bariwalake receipt pathiyechhi, login code bolini.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "credential-request",
+      "rationale": "The user enters their own transaction code and shares only a payment receipt."
+    },
+    {
+      "id": "cycle8-bn-Latn-003",
+      "pairId": "cycle8-bn-Latn-pair-002",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Apnar lottery reward ready ache, kintu release er age collection account e clearance fee dite hobe. Age fee pathan, tarpor puro reward apnar bank e pathabo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "release-payment-versus-service-fee",
+      "rationale": "An upfront fee is requested as a condition for obtaining a purported reward."
+    },
+    {
+      "id": "cycle8-bn-Latn-004",
+      "pairId": "cycle8-bn-Latn-pair-002",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Community centre er photography course e aat ta class ache ebong fee deya ache. Ami timing ar refund policy dekhe bhorti hobo kina bhabchhi; fee ta class er jonno, kono reward pawar jonno noy.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "release-payment-versus-service-fee",
+      "rationale": "A described course fee purchases instruction rather than releasing money."
+    },
+    {
+      "id": "cycle8-bn-Latn-005",
+      "pairId": "cycle8-bn-Latn-pair-003",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Amader cold-storage investment group e member nichhi. Byabsha jemon choluk, protimashe labh er guarantee ache; aaj capital pathiye fixed-profit plan e naam lekhan.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "return-promise-versus-caution",
+      "rationale": "A current investment invitation promises profit regardless of business performance."
+    },
+    {
+      "id": "cycle8-bn-Latn-006",
+      "pairId": "cycle8-bn-Latn-pair-003",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Khoborer alochonay ek cold-storage group er fixed monthly profit er dabi shunechhi. Alochok bolechhen, oi dabi dekhei capital pathaben na, age records bujhun; tini kono group e jog dite bolenni.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "return-promise-versus-caution",
+      "rationale": "A reported claim is questioned and no investment participation is requested."
+    },
+    {
+      "id": "cycle8-bn-Latn-007",
+      "pairId": "cycle8-bn-Latn-pair-004",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Aaj rater moddhe amar deya account e taka dao. Na dile tomar private loan papers ar personal message office er lokeder pathabo, tarpor group e tomake opoman korbo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "theme": "financial-extortion-versus-debt-reminder",
+      "rationale": "The speaker demands money under threats of disclosure and humiliation."
+    },
+    {
+      "id": "cycle8-bn-Latn-008",
+      "pairId": "cycle8-bn-Latn-pair-004",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Printing er invoice ta ekhono baki, tai amar cash-flow e chap porchhe. Kobe payment korte parben janan; bill er kono item niye proshno thakle receipt dekhe kotha bolte pari.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "financial-extortion-versus-debt-reminder",
+      "rationale": "An ordinary bill reminder mentions financial pressure without threatening exposure or harm."
+    },
+    {
+      "id": "cycle8-bn-Latn-009",
+      "pairId": "cycle8-bn-Latn-pair-005",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Aajker forwarded message: shopping app er cashback tulte age agent ke activation charge pathan. Ami ekhono agent er jonno payment nichhi; charge ele apnar atke thaka cashback release er list e naam tulbo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "live-forward-versus-past-report",
+      "rationale": "The live forward asks for payment before releasing supposed cashback."
+    },
+    {
+      "id": "cycle8-bn-Latn-010",
+      "pairId": "cycle8-bn-Latn-pair-005",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Goto bochhor amar bondhuke shopping cashback tulte activation charge dite bola hoyechhilo. Se pay koreni ebong complaint korechhilo. Ami oi purono ghotona bolchhi, ekhon kono agent ke taka dite bolchhi na.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "live-forward-versus-past-report",
+      "rationale": "A past payment demand is recounted with refusal, without a present offer."
+    },
+    {
+      "id": "cycle8-bn-Latn-011",
+      "pairId": "cycle8-bn-Latn-pair-006",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Ochena lokke banking code deben na, eta bhalo poramorsho. Tobe ami ekhon apnar refund release korchhi, tai ei bar SMS er login code ta amake pathan; ami apnar hoye confirm kore debo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "theme": "caution-with-separate-solicitation",
+      "rationale": "A caution is followed by a separate active request for a login code."
+    },
+    {
+      "id": "cycle8-bn-Latn-012",
+      "pairId": "cycle8-bn-Latn-pair-006",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Safety meeting e refund er name login code chaoar ekta udahoron porechhilam. Trainer oi request mana korte bolechhen ar nijer app use korte bolechhen; meeting e karo ashol code chawa hoyni.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "caution-with-separate-solicitation",
+      "rationale": "A lesson rejects the example request and asks for no real credentials."
+    },
+    {
+      "id": "cycle8-bn-Latn-013",
+      "pairId": "cycle8-bn-Latn-pair-007",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Amar verification na hole apnar account aaj block hoye jabe. Ekhoni password ar porer SMS er code amake din; ami account bondho howa thamabo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials",
+        "account-threat"
+      ],
+      "expectedNoStrong": false,
+      "theme": "account-pressure-versus-user-initiated-action",
+      "rationale": "Account-blocking pressure is used to demand a password and code."
+    },
+    {
+      "id": "cycle8-bn-Latn-014",
+      "pairId": "cycle8-bn-Latn-pair-007",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Card hariyechhi bole nijer app theke card lock korechhi. Replacement er charge koto bank branch e jiggesh korbo; ei note e account kholar jonno kauke password ba code dite bola nei.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "account-pressure-versus-user-initiated-action",
+      "rationale": "The customer describes their own card protection and service-fee enquiry."
+    },
+    {
+      "id": "cycle8-bn-Latn-015",
+      "pairId": "cycle8-bn-Latn-pair-008",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Ghore boshe catalogue update kore roj earn korte hole age amar account e security deposit din. Deposit ele paid task khule debo; apnar jonno work slot rekhechhi.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "theme": "pay-before-work-versus-training",
+      "rationale": "A security payment is required before purported paid work becomes available."
+    },
+    {
+      "id": "cycle8-bn-Latn-016",
+      "pairId": "cycle8-bn-Latn-pair-008",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Training centre catalogue management ar spreadsheet shekhay. Course fee ache kintu chakri ba roj income er guarantee nei; ami syllabus dekhe course ta kinbo kina bhabchhi.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "pay-before-work-versus-training",
+      "rationale": "An optional training fee has no job guarantee or paid-task activation requirement."
+    },
+    {
+      "id": "cycle8-bn-Latn-017",
+      "pairId": "cycle8-bn-Latn-pair-009",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Kal market kholar shomoy amra ekshonge oi chhoto companyr share kinbo. Tarpor onno group e bhalo khobor chhoriye daam barabo, notun buyer ele age bikri kore beriye jabo. Team er buy list e naam dao.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "expectedNoStrong": false,
+      "theme": "coordinated-market-action-versus-reporting",
+      "rationale": "The group invites coordinated buying, promotion and an early exit after attracting other buyers."
+    },
+    {
+      "id": "cycle8-bn-Latn-018",
+      "pairId": "cycle8-bn-Latn-pair-009",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Study group e ek purono chat dekhechhi jekhane lokera ekshonge share kine khobor chhoriyechhilo, pore bikri korechhilo. Amra pore dhoka khaoa buyer der loss bujhechhi; ekhon oi share kenar kono plan nei.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "coordinated-market-action-versus-reporting",
+      "rationale": "A study-group report examines past coordinated trading without a current trade request."
+    },
+    {
+      "id": "cycle8-bn-Latn-019",
+      "pairId": "cycle8-bn-Latn-pair-010",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Capital kom hole loan nin ar amader income plan e din. Guaranteed labh diye interest metanor poro protimashe taka thakbe; loan er taka diye member howar application aaj nichhi.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow",
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "theme": "borrowing-for-profit-versus-self-report",
+      "rationale": "Borrowing is solicited to fund a supposedly guaranteed recurring-income investment."
+    },
+    {
+      "id": "cycle8-bn-Latn-020",
+      "pairId": "cycle8-bn-Latn-pair-010",
+      "language": "bn",
+      "languageForm": "bn-Latn",
+      "script": "Latin",
+      "text": "Ami age loan niye invest korechhilam, bhebechhilam monthly labh diye interest debo. Ulte loss hoyeche ar ekhono loan shodh korchhi. Eta amar purono bhul, onnoke eki kaj korte bolchhi na.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "theme": "borrowing-for-profit-versus-self-report",
+      "rationale": "A personal historical loss report neither recommends borrowing nor offers an investment."
+    }
+  ]
+}

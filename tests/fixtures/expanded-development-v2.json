@@ -1,0 +1,4681 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-10-03T13:02:27.301Z",
+  "purpose": "Visible synthetic development set; never independent evaluation or fraud ground truth.",
+  "provenance": {
+    "author": "AI-assisted engineering authoring",
+    "source": "Original synthetic parallel examples; no public message copies, personal data, or holdout examples.",
+    "languages": [
+      "en",
+      "hi",
+      "bn",
+      "hi-Latn",
+      "bn-Latn"
+    ],
+    "derivation": "21 authored family examples +21 explicit caution contrasts +17 formatting/mixed-offer variants +13 ordinary contexts per language. Parallel examples are correlated, not independent observations.",
+    "urls": "Reserved .invalid names only; no URL is visited.",
+    "review": "Expected labels are engineering judgments about observable wording, not verified fraud or financial advice."
+  },
+  "attentionCategories": [
+    "credentials",
+    "account-threat",
+    "authority-threat",
+    "release-fee",
+    "off-exchange",
+    "coordinated-pump",
+    "guarantee",
+    "urgency",
+    "outsized",
+    "tip",
+    "insider",
+    "impersonation",
+    "periodic",
+    "pay-to-earn",
+    "off-platform",
+    "secrecy",
+    "borrow"
+  ],
+  "contextCategories": [
+    "registration",
+    "promotion",
+    "nav",
+    "social-proof"
+  ],
+  "items": [
+    {
+      "id": "dev2-en-credentials-offer",
+      "language": "en",
+      "text": "Send the six-digit login code to our support agent.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "categorySeverities": {
+        "credentials": "attention"
+      },
+      "theme": "credentials",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-credentials-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Send the six-digit login code to our support agent”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "credentials",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-credentials-variant",
+      "language": "en",
+      "text": "Never trust unverified financial offers, but our agent says: Send the six-digit login code to our support agent.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "categorySeverities": {
+        "credentials": "attention"
+      },
+      "theme": "credentials",
+      "derivedFrom": "dev2-en-credentials-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-account-threat-offer",
+      "language": "en",
+      "text": "Your account will be suspended; use this message link to restore access.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "categorySeverities": {
+        "account-threat": "attention"
+      },
+      "theme": "account-threat",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-account-threat-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Your account will be suspended; use this message link to restore access”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "account-threat",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-account-threat-variant",
+      "language": "en",
+      "text": "Your account will be suspended; use this message link to restore access — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "categorySeverities": {
+        "account-threat": "attention"
+      },
+      "theme": "account-threat",
+      "derivedFrom": "dev2-en-account-threat-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-authority-threat-offer",
+      "language": "en",
+      "text": "This is the police: transfer money to a safe account to avoid arrest.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "categorySeverities": {
+        "authority-threat": "attention"
+      },
+      "theme": "authority-threat",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-authority-threat-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “This is the police: transfer money to a safe account to avoid arrest”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "authority-threat",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-authority-threat-variant",
+      "language": "en",
+      "text": "“This is the police: transfer money to a safe account to avoid arrest”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "categorySeverities": {
+        "authority-threat": "attention"
+      },
+      "theme": "authority-threat",
+      "derivedFrom": "dev2-en-authority-threat-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-release-fee-offer",
+      "language": "en",
+      "text": "Pay a clearance charge first so we can release your withdrawal.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "categorySeverities": {
+        "release-fee": "attention"
+      },
+      "theme": "release-fee",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-release-fee-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Pay a clearance charge first so we can release your withdrawal”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "release-fee",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-release-fee-variant",
+      "language": "en",
+      "text": "P​ay a clearance charge first so we can release your withdrawal!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "categorySeverities": {
+        "release-fee": "attention"
+      },
+      "theme": "release-fee",
+      "derivedFrom": "dev2-en-release-fee-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-off-exchange-offer",
+      "language": "en",
+      "text": "Trade shares with our dabba desk without an exchange account.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "categorySeverities": {
+        "off-exchange": "attention"
+      },
+      "theme": "off-exchange",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-off-exchange-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Trade shares with our dabba desk without an exchange account”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "off-exchange",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-off-exchange-variant",
+      "language": "en",
+      "text": "Never trust unverified financial offers, but our agent says: Trade shares with our dabba desk without an exchange account.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "categorySeverities": {
+        "off-exchange": "attention"
+      },
+      "theme": "off-exchange",
+      "derivedFrom": "dev2-en-off-exchange-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-coordinated-pump-offer",
+      "language": "en",
+      "text": "Everyone buy together at noon, push the stock price up, then exit.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "categorySeverities": {
+        "coordinated-pump": "attention"
+      },
+      "theme": "coordinated-pump",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-coordinated-pump-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Everyone buy together at noon, push the stock price up, then exit”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "coordinated-pump",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-coordinated-pump-variant",
+      "language": "en",
+      "text": "Everyone buy together at noon, push the stock price up, then exit — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "categorySeverities": {
+        "coordinated-pump": "attention"
+      },
+      "theme": "coordinated-pump",
+      "derivedFrom": "dev2-en-coordinated-pump-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-guarantee-offer",
+      "language": "en",
+      "text": "Our investment plan promises profits with no possibility of loss.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "categorySeverities": {
+        "guarantee": "attention"
+      },
+      "theme": "guarantee",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-guarantee-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Our investment plan promises profits with no possibility of loss”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "guarantee",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-guarantee-variant",
+      "language": "en",
+      "text": "“Our investment plan promises profits with no possibility of loss”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "categorySeverities": {
+        "guarantee": "attention"
+      },
+      "theme": "guarantee",
+      "derivedFrom": "dev2-en-guarantee-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-urgency-offer",
+      "language": "en",
+      "text": "Invest today: only three places remain in this money-making group.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "urgency"
+      ],
+      "categorySeverities": {
+        "urgency": "attention"
+      },
+      "theme": "urgency",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-urgency-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Invest today: only three places remain in this money-making group”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "urgency",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-urgency-variant",
+      "language": "en",
+      "text": "I​nvest today: only three places remain in this money-making group!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "urgency"
+      ],
+      "categorySeverities": {
+        "urgency": "attention"
+      },
+      "theme": "urgency",
+      "derivedFrom": "dev2-en-urgency-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-registration-offer",
+      "language": "en",
+      "text": "Our investment adviser says the firm is SEBI registered.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "registration"
+      ],
+      "categorySeverities": {
+        "registration": "context"
+      },
+      "theme": "registration",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-en-registration-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Our investment adviser says the firm is SEBI registered”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "registration",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-outsized-offer",
+      "language": "en",
+      "text": "Invest ₹2000 and receive ₹12000 after six days.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "outsized"
+      ],
+      "categorySeverities": {
+        "outsized": "attention"
+      },
+      "theme": "outsized",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-outsized-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Invest ₹2000 and receive ₹12000 after six days”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "outsized",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-outsized-variant",
+      "language": "en",
+      "text": "Invest ₹2000 and receive ₹12000 after six days — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "outsized"
+      ],
+      "categorySeverities": {
+        "outsized": "attention"
+      },
+      "theme": "outsized",
+      "derivedFrom": "dev2-en-outsized-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-promotion-offer",
+      "language": "en",
+      "text": "Join our paid finance course using our referral code.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "promotion"
+      ],
+      "categorySeverities": {
+        "promotion": "context"
+      },
+      "theme": "promotion",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-en-promotion-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Join our paid finance course using our referral code”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "promotion",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-nav-offer",
+      "language": "en",
+      "text": "The lower NAV makes this fund cheaper and better than other funds.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "nav"
+      ],
+      "categorySeverities": {
+        "nav": "context"
+      },
+      "theme": "nav",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-en-nav-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “The lower NAV makes this fund cheaper and better than other funds”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "nav",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-tip-offer",
+      "language": "en",
+      "text": "Buy this stock before the closing bell; tomorrow it will surge.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "tip"
+      ],
+      "categorySeverities": {
+        "tip": "attention"
+      },
+      "theme": "tip",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-tip-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Buy this stock before the closing bell; tomorrow it will surge”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "tip",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-tip-variant",
+      "language": "en",
+      "text": "Never trust unverified financial offers, but our agent says: Buy this stock before the closing bell; tomorrow it will surge.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "tip"
+      ],
+      "categorySeverities": {
+        "tip": "attention"
+      },
+      "theme": "tip",
+      "derivedFrom": "dev2-en-tip-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-insider-offer",
+      "language": "en",
+      "text": "Our operator has inside information before the company announcement.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "insider"
+      ],
+      "categorySeverities": {
+        "insider": "attention"
+      },
+      "theme": "insider",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-insider-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Our operator has inside information before the company announcement”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "insider",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-insider-variant",
+      "language": "en",
+      "text": "Our operator has inside information before the company announcement — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "insider"
+      ],
+      "categorySeverities": {
+        "insider": "attention"
+      },
+      "theme": "insider",
+      "derivedFrom": "dev2-en-insider-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-impersonation-offer",
+      "language": "en",
+      "text": "The Finance Minister endorsed this trading platform for citizens.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "categorySeverities": {
+        "impersonation": "attention"
+      },
+      "theme": "impersonation",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-impersonation-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “The Finance Minister endorsed this trading platform for citizens”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "impersonation",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-impersonation-variant",
+      "language": "en",
+      "text": "“The Finance Minister endorsed this trading platform for citizens”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "categorySeverities": {
+        "impersonation": "attention"
+      },
+      "theme": "impersonation",
+      "derivedFrom": "dev2-en-impersonation-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-periodic-offer",
+      "language": "en",
+      "text": "Our deposit plan pays a fixed 7% return every month.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "periodic"
+      ],
+      "categorySeverities": {
+        "periodic": "attention"
+      },
+      "theme": "periodic",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-periodic-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Our deposit plan pays a fixed 7% return every month”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "periodic",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-periodic-variant",
+      "language": "en",
+      "text": "O​ur deposit plan pays a fixed 7% return every month!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "periodic"
+      ],
+      "categorySeverities": {
+        "periodic": "attention"
+      },
+      "theme": "periodic",
+      "derivedFrom": "dev2-en-periodic-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-pay-to-earn-offer",
+      "language": "en",
+      "text": "Pay the activation fee to start earning from rating videos.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "categorySeverities": {
+        "pay-to-earn": "attention"
+      },
+      "theme": "pay-to-earn",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-pay-to-earn-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Pay the activation fee to start earning from rating videos”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "pay-to-earn",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-pay-to-earn-variant",
+      "language": "en",
+      "text": "Never trust unverified financial offers, but our agent says: Pay the activation fee to start earning from rating videos.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "categorySeverities": {
+        "pay-to-earn": "attention"
+      },
+      "theme": "pay-to-earn",
+      "derivedFrom": "dev2-en-pay-to-earn-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-off-platform-offer",
+      "language": "en",
+      "text": "Install our investment APK from this chat, not the Play Store.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "categorySeverities": {
+        "off-platform": "attention"
+      },
+      "theme": "off-platform",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-off-platform-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Install our investment APK from this chat, not the Play Store”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "off-platform",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-off-platform-variant",
+      "language": "en",
+      "text": "Install our investment APK from this chat, not the Play Store — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "categorySeverities": {
+        "off-platform": "attention"
+      },
+      "theme": "off-platform",
+      "derivedFrom": "dev2-en-off-platform-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-social-proof-offer",
+      "language": "en",
+      "text": "Our trading group has 3000 members and posts profit screenshots.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "social-proof"
+      ],
+      "categorySeverities": {
+        "social-proof": "context"
+      },
+      "theme": "social-proof",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-en-social-proof-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Our trading group has 3000 members and posts profit screenshots”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "social-proof",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-secrecy-offer",
+      "language": "en",
+      "text": "Keep this investment offer secret from your family until you pay.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "categorySeverities": {
+        "secrecy": "attention"
+      },
+      "theme": "secrecy",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-secrecy-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Keep this investment offer secret from your family until you pay”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "secrecy",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-secrecy-variant",
+      "language": "en",
+      "text": "K​eep this investment offer secret from your family until you pay!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "categorySeverities": {
+        "secrecy": "attention"
+      },
+      "theme": "secrecy",
+      "derivedFrom": "dev2-en-secrecy-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-borrow-offer",
+      "language": "en",
+      "text": "Take a personal loan to invest more in our trading plan.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow"
+      ],
+      "categorySeverities": {
+        "borrow": "attention"
+      },
+      "theme": "borrow",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-en-borrow-caution",
+      "language": "en",
+      "text": "Investor safety: do not follow claims such as “Take a personal loan to invest more in our trading plan”.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "borrow",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-en-borrow-variant",
+      "language": "en",
+      "text": "Never trust unverified financial offers, but our agent says: Take a personal loan to invest more in our trading plan.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow"
+      ],
+      "categorySeverities": {
+        "borrow": "attention"
+      },
+      "theme": "borrow",
+      "derivedFrom": "dev2-en-borrow-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-en-ordinary-01",
+      "language": "en",
+      "text": "Your bank bill is due tomorrow; open the bank app yourself to pay.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "bank-reminder",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-02",
+      "language": "en",
+      "text": "Your credit card payment is due today; a late fee may apply under its terms.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "legitimate-urgency",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-03",
+      "language": "en",
+      "text": "The bank fixed deposit states 6.5% annual interest in its terms.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "fd-terms",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-04",
+      "language": "en",
+      "text": "A 20% fall needs a 25% rise to recover in this arithmetic lesson.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "arithmetic",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-05",
+      "language": "en",
+      "text": "Do not share a login code even if a caller claims to work for the bank.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "credential-caution",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-06",
+      "language": "en",
+      "text": "The card was blocked after I reported it stolen; no action is required.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "account-history",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-07",
+      "language": "en",
+      "text": "Today only, buy two shirts at a discount in our clothing shop.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "retail-promo",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-08",
+      "language": "en",
+      "text": "Join our free library workshop today; only twelve seats remain.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "community-deadline",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-09",
+      "language": "en",
+      "text": "The college registration fee is payable before classes begin.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "college-fee",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-10",
+      "language": "en",
+      "text": "Company revenue rose 40% last year according to its annual report.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "business-report",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-11",
+      "language": "en",
+      "text": "Borrowing to invest can magnify losses; this lesson explains the debt.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "borrowing-education",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-12",
+      "language": "en",
+      "text": "An APK is an Android installation file; this is a software glossary.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "software-glossary",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-en-ordinary-13",
+      "language": "en",
+      "text": "The medicine label says take one tablet daily; there is no financial offer.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "nonfinancial-daily",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-credentials-offer",
+      "language": "hi",
+      "text": "छह अंकों का लॉगिन कोड हमारे सहायता एजेंट को भेजिए।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "categorySeverities": {
+        "credentials": "attention"
+      },
+      "theme": "credentials",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-credentials-caution",
+      "language": "hi",
+      "text": "सावधान: “छह अंकों का लॉगिन कोड हमारे सहायता एजेंट को भेजिए” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "credentials",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-credentials-variant",
+      "language": "hi",
+      "text": "बिना जाँचे वित्तीय ऑफर पर भरोसा न करें, लेकिन हमारा एजेंट कहता है: छह अंकों का लॉगिन कोड हमारे सहायता एजेंट को भेजिए।",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "categorySeverities": {
+        "credentials": "attention"
+      },
+      "theme": "credentials",
+      "derivedFrom": "dev2-hi-credentials-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-account-threat-offer",
+      "language": "hi",
+      "text": "आपका खाता निलंबित होगा; इसे चालू करने के लिए संदेश का लिंक खोलिए।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "categorySeverities": {
+        "account-threat": "attention"
+      },
+      "theme": "account-threat",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-account-threat-caution",
+      "language": "hi",
+      "text": "सावधान: “आपका खाता निलंबित होगा; इसे चालू करने के लिए संदेश का लिंक खोलिए” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "account-threat",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-account-threat-variant",
+      "language": "hi",
+      "text": "आपका खाता निलंबित होगा; इसे चालू करने के लिए संदेश का लिंक खोलिए — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "categorySeverities": {
+        "account-threat": "attention"
+      },
+      "theme": "account-threat",
+      "derivedFrom": "dev2-hi-account-threat-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-authority-threat-offer",
+      "language": "hi",
+      "text": "हम पुलिस से हैं: गिरफ्तारी से बचने के लिए सुरक्षित खाते में पैसे भेजिए।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "categorySeverities": {
+        "authority-threat": "attention"
+      },
+      "theme": "authority-threat",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-authority-threat-caution",
+      "language": "hi",
+      "text": "सावधान: “हम पुलिस से हैं: गिरफ्तारी से बचने के लिए सुरक्षित खाते में पैसे भेजिए” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "authority-threat",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-authority-threat-variant",
+      "language": "hi",
+      "text": "“हम पुलिस से हैं: गिरफ्तारी से बचने के लिए सुरक्षित खाते में पैसे भेजिए”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "categorySeverities": {
+        "authority-threat": "attention"
+      },
+      "theme": "authority-threat",
+      "derivedFrom": "dev2-hi-authority-threat-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-release-fee-offer",
+      "language": "hi",
+      "text": "निकासी का पैसा पाने के लिए पहले क्लीयरेंस शुल्क जमा कीजिए।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "categorySeverities": {
+        "release-fee": "attention"
+      },
+      "theme": "release-fee",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-release-fee-caution",
+      "language": "hi",
+      "text": "सावधान: “निकासी का पैसा पाने के लिए पहले क्लीयरेंस शुल्क जमा कीजिए” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "release-fee",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-release-fee-variant",
+      "language": "hi",
+      "text": "निकासी का पैसा पाने के लिए प​हले क्लीयरेंस शुल्क जमा कीजिए!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "categorySeverities": {
+        "release-fee": "attention"
+      },
+      "theme": "release-fee",
+      "derivedFrom": "dev2-hi-release-fee-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-off-exchange-offer",
+      "language": "hi",
+      "text": "एक्सचेंज खाते के बिना हमारे डब्बा डेस्क से शेयर ट्रेड कीजिए।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "categorySeverities": {
+        "off-exchange": "attention"
+      },
+      "theme": "off-exchange",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-off-exchange-caution",
+      "language": "hi",
+      "text": "सावधान: “एक्सचेंज खाते के बिना हमारे डब्बा डेस्क से शेयर ट्रेड कीजिए” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "off-exchange",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-off-exchange-variant",
+      "language": "hi",
+      "text": "बिना जाँचे वित्तीय ऑफर पर भरोसा न करें, लेकिन हमारा एजेंट कहता है: एक्सचेंज खाते के बिना हमारे डब्बा डेस्क से शेयर ट्रेड कीजिए।",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "categorySeverities": {
+        "off-exchange": "attention"
+      },
+      "theme": "off-exchange",
+      "derivedFrom": "dev2-hi-off-exchange-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-coordinated-pump-offer",
+      "language": "hi",
+      "text": "दोपहर को सब मिलकर शेयर खरीदो, भाव ऊपर चढ़ाओ, फिर बेच दो।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "categorySeverities": {
+        "coordinated-pump": "attention"
+      },
+      "theme": "coordinated-pump",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-coordinated-pump-caution",
+      "language": "hi",
+      "text": "सावधान: “दोपहर को सब मिलकर शेयर खरीदो, भाव ऊपर चढ़ाओ, फिर बेच दो” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "coordinated-pump",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-coordinated-pump-variant",
+      "language": "hi",
+      "text": "दोपहर को सब मिलकर शेयर खरीदो, भाव ऊपर चढ़ाओ, फिर बेच दो — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "categorySeverities": {
+        "coordinated-pump": "attention"
+      },
+      "theme": "coordinated-pump",
+      "derivedFrom": "dev2-hi-coordinated-pump-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-guarantee-offer",
+      "language": "hi",
+      "text": "हमारी निवेश योजना में निश्चित मुनाफा है और नुकसान की कोई संभावना नहीं।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "categorySeverities": {
+        "guarantee": "attention"
+      },
+      "theme": "guarantee",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-guarantee-caution",
+      "language": "hi",
+      "text": "सावधान: “हमारी निवेश योजना में निश्चित मुनाफा है और नुकसान की कोई संभावना नहीं” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "guarantee",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-guarantee-variant",
+      "language": "hi",
+      "text": "“हमारी निवेश योजना में निश्चित मुनाफा है और नुकसान की कोई संभावना नहीं”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "categorySeverities": {
+        "guarantee": "attention"
+      },
+      "theme": "guarantee",
+      "derivedFrom": "dev2-hi-guarantee-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-urgency-offer",
+      "language": "hi",
+      "text": "आज ही निवेश करें: कमाई वाले इस समूह में केवल तीन जगह बची हैं।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "urgency"
+      ],
+      "categorySeverities": {
+        "urgency": "attention"
+      },
+      "theme": "urgency",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-urgency-caution",
+      "language": "hi",
+      "text": "सावधान: “आज ही निवेश करें: कमाई वाले इस समूह में केवल तीन जगह बची हैं” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "urgency",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-urgency-variant",
+      "language": "hi",
+      "text": "आ​ज ही निवेश करें: कमाई वाले इस समूह में केवल तीन जगह बची हैं!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "urgency"
+      ],
+      "categorySeverities": {
+        "urgency": "attention"
+      },
+      "theme": "urgency",
+      "derivedFrom": "dev2-hi-urgency-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-registration-offer",
+      "language": "hi",
+      "text": "हमारे निवेश सलाहकार का कहना है कि फर्म सेबी पंजीकृत है।",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "registration"
+      ],
+      "categorySeverities": {
+        "registration": "context"
+      },
+      "theme": "registration",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-hi-registration-caution",
+      "language": "hi",
+      "text": "सावधान: “हमारे निवेश सलाहकार का कहना है कि फर्म सेबी पंजीकृत है” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "registration",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-outsized-offer",
+      "language": "hi",
+      "text": "₹२००० निवेश करें और छह दिन बाद ₹१२००० पाएँ।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "outsized"
+      ],
+      "categorySeverities": {
+        "outsized": "attention"
+      },
+      "theme": "outsized",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-outsized-caution",
+      "language": "hi",
+      "text": "सावधान: “₹२००० निवेश करें और छह दिन बाद ₹१२००० पाएँ” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "outsized",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-outsized-variant",
+      "language": "hi",
+      "text": "₹२००० निवेश करें और छह दिन बाद ₹१२००० पाएँ — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "outsized"
+      ],
+      "categorySeverities": {
+        "outsized": "attention"
+      },
+      "theme": "outsized",
+      "derivedFrom": "dev2-hi-outsized-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-promotion-offer",
+      "language": "hi",
+      "text": "हमारे रेफरल कोड से हमारे सशुल्क वित्त कोर्स में जुड़ें।",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "promotion"
+      ],
+      "categorySeverities": {
+        "promotion": "context"
+      },
+      "theme": "promotion",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-hi-promotion-caution",
+      "language": "hi",
+      "text": "सावधान: “हमारे रेफरल कोड से हमारे सशुल्क वित्त कोर्स में जुड़ें” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "promotion",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-nav-offer",
+      "language": "hi",
+      "text": "कम NAV होने से यह फंड दूसरे फंड से सस्ता और बेहतर है।",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "nav"
+      ],
+      "categorySeverities": {
+        "nav": "context"
+      },
+      "theme": "nav",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-hi-nav-caution",
+      "language": "hi",
+      "text": "सावधान: “कम NAV होने से यह फंड दूसरे फंड से सस्ता और बेहतर है” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "nav",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-tip-offer",
+      "language": "hi",
+      "text": "बाजार बंद होने से पहले यह शेयर खरीदिए; कल इसकी कीमत उछलेगी।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "tip"
+      ],
+      "categorySeverities": {
+        "tip": "attention"
+      },
+      "theme": "tip",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-tip-caution",
+      "language": "hi",
+      "text": "सावधान: “बाजार बंद होने से पहले यह शेयर खरीदिए; कल इसकी कीमत उछलेगी” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "tip",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-tip-variant",
+      "language": "hi",
+      "text": "बिना जाँचे वित्तीय ऑफर पर भरोसा न करें, लेकिन हमारा एजेंट कहता है: बाजार बंद होने से पहले यह शेयर खरीदिए; कल इसकी कीमत उछलेगी।",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "tip"
+      ],
+      "categorySeverities": {
+        "tip": "attention"
+      },
+      "theme": "tip",
+      "derivedFrom": "dev2-hi-tip-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-insider-offer",
+      "language": "hi",
+      "text": "कंपनी की घोषणा से पहले हमारे ऑपरेटर के पास अंदर की जानकारी है।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "insider"
+      ],
+      "categorySeverities": {
+        "insider": "attention"
+      },
+      "theme": "insider",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-insider-caution",
+      "language": "hi",
+      "text": "सावधान: “कंपनी की घोषणा से पहले हमारे ऑपरेटर के पास अंदर की जानकारी है” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "insider",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-insider-variant",
+      "language": "hi",
+      "text": "कंपनी की घोषणा से पहले हमारे ऑपरेटर के पास अंदर की जानकारी है — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "insider"
+      ],
+      "categorySeverities": {
+        "insider": "attention"
+      },
+      "theme": "insider",
+      "derivedFrom": "dev2-hi-insider-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-impersonation-offer",
+      "language": "hi",
+      "text": "वित्त मंत्री ने नागरिकों के लिए इस ट्रेडिंग प्लेटफॉर्म का समर्थन किया है।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "categorySeverities": {
+        "impersonation": "attention"
+      },
+      "theme": "impersonation",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-impersonation-caution",
+      "language": "hi",
+      "text": "सावधान: “वित्त मंत्री ने नागरिकों के लिए इस ट्रेडिंग प्लेटफॉर्म का समर्थन किया है” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "impersonation",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-impersonation-variant",
+      "language": "hi",
+      "text": "“वित्त मंत्री ने नागरिकों के लिए इस ट्रेडिंग प्लेटफॉर्म का समर्थन किया है”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "categorySeverities": {
+        "impersonation": "attention"
+      },
+      "theme": "impersonation",
+      "derivedFrom": "dev2-hi-impersonation-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-periodic-offer",
+      "language": "hi",
+      "text": "हमारी जमा योजना हर महीने तय ७% रिटर्न देती है।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "periodic"
+      ],
+      "categorySeverities": {
+        "periodic": "attention"
+      },
+      "theme": "periodic",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-periodic-caution",
+      "language": "hi",
+      "text": "सावधान: “हमारी जमा योजना हर महीने तय ७% रिटर्न देती है” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "periodic",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-periodic-variant",
+      "language": "hi",
+      "text": "ह​मारी जमा योजना हर महीने तय ७% रिटर्न देती है!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "periodic"
+      ],
+      "categorySeverities": {
+        "periodic": "attention"
+      },
+      "theme": "periodic",
+      "derivedFrom": "dev2-hi-periodic-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-pay-to-earn-offer",
+      "language": "hi",
+      "text": "वीडियो रेटिंग से कमाई शुरू करने के लिए एक्टिवेशन फीस दीजिए।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "categorySeverities": {
+        "pay-to-earn": "attention"
+      },
+      "theme": "pay-to-earn",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-pay-to-earn-caution",
+      "language": "hi",
+      "text": "सावधान: “वीडियो रेटिंग से कमाई शुरू करने के लिए एक्टिवेशन फीस दीजिए” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "pay-to-earn",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-pay-to-earn-variant",
+      "language": "hi",
+      "text": "बिना जाँचे वित्तीय ऑफर पर भरोसा न करें, लेकिन हमारा एजेंट कहता है: वीडियो रेटिंग से कमाई शुरू करने के लिए एक्टिवेशन फीस दीजिए।",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "categorySeverities": {
+        "pay-to-earn": "attention"
+      },
+      "theme": "pay-to-earn",
+      "derivedFrom": "dev2-hi-pay-to-earn-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-off-platform-offer",
+      "language": "hi",
+      "text": "हमारा निवेश APK प्ले स्टोर से नहीं, इसी चैट से इंस्टॉल कीजिए।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "categorySeverities": {
+        "off-platform": "attention"
+      },
+      "theme": "off-platform",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-off-platform-caution",
+      "language": "hi",
+      "text": "सावधान: “हमारा निवेश APK प्ले स्टोर से नहीं, इसी चैट से इंस्टॉल कीजिए” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "off-platform",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-off-platform-variant",
+      "language": "hi",
+      "text": "हमारा निवेश APK प्ले स्टोर से नहीं, इसी चैट से इंस्टॉल कीजिए — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "categorySeverities": {
+        "off-platform": "attention"
+      },
+      "theme": "off-platform",
+      "derivedFrom": "dev2-hi-off-platform-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-social-proof-offer",
+      "language": "hi",
+      "text": "हमारे ट्रेडिंग समूह से ३००० लोग जुड़े हैं और मुनाफे के स्क्रीनशॉट लगाते हैं।",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "social-proof"
+      ],
+      "categorySeverities": {
+        "social-proof": "context"
+      },
+      "theme": "social-proof",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-hi-social-proof-caution",
+      "language": "hi",
+      "text": "सावधान: “हमारे ट्रेडिंग समूह से ३००० लोग जुड़े हैं और मुनाफे के स्क्रीनशॉट लगाते हैं” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "social-proof",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-secrecy-offer",
+      "language": "hi",
+      "text": "भुगतान करने तक इस निवेश ऑफर के बारे में किसी को मत बताना।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "categorySeverities": {
+        "secrecy": "attention"
+      },
+      "theme": "secrecy",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-secrecy-caution",
+      "language": "hi",
+      "text": "सावधान: “भुगतान करने तक इस निवेश ऑफर के बारे में किसी को मत बताना” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "secrecy",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-secrecy-variant",
+      "language": "hi",
+      "text": "भुग​तान करने तक इस निवेश ऑफर के बारे में किसी को मत बताना!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "categorySeverities": {
+        "secrecy": "attention"
+      },
+      "theme": "secrecy",
+      "derivedFrom": "dev2-hi-secrecy-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-borrow-offer",
+      "language": "hi",
+      "text": "हमारी ट्रेडिंग योजना में ज्यादा निवेश के लिए निजी कर्ज लीजिए।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow"
+      ],
+      "categorySeverities": {
+        "borrow": "attention"
+      },
+      "theme": "borrow",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-borrow-caution",
+      "language": "hi",
+      "text": "सावधान: “हमारी ट्रेडिंग योजना में ज्यादा निवेश के लिए निजी कर्ज लीजिए” जैसे संदेशों पर भरोसा मत करें।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "borrow",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-borrow-variant",
+      "language": "hi",
+      "text": "बिना जाँचे वित्तीय ऑफर पर भरोसा न करें, लेकिन हमारा एजेंट कहता है: हमारी ट्रेडिंग योजना में ज्यादा निवेश के लिए निजी कर्ज लीजिए।",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow"
+      ],
+      "categorySeverities": {
+        "borrow": "attention"
+      },
+      "theme": "borrow",
+      "derivedFrom": "dev2-hi-borrow-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-ordinary-01",
+      "language": "hi",
+      "text": "आपके बैंक बिल की अंतिम तारीख कल है; भुगतान के लिए बैंक का ऐप खुद खोलें।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "bank-reminder",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-02",
+      "language": "hi",
+      "text": "क्रेडिट कार्ड का भुगतान आज तक करना है; शर्तों के अनुसार देरी का शुल्क लग सकता है।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "legitimate-urgency",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-03",
+      "language": "hi",
+      "text": "बैंक की सावधि जमा में शर्तों के अनुसार सालाना ६.५% ब्याज है।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "fd-terms",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-04",
+      "language": "hi",
+      "text": "इस गणित के पाठ में २०% गिरावट की भरपाई के लिए २५% बढ़त चाहिए।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "arithmetic",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-05",
+      "language": "hi",
+      "text": "फोन करने वाला बैंक कर्मचारी बताए तब भी लॉगिन कोड साझा न करें।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "credential-caution",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-06",
+      "language": "hi",
+      "text": "चोरी की सूचना देने के बाद कार्ड बंद किया गया; कोई काम करने की जरूरत नहीं।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "account-history",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-07",
+      "language": "hi",
+      "text": "आज ही हमारी कपड़ों की दुकान में दो कमीज छूट पर खरीदें।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "retail-promo",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-08",
+      "language": "hi",
+      "text": "आज हमारी मुफ्त पुस्तकालय कार्यशाला में जुड़ें; केवल बारह सीट बची हैं।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "community-deadline",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-09",
+      "language": "hi",
+      "text": "कक्षाएँ शुरू होने से पहले कॉलेज का पंजीकरण शुल्क देना है।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "college-fee",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-10",
+      "language": "hi",
+      "text": "सालाना रिपोर्ट के अनुसार पिछले साल कंपनी का राजस्व ४०% बढ़ा।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "business-report",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-11",
+      "language": "hi",
+      "text": "निवेश के लिए उधार लेने से नुकसान बढ़ सकता है; यह पाठ कर्ज समझाता है।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "borrowing-education",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-12",
+      "language": "hi",
+      "text": "APK एंड्रॉइड में इंस्टॉल करने की फाइल होती है; यह सॉफ्टवेयर शब्दकोश है।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "software-glossary",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-ordinary-13",
+      "language": "hi",
+      "text": "दवा के लेबल पर रोज एक गोली लेने को लिखा है; यह वित्तीय ऑफर नहीं।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "nonfinancial-daily",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-credentials-offer",
+      "language": "bn",
+      "text": "ছয় সংখ্যার লগইন কোড আমাদের সহায়তা কর্মীকে পাঠিয়ে দিন।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "categorySeverities": {
+        "credentials": "attention"
+      },
+      "theme": "credentials",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-credentials-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “ছয় সংখ্যার লগইন কোড আমাদের সহায়তা কর্মীকে পাঠিয়ে দিন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "credentials",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-credentials-variant",
+      "language": "bn",
+      "text": "অযাচাই করা আর্থিক অফারে বিশ্বাস করবেন না, কিন্তু আমাদের কর্মী বলছেন: ছয় সংখ্যার লগইন কোড আমাদের সহায়তা কর্মীকে পাঠিয়ে দিন।",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "categorySeverities": {
+        "credentials": "attention"
+      },
+      "theme": "credentials",
+      "derivedFrom": "dev2-bn-credentials-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-account-threat-offer",
+      "language": "bn",
+      "text": "আপনার অ্যাকাউন্ট স্থগিত হবে; আবার চালু করতে বার্তার লিংক খুলুন।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "categorySeverities": {
+        "account-threat": "attention"
+      },
+      "theme": "account-threat",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-account-threat-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “আপনার অ্যাকাউন্ট স্থগিত হবে; আবার চালু করতে বার্তার লিংক খুলুন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "account-threat",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-account-threat-variant",
+      "language": "bn",
+      "text": "আপনার অ্যাকাউন্ট স্থগিত হবে; আবার চালু করতে বার্তার লিংক খুলুন — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "categorySeverities": {
+        "account-threat": "attention"
+      },
+      "theme": "account-threat",
+      "derivedFrom": "dev2-bn-account-threat-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-authority-threat-offer",
+      "language": "bn",
+      "text": "আমরা পুলিশ: গ্রেপ্তার এড়াতে নিরাপদ অ্যাকাউন্টে টাকা পাঠান।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "categorySeverities": {
+        "authority-threat": "attention"
+      },
+      "theme": "authority-threat",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-authority-threat-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “আমরা পুলিশ: গ্রেপ্তার এড়াতে নিরাপদ অ্যাকাউন্টে টাকা পাঠান” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "authority-threat",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-authority-threat-variant",
+      "language": "bn",
+      "text": "“আমরা পুলিশ: গ্রেপ্তার এড়াতে নিরাপদ অ্যাকাউন্টে টাকা পাঠান”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "categorySeverities": {
+        "authority-threat": "attention"
+      },
+      "theme": "authority-threat",
+      "derivedFrom": "dev2-bn-authority-threat-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-release-fee-offer",
+      "language": "bn",
+      "text": "টাকা তুলতে আগে ক্লিয়ারেন্স চার্জ জমা দিন।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "categorySeverities": {
+        "release-fee": "attention"
+      },
+      "theme": "release-fee",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-release-fee-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “টাকা তুলতে আগে ক্লিয়ারেন্স চার্জ জমা দিন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "release-fee",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-release-fee-variant",
+      "language": "bn",
+      "text": "টাকা তুল​তে আগে ক্লিয়ারেন্স চার্জ জমা দিন!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "categorySeverities": {
+        "release-fee": "attention"
+      },
+      "theme": "release-fee",
+      "derivedFrom": "dev2-bn-release-fee-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-off-exchange-offer",
+      "language": "bn",
+      "text": "এক্সচেঞ্জ অ্যাকাউন্ট ছাড়াই আমাদের ডাব্বা ডেস্কে শেয়ার ট্রেড করুন।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "categorySeverities": {
+        "off-exchange": "attention"
+      },
+      "theme": "off-exchange",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-off-exchange-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “এক্সচেঞ্জ অ্যাকাউন্ট ছাড়াই আমাদের ডাব্বা ডেস্কে শেয়ার ট্রেড করুন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "off-exchange",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-off-exchange-variant",
+      "language": "bn",
+      "text": "অযাচাই করা আর্থিক অফারে বিশ্বাস করবেন না, কিন্তু আমাদের কর্মী বলছেন: এক্সচেঞ্জ অ্যাকাউন্ট ছাড়াই আমাদের ডাব্বা ডেস্কে শেয়ার ট্রেড করুন।",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "categorySeverities": {
+        "off-exchange": "attention"
+      },
+      "theme": "off-exchange",
+      "derivedFrom": "dev2-bn-off-exchange-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-coordinated-pump-offer",
+      "language": "bn",
+      "text": "দুপুরে সবাই একসঙ্গে শেয়ার কিনুন, দাম বাড়ান, তারপর বিক্রি করুন।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "categorySeverities": {
+        "coordinated-pump": "attention"
+      },
+      "theme": "coordinated-pump",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-coordinated-pump-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “দুপুরে সবাই একসঙ্গে শেয়ার কিনুন, দাম বাড়ান, তারপর বিক্রি করুন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "coordinated-pump",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-coordinated-pump-variant",
+      "language": "bn",
+      "text": "দুপুরে সবাই একসঙ্গে শেয়ার কিনুন, দাম বাড়ান, তারপর বিক্রি করুন — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "categorySeverities": {
+        "coordinated-pump": "attention"
+      },
+      "theme": "coordinated-pump",
+      "derivedFrom": "dev2-bn-coordinated-pump-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-guarantee-offer",
+      "language": "bn",
+      "text": "আমাদের বিনিয়োগ প্রকল্পে নিশ্চিত লাভ, লোকসানের কোনো সম্ভাবনা নেই।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "categorySeverities": {
+        "guarantee": "attention"
+      },
+      "theme": "guarantee",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-guarantee-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “আমাদের বিনিয়োগ প্রকল্পে নিশ্চিত লাভ, লোকসানের কোনো সম্ভাবনা নেই” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "guarantee",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-guarantee-variant",
+      "language": "bn",
+      "text": "“আমাদের বিনিয়োগ প্রকল্পে নিশ্চিত লাভ, লোকসানের কোনো সম্ভাবনা নেই”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "categorySeverities": {
+        "guarantee": "attention"
+      },
+      "theme": "guarantee",
+      "derivedFrom": "dev2-bn-guarantee-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-urgency-offer",
+      "language": "bn",
+      "text": "আজই বিনিয়োগ করুন: এই আয়ের দলে মাত্র তিনটি জায়গা বাকি।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "urgency"
+      ],
+      "categorySeverities": {
+        "urgency": "attention"
+      },
+      "theme": "urgency",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-urgency-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “আজই বিনিয়োগ করুন: এই আয়ের দলে মাত্র তিনটি জায়গা বাকি” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "urgency",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-urgency-variant",
+      "language": "bn",
+      "text": "আ​জই বিনিয়োগ করুন: এই আয়ের দলে মাত্র তিনটি জায়গা বাকি!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "urgency"
+      ],
+      "categorySeverities": {
+        "urgency": "attention"
+      },
+      "theme": "urgency",
+      "derivedFrom": "dev2-bn-urgency-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-registration-offer",
+      "language": "bn",
+      "text": "আমাদের বিনিয়োগ উপদেষ্টা বলছেন প্রতিষ্ঠানটি সেবি নিবন্ধিত।",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "registration"
+      ],
+      "categorySeverities": {
+        "registration": "context"
+      },
+      "theme": "registration",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-bn-registration-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “আমাদের বিনিয়োগ উপদেষ্টা বলছেন প্রতিষ্ঠানটি সেবি নিবন্ধিত” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "registration",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-outsized-offer",
+      "language": "bn",
+      "text": "২০০০ টাকা বিনিয়োগ করে ছয় দিন পরে ১২০০০ টাকা পাবেন।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "outsized"
+      ],
+      "categorySeverities": {
+        "outsized": "attention"
+      },
+      "theme": "outsized",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-outsized-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “২০০০ টাকা বিনিয়োগ করে ছয় দিন পরে ১২০০০ টাকা পাবেন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "outsized",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-outsized-variant",
+      "language": "bn",
+      "text": "২০০০ টাকা বিনিয়োগ করে ছয় দিন পরে ১২০০০ টাকা পাবেন — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "outsized"
+      ],
+      "categorySeverities": {
+        "outsized": "attention"
+      },
+      "theme": "outsized",
+      "derivedFrom": "dev2-bn-outsized-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-promotion-offer",
+      "language": "bn",
+      "text": "আমাদের রেফারেল কোড দিয়ে আমাদের অর্থশিক্ষার কোর্স কিনুন।",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "promotion"
+      ],
+      "categorySeverities": {
+        "promotion": "context"
+      },
+      "theme": "promotion",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-bn-promotion-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “আমাদের রেফারেল কোড দিয়ে আমাদের অর্থশিক্ষার কোর্স কিনুন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "promotion",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-nav-offer",
+      "language": "bn",
+      "text": "কম NAV থাকার কারণে এই ফান্ড অন্য ফান্ডের চেয়ে সস্তা ও ভালো।",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "nav"
+      ],
+      "categorySeverities": {
+        "nav": "context"
+      },
+      "theme": "nav",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-bn-nav-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “কম NAV থাকার কারণে এই ফান্ড অন্য ফান্ডের চেয়ে সস্তা ও ভালো” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "nav",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-tip-offer",
+      "language": "bn",
+      "text": "বাজার বন্ধের আগে এই শেয়ার কিনুন; কাল দাম লাফিয়ে বাড়বে।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "tip"
+      ],
+      "categorySeverities": {
+        "tip": "attention"
+      },
+      "theme": "tip",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-tip-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “বাজার বন্ধের আগে এই শেয়ার কিনুন; কাল দাম লাফিয়ে বাড়বে” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "tip",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-tip-variant",
+      "language": "bn",
+      "text": "অযাচাই করা আর্থিক অফারে বিশ্বাস করবেন না, কিন্তু আমাদের কর্মী বলছেন: বাজার বন্ধের আগে এই শেয়ার কিনুন; কাল দাম লাফিয়ে বাড়বে।",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "tip"
+      ],
+      "categorySeverities": {
+        "tip": "attention"
+      },
+      "theme": "tip",
+      "derivedFrom": "dev2-bn-tip-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-insider-offer",
+      "language": "bn",
+      "text": "কোম্পানির ঘোষণার আগেই আমাদের অপারেটরের কাছে ভিতরের খবর আছে।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "insider"
+      ],
+      "categorySeverities": {
+        "insider": "attention"
+      },
+      "theme": "insider",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-insider-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “কোম্পানির ঘোষণার আগেই আমাদের অপারেটরের কাছে ভিতরের খবর আছে” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "insider",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-insider-variant",
+      "language": "bn",
+      "text": "কোম্পানির ঘোষণার আগেই আমাদের অপারেটরের কাছে ভিতরের খবর আছে — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "insider"
+      ],
+      "categorySeverities": {
+        "insider": "attention"
+      },
+      "theme": "insider",
+      "derivedFrom": "dev2-bn-insider-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-impersonation-offer",
+      "language": "bn",
+      "text": "অর্থমন্ত্রী সাধারণ মানুষের জন্য এই ট্রেডিং প্ল্যাটফর্মকে সমর্থন করেছেন।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "categorySeverities": {
+        "impersonation": "attention"
+      },
+      "theme": "impersonation",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-impersonation-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “অর্থমন্ত্রী সাধারণ মানুষের জন্য এই ট্রেডিং প্ল্যাটফর্মকে সমর্থন করেছেন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "impersonation",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-impersonation-variant",
+      "language": "bn",
+      "text": "“অর্থমন্ত্রী সাধারণ মানুষের জন্য এই ট্রেডিং প্ল্যাটফর্মকে সমর্থন করেছেন”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "categorySeverities": {
+        "impersonation": "attention"
+      },
+      "theme": "impersonation",
+      "derivedFrom": "dev2-bn-impersonation-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-periodic-offer",
+      "language": "bn",
+      "text": "আমাদের জমা প্রকল্পে প্রতি মাসে ফিক্সড ৭% রিটার্ন পাবেন।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "periodic"
+      ],
+      "categorySeverities": {
+        "periodic": "attention"
+      },
+      "theme": "periodic",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-periodic-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “আমাদের জমা প্রকল্পে প্রতি মাসে ফিক্সড ৭% রিটার্ন পাবেন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "periodic",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-periodic-variant",
+      "language": "bn",
+      "text": "আ​মাদের জমা প্রকল্পে প্রতি মাসে ফিক্সড ৭% রিটার্ন পাবেন!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "periodic"
+      ],
+      "categorySeverities": {
+        "periodic": "attention"
+      },
+      "theme": "periodic",
+      "derivedFrom": "dev2-bn-periodic-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-pay-to-earn-offer",
+      "language": "bn",
+      "text": "ভিডিওতে রেটিং দিয়ে আয় শুরু করতে অ্যাক্টিভেশন ফি দিন।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "categorySeverities": {
+        "pay-to-earn": "attention"
+      },
+      "theme": "pay-to-earn",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-pay-to-earn-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “ভিডিওতে রেটিং দিয়ে আয় শুরু করতে অ্যাক্টিভেশন ফি দিন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "pay-to-earn",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-pay-to-earn-variant",
+      "language": "bn",
+      "text": "অযাচাই করা আর্থিক অফারে বিশ্বাস করবেন না, কিন্তু আমাদের কর্মী বলছেন: ভিডিওতে রেটিং দিয়ে আয় শুরু করতে অ্যাক্টিভেশন ফি দিন।",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "categorySeverities": {
+        "pay-to-earn": "attention"
+      },
+      "theme": "pay-to-earn",
+      "derivedFrom": "dev2-bn-pay-to-earn-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-off-platform-offer",
+      "language": "bn",
+      "text": "আমাদের বিনিয়োগ APK প্লে স্টোর থেকে নয়, এই চ্যাট থেকে ইনস্টল করুন।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "categorySeverities": {
+        "off-platform": "attention"
+      },
+      "theme": "off-platform",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-off-platform-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “আমাদের বিনিয়োগ APK প্লে স্টোর থেকে নয়, এই চ্যাট থেকে ইনস্টল করুন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "off-platform",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-off-platform-variant",
+      "language": "bn",
+      "text": "আমাদের বিনিয়োগ APK প্লে স্টোর থেকে নয়, এই চ্যাট থেকে ইনস্টল করুন — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "categorySeverities": {
+        "off-platform": "attention"
+      },
+      "theme": "off-platform",
+      "derivedFrom": "dev2-bn-off-platform-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-social-proof-offer",
+      "language": "bn",
+      "text": "আমাদের ট্রেডিং গ্রুপে ৩০০০ সদস্য এবং লাভের স্ক্রিনশট আছে।",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "social-proof"
+      ],
+      "categorySeverities": {
+        "social-proof": "context"
+      },
+      "theme": "social-proof",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-bn-social-proof-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “আমাদের ট্রেডিং গ্রুপে ৩০০০ সদস্য এবং লাভের স্ক্রিনশট আছে” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "social-proof",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-secrecy-offer",
+      "language": "bn",
+      "text": "টাকা দেওয়ার আগে এই বিনিয়োগের অফার কাউকে বলবেন না।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "categorySeverities": {
+        "secrecy": "attention"
+      },
+      "theme": "secrecy",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-secrecy-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “টাকা দেওয়ার আগে এই বিনিয়োগের অফার কাউকে বলবেন না” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "secrecy",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-secrecy-variant",
+      "language": "bn",
+      "text": "টাকা দেও​য়ার আগে এই বিনিয়োগের অফার কাউকে বলবেন না!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "categorySeverities": {
+        "secrecy": "attention"
+      },
+      "theme": "secrecy",
+      "derivedFrom": "dev2-bn-secrecy-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-borrow-offer",
+      "language": "bn",
+      "text": "আমাদের ট্রেডিং প্রকল্পে বেশি বিনিয়োগ করতে ব্যক্তিগত ঋণ নিন।",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow"
+      ],
+      "categorySeverities": {
+        "borrow": "attention"
+      },
+      "theme": "borrow",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-borrow-caution",
+      "language": "bn",
+      "text": "সাবধান থাকুন: “আমাদের ট্রেডিং প্রকল্পে বেশি বিনিয়োগ করতে ব্যক্তিগত ঋণ নিন” এমন দাবিতে বিশ্বাস করবেন না।",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "borrow",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-borrow-variant",
+      "language": "bn",
+      "text": "অযাচাই করা আর্থিক অফারে বিশ্বাস করবেন না, কিন্তু আমাদের কর্মী বলছেন: আমাদের ট্রেডিং প্রকল্পে বেশি বিনিয়োগ করতে ব্যক্তিগত ঋণ নিন।",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow"
+      ],
+      "categorySeverities": {
+        "borrow": "attention"
+      },
+      "theme": "borrow",
+      "derivedFrom": "dev2-bn-borrow-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-ordinary-01",
+      "language": "bn",
+      "text": "আপনার ব্যাংকের বিল কাল দিতে হবে; নিজে ব্যাংকের অ্যাপ খুলে দিন।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "bank-reminder",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-02",
+      "language": "bn",
+      "text": "ক্রেডিট কার্ডের বিল আজ দেওয়ার শেষ দিন; শর্ত অনুযায়ী দেরির চার্জ লাগতে পারে।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "legitimate-urgency",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-03",
+      "language": "bn",
+      "text": "ব্যাংকের মেয়াদি আমানতের শর্তে বছরে ৬.৫% সুদ লেখা আছে।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "fd-terms",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-04",
+      "language": "bn",
+      "text": "এই অঙ্কের পাঠে ২০% পতন পুষিয়ে নিতে ২৫% বৃদ্ধি দরকার।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "arithmetic",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-05",
+      "language": "bn",
+      "text": "ফোনে ব্যাংক কর্মী পরিচয় দিলেও লগইন কোড শেয়ার করবেন না।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "credential-caution",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-06",
+      "language": "bn",
+      "text": "চুরির খবর দেওয়ার পরে কার্ড ব্লক হয়েছে; কিছু করার দরকার নেই।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "account-history",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-07",
+      "language": "bn",
+      "text": "আজই আমাদের পোশাকের দোকান থেকে দুটি জামা ছাড়ে কিনুন।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "retail-promo",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-08",
+      "language": "bn",
+      "text": "আজ আমাদের বিনামূল্যের পাঠাগার কর্মশালায় যোগ দিন; বারোটি আসন বাকি।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "community-deadline",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-09",
+      "language": "bn",
+      "text": "ক্লাস শুরুর আগে কলেজের রেজিস্ট্রেশন ফি দিতে হবে।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "college-fee",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-10",
+      "language": "bn",
+      "text": "বার্ষিক প্রতিবেদন অনুযায়ী গত বছর কোম্পানির রাজস্ব ৪০% বেড়েছে।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "business-report",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-11",
+      "language": "bn",
+      "text": "বিনিয়োগের জন্য ধার নিলে ক্ষতি বাড়তে পারে; এই পাঠে ঋণ বোঝানো হয়েছে।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "borrowing-education",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-12",
+      "language": "bn",
+      "text": "APK অ্যান্ড্রয়েডে ইনস্টল করার ফাইল; এটি সফটওয়্যারের শব্দকোষ।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "software-glossary",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-ordinary-13",
+      "language": "bn",
+      "text": "ওষুধের লেবেলে রোজ একটি ট্যাবলেট নিতে বলা আছে; এটি অর্থের অফার নয়।",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "nonfinancial-daily",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-credentials-offer",
+      "language": "hi-Latn",
+      "text": "Chhe ank ka login code hamare support agent ko bhejiye.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "categorySeverities": {
+        "credentials": "attention"
+      },
+      "theme": "credentials",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-credentials-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Chhe ank ka login code hamare support agent ko bhejiye” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "credentials",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-credentials-variant",
+      "language": "hi-Latn",
+      "text": "Unverified financial offer par bharosa mat karo, lekin hamara agent kehta hai: Chhe ank ka login code hamare support agent ko bhejiye.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "categorySeverities": {
+        "credentials": "attention"
+      },
+      "theme": "credentials",
+      "derivedFrom": "dev2-hi-Latn-credentials-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-account-threat-offer",
+      "language": "hi-Latn",
+      "text": "Aapka khata suspend hoga; chalu karne ke liye message ka link kholo.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "categorySeverities": {
+        "account-threat": "attention"
+      },
+      "theme": "account-threat",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-account-threat-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Aapka khata suspend hoga; chalu karne ke liye message ka link kholo” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "account-threat",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-account-threat-variant",
+      "language": "hi-Latn",
+      "text": "Aapka khata suspend hoga; chalu karne ke liye message ka link kholo — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "categorySeverities": {
+        "account-threat": "attention"
+      },
+      "theme": "account-threat",
+      "derivedFrom": "dev2-hi-Latn-account-threat-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-authority-threat-offer",
+      "language": "hi-Latn",
+      "text": "Hum police se hain: giraftari se bachne ke liye safe account mein paisa bhejo.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "categorySeverities": {
+        "authority-threat": "attention"
+      },
+      "theme": "authority-threat",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-authority-threat-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Hum police se hain: giraftari se bachne ke liye safe account mein paisa bhejo” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "authority-threat",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-authority-threat-variant",
+      "language": "hi-Latn",
+      "text": "“Hum police se hain: giraftari se bachne ke liye safe account mein paisa bhejo”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "categorySeverities": {
+        "authority-threat": "attention"
+      },
+      "theme": "authority-threat",
+      "derivedFrom": "dev2-hi-Latn-authority-threat-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-release-fee-offer",
+      "language": "hi-Latn",
+      "text": "Withdrawal ka paisa pane ke liye pehle clearance fee jama kijiye.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "categorySeverities": {
+        "release-fee": "attention"
+      },
+      "theme": "release-fee",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-release-fee-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Withdrawal ka paisa pane ke liye pehle clearance fee jama kijiye” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "release-fee",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-release-fee-variant",
+      "language": "hi-Latn",
+      "text": "W​ithdrawal ka paisa pane ke liye pehle clearance fee jama kijiye!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "categorySeverities": {
+        "release-fee": "attention"
+      },
+      "theme": "release-fee",
+      "derivedFrom": "dev2-hi-Latn-release-fee-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-off-exchange-offer",
+      "language": "hi-Latn",
+      "text": "Exchange account ke bina hamare dabba desk se shares trade kijiye.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "categorySeverities": {
+        "off-exchange": "attention"
+      },
+      "theme": "off-exchange",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-off-exchange-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Exchange account ke bina hamare dabba desk se shares trade kijiye” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "off-exchange",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-off-exchange-variant",
+      "language": "hi-Latn",
+      "text": "Unverified financial offer par bharosa mat karo, lekin hamara agent kehta hai: Exchange account ke bina hamare dabba desk se shares trade kijiye.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "categorySeverities": {
+        "off-exchange": "attention"
+      },
+      "theme": "off-exchange",
+      "derivedFrom": "dev2-hi-Latn-off-exchange-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-coordinated-pump-offer",
+      "language": "hi-Latn",
+      "text": "Dopahar ko sab milkar shares kharido, daam upar chadhao, phir bech do.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "categorySeverities": {
+        "coordinated-pump": "attention"
+      },
+      "theme": "coordinated-pump",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-coordinated-pump-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Dopahar ko sab milkar shares kharido, daam upar chadhao, phir bech do” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "coordinated-pump",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-coordinated-pump-variant",
+      "language": "hi-Latn",
+      "text": "Dopahar ko sab milkar shares kharido, daam upar chadhao, phir bech do — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "categorySeverities": {
+        "coordinated-pump": "attention"
+      },
+      "theme": "coordinated-pump",
+      "derivedFrom": "dev2-hi-Latn-coordinated-pump-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-guarantee-offer",
+      "language": "hi-Latn",
+      "text": "Hamari investment yojana mein nishchit munafa hai, loss ki sambhavna nahi.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "categorySeverities": {
+        "guarantee": "attention"
+      },
+      "theme": "guarantee",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-guarantee-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Hamari investment yojana mein nishchit munafa hai, loss ki sambhavna nahi” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "guarantee",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-guarantee-variant",
+      "language": "hi-Latn",
+      "text": "“Hamari investment yojana mein nishchit munafa hai, loss ki sambhavna nahi”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "categorySeverities": {
+        "guarantee": "attention"
+      },
+      "theme": "guarantee",
+      "derivedFrom": "dev2-hi-Latn-guarantee-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-urgency-offer",
+      "language": "hi-Latn",
+      "text": "Aaj hi invest karo: is kamai group mein bas teen jagah bachi hain.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "urgency"
+      ],
+      "categorySeverities": {
+        "urgency": "attention"
+      },
+      "theme": "urgency",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-urgency-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Aaj hi invest karo: is kamai group mein bas teen jagah bachi hain” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "urgency",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-urgency-variant",
+      "language": "hi-Latn",
+      "text": "A​aj hi invest karo: is kamai group mein bas teen jagah bachi hain!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "urgency"
+      ],
+      "categorySeverities": {
+        "urgency": "attention"
+      },
+      "theme": "urgency",
+      "derivedFrom": "dev2-hi-Latn-urgency-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-registration-offer",
+      "language": "hi-Latn",
+      "text": "Hamare investment adviser kehte hain firm SEBI registered hai.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "registration"
+      ],
+      "categorySeverities": {
+        "registration": "context"
+      },
+      "theme": "registration",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-hi-Latn-registration-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Hamare investment adviser kehte hain firm SEBI registered hai” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "registration",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-outsized-offer",
+      "language": "hi-Latn",
+      "text": "₹2000 lagao aur chhe din baad ₹12000 pao.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "outsized"
+      ],
+      "categorySeverities": {
+        "outsized": "attention"
+      },
+      "theme": "outsized",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-outsized-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “₹2000 lagao aur chhe din baad ₹12000 pao” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "outsized",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-outsized-variant",
+      "language": "hi-Latn",
+      "text": "₹2000 lagao aur chhe din baad ₹12000 pao — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "outsized"
+      ],
+      "categorySeverities": {
+        "outsized": "attention"
+      },
+      "theme": "outsized",
+      "derivedFrom": "dev2-hi-Latn-outsized-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-promotion-offer",
+      "language": "hi-Latn",
+      "text": "Hamare referral code se hamara paid finance course join karo.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "promotion"
+      ],
+      "categorySeverities": {
+        "promotion": "context"
+      },
+      "theme": "promotion",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-hi-Latn-promotion-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Hamare referral code se hamara paid finance course join karo” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "promotion",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-nav-offer",
+      "language": "hi-Latn",
+      "text": "Kam NAV hone se yeh fund doosre fund se sasta aur behtar hai.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "nav"
+      ],
+      "categorySeverities": {
+        "nav": "context"
+      },
+      "theme": "nav",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-hi-Latn-nav-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Kam NAV hone se yeh fund doosre fund se sasta aur behtar hai” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "nav",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-tip-offer",
+      "language": "hi-Latn",
+      "text": "Market band hone se pehle yeh share kharidiye; kal daam badhega.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "tip"
+      ],
+      "categorySeverities": {
+        "tip": "attention"
+      },
+      "theme": "tip",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-tip-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Market band hone se pehle yeh share kharidiye; kal daam badhega” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "tip",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-tip-variant",
+      "language": "hi-Latn",
+      "text": "Unverified financial offer par bharosa mat karo, lekin hamara agent kehta hai: Market band hone se pehle yeh share kharidiye; kal daam badhega.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "tip"
+      ],
+      "categorySeverities": {
+        "tip": "attention"
+      },
+      "theme": "tip",
+      "derivedFrom": "dev2-hi-Latn-tip-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-insider-offer",
+      "language": "hi-Latn",
+      "text": "Company announcement se pehle hamare operator ke paas andar ki jankari hai.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "insider"
+      ],
+      "categorySeverities": {
+        "insider": "attention"
+      },
+      "theme": "insider",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-insider-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Company announcement se pehle hamare operator ke paas andar ki jankari hai” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "insider",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-insider-variant",
+      "language": "hi-Latn",
+      "text": "Company announcement se pehle hamare operator ke paas andar ki jankari hai — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "insider"
+      ],
+      "categorySeverities": {
+        "insider": "attention"
+      },
+      "theme": "insider",
+      "derivedFrom": "dev2-hi-Latn-insider-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-impersonation-offer",
+      "language": "hi-Latn",
+      "text": "Vitt mantri ne logon ke liye is trading platform ko support kiya hai.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "categorySeverities": {
+        "impersonation": "attention"
+      },
+      "theme": "impersonation",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-impersonation-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Vitt mantri ne logon ke liye is trading platform ko support kiya hai” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "impersonation",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-impersonation-variant",
+      "language": "hi-Latn",
+      "text": "“Vitt mantri ne logon ke liye is trading platform ko support kiya hai”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "categorySeverities": {
+        "impersonation": "attention"
+      },
+      "theme": "impersonation",
+      "derivedFrom": "dev2-hi-Latn-impersonation-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-periodic-offer",
+      "language": "hi-Latn",
+      "text": "Hamari deposit scheme har mahine tay 7% return deti hai.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "periodic"
+      ],
+      "categorySeverities": {
+        "periodic": "attention"
+      },
+      "theme": "periodic",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-periodic-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Hamari deposit scheme har mahine tay 7% return deti hai” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "periodic",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-periodic-variant",
+      "language": "hi-Latn",
+      "text": "H​amari deposit scheme har mahine tay 7% return deti hai!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "periodic"
+      ],
+      "categorySeverities": {
+        "periodic": "attention"
+      },
+      "theme": "periodic",
+      "derivedFrom": "dev2-hi-Latn-periodic-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-pay-to-earn-offer",
+      "language": "hi-Latn",
+      "text": "Video rating se kamai shuru karne ke liye activation fee dijiye.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "categorySeverities": {
+        "pay-to-earn": "attention"
+      },
+      "theme": "pay-to-earn",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-pay-to-earn-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Video rating se kamai shuru karne ke liye activation fee dijiye” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "pay-to-earn",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-pay-to-earn-variant",
+      "language": "hi-Latn",
+      "text": "Unverified financial offer par bharosa mat karo, lekin hamara agent kehta hai: Video rating se kamai shuru karne ke liye activation fee dijiye.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "categorySeverities": {
+        "pay-to-earn": "attention"
+      },
+      "theme": "pay-to-earn",
+      "derivedFrom": "dev2-hi-Latn-pay-to-earn-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-off-platform-offer",
+      "language": "hi-Latn",
+      "text": "Hamara investment APK Play Store se nahi, isi chat se install kijiye.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "categorySeverities": {
+        "off-platform": "attention"
+      },
+      "theme": "off-platform",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-off-platform-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Hamara investment APK Play Store se nahi, isi chat se install kijiye” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "off-platform",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-off-platform-variant",
+      "language": "hi-Latn",
+      "text": "Hamara investment APK Play Store se nahi, isi chat se install kijiye — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "categorySeverities": {
+        "off-platform": "attention"
+      },
+      "theme": "off-platform",
+      "derivedFrom": "dev2-hi-Latn-off-platform-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-social-proof-offer",
+      "language": "hi-Latn",
+      "text": "Hamare trading group mein 3000 members aur munafe ke screenshots hain.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "social-proof"
+      ],
+      "categorySeverities": {
+        "social-proof": "context"
+      },
+      "theme": "social-proof",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-hi-Latn-social-proof-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Hamare trading group mein 3000 members aur munafe ke screenshots hain” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "social-proof",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-secrecy-offer",
+      "language": "hi-Latn",
+      "text": "Payment tak is investment offer ke bare mein kisi ko mat batana.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "categorySeverities": {
+        "secrecy": "attention"
+      },
+      "theme": "secrecy",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-secrecy-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Payment tak is investment offer ke bare mein kisi ko mat batana” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "secrecy",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-secrecy-variant",
+      "language": "hi-Latn",
+      "text": "P​ayment tak is investment offer ke bare mein kisi ko mat batana!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "categorySeverities": {
+        "secrecy": "attention"
+      },
+      "theme": "secrecy",
+      "derivedFrom": "dev2-hi-Latn-secrecy-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-borrow-offer",
+      "language": "hi-Latn",
+      "text": "Hamari trading scheme mein zyada invest karne ke liye personal loan lo.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow"
+      ],
+      "categorySeverities": {
+        "borrow": "attention"
+      },
+      "theme": "borrow",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-hi-Latn-borrow-caution",
+      "language": "hi-Latn",
+      "text": "Savdhan: “Hamari trading scheme mein zyada invest karne ke liye personal loan lo” jaise message par bharosa mat karo.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "borrow",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-hi-Latn-borrow-variant",
+      "language": "hi-Latn",
+      "text": "Unverified financial offer par bharosa mat karo, lekin hamara agent kehta hai: Hamari trading scheme mein zyada invest karne ke liye personal loan lo.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow"
+      ],
+      "categorySeverities": {
+        "borrow": "attention"
+      },
+      "theme": "borrow",
+      "derivedFrom": "dev2-hi-Latn-borrow-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-01",
+      "language": "hi-Latn",
+      "text": "Aapke bank bill ki due date kal hai; bank app khud kholkar pay karein.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "bank-reminder",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-02",
+      "language": "hi-Latn",
+      "text": "Credit card bill aaj due hai; der par terms ke mutabik fee lag sakti hai.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "legitimate-urgency",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-03",
+      "language": "hi-Latn",
+      "text": "Bank FD ke terms mein saalana 6.5% byaj likha hai.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "fd-terms",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-04",
+      "language": "hi-Latn",
+      "text": "Is ganit lesson mein 20% girawat ke baad 25% badhotri chahiye.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "arithmetic",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-05",
+      "language": "hi-Latn",
+      "text": "Caller bank staff bole tab bhi login code share mat karna.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "credential-caution",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-06",
+      "language": "hi-Latn",
+      "text": "Chori report karne par card block hua; koi action nahi chahiye.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "account-history",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-07",
+      "language": "hi-Latn",
+      "text": "Sirf aaj hamari kapdon ki dukaan se do shirt discount par kharido.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "retail-promo",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-08",
+      "language": "hi-Latn",
+      "text": "Aaj hamari muft library workshop join karo; barah seats bachi hain.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "community-deadline",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-09",
+      "language": "hi-Latn",
+      "text": "Classes shuru hone se pehle college registration fee deni hai.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "college-fee",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-10",
+      "language": "hi-Latn",
+      "text": "Annual report ke mutabik company revenue pichle saal 40% badha.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "business-report",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-11",
+      "language": "hi-Latn",
+      "text": "Invest karne ke liye udhar lene se nuksan badh sakta hai; yeh lesson karz samjhata hai.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "borrowing-education",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-12",
+      "language": "hi-Latn",
+      "text": "APK Android ki installation file hoti hai; yeh software glossary hai.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "software-glossary",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-hi-Latn-ordinary-13",
+      "language": "hi-Latn",
+      "text": "Dawai ke label par roz ek goli likha hai; koi financial offer nahi.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "nonfinancial-daily",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-credentials-offer",
+      "language": "bn-Latn",
+      "text": "Chhoy onker login code amader support agent ke pathiye din.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "categorySeverities": {
+        "credentials": "attention"
+      },
+      "theme": "credentials",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-credentials-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Chhoy onker login code amader support agent ke pathiye din” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "credentials",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-credentials-variant",
+      "language": "bn-Latn",
+      "text": "Ochena financial offer bishwas korben na, kintu amader agent bolchen: Chhoy onker login code amader support agent ke pathiye din.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "categorySeverities": {
+        "credentials": "attention"
+      },
+      "theme": "credentials",
+      "derivedFrom": "dev2-bn-Latn-credentials-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-account-threat-offer",
+      "language": "bn-Latn",
+      "text": "Apnar account sthogito hobe; chalu korte message er link khulun.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "categorySeverities": {
+        "account-threat": "attention"
+      },
+      "theme": "account-threat",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-account-threat-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Apnar account sthogito hobe; chalu korte message er link khulun” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "account-threat",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-account-threat-variant",
+      "language": "bn-Latn",
+      "text": "Apnar account sthogito hobe; chalu korte message er link khulun — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "categorySeverities": {
+        "account-threat": "attention"
+      },
+      "theme": "account-threat",
+      "derivedFrom": "dev2-bn-Latn-account-threat-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-authority-threat-offer",
+      "language": "bn-Latn",
+      "text": "Amra police: greptar erate safe account e taka pathan.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "categorySeverities": {
+        "authority-threat": "attention"
+      },
+      "theme": "authority-threat",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-authority-threat-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Amra police: greptar erate safe account e taka pathan” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "authority-threat",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-authority-threat-variant",
+      "language": "bn-Latn",
+      "text": "“Amra police: greptar erate safe account e taka pathan”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "categorySeverities": {
+        "authority-threat": "attention"
+      },
+      "theme": "authority-threat",
+      "derivedFrom": "dev2-bn-Latn-authority-threat-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-release-fee-offer",
+      "language": "bn-Latn",
+      "text": "Taka tulte age clearance charge joma din.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "categorySeverities": {
+        "release-fee": "attention"
+      },
+      "theme": "release-fee",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-release-fee-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Taka tulte age clearance charge joma din” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "release-fee",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-release-fee-variant",
+      "language": "bn-Latn",
+      "text": "T​aka tulte age clearance charge joma din!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "categorySeverities": {
+        "release-fee": "attention"
+      },
+      "theme": "release-fee",
+      "derivedFrom": "dev2-bn-Latn-release-fee-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-off-exchange-offer",
+      "language": "bn-Latn",
+      "text": "Exchange account chara amader dabba desk e share trade korun.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "categorySeverities": {
+        "off-exchange": "attention"
+      },
+      "theme": "off-exchange",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-off-exchange-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Exchange account chara amader dabba desk e share trade korun” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "off-exchange",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-off-exchange-variant",
+      "language": "bn-Latn",
+      "text": "Ochena financial offer bishwas korben na, kintu amader agent bolchen: Exchange account chara amader dabba desk e share trade korun.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "categorySeverities": {
+        "off-exchange": "attention"
+      },
+      "theme": "off-exchange",
+      "derivedFrom": "dev2-bn-Latn-off-exchange-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-coordinated-pump-offer",
+      "language": "bn-Latn",
+      "text": "Dupure sobai eksathe share kinun, dam baran, tarpor bikri korun.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "categorySeverities": {
+        "coordinated-pump": "attention"
+      },
+      "theme": "coordinated-pump",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-coordinated-pump-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Dupure sobai eksathe share kinun, dam baran, tarpor bikri korun” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "coordinated-pump",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-coordinated-pump-variant",
+      "language": "bn-Latn",
+      "text": "Dupure sobai eksathe share kinun, dam baran, tarpor bikri korun — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "categorySeverities": {
+        "coordinated-pump": "attention"
+      },
+      "theme": "coordinated-pump",
+      "derivedFrom": "dev2-bn-Latn-coordinated-pump-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-guarantee-offer",
+      "language": "bn-Latn",
+      "text": "Amader investment prokolpe nishchit labh, loksaner kono sambhabona nei.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "categorySeverities": {
+        "guarantee": "attention"
+      },
+      "theme": "guarantee",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-guarantee-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Amader investment prokolpe nishchit labh, loksaner kono sambhabona nei” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "guarantee",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-guarantee-variant",
+      "language": "bn-Latn",
+      "text": "“Amader investment prokolpe nishchit labh, loksaner kono sambhabona nei”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "categorySeverities": {
+        "guarantee": "attention"
+      },
+      "theme": "guarantee",
+      "derivedFrom": "dev2-bn-Latn-guarantee-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-urgency-offer",
+      "language": "bn-Latn",
+      "text": "Ajkei invest korun: ei ayer group e matro tinte jayga baki.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "urgency"
+      ],
+      "categorySeverities": {
+        "urgency": "attention"
+      },
+      "theme": "urgency",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-urgency-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Ajkei invest korun: ei ayer group e matro tinte jayga baki” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "urgency",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-urgency-variant",
+      "language": "bn-Latn",
+      "text": "A​jkei invest korun: ei ayer group e matro tinte jayga baki!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "urgency"
+      ],
+      "categorySeverities": {
+        "urgency": "attention"
+      },
+      "theme": "urgency",
+      "derivedFrom": "dev2-bn-Latn-urgency-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-registration-offer",
+      "language": "bn-Latn",
+      "text": "Amader investment adviser bolchen firm SEBI registered.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "registration"
+      ],
+      "categorySeverities": {
+        "registration": "context"
+      },
+      "theme": "registration",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-bn-Latn-registration-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Amader investment adviser bolchen firm SEBI registered” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "registration",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-outsized-offer",
+      "language": "bn-Latn",
+      "text": "2000 taka invest kore chhoy din pore 12000 taka paben.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "outsized"
+      ],
+      "categorySeverities": {
+        "outsized": "attention"
+      },
+      "theme": "outsized",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-outsized-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “2000 taka invest kore chhoy din pore 12000 taka paben” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "outsized",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-outsized-variant",
+      "language": "bn-Latn",
+      "text": "2000 taka invest kore chhoy din pore 12000 taka paben — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "outsized"
+      ],
+      "categorySeverities": {
+        "outsized": "attention"
+      },
+      "theme": "outsized",
+      "derivedFrom": "dev2-bn-Latn-outsized-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-promotion-offer",
+      "language": "bn-Latn",
+      "text": "Amader referral code diye amader paid finance course kinun.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "promotion"
+      ],
+      "categorySeverities": {
+        "promotion": "context"
+      },
+      "theme": "promotion",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-bn-Latn-promotion-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Amader referral code diye amader paid finance course kinun” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "promotion",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-nav-offer",
+      "language": "bn-Latn",
+      "text": "Kom NAV bole ei fund onno fund er cheye sosta ar bhalo.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "nav"
+      ],
+      "categorySeverities": {
+        "nav": "context"
+      },
+      "theme": "nav",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-bn-Latn-nav-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Kom NAV bole ei fund onno fund er cheye sosta ar bhalo” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "nav",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-tip-offer",
+      "language": "bn-Latn",
+      "text": "Bazar bondher age ei share kinun; kal dam barbe.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "tip"
+      ],
+      "categorySeverities": {
+        "tip": "attention"
+      },
+      "theme": "tip",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-tip-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Bazar bondher age ei share kinun; kal dam barbe” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "tip",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-tip-variant",
+      "language": "bn-Latn",
+      "text": "Ochena financial offer bishwas korben na, kintu amader agent bolchen: Bazar bondher age ei share kinun; kal dam barbe.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "tip"
+      ],
+      "categorySeverities": {
+        "tip": "attention"
+      },
+      "theme": "tip",
+      "derivedFrom": "dev2-bn-Latn-tip-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-insider-offer",
+      "language": "bn-Latn",
+      "text": "Company announcement er age amader operator er kache bhitorer khobor ache.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "insider"
+      ],
+      "categorySeverities": {
+        "insider": "attention"
+      },
+      "theme": "insider",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-insider-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Company announcement er age amader operator er kache bhitorer khobor ache” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "insider",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-insider-variant",
+      "language": "bn-Latn",
+      "text": "Company announcement er age amader operator er kache bhitorer khobor ache — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "insider"
+      ],
+      "categorySeverities": {
+        "insider": "attention"
+      },
+      "theme": "insider",
+      "derivedFrom": "dev2-bn-Latn-insider-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-impersonation-offer",
+      "language": "bn-Latn",
+      "text": "Orthomontri ei trading platform ke somorthon korechen.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "categorySeverities": {
+        "impersonation": "attention"
+      },
+      "theme": "impersonation",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-impersonation-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Orthomontri ei trading platform ke somorthon korechen” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "impersonation",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-impersonation-variant",
+      "language": "bn-Latn",
+      "text": "“Orthomontri ei trading platform ke somorthon korechen”",
+      "kind": "quoted-offer-fullwidth-digits",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "categorySeverities": {
+        "impersonation": "attention"
+      },
+      "theme": "impersonation",
+      "derivedFrom": "dev2-bn-Latn-impersonation-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-periodic-offer",
+      "language": "bn-Latn",
+      "text": "Amader deposit scheme proti mashe fixed 7% return dey.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "periodic"
+      ],
+      "categorySeverities": {
+        "periodic": "attention"
+      },
+      "theme": "periodic",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-periodic-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Amader deposit scheme proti mashe fixed 7% return dey” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "periodic",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-periodic-variant",
+      "language": "bn-Latn",
+      "text": "A​mader deposit scheme proti mashe fixed 7% return dey!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "periodic"
+      ],
+      "categorySeverities": {
+        "periodic": "attention"
+      },
+      "theme": "periodic",
+      "derivedFrom": "dev2-bn-Latn-periodic-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-pay-to-earn-offer",
+      "language": "bn-Latn",
+      "text": "Video rating diye ay shuru korte activation fee din.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "categorySeverities": {
+        "pay-to-earn": "attention"
+      },
+      "theme": "pay-to-earn",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-pay-to-earn-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Video rating diye ay shuru korte activation fee din” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "pay-to-earn",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-pay-to-earn-variant",
+      "language": "bn-Latn",
+      "text": "Ochena financial offer bishwas korben na, kintu amader agent bolchen: Video rating diye ay shuru korte activation fee din.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "categorySeverities": {
+        "pay-to-earn": "attention"
+      },
+      "theme": "pay-to-earn",
+      "derivedFrom": "dev2-bn-Latn-pay-to-earn-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-off-platform-offer",
+      "language": "bn-Latn",
+      "text": "Amader investment APK Play Store theke noy, ei chat theke install korun.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "categorySeverities": {
+        "off-platform": "attention"
+      },
+      "theme": "off-platform",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-off-platform-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Amader investment APK Play Store theke noy, ei chat theke install korun” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "off-platform",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-off-platform-variant",
+      "language": "bn-Latn",
+      "text": "Amader investment APK Play Store theke noy, ei chat theke install korun — reply via https://request.example.invalid/review",
+      "kind": "nonbreaking-spaces-and-reserved-url",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "categorySeverities": {
+        "off-platform": "attention"
+      },
+      "theme": "off-platform",
+      "derivedFrom": "dev2-bn-Latn-off-platform-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-social-proof-offer",
+      "language": "bn-Latn",
+      "text": "Amader trading group e 3000 members ar labher screenshot ache.",
+      "kind": "context-only-claim",
+      "expectedAttention": false,
+      "expectedCategories": [
+        "social-proof"
+      ],
+      "categorySeverities": {
+        "social-proof": "context"
+      },
+      "theme": "social-proof",
+      "rationale": "Claim warrants context, not a high-risk attention label by itself."
+    },
+    {
+      "id": "dev2-bn-Latn-social-proof-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Amader trading group e 3000 members ar labher screenshot ache” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "social-proof",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-secrecy-offer",
+      "language": "bn-Latn",
+      "text": "Taka dewar age ei investment offer kauke bolben na.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "categorySeverities": {
+        "secrecy": "attention"
+      },
+      "theme": "secrecy",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-secrecy-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Taka dewar age ei investment offer kauke bolben na” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "secrecy",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-secrecy-variant",
+      "language": "bn-Latn",
+      "text": "T​aka dewar age ei investment offer kauke bolben na!",
+      "kind": "single-invisible-separator",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "categorySeverities": {
+        "secrecy": "attention"
+      },
+      "theme": "secrecy",
+      "derivedFrom": "dev2-bn-Latn-secrecy-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-borrow-offer",
+      "language": "bn-Latn",
+      "text": "Amader trading scheme e beshi invest korte personal loan nin.",
+      "kind": "attention-cue",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow"
+      ],
+      "categorySeverities": {
+        "borrow": "attention"
+      },
+      "theme": "borrow",
+      "rationale": "Observable wording matches the named warning family; not a claim that the sender committed fraud."
+    },
+    {
+      "id": "dev2-bn-Latn-borrow-caution",
+      "language": "bn-Latn",
+      "text": "Sabdhan thakun: “Amader trading scheme e beshi invest korte personal loan nin” emon dabi bishwas korben na.",
+      "kind": "protective-caution",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "borrow",
+      "rationale": "Quoted offer is explicitly presented as wording not to follow; do not label the caution itself risky."
+    },
+    {
+      "id": "dev2-bn-Latn-borrow-variant",
+      "language": "bn-Latn",
+      "text": "Ochena financial offer bishwas korben na, kintu amader agent bolchen: Amader trading scheme e beshi invest korte personal loan nin.",
+      "kind": "independent-offer-after-caution",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "borrow"
+      ],
+      "categorySeverities": {
+        "borrow": "attention"
+      },
+      "theme": "borrow",
+      "derivedFrom": "dev2-bn-Latn-borrow-offer",
+      "rationale": "Meaning of the independent offer remains despite formatting or an unrelated protective lead-in."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-01",
+      "language": "bn-Latn",
+      "text": "Apnar bank bill kal due; nije bank app khule pay korun.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "bank-reminder",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-02",
+      "language": "bn-Latn",
+      "text": "Credit card bill aj due; deri hole sharto onujayi fee hote pare.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "legitimate-urgency",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-03",
+      "language": "bn-Latn",
+      "text": "Bank FD er sharte bochore 6.5% sud lekha ache.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "fd-terms",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-04",
+      "language": "bn-Latn",
+      "text": "Ei onker pathe 20% poton pushiye nite 25% briddhi chai.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "arithmetic",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-05",
+      "language": "bn-Latn",
+      "text": "Caller bank staff bolleo login code share korben na.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "credential-caution",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-06",
+      "language": "bn-Latn",
+      "text": "Churir khobor dewar por card block hoyeche; kichu korar nei.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "account-history",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-07",
+      "language": "bn-Latn",
+      "text": "Ajkei amader poshaker dokan theke duto jama discount e kinun.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "retail-promo",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-08",
+      "language": "bn-Latn",
+      "text": "Aj amader free library workshop e join korun; barota seat baki.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "community-deadline",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-09",
+      "language": "bn-Latn",
+      "text": "Class shurur age college registration fee dite hobe.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "college-fee",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-10",
+      "language": "bn-Latn",
+      "text": "Annual report onujayi company revenue goto bochor 40% bereche.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "business-report",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-11",
+      "language": "bn-Latn",
+      "text": "Invest korte dhar nile khoti barte pare; ei pathe rin bojhano hoyeche.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "borrowing-education",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-12",
+      "language": "bn-Latn",
+      "text": "APK Android er installation file; eta software glossary.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "software-glossary",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    },
+    {
+      "id": "dev2-bn-Latn-ordinary-13",
+      "language": "bn-Latn",
+      "text": "Oshudher label e roj ekta tablet; kono financial offer noy.",
+      "kind": "ordinary-or-educational",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "theme": "nonfinancial-daily",
+      "rationale": "Ordinary context, protective information or nonfinancial promotion; no attention label expected from this wording alone."
+    }
+  ]
+}

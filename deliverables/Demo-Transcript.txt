@@ -1,0 +1,31 @@
+SAJAG — TEAM FIRSTBEST
+
+PART 01: The problem
+Imagine a convincing investment offer arriving in your family chat. Urgent wording and unfamiliar financial terms make it hard to judge. For first-time investors, the challenge is understanding the request before money or personal information changes hands.
+
+PART 02: Our solution · Track C + Track E
+Now, this is Sajag. Sajag connects checking with learning. Bring a message, understand the quoted warning, then explore the lessons behind it. Our web and Android prototype combines a private offline check with an optional AI review. No investment advice.
+
+PART 03: Track E · Features that matter
+So, look at the quoted words on screen. They explain what triggered the warnings, with relevant official guidance and context. Sharing and saving remain separate choices. Lessons and fictional simulations turn a warning into understanding. Android Back returns sections Home after closing overlays.
+
+PART 04: A message, checked
+Now that we have seen what the warning tells us and why these features matter, let's put them to a test. We'll move from the explanation to a few actual checks to see how the system responds to different types of messages. We'll start with a fictional parcel message asking for ₹49 to release a delivery. We'll run it locally, give permission for AI review, and then see what the result looks like. Next, we'll look at a routine insurance premium notice. The offline check raises a pattern warning, and the AI review label shows why the warning was withdrawn while keeping the result visible as context. These are genuine website checks using fictional messages, to demonstrate how the system behaves without making any claim about real-world accuracy. AI can still be wrong.
+
+PART 05: Language access
+Now look at the language screens: English, Hindi and Bengali are interface choices. Messages can also use Hinglish and Banglish. That gives 5 tested language forms, including Romanised Hindi and Bengali. Bengali remains beta, awaiting native-speaker review.
+
+PART 06: Measured accuracy
+Look at the counts from the test: 150 synthetic messages, 75 risky and 75 harmless, across 5 language forms. Offline got 124 correct, which is 82.7%. With AI, that makes 149 correct, which is 99.3%: a very good accuracy. Risky messages flagged rose from 57 to 74 out of 75. Harmless false alarms fell from 8 to 0 out of 75. AI completed 145 reviews; 5 used offline fallback. These results are not real-world guarantees, but yes, these are the testing results of our product.
+
+PART 07: Two layers, one purpose
+Follow the two layers on the screen. Local rules and a small pattern model check wording on the device without sending any message. With permission, RAG retrieves relevant SEBI, RBI and government guidance for Gemini, our AI model. New AI warnings need matching quoted words and official guidance. A second pass confirms or withdraws warnings. Strong results cannot be withdrawn. Offline provides access; AI adds context.
+
+PART 08: Track C · Learn through consequences
+Next, look at 15 lessons: 7 money concepts and 8 scam lessons. 4 fictional chat stories reveal pressure tactics through your choices. A small task-job reward can lead to deposit demands. In the money simulator, a 20% loss needs a 25% rise to recover. This is arithmetic, not a forecast.
+
+PART 09: Privacy and accounts
+Users create and verify their account once, and returning users sign in securely with their password. Before every AI check, users can see what information will be shared and give explicit permission. Sensitive content is masked before it leaves the device, and users remain in control of what they choose to save. Core features continue to work offline, while AI review is used only by user choice. AI submissions may be subject to the provider's data policies, and locally saved notebook data is not encrypted.
+
+PART 10: Understand before you act
+Sajag brings warning, explanation and practice together into a learning journey, helping people not just identify a risky message, but understand why it is risky and make a safer decision next time. This is Sajag by Team FirstBest: Anshuman Biswal and me, Masud Ali. Understand before you act.

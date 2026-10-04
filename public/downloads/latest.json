@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packageId": "org.sajag.app",
+  "versionCode": 11,
+  "versionName": "2.0",
+  "minSdk": 24,
+  "buildType": "debug",
+  "fileName": "Sajag-Android-Debug.apk",
+  "url": "/downloads/Sajag-Android-Debug.apk",
+  "bytes": 5201539,
+  "sha256": "2f6849711afb96cd124966b226a5be97362e4069c7edf91b85a4487f083e98af",
+  "publishedAt": "2026-10-04T10:35:52.455Z"
+}

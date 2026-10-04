@@ -1,0 +1,2693 @@
+{
+  "schemaVersion": 1,
+  "provenance": {
+    "synthetic": true,
+    "developmentOnly": true,
+    "baseSentenceCount": 20,
+    "description": "Formatting perturbations of known development sentences, not independent examples. These are semantic invariance regression cases, not an accuracy benchmark.",
+    "generator": "scripts/metamorphic-development.mjs",
+    "generatorSha256": "25764e4beea64f688dc3ec9ea208b88522d4efccce9de09bc2d95c94bfa8c2c7"
+  },
+  "items": [
+    {
+      "id": "en-credentials-attention-plain",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "plain",
+      "text": "Send your OTP and UPI PIN to me to verify your bank account."
+    },
+    {
+      "id": "en-credentials-attention-upper",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "upper",
+      "text": "SEND YOUR OTP AND UPI PIN TO ME TO VERIFY YOUR BANK ACCOUNT."
+    },
+    {
+      "id": "en-credentials-attention-lower",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "lower",
+      "text": "send your otp and upi pin to me to verify your bank account."
+    },
+    {
+      "id": "en-credentials-attention-double-space",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "double-space",
+      "text": "Send  your  OTP  and  UPI  PIN  to  me  to  verify  your  bank  account."
+    },
+    {
+      "id": "en-credentials-attention-nbsp",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "nbsp",
+      "text": "Send your OTP and UPI PIN to me to verify your bank account."
+    },
+    {
+      "id": "en-credentials-attention-narrow-space",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "narrow-space",
+      "text": "Send your OTP and UPI PIN to me to verify your bank account."
+    },
+    {
+      "id": "en-credentials-attention-tabs",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "tabs",
+      "text": "Send\tyour\tOTP\tand\tUPI\tPIN\tto\tme\tto\tverify\tyour\tbank\taccount."
+    },
+    {
+      "id": "en-credentials-attention-line-wrap",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "line-wrap",
+      "text": "Send\nyour\nOTP\nand\nUPI\nPIN\nto\nme\nto\nverify\nyour\nbank\naccount."
+    },
+    {
+      "id": "en-credentials-attention-zero-width-space",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "zero-width-space",
+      "text": "S​e​n​d y​o​u​r O​T​P a​n​d U​P​I P​I​N t​o m​e t​o v​e​r​i​f​y y​o​u​r b​a​n​k a​c​c​o​u​n​t."
+    },
+    {
+      "id": "en-credentials-attention-word-joiner",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "word-joiner",
+      "text": "Send⁠ your⁠ OTP⁠ and⁠ UPI⁠ PIN⁠ to⁠ me⁠ to⁠ verify⁠ your⁠ bank⁠ account."
+    },
+    {
+      "id": "en-credentials-attention-markdown",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "markdown",
+      "text": "**Send your OTP and UPI PIN to me to verify your bank account.**"
+    },
+    {
+      "id": "en-credentials-attention-blockquote",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "blockquote",
+      "text": "> Send your OTP and UPI PIN to me to verify your bank account."
+    },
+    {
+      "id": "en-credentials-attention-curly-quotes",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "curly-quotes",
+      "text": "“Send your OTP and UPI PIN to me to verify your bank account.”"
+    },
+    {
+      "id": "en-credentials-attention-emoji",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "emoji",
+      "text": "📩 Send your OTP and UPI PIN to me to verify your bank account. 📩"
+    },
+    {
+      "id": "en-credentials-attention-leading-benign",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. Send your OTP and UPI PIN to me to verify your bank account."
+    },
+    {
+      "id": "en-credentials-attention-trailing-benign",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "trailing-benign",
+      "text": "Send your OTP and UPI PIN to me to verify your bank account. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "en-credentials-attention-html-text",
+      "language": "en",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "html-text",
+      "text": "<p>Send your OTP and UPI PIN to me to verify your bank account.</p>"
+    },
+    {
+      "id": "en-credentials-benign-plain",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "plain",
+      "text": "Never share your OTP or UPI PIN with anyone."
+    },
+    {
+      "id": "en-credentials-benign-upper",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "upper",
+      "text": "NEVER SHARE YOUR OTP OR UPI PIN WITH ANYONE."
+    },
+    {
+      "id": "en-credentials-benign-lower",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "lower",
+      "text": "never share your otp or upi pin with anyone."
+    },
+    {
+      "id": "en-credentials-benign-double-space",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "double-space",
+      "text": "Never  share  your  OTP  or  UPI  PIN  with  anyone."
+    },
+    {
+      "id": "en-credentials-benign-nbsp",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "nbsp",
+      "text": "Never share your OTP or UPI PIN with anyone."
+    },
+    {
+      "id": "en-credentials-benign-narrow-space",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "narrow-space",
+      "text": "Never share your OTP or UPI PIN with anyone."
+    },
+    {
+      "id": "en-credentials-benign-tabs",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "tabs",
+      "text": "Never\tshare\tyour\tOTP\tor\tUPI\tPIN\twith\tanyone."
+    },
+    {
+      "id": "en-credentials-benign-line-wrap",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "line-wrap",
+      "text": "Never\nshare\nyour\nOTP\nor\nUPI\nPIN\nwith\nanyone."
+    },
+    {
+      "id": "en-credentials-benign-zero-width-space",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "zero-width-space",
+      "text": "N​e​v​e​r s​h​a​r​e y​o​u​r O​T​P o​r U​P​I P​I​N w​i​t​h a​n​y​o​n​e."
+    },
+    {
+      "id": "en-credentials-benign-word-joiner",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "word-joiner",
+      "text": "Never⁠ share⁠ your⁠ OTP⁠ or⁠ UPI⁠ PIN⁠ with⁠ anyone."
+    },
+    {
+      "id": "en-credentials-benign-markdown",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "markdown",
+      "text": "**Never share your OTP or UPI PIN with anyone.**"
+    },
+    {
+      "id": "en-credentials-benign-blockquote",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "blockquote",
+      "text": "> Never share your OTP or UPI PIN with anyone."
+    },
+    {
+      "id": "en-credentials-benign-curly-quotes",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "curly-quotes",
+      "text": "“Never share your OTP or UPI PIN with anyone.”"
+    },
+    {
+      "id": "en-credentials-benign-emoji",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "emoji",
+      "text": "📩 Never share your OTP or UPI PIN with anyone. 📩"
+    },
+    {
+      "id": "en-credentials-benign-leading-benign",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. Never share your OTP or UPI PIN with anyone."
+    },
+    {
+      "id": "en-credentials-benign-trailing-benign",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "trailing-benign",
+      "text": "Never share your OTP or UPI PIN with anyone. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "en-credentials-benign-html-text",
+      "language": "en",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "html-text",
+      "text": "<p>Never share your OTP or UPI PIN with anyone.</p>"
+    },
+    {
+      "id": "hi-credentials-attention-plain",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "plain",
+      "text": "अपना OTP और UPI पिन मुझे भेजें ताकि बैंक खाता चालू कर सकूँ।"
+    },
+    {
+      "id": "hi-credentials-attention-lower",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "lower",
+      "text": "अपना otp और upi पिन मुझे भेजें ताकि बैंक खाता चालू कर सकूँ।"
+    },
+    {
+      "id": "hi-credentials-attention-double-space",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "double-space",
+      "text": "अपना  OTP  और  UPI  पिन  मुझे  भेजें  ताकि  बैंक  खाता  चालू  कर  सकूँ।"
+    },
+    {
+      "id": "hi-credentials-attention-nbsp",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "nbsp",
+      "text": "अपना OTP और UPI पिन मुझे भेजें ताकि बैंक खाता चालू कर सकूँ।"
+    },
+    {
+      "id": "hi-credentials-attention-narrow-space",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "narrow-space",
+      "text": "अपना OTP और UPI पिन मुझे भेजें ताकि बैंक खाता चालू कर सकूँ।"
+    },
+    {
+      "id": "hi-credentials-attention-tabs",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "tabs",
+      "text": "अपना\tOTP\tऔर\tUPI\tपिन\tमुझे\tभेजें\tताकि\tबैंक\tखाता\tचालू\tकर\tसकूँ।"
+    },
+    {
+      "id": "hi-credentials-attention-line-wrap",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "line-wrap",
+      "text": "अपना\nOTP\nऔर\nUPI\nपिन\nमुझे\nभेजें\nताकि\nबैंक\nखाता\nचालू\nकर\nसकूँ।"
+    },
+    {
+      "id": "hi-credentials-attention-zero-width-space",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "zero-width-space",
+      "text": "अ​प​न​ा O​T​P औ​र U​P​I प​ि​न म​ु​झ​े भ​े​ज​े​ं त​ा​क​ि ब​ै​ं​क ख​ा​त​ा च​ा​ल​ू क​र स​क​ू​ँ​।"
+    },
+    {
+      "id": "hi-credentials-attention-word-joiner",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "word-joiner",
+      "text": "अपना⁠ OTP⁠ और⁠ UPI⁠ पिन⁠ मुझे⁠ भेजें⁠ ताकि⁠ बैंक⁠ खाता⁠ चालू⁠ कर⁠ सकूँ।"
+    },
+    {
+      "id": "hi-credentials-attention-markdown",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "markdown",
+      "text": "**अपना OTP और UPI पिन मुझे भेजें ताकि बैंक खाता चालू कर सकूँ।**"
+    },
+    {
+      "id": "hi-credentials-attention-blockquote",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "blockquote",
+      "text": "> अपना OTP और UPI पिन मुझे भेजें ताकि बैंक खाता चालू कर सकूँ।"
+    },
+    {
+      "id": "hi-credentials-attention-curly-quotes",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "curly-quotes",
+      "text": "“अपना OTP और UPI पिन मुझे भेजें ताकि बैंक खाता चालू कर सकूँ।”"
+    },
+    {
+      "id": "hi-credentials-attention-emoji",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "emoji",
+      "text": "📩 अपना OTP और UPI पिन मुझे भेजें ताकि बैंक खाता चालू कर सकूँ। 📩"
+    },
+    {
+      "id": "hi-credentials-attention-leading-benign",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. अपना OTP और UPI पिन मुझे भेजें ताकि बैंक खाता चालू कर सकूँ।"
+    },
+    {
+      "id": "hi-credentials-attention-trailing-benign",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "trailing-benign",
+      "text": "अपना OTP और UPI पिन मुझे भेजें ताकि बैंक खाता चालू कर सकूँ। The meeting is tomorrow at noon."
+    },
+    {
+      "id": "hi-credentials-attention-html-text",
+      "language": "hi",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "html-text",
+      "text": "<p>अपना OTP और UPI पिन मुझे भेजें ताकि बैंक खाता चालू कर सकूँ।</p>"
+    },
+    {
+      "id": "hi-credentials-benign-plain",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "plain",
+      "text": "अपना OTP या UPI पिन कभी किसी को न भेजें।"
+    },
+    {
+      "id": "hi-credentials-benign-lower",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "lower",
+      "text": "अपना otp या upi पिन कभी किसी को न भेजें।"
+    },
+    {
+      "id": "hi-credentials-benign-double-space",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "double-space",
+      "text": "अपना  OTP  या  UPI  पिन  कभी  किसी  को  न  भेजें।"
+    },
+    {
+      "id": "hi-credentials-benign-nbsp",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "nbsp",
+      "text": "अपना OTP या UPI पिन कभी किसी को न भेजें।"
+    },
+    {
+      "id": "hi-credentials-benign-narrow-space",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "narrow-space",
+      "text": "अपना OTP या UPI पिन कभी किसी को न भेजें।"
+    },
+    {
+      "id": "hi-credentials-benign-tabs",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "tabs",
+      "text": "अपना\tOTP\tया\tUPI\tपिन\tकभी\tकिसी\tको\tन\tभेजें।"
+    },
+    {
+      "id": "hi-credentials-benign-line-wrap",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "line-wrap",
+      "text": "अपना\nOTP\nया\nUPI\nपिन\nकभी\nकिसी\nको\nन\nभेजें।"
+    },
+    {
+      "id": "hi-credentials-benign-zero-width-space",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "zero-width-space",
+      "text": "अ​प​न​ा O​T​P य​ा U​P​I प​ि​न क​भ​ी क​ि​स​ी क​ो न भ​े​ज​े​ं​।"
+    },
+    {
+      "id": "hi-credentials-benign-word-joiner",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "word-joiner",
+      "text": "अपना⁠ OTP⁠ या⁠ UPI⁠ पिन⁠ कभी⁠ किसी⁠ को⁠ न⁠ भेजें।"
+    },
+    {
+      "id": "hi-credentials-benign-markdown",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "markdown",
+      "text": "**अपना OTP या UPI पिन कभी किसी को न भेजें।**"
+    },
+    {
+      "id": "hi-credentials-benign-blockquote",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "blockquote",
+      "text": "> अपना OTP या UPI पिन कभी किसी को न भेजें।"
+    },
+    {
+      "id": "hi-credentials-benign-curly-quotes",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "curly-quotes",
+      "text": "“अपना OTP या UPI पिन कभी किसी को न भेजें।”"
+    },
+    {
+      "id": "hi-credentials-benign-emoji",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "emoji",
+      "text": "📩 अपना OTP या UPI पिन कभी किसी को न भेजें। 📩"
+    },
+    {
+      "id": "hi-credentials-benign-leading-benign",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. अपना OTP या UPI पिन कभी किसी को न भेजें।"
+    },
+    {
+      "id": "hi-credentials-benign-trailing-benign",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "trailing-benign",
+      "text": "अपना OTP या UPI पिन कभी किसी को न भेजें। The meeting is tomorrow at noon."
+    },
+    {
+      "id": "hi-credentials-benign-html-text",
+      "language": "hi",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "html-text",
+      "text": "<p>अपना OTP या UPI पिन कभी किसी को न भेजें।</p>"
+    },
+    {
+      "id": "bn-credentials-attention-plain",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "plain",
+      "text": "আপনার ওটিপি আর ইউপিআই পিন আমাকে পাঠান, আমি ব্যাংক অ্যাকাউন্ট চালু করব।"
+    },
+    {
+      "id": "bn-credentials-attention-double-space",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "double-space",
+      "text": "আপনার  ওটিপি  আর  ইউপিআই  পিন  আমাকে  পাঠান,  আমি  ব্যাংক  অ্যাকাউন্ট  চালু  করব।"
+    },
+    {
+      "id": "bn-credentials-attention-nbsp",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "nbsp",
+      "text": "আপনার ওটিপি আর ইউপিআই পিন আমাকে পাঠান, আমি ব্যাংক অ্যাকাউন্ট চালু করব।"
+    },
+    {
+      "id": "bn-credentials-attention-narrow-space",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "narrow-space",
+      "text": "আপনার ওটিপি আর ইউপিআই পিন আমাকে পাঠান, আমি ব্যাংক অ্যাকাউন্ট চালু করব।"
+    },
+    {
+      "id": "bn-credentials-attention-tabs",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "tabs",
+      "text": "আপনার\tওটিপি\tআর\tইউপিআই\tপিন\tআমাকে\tপাঠান,\tআমি\tব্যাংক\tঅ্যাকাউন্ট\tচালু\tকরব।"
+    },
+    {
+      "id": "bn-credentials-attention-line-wrap",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "line-wrap",
+      "text": "আপনার\nওটিপি\nআর\nইউপিআই\nপিন\nআমাকে\nপাঠান,\nআমি\nব্যাংক\nঅ্যাকাউন্ট\nচালু\nকরব।"
+    },
+    {
+      "id": "bn-credentials-attention-zero-width-space",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "zero-width-space",
+      "text": "আ​প​ন​া​র ও​ট​ি​প​ি আ​র ই​উ​প​ি​আ​ই প​ি​ন আ​ম​া​ক​ে প​া​ঠ​া​ন, আ​ম​ি ব​্​য​া​ং​ক অ​্​য​া​ক​া​উ​ন​্​ট চ​া​ল​ু ক​র​ব​।"
+    },
+    {
+      "id": "bn-credentials-attention-word-joiner",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "word-joiner",
+      "text": "আপনার⁠ ওটিপি⁠ আর⁠ ইউপিআই⁠ পিন⁠ আমাকে⁠ পাঠান,⁠ আমি⁠ ব্যাংক⁠ অ্যাকাউন্ট⁠ চালু⁠ করব।"
+    },
+    {
+      "id": "bn-credentials-attention-markdown",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "markdown",
+      "text": "**আপনার ওটিপি আর ইউপিআই পিন আমাকে পাঠান, আমি ব্যাংক অ্যাকাউন্ট চালু করব।**"
+    },
+    {
+      "id": "bn-credentials-attention-blockquote",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "blockquote",
+      "text": "> আপনার ওটিপি আর ইউপিআই পিন আমাকে পাঠান, আমি ব্যাংক অ্যাকাউন্ট চালু করব।"
+    },
+    {
+      "id": "bn-credentials-attention-curly-quotes",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "curly-quotes",
+      "text": "“আপনার ওটিপি আর ইউপিআই পিন আমাকে পাঠান, আমি ব্যাংক অ্যাকাউন্ট চালু করব।”"
+    },
+    {
+      "id": "bn-credentials-attention-emoji",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "emoji",
+      "text": "📩 আপনার ওটিপি আর ইউপিআই পিন আমাকে পাঠান, আমি ব্যাংক অ্যাকাউন্ট চালু করব। 📩"
+    },
+    {
+      "id": "bn-credentials-attention-leading-benign",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. আপনার ওটিপি আর ইউপিআই পিন আমাকে পাঠান, আমি ব্যাংক অ্যাকাউন্ট চালু করব।"
+    },
+    {
+      "id": "bn-credentials-attention-trailing-benign",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "trailing-benign",
+      "text": "আপনার ওটিপি আর ইউপিআই পিন আমাকে পাঠান, আমি ব্যাংক অ্যাকাউন্ট চালু করব। The meeting is tomorrow at noon."
+    },
+    {
+      "id": "bn-credentials-attention-html-text",
+      "language": "bn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "html-text",
+      "text": "<p>আপনার ওটিপি আর ইউপিআই পিন আমাকে পাঠান, আমি ব্যাংক অ্যাকাউন্ট চালু করব।</p>"
+    },
+    {
+      "id": "bn-credentials-benign-plain",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "plain",
+      "text": "কাউকে কখনও আপনার ওটিপি বা ইউপিআই পিন পাঠাবেন না।"
+    },
+    {
+      "id": "bn-credentials-benign-double-space",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "double-space",
+      "text": "কাউকে  কখনও  আপনার  ওটিপি  বা  ইউপিআই  পিন  পাঠাবেন  না।"
+    },
+    {
+      "id": "bn-credentials-benign-nbsp",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "nbsp",
+      "text": "কাউকে কখনও আপনার ওটিপি বা ইউপিআই পিন পাঠাবেন না।"
+    },
+    {
+      "id": "bn-credentials-benign-narrow-space",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "narrow-space",
+      "text": "কাউকে কখনও আপনার ওটিপি বা ইউপিআই পিন পাঠাবেন না।"
+    },
+    {
+      "id": "bn-credentials-benign-tabs",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "tabs",
+      "text": "কাউকে\tকখনও\tআপনার\tওটিপি\tবা\tইউপিআই\tপিন\tপাঠাবেন\tনা।"
+    },
+    {
+      "id": "bn-credentials-benign-line-wrap",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "line-wrap",
+      "text": "কাউকে\nকখনও\nআপনার\nওটিপি\nবা\nইউপিআই\nপিন\nপাঠাবেন\nনা।"
+    },
+    {
+      "id": "bn-credentials-benign-zero-width-space",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "zero-width-space",
+      "text": "ক​া​উ​ক​ে ক​খ​ন​ও আ​প​ন​া​র ও​ট​ি​প​ি ব​া ই​উ​প​ি​আ​ই প​ি​ন প​া​ঠ​া​ব​ে​ন ন​া​।"
+    },
+    {
+      "id": "bn-credentials-benign-word-joiner",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "word-joiner",
+      "text": "কাউকে⁠ কখনও⁠ আপনার⁠ ওটিপি⁠ বা⁠ ইউপিআই⁠ পিন⁠ পাঠাবেন⁠ না।"
+    },
+    {
+      "id": "bn-credentials-benign-markdown",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "markdown",
+      "text": "**কাউকে কখনও আপনার ওটিপি বা ইউপিআই পিন পাঠাবেন না।**"
+    },
+    {
+      "id": "bn-credentials-benign-blockquote",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "blockquote",
+      "text": "> কাউকে কখনও আপনার ওটিপি বা ইউপিআই পিন পাঠাবেন না।"
+    },
+    {
+      "id": "bn-credentials-benign-curly-quotes",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "curly-quotes",
+      "text": "“কাউকে কখনও আপনার ওটিপি বা ইউপিআই পিন পাঠাবেন না।”"
+    },
+    {
+      "id": "bn-credentials-benign-emoji",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "emoji",
+      "text": "📩 কাউকে কখনও আপনার ওটিপি বা ইউপিআই পিন পাঠাবেন না। 📩"
+    },
+    {
+      "id": "bn-credentials-benign-leading-benign",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. কাউকে কখনও আপনার ওটিপি বা ইউপিআই পিন পাঠাবেন না।"
+    },
+    {
+      "id": "bn-credentials-benign-trailing-benign",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "trailing-benign",
+      "text": "কাউকে কখনও আপনার ওটিপি বা ইউপিআই পিন পাঠাবেন না। The meeting is tomorrow at noon."
+    },
+    {
+      "id": "bn-credentials-benign-html-text",
+      "language": "bn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "html-text",
+      "text": "<p>কাউকে কখনও আপনার ওটিপি বা ইউপিআই পিন পাঠাবেন না।</p>"
+    },
+    {
+      "id": "hi-Latn-credentials-attention-plain",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "plain",
+      "text": "Apna OTP aur UPI PIN mujhe bhejo, main bank account verify karunga."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-upper",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "upper",
+      "text": "APNA OTP AUR UPI PIN MUJHE BHEJO, MAIN BANK ACCOUNT VERIFY KARUNGA."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-lower",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "lower",
+      "text": "apna otp aur upi pin mujhe bhejo, main bank account verify karunga."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-double-space",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "double-space",
+      "text": "Apna  OTP  aur  UPI  PIN  mujhe  bhejo,  main  bank  account  verify  karunga."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-nbsp",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "nbsp",
+      "text": "Apna OTP aur UPI PIN mujhe bhejo, main bank account verify karunga."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-narrow-space",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "narrow-space",
+      "text": "Apna OTP aur UPI PIN mujhe bhejo, main bank account verify karunga."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-tabs",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "tabs",
+      "text": "Apna\tOTP\taur\tUPI\tPIN\tmujhe\tbhejo,\tmain\tbank\taccount\tverify\tkarunga."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-line-wrap",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "line-wrap",
+      "text": "Apna\nOTP\naur\nUPI\nPIN\nmujhe\nbhejo,\nmain\nbank\naccount\nverify\nkarunga."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-zero-width-space",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "zero-width-space",
+      "text": "A​p​n​a O​T​P a​u​r U​P​I P​I​N m​u​j​h​e b​h​e​j​o, m​a​i​n b​a​n​k a​c​c​o​u​n​t v​e​r​i​f​y k​a​r​u​n​g​a."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-word-joiner",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "word-joiner",
+      "text": "Apna⁠ OTP⁠ aur⁠ UPI⁠ PIN⁠ mujhe⁠ bhejo,⁠ main⁠ bank⁠ account⁠ verify⁠ karunga."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-markdown",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "markdown",
+      "text": "**Apna OTP aur UPI PIN mujhe bhejo, main bank account verify karunga.**"
+    },
+    {
+      "id": "hi-Latn-credentials-attention-blockquote",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "blockquote",
+      "text": "> Apna OTP aur UPI PIN mujhe bhejo, main bank account verify karunga."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-curly-quotes",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "curly-quotes",
+      "text": "“Apna OTP aur UPI PIN mujhe bhejo, main bank account verify karunga.”"
+    },
+    {
+      "id": "hi-Latn-credentials-attention-emoji",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "emoji",
+      "text": "📩 Apna OTP aur UPI PIN mujhe bhejo, main bank account verify karunga. 📩"
+    },
+    {
+      "id": "hi-Latn-credentials-attention-leading-benign",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. Apna OTP aur UPI PIN mujhe bhejo, main bank account verify karunga."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-trailing-benign",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "trailing-benign",
+      "text": "Apna OTP aur UPI PIN mujhe bhejo, main bank account verify karunga. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "hi-Latn-credentials-attention-html-text",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "html-text",
+      "text": "<p>Apna OTP aur UPI PIN mujhe bhejo, main bank account verify karunga.</p>"
+    },
+    {
+      "id": "hi-Latn-credentials-benign-plain",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "plain",
+      "text": "Apna OTP ya UPI PIN kabhi kisi ko mat bhejo."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-upper",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "upper",
+      "text": "APNA OTP YA UPI PIN KABHI KISI KO MAT BHEJO."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-lower",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "lower",
+      "text": "apna otp ya upi pin kabhi kisi ko mat bhejo."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-double-space",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "double-space",
+      "text": "Apna  OTP  ya  UPI  PIN  kabhi  kisi  ko  mat  bhejo."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-nbsp",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "nbsp",
+      "text": "Apna OTP ya UPI PIN kabhi kisi ko mat bhejo."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-narrow-space",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "narrow-space",
+      "text": "Apna OTP ya UPI PIN kabhi kisi ko mat bhejo."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-tabs",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "tabs",
+      "text": "Apna\tOTP\tya\tUPI\tPIN\tkabhi\tkisi\tko\tmat\tbhejo."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-line-wrap",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "line-wrap",
+      "text": "Apna\nOTP\nya\nUPI\nPIN\nkabhi\nkisi\nko\nmat\nbhejo."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-zero-width-space",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "zero-width-space",
+      "text": "A​p​n​a O​T​P y​a U​P​I P​I​N k​a​b​h​i k​i​s​i k​o m​a​t b​h​e​j​o."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-word-joiner",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "word-joiner",
+      "text": "Apna⁠ OTP⁠ ya⁠ UPI⁠ PIN⁠ kabhi⁠ kisi⁠ ko⁠ mat⁠ bhejo."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-markdown",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "markdown",
+      "text": "**Apna OTP ya UPI PIN kabhi kisi ko mat bhejo.**"
+    },
+    {
+      "id": "hi-Latn-credentials-benign-blockquote",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "blockquote",
+      "text": "> Apna OTP ya UPI PIN kabhi kisi ko mat bhejo."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-curly-quotes",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "curly-quotes",
+      "text": "“Apna OTP ya UPI PIN kabhi kisi ko mat bhejo.”"
+    },
+    {
+      "id": "hi-Latn-credentials-benign-emoji",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "emoji",
+      "text": "📩 Apna OTP ya UPI PIN kabhi kisi ko mat bhejo. 📩"
+    },
+    {
+      "id": "hi-Latn-credentials-benign-leading-benign",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. Apna OTP ya UPI PIN kabhi kisi ko mat bhejo."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-trailing-benign",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "trailing-benign",
+      "text": "Apna OTP ya UPI PIN kabhi kisi ko mat bhejo. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "hi-Latn-credentials-benign-html-text",
+      "language": "hi-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "html-text",
+      "text": "<p>Apna OTP ya UPI PIN kabhi kisi ko mat bhejo.</p>"
+    },
+    {
+      "id": "bn-Latn-credentials-attention-plain",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "plain",
+      "text": "Apnar OTP ar UPI PIN amake pathan, ami bank account verify korbo."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-upper",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "upper",
+      "text": "APNAR OTP AR UPI PIN AMAKE PATHAN, AMI BANK ACCOUNT VERIFY KORBO."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-lower",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "lower",
+      "text": "apnar otp ar upi pin amake pathan, ami bank account verify korbo."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-double-space",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "double-space",
+      "text": "Apnar  OTP  ar  UPI  PIN  amake  pathan,  ami  bank  account  verify  korbo."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-nbsp",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "nbsp",
+      "text": "Apnar OTP ar UPI PIN amake pathan, ami bank account verify korbo."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-narrow-space",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "narrow-space",
+      "text": "Apnar OTP ar UPI PIN amake pathan, ami bank account verify korbo."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-tabs",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "tabs",
+      "text": "Apnar\tOTP\tar\tUPI\tPIN\tamake\tpathan,\tami\tbank\taccount\tverify\tkorbo."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-line-wrap",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "line-wrap",
+      "text": "Apnar\nOTP\nar\nUPI\nPIN\namake\npathan,\nami\nbank\naccount\nverify\nkorbo."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-zero-width-space",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "zero-width-space",
+      "text": "A​p​n​a​r O​T​P a​r U​P​I P​I​N a​m​a​k​e p​a​t​h​a​n, a​m​i b​a​n​k a​c​c​o​u​n​t v​e​r​i​f​y k​o​r​b​o."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-word-joiner",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "word-joiner",
+      "text": "Apnar⁠ OTP⁠ ar⁠ UPI⁠ PIN⁠ amake⁠ pathan,⁠ ami⁠ bank⁠ account⁠ verify⁠ korbo."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-markdown",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "markdown",
+      "text": "**Apnar OTP ar UPI PIN amake pathan, ami bank account verify korbo.**"
+    },
+    {
+      "id": "bn-Latn-credentials-attention-blockquote",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "blockquote",
+      "text": "> Apnar OTP ar UPI PIN amake pathan, ami bank account verify korbo."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-curly-quotes",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "curly-quotes",
+      "text": "“Apnar OTP ar UPI PIN amake pathan, ami bank account verify korbo.”"
+    },
+    {
+      "id": "bn-Latn-credentials-attention-emoji",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "emoji",
+      "text": "📩 Apnar OTP ar UPI PIN amake pathan, ami bank account verify korbo. 📩"
+    },
+    {
+      "id": "bn-Latn-credentials-attention-leading-benign",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. Apnar OTP ar UPI PIN amake pathan, ami bank account verify korbo."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-trailing-benign",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "trailing-benign",
+      "text": "Apnar OTP ar UPI PIN amake pathan, ami bank account verify korbo. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "bn-Latn-credentials-attention-html-text",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "attention",
+      "variant": "html-text",
+      "text": "<p>Apnar OTP ar UPI PIN amake pathan, ami bank account verify korbo.</p>"
+    },
+    {
+      "id": "bn-Latn-credentials-benign-plain",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "plain",
+      "text": "Apnar OTP ba UPI PIN kauke kokhono pathaben na."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-upper",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "upper",
+      "text": "APNAR OTP BA UPI PIN KAUKE KOKHONO PATHABEN NA."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-lower",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "lower",
+      "text": "apnar otp ba upi pin kauke kokhono pathaben na."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-double-space",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "double-space",
+      "text": "Apnar  OTP  ba  UPI  PIN  kauke  kokhono  pathaben  na."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-nbsp",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "nbsp",
+      "text": "Apnar OTP ba UPI PIN kauke kokhono pathaben na."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-narrow-space",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "narrow-space",
+      "text": "Apnar OTP ba UPI PIN kauke kokhono pathaben na."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-tabs",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "tabs",
+      "text": "Apnar\tOTP\tba\tUPI\tPIN\tkauke\tkokhono\tpathaben\tna."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-line-wrap",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "line-wrap",
+      "text": "Apnar\nOTP\nba\nUPI\nPIN\nkauke\nkokhono\npathaben\nna."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-zero-width-space",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "zero-width-space",
+      "text": "A​p​n​a​r O​T​P b​a U​P​I P​I​N k​a​u​k​e k​o​k​h​o​n​o p​a​t​h​a​b​e​n n​a."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-word-joiner",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "word-joiner",
+      "text": "Apnar⁠ OTP⁠ ba⁠ UPI⁠ PIN⁠ kauke⁠ kokhono⁠ pathaben⁠ na."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-markdown",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "markdown",
+      "text": "**Apnar OTP ba UPI PIN kauke kokhono pathaben na.**"
+    },
+    {
+      "id": "bn-Latn-credentials-benign-blockquote",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "blockquote",
+      "text": "> Apnar OTP ba UPI PIN kauke kokhono pathaben na."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-curly-quotes",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "curly-quotes",
+      "text": "“Apnar OTP ba UPI PIN kauke kokhono pathaben na.”"
+    },
+    {
+      "id": "bn-Latn-credentials-benign-emoji",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "emoji",
+      "text": "📩 Apnar OTP ba UPI PIN kauke kokhono pathaben na. 📩"
+    },
+    {
+      "id": "bn-Latn-credentials-benign-leading-benign",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. Apnar OTP ba UPI PIN kauke kokhono pathaben na."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-trailing-benign",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "trailing-benign",
+      "text": "Apnar OTP ba UPI PIN kauke kokhono pathaben na. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "bn-Latn-credentials-benign-html-text",
+      "language": "bn-Latn",
+      "category": "credentials",
+      "group": "benign",
+      "variant": "html-text",
+      "text": "<p>Apnar OTP ba UPI PIN kauke kokhono pathaben na.</p>"
+    },
+    {
+      "id": "en-guarantee-attention-plain",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "plain",
+      "text": "We guarantee 5% daily returns without risk. Join our investment group."
+    },
+    {
+      "id": "en-guarantee-attention-upper",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "upper",
+      "text": "WE GUARANTEE 5% DAILY RETURNS WITHOUT RISK. JOIN OUR INVESTMENT GROUP."
+    },
+    {
+      "id": "en-guarantee-attention-lower",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "lower",
+      "text": "we guarantee 5% daily returns without risk. join our investment group."
+    },
+    {
+      "id": "en-guarantee-attention-double-space",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "double-space",
+      "text": "We  guarantee  5%  daily  returns  without  risk.  Join  our  investment  group."
+    },
+    {
+      "id": "en-guarantee-attention-nbsp",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "nbsp",
+      "text": "We guarantee 5% daily returns without risk. Join our investment group."
+    },
+    {
+      "id": "en-guarantee-attention-narrow-space",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "narrow-space",
+      "text": "We guarantee 5% daily returns without risk. Join our investment group."
+    },
+    {
+      "id": "en-guarantee-attention-tabs",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "tabs",
+      "text": "We\tguarantee\t5%\tdaily\treturns\twithout\trisk.\tJoin\tour\tinvestment\tgroup."
+    },
+    {
+      "id": "en-guarantee-attention-line-wrap",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "line-wrap",
+      "text": "We\nguarantee\n5%\ndaily\nreturns\nwithout\nrisk.\nJoin\nour\ninvestment\ngroup."
+    },
+    {
+      "id": "en-guarantee-attention-zero-width-space",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "zero-width-space",
+      "text": "W​e g​u​a​r​a​n​t​e​e 5% d​a​i​l​y r​e​t​u​r​n​s w​i​t​h​o​u​t r​i​s​k. J​o​i​n o​u​r i​n​v​e​s​t​m​e​n​t g​r​o​u​p."
+    },
+    {
+      "id": "en-guarantee-attention-word-joiner",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "word-joiner",
+      "text": "We⁠ guarantee⁠ 5%⁠ daily⁠ returns⁠ without⁠ risk.⁠ Join⁠ our⁠ investment⁠ group."
+    },
+    {
+      "id": "en-guarantee-attention-markdown",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "markdown",
+      "text": "**We guarantee 5% daily returns without risk. Join our investment group.**"
+    },
+    {
+      "id": "en-guarantee-attention-blockquote",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "blockquote",
+      "text": "> We guarantee 5% daily returns without risk. Join our investment group."
+    },
+    {
+      "id": "en-guarantee-attention-curly-quotes",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "curly-quotes",
+      "text": "“We guarantee 5% daily returns without risk. Join our investment group.”"
+    },
+    {
+      "id": "en-guarantee-attention-emoji",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "emoji",
+      "text": "📩 We guarantee 5% daily returns without risk. Join our investment group. 📩"
+    },
+    {
+      "id": "en-guarantee-attention-fullwidth-digits",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "fullwidth-digits",
+      "text": "We guarantee ５% daily returns without risk. Join our investment group."
+    },
+    {
+      "id": "en-guarantee-attention-bengali-digits",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "bengali-digits",
+      "text": "We guarantee ৫% daily returns without risk. Join our investment group."
+    },
+    {
+      "id": "en-guarantee-attention-hindi-digits",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "hindi-digits",
+      "text": "We guarantee ५% daily returns without risk. Join our investment group."
+    },
+    {
+      "id": "en-guarantee-attention-leading-benign",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. We guarantee 5% daily returns without risk. Join our investment group."
+    },
+    {
+      "id": "en-guarantee-attention-trailing-benign",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "trailing-benign",
+      "text": "We guarantee 5% daily returns without risk. Join our investment group. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "en-guarantee-attention-html-text",
+      "language": "en",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "html-text",
+      "text": "<p>We guarantee 5% daily returns without risk. Join our investment group.</p>"
+    },
+    {
+      "id": "en-guarantee-benign-plain",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "plain",
+      "text": "Beware of offers promising guaranteed daily returns; never transfer money to them."
+    },
+    {
+      "id": "en-guarantee-benign-upper",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "upper",
+      "text": "BEWARE OF OFFERS PROMISING GUARANTEED DAILY RETURNS; NEVER TRANSFER MONEY TO THEM."
+    },
+    {
+      "id": "en-guarantee-benign-lower",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "lower",
+      "text": "beware of offers promising guaranteed daily returns; never transfer money to them."
+    },
+    {
+      "id": "en-guarantee-benign-double-space",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "double-space",
+      "text": "Beware  of  offers  promising  guaranteed  daily  returns;  never  transfer  money  to  them."
+    },
+    {
+      "id": "en-guarantee-benign-nbsp",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "nbsp",
+      "text": "Beware of offers promising guaranteed daily returns; never transfer money to them."
+    },
+    {
+      "id": "en-guarantee-benign-narrow-space",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "narrow-space",
+      "text": "Beware of offers promising guaranteed daily returns; never transfer money to them."
+    },
+    {
+      "id": "en-guarantee-benign-tabs",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "tabs",
+      "text": "Beware\tof\toffers\tpromising\tguaranteed\tdaily\treturns;\tnever\ttransfer\tmoney\tto\tthem."
+    },
+    {
+      "id": "en-guarantee-benign-line-wrap",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "line-wrap",
+      "text": "Beware\nof\noffers\npromising\nguaranteed\ndaily\nreturns;\nnever\ntransfer\nmoney\nto\nthem."
+    },
+    {
+      "id": "en-guarantee-benign-zero-width-space",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "zero-width-space",
+      "text": "B​e​w​a​r​e o​f o​f​f​e​r​s p​r​o​m​i​s​i​n​g g​u​a​r​a​n​t​e​e​d d​a​i​l​y r​e​t​u​r​n​s; n​e​v​e​r t​r​a​n​s​f​e​r m​o​n​e​y t​o t​h​e​m."
+    },
+    {
+      "id": "en-guarantee-benign-word-joiner",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "word-joiner",
+      "text": "Beware⁠ of⁠ offers⁠ promising⁠ guaranteed⁠ daily⁠ returns;⁠ never⁠ transfer⁠ money⁠ to⁠ them."
+    },
+    {
+      "id": "en-guarantee-benign-markdown",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "markdown",
+      "text": "**Beware of offers promising guaranteed daily returns; never transfer money to them.**"
+    },
+    {
+      "id": "en-guarantee-benign-blockquote",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "blockquote",
+      "text": "> Beware of offers promising guaranteed daily returns; never transfer money to them."
+    },
+    {
+      "id": "en-guarantee-benign-curly-quotes",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "curly-quotes",
+      "text": "“Beware of offers promising guaranteed daily returns; never transfer money to them.”"
+    },
+    {
+      "id": "en-guarantee-benign-emoji",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "emoji",
+      "text": "📩 Beware of offers promising guaranteed daily returns; never transfer money to them. 📩"
+    },
+    {
+      "id": "en-guarantee-benign-leading-benign",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. Beware of offers promising guaranteed daily returns; never transfer money to them."
+    },
+    {
+      "id": "en-guarantee-benign-trailing-benign",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "trailing-benign",
+      "text": "Beware of offers promising guaranteed daily returns; never transfer money to them. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "en-guarantee-benign-html-text",
+      "language": "en",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "html-text",
+      "text": "<p>Beware of offers promising guaranteed daily returns; never transfer money to them.</p>"
+    },
+    {
+      "id": "hi-guarantee-attention-plain",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "plain",
+      "text": "हमारे निवेश में रोज़ ५% रिटर्न की गारंटी है, कोई जोखिम नहीं।"
+    },
+    {
+      "id": "hi-guarantee-attention-double-space",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "double-space",
+      "text": "हमारे  निवेश  में  रोज़  ५%  रिटर्न  की  गारंटी  है,  कोई  जोखिम  नहीं।"
+    },
+    {
+      "id": "hi-guarantee-attention-nbsp",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "nbsp",
+      "text": "हमारे निवेश में रोज़ ५% रिटर्न की गारंटी है, कोई जोखिम नहीं।"
+    },
+    {
+      "id": "hi-guarantee-attention-narrow-space",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "narrow-space",
+      "text": "हमारे निवेश में रोज़ ५% रिटर्न की गारंटी है, कोई जोखिम नहीं।"
+    },
+    {
+      "id": "hi-guarantee-attention-tabs",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "tabs",
+      "text": "हमारे\tनिवेश\tमें\tरोज़\t५%\tरिटर्न\tकी\tगारंटी\tहै,\tकोई\tजोखिम\tनहीं।"
+    },
+    {
+      "id": "hi-guarantee-attention-line-wrap",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "line-wrap",
+      "text": "हमारे\nनिवेश\nमें\nरोज़\n५%\nरिटर्न\nकी\nगारंटी\nहै,\nकोई\nजोखिम\nनहीं।"
+    },
+    {
+      "id": "hi-guarantee-attention-zero-width-space",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "zero-width-space",
+      "text": "ह​म​ा​र​े न​ि​व​े​श म​े​ं र​ो​ज​़ ५% र​ि​ट​र​्​न क​ी ग​ा​र​ं​ट​ी ह​ै, क​ो​ई ज​ो​ख​ि​म न​ह​ी​ं​।"
+    },
+    {
+      "id": "hi-guarantee-attention-word-joiner",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "word-joiner",
+      "text": "हमारे⁠ निवेश⁠ में⁠ रोज़⁠ ५%⁠ रिटर्न⁠ की⁠ गारंटी⁠ है,⁠ कोई⁠ जोखिम⁠ नहीं।"
+    },
+    {
+      "id": "hi-guarantee-attention-markdown",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "markdown",
+      "text": "**हमारे निवेश में रोज़ ५% रिटर्न की गारंटी है, कोई जोखिम नहीं।**"
+    },
+    {
+      "id": "hi-guarantee-attention-blockquote",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "blockquote",
+      "text": "> हमारे निवेश में रोज़ ५% रिटर्न की गारंटी है, कोई जोखिम नहीं।"
+    },
+    {
+      "id": "hi-guarantee-attention-curly-quotes",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "curly-quotes",
+      "text": "“हमारे निवेश में रोज़ ५% रिटर्न की गारंटी है, कोई जोखिम नहीं।”"
+    },
+    {
+      "id": "hi-guarantee-attention-emoji",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "emoji",
+      "text": "📩 हमारे निवेश में रोज़ ५% रिटर्न की गारंटी है, कोई जोखिम नहीं। 📩"
+    },
+    {
+      "id": "hi-guarantee-attention-leading-benign",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. हमारे निवेश में रोज़ ५% रिटर्न की गारंटी है, कोई जोखिम नहीं।"
+    },
+    {
+      "id": "hi-guarantee-attention-trailing-benign",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "trailing-benign",
+      "text": "हमारे निवेश में रोज़ ५% रिटर्न की गारंटी है, कोई जोखिम नहीं। The meeting is tomorrow at noon."
+    },
+    {
+      "id": "hi-guarantee-attention-html-text",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "html-text",
+      "text": "<p>हमारे निवेश में रोज़ ५% रिटर्न की गारंटी है, कोई जोखिम नहीं।</p>"
+    },
+    {
+      "id": "hi-guarantee-benign-plain",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "plain",
+      "text": "गारंटीड रिटर्न के वादों से सावधान रहें; ऐसे दावों पर भरोसा न करें।"
+    },
+    {
+      "id": "hi-guarantee-benign-double-space",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "double-space",
+      "text": "गारंटीड  रिटर्न  के  वादों  से  सावधान  रहें;  ऐसे  दावों  पर  भरोसा  न  करें।"
+    },
+    {
+      "id": "hi-guarantee-benign-nbsp",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "nbsp",
+      "text": "गारंटीड रिटर्न के वादों से सावधान रहें; ऐसे दावों पर भरोसा न करें।"
+    },
+    {
+      "id": "hi-guarantee-benign-narrow-space",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "narrow-space",
+      "text": "गारंटीड रिटर्न के वादों से सावधान रहें; ऐसे दावों पर भरोसा न करें।"
+    },
+    {
+      "id": "hi-guarantee-benign-tabs",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "tabs",
+      "text": "गारंटीड\tरिटर्न\tके\tवादों\tसे\tसावधान\tरहें;\tऐसे\tदावों\tपर\tभरोसा\tन\tकरें।"
+    },
+    {
+      "id": "hi-guarantee-benign-line-wrap",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "line-wrap",
+      "text": "गारंटीड\nरिटर्न\nके\nवादों\nसे\nसावधान\nरहें;\nऐसे\nदावों\nपर\nभरोसा\nन\nकरें।"
+    },
+    {
+      "id": "hi-guarantee-benign-zero-width-space",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "zero-width-space",
+      "text": "ग​ा​र​ं​ट​ी​ड र​ि​ट​र​्​न क​े व​ा​द​ो​ं स​े स​ा​व​ध​ा​न र​ह​े​ं; ऐ​स​े द​ा​व​ो​ं प​र भ​र​ो​स​ा न क​र​े​ं​।"
+    },
+    {
+      "id": "hi-guarantee-benign-word-joiner",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "word-joiner",
+      "text": "गारंटीड⁠ रिटर्न⁠ के⁠ वादों⁠ से⁠ सावधान⁠ रहें;⁠ ऐसे⁠ दावों⁠ पर⁠ भरोसा⁠ न⁠ करें।"
+    },
+    {
+      "id": "hi-guarantee-benign-markdown",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "markdown",
+      "text": "**गारंटीड रिटर्न के वादों से सावधान रहें; ऐसे दावों पर भरोसा न करें।**"
+    },
+    {
+      "id": "hi-guarantee-benign-blockquote",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "blockquote",
+      "text": "> गारंटीड रिटर्न के वादों से सावधान रहें; ऐसे दावों पर भरोसा न करें।"
+    },
+    {
+      "id": "hi-guarantee-benign-curly-quotes",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "curly-quotes",
+      "text": "“गारंटीड रिटर्न के वादों से सावधान रहें; ऐसे दावों पर भरोसा न करें।”"
+    },
+    {
+      "id": "hi-guarantee-benign-emoji",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "emoji",
+      "text": "📩 गारंटीड रिटर्न के वादों से सावधान रहें; ऐसे दावों पर भरोसा न करें। 📩"
+    },
+    {
+      "id": "hi-guarantee-benign-leading-benign",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. गारंटीड रिटर्न के वादों से सावधान रहें; ऐसे दावों पर भरोसा न करें।"
+    },
+    {
+      "id": "hi-guarantee-benign-trailing-benign",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "trailing-benign",
+      "text": "गारंटीड रिटर्न के वादों से सावधान रहें; ऐसे दावों पर भरोसा न करें। The meeting is tomorrow at noon."
+    },
+    {
+      "id": "hi-guarantee-benign-html-text",
+      "language": "hi",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "html-text",
+      "text": "<p>गारंटीड रिटर्न के वादों से सावधान रहें; ऐसे दावों पर भरोसा न करें।</p>"
+    },
+    {
+      "id": "bn-guarantee-attention-plain",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "plain",
+      "text": "আমাদের বিনিয়োগে প্রতিদিন ৫% লাভের গ্যারান্টি, কোনও ঝুঁকি নেই।"
+    },
+    {
+      "id": "bn-guarantee-attention-double-space",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "double-space",
+      "text": "আমাদের  বিনিয়োগে  প্রতিদিন  ৫%  লাভের  গ্যারান্টি,  কোনও  ঝুঁকি  নেই।"
+    },
+    {
+      "id": "bn-guarantee-attention-nbsp",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "nbsp",
+      "text": "আমাদের বিনিয়োগে প্রতিদিন ৫% লাভের গ্যারান্টি, কোনও ঝুঁকি নেই।"
+    },
+    {
+      "id": "bn-guarantee-attention-narrow-space",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "narrow-space",
+      "text": "আমাদের বিনিয়োগে প্রতিদিন ৫% লাভের গ্যারান্টি, কোনও ঝুঁকি নেই।"
+    },
+    {
+      "id": "bn-guarantee-attention-tabs",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "tabs",
+      "text": "আমাদের\tবিনিয়োগে\tপ্রতিদিন\t৫%\tলাভের\tগ্যারান্টি,\tকোনও\tঝুঁকি\tনেই।"
+    },
+    {
+      "id": "bn-guarantee-attention-line-wrap",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "line-wrap",
+      "text": "আমাদের\nবিনিয়োগে\nপ্রতিদিন\n৫%\nলাভের\nগ্যারান্টি,\nকোনও\nঝুঁকি\nনেই।"
+    },
+    {
+      "id": "bn-guarantee-attention-zero-width-space",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "zero-width-space",
+      "text": "আ​ম​া​দ​ে​র ব​ি​ন​ি​য​়​ো​গ​ে প​্​র​ত​ি​দ​ি​ন ৫% ল​া​ভ​ে​র গ​্​য​া​র​া​ন​্​ট​ি, ক​ো​ন​ও ঝ​ু​ঁ​ক​ি ন​ে​ই​।"
+    },
+    {
+      "id": "bn-guarantee-attention-word-joiner",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "word-joiner",
+      "text": "আমাদের⁠ বিনিয়োগে⁠ প্রতিদিন⁠ ৫%⁠ লাভের⁠ গ্যারান্টি,⁠ কোনও⁠ ঝুঁকি⁠ নেই।"
+    },
+    {
+      "id": "bn-guarantee-attention-markdown",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "markdown",
+      "text": "**আমাদের বিনিয়োগে প্রতিদিন ৫% লাভের গ্যারান্টি, কোনও ঝুঁকি নেই।**"
+    },
+    {
+      "id": "bn-guarantee-attention-blockquote",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "blockquote",
+      "text": "> আমাদের বিনিয়োগে প্রতিদিন ৫% লাভের গ্যারান্টি, কোনও ঝুঁকি নেই।"
+    },
+    {
+      "id": "bn-guarantee-attention-curly-quotes",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "curly-quotes",
+      "text": "“আমাদের বিনিয়োগে প্রতিদিন ৫% লাভের গ্যারান্টি, কোনও ঝুঁকি নেই।”"
+    },
+    {
+      "id": "bn-guarantee-attention-emoji",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "emoji",
+      "text": "📩 আমাদের বিনিয়োগে প্রতিদিন ৫% লাভের গ্যারান্টি, কোনও ঝুঁকি নেই। 📩"
+    },
+    {
+      "id": "bn-guarantee-attention-leading-benign",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. আমাদের বিনিয়োগে প্রতিদিন ৫% লাভের গ্যারান্টি, কোনও ঝুঁকি নেই।"
+    },
+    {
+      "id": "bn-guarantee-attention-trailing-benign",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "trailing-benign",
+      "text": "আমাদের বিনিয়োগে প্রতিদিন ৫% লাভের গ্যারান্টি, কোনও ঝুঁকি নেই। The meeting is tomorrow at noon."
+    },
+    {
+      "id": "bn-guarantee-attention-html-text",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "html-text",
+      "text": "<p>আমাদের বিনিয়োগে প্রতিদিন ৫% লাভের গ্যারান্টি, কোনও ঝুঁকি নেই।</p>"
+    },
+    {
+      "id": "bn-guarantee-benign-plain",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "plain",
+      "text": "গ্যারান্টিযুক্ত লাভের প্রতিশ্রুতি থেকে সাবধান; এমন দাবি বিশ্বাস করবেন না।"
+    },
+    {
+      "id": "bn-guarantee-benign-double-space",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "double-space",
+      "text": "গ্যারান্টিযুক্ত  লাভের  প্রতিশ্রুতি  থেকে  সাবধান;  এমন  দাবি  বিশ্বাস  করবেন  না।"
+    },
+    {
+      "id": "bn-guarantee-benign-nbsp",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "nbsp",
+      "text": "গ্যারান্টিযুক্ত লাভের প্রতিশ্রুতি থেকে সাবধান; এমন দাবি বিশ্বাস করবেন না।"
+    },
+    {
+      "id": "bn-guarantee-benign-narrow-space",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "narrow-space",
+      "text": "গ্যারান্টিযুক্ত লাভের প্রতিশ্রুতি থেকে সাবধান; এমন দাবি বিশ্বাস করবেন না।"
+    },
+    {
+      "id": "bn-guarantee-benign-tabs",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "tabs",
+      "text": "গ্যারান্টিযুক্ত\tলাভের\tপ্রতিশ্রুতি\tথেকে\tসাবধান;\tএমন\tদাবি\tবিশ্বাস\tকরবেন\tনা।"
+    },
+    {
+      "id": "bn-guarantee-benign-line-wrap",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "line-wrap",
+      "text": "গ্যারান্টিযুক্ত\nলাভের\nপ্রতিশ্রুতি\nথেকে\nসাবধান;\nএমন\nদাবি\nবিশ্বাস\nকরবেন\nনা।"
+    },
+    {
+      "id": "bn-guarantee-benign-zero-width-space",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "zero-width-space",
+      "text": "গ​্​য​া​র​া​ন​্​ট​ি​য​ু​ক​্​ত ল​া​ভ​ে​র প​্​র​ত​ি​শ​্​র​ু​ত​ি থ​ে​ক​ে স​া​ব​ধ​া​ন; এ​ম​ন দ​া​ব​ি ব​ি​শ​্​ব​া​স ক​র​ব​ে​ন ন​া​।"
+    },
+    {
+      "id": "bn-guarantee-benign-word-joiner",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "word-joiner",
+      "text": "গ্যারান্টিযুক্ত⁠ লাভের⁠ প্রতিশ্রুতি⁠ থেকে⁠ সাবধান;⁠ এমন⁠ দাবি⁠ বিশ্বাস⁠ করবেন⁠ না।"
+    },
+    {
+      "id": "bn-guarantee-benign-markdown",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "markdown",
+      "text": "**গ্যারান্টিযুক্ত লাভের প্রতিশ্রুতি থেকে সাবধান; এমন দাবি বিশ্বাস করবেন না।**"
+    },
+    {
+      "id": "bn-guarantee-benign-blockquote",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "blockquote",
+      "text": "> গ্যারান্টিযুক্ত লাভের প্রতিশ্রুতি থেকে সাবধান; এমন দাবি বিশ্বাস করবেন না।"
+    },
+    {
+      "id": "bn-guarantee-benign-curly-quotes",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "curly-quotes",
+      "text": "“গ্যারান্টিযুক্ত লাভের প্রতিশ্রুতি থেকে সাবধান; এমন দাবি বিশ্বাস করবেন না।”"
+    },
+    {
+      "id": "bn-guarantee-benign-emoji",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "emoji",
+      "text": "📩 গ্যারান্টিযুক্ত লাভের প্রতিশ্রুতি থেকে সাবধান; এমন দাবি বিশ্বাস করবেন না। 📩"
+    },
+    {
+      "id": "bn-guarantee-benign-leading-benign",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. গ্যারান্টিযুক্ত লাভের প্রতিশ্রুতি থেকে সাবধান; এমন দাবি বিশ্বাস করবেন না।"
+    },
+    {
+      "id": "bn-guarantee-benign-trailing-benign",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "trailing-benign",
+      "text": "গ্যারান্টিযুক্ত লাভের প্রতিশ্রুতি থেকে সাবধান; এমন দাবি বিশ্বাস করবেন না। The meeting is tomorrow at noon."
+    },
+    {
+      "id": "bn-guarantee-benign-html-text",
+      "language": "bn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "html-text",
+      "text": "<p>গ্যারান্টিযুক্ত লাভের প্রতিশ্রুতি থেকে সাবধান; এমন দাবি বিশ্বাস করবেন না।</p>"
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-plain",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "plain",
+      "text": "Hamare investment mein roz 5% return guaranteed hai, koi risk nahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-upper",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "upper",
+      "text": "HAMARE INVESTMENT MEIN ROZ 5% RETURN GUARANTEED HAI, KOI RISK NAHI."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-lower",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "lower",
+      "text": "hamare investment mein roz 5% return guaranteed hai, koi risk nahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-double-space",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "double-space",
+      "text": "Hamare  investment  mein  roz  5%  return  guaranteed  hai,  koi  risk  nahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-nbsp",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "nbsp",
+      "text": "Hamare investment mein roz 5% return guaranteed hai, koi risk nahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-narrow-space",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "narrow-space",
+      "text": "Hamare investment mein roz 5% return guaranteed hai, koi risk nahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-tabs",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "tabs",
+      "text": "Hamare\tinvestment\tmein\troz\t5%\treturn\tguaranteed\thai,\tkoi\trisk\tnahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-line-wrap",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "line-wrap",
+      "text": "Hamare\ninvestment\nmein\nroz\n5%\nreturn\nguaranteed\nhai,\nkoi\nrisk\nnahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-zero-width-space",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "zero-width-space",
+      "text": "H​a​m​a​r​e i​n​v​e​s​t​m​e​n​t m​e​i​n r​o​z 5% r​e​t​u​r​n g​u​a​r​a​n​t​e​e​d h​a​i, k​o​i r​i​s​k n​a​h​i."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-word-joiner",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "word-joiner",
+      "text": "Hamare⁠ investment⁠ mein⁠ roz⁠ 5%⁠ return⁠ guaranteed⁠ hai,⁠ koi⁠ risk⁠ nahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-markdown",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "markdown",
+      "text": "**Hamare investment mein roz 5% return guaranteed hai, koi risk nahi.**"
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-blockquote",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "blockquote",
+      "text": "> Hamare investment mein roz 5% return guaranteed hai, koi risk nahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-curly-quotes",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "curly-quotes",
+      "text": "“Hamare investment mein roz 5% return guaranteed hai, koi risk nahi.”"
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-emoji",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "emoji",
+      "text": "📩 Hamare investment mein roz 5% return guaranteed hai, koi risk nahi. 📩"
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-fullwidth-digits",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "fullwidth-digits",
+      "text": "Hamare investment mein roz ５% return guaranteed hai, koi risk nahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-bengali-digits",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "bengali-digits",
+      "text": "Hamare investment mein roz ৫% return guaranteed hai, koi risk nahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-hindi-digits",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "hindi-digits",
+      "text": "Hamare investment mein roz ५% return guaranteed hai, koi risk nahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-leading-benign",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. Hamare investment mein roz 5% return guaranteed hai, koi risk nahi."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-trailing-benign",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "trailing-benign",
+      "text": "Hamare investment mein roz 5% return guaranteed hai, koi risk nahi. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "hi-Latn-guarantee-attention-html-text",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "html-text",
+      "text": "<p>Hamare investment mein roz 5% return guaranteed hai, koi risk nahi.</p>"
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-plain",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "plain",
+      "text": "Guaranteed return ke vaadon se savdhan raho; in par bharosa mat karo."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-upper",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "upper",
+      "text": "GUARANTEED RETURN KE VAADON SE SAVDHAN RAHO; IN PAR BHAROSA MAT KARO."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-lower",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "lower",
+      "text": "guaranteed return ke vaadon se savdhan raho; in par bharosa mat karo."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-double-space",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "double-space",
+      "text": "Guaranteed  return  ke  vaadon  se  savdhan  raho;  in  par  bharosa  mat  karo."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-nbsp",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "nbsp",
+      "text": "Guaranteed return ke vaadon se savdhan raho; in par bharosa mat karo."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-narrow-space",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "narrow-space",
+      "text": "Guaranteed return ke vaadon se savdhan raho; in par bharosa mat karo."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-tabs",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "tabs",
+      "text": "Guaranteed\treturn\tke\tvaadon\tse\tsavdhan\traho;\tin\tpar\tbharosa\tmat\tkaro."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-line-wrap",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "line-wrap",
+      "text": "Guaranteed\nreturn\nke\nvaadon\nse\nsavdhan\nraho;\nin\npar\nbharosa\nmat\nkaro."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-zero-width-space",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "zero-width-space",
+      "text": "G​u​a​r​a​n​t​e​e​d r​e​t​u​r​n k​e v​a​a​d​o​n s​e s​a​v​d​h​a​n r​a​h​o; i​n p​a​r b​h​a​r​o​s​a m​a​t k​a​r​o."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-word-joiner",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "word-joiner",
+      "text": "Guaranteed⁠ return⁠ ke⁠ vaadon⁠ se⁠ savdhan⁠ raho;⁠ in⁠ par⁠ bharosa⁠ mat⁠ karo."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-markdown",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "markdown",
+      "text": "**Guaranteed return ke vaadon se savdhan raho; in par bharosa mat karo.**"
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-blockquote",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "blockquote",
+      "text": "> Guaranteed return ke vaadon se savdhan raho; in par bharosa mat karo."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-curly-quotes",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "curly-quotes",
+      "text": "“Guaranteed return ke vaadon se savdhan raho; in par bharosa mat karo.”"
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-emoji",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "emoji",
+      "text": "📩 Guaranteed return ke vaadon se savdhan raho; in par bharosa mat karo. 📩"
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-leading-benign",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. Guaranteed return ke vaadon se savdhan raho; in par bharosa mat karo."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-trailing-benign",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "trailing-benign",
+      "text": "Guaranteed return ke vaadon se savdhan raho; in par bharosa mat karo. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "hi-Latn-guarantee-benign-html-text",
+      "language": "hi-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "html-text",
+      "text": "<p>Guaranteed return ke vaadon se savdhan raho; in par bharosa mat karo.</p>"
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-plain",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "plain",
+      "text": "Amader investment e protidin 5% return guaranteed, kono jhuki nei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-upper",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "upper",
+      "text": "AMADER INVESTMENT E PROTIDIN 5% RETURN GUARANTEED, KONO JHUKI NEI."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-lower",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "lower",
+      "text": "amader investment e protidin 5% return guaranteed, kono jhuki nei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-double-space",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "double-space",
+      "text": "Amader  investment  e  protidin  5%  return  guaranteed,  kono  jhuki  nei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-nbsp",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "nbsp",
+      "text": "Amader investment e protidin 5% return guaranteed, kono jhuki nei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-narrow-space",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "narrow-space",
+      "text": "Amader investment e protidin 5% return guaranteed, kono jhuki nei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-tabs",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "tabs",
+      "text": "Amader\tinvestment\te\tprotidin\t5%\treturn\tguaranteed,\tkono\tjhuki\tnei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-line-wrap",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "line-wrap",
+      "text": "Amader\ninvestment\ne\nprotidin\n5%\nreturn\nguaranteed,\nkono\njhuki\nnei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-zero-width-space",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "zero-width-space",
+      "text": "A​m​a​d​e​r i​n​v​e​s​t​m​e​n​t e p​r​o​t​i​d​i​n 5% r​e​t​u​r​n g​u​a​r​a​n​t​e​e​d, k​o​n​o j​h​u​k​i n​e​i."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-word-joiner",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "word-joiner",
+      "text": "Amader⁠ investment⁠ e⁠ protidin⁠ 5%⁠ return⁠ guaranteed,⁠ kono⁠ jhuki⁠ nei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-markdown",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "markdown",
+      "text": "**Amader investment e protidin 5% return guaranteed, kono jhuki nei.**"
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-blockquote",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "blockquote",
+      "text": "> Amader investment e protidin 5% return guaranteed, kono jhuki nei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-curly-quotes",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "curly-quotes",
+      "text": "“Amader investment e protidin 5% return guaranteed, kono jhuki nei.”"
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-emoji",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "emoji",
+      "text": "📩 Amader investment e protidin 5% return guaranteed, kono jhuki nei. 📩"
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-fullwidth-digits",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "fullwidth-digits",
+      "text": "Amader investment e protidin ５% return guaranteed, kono jhuki nei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-bengali-digits",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "bengali-digits",
+      "text": "Amader investment e protidin ৫% return guaranteed, kono jhuki nei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-hindi-digits",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "hindi-digits",
+      "text": "Amader investment e protidin ५% return guaranteed, kono jhuki nei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-leading-benign",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. Amader investment e protidin 5% return guaranteed, kono jhuki nei."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-trailing-benign",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "trailing-benign",
+      "text": "Amader investment e protidin 5% return guaranteed, kono jhuki nei. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "bn-Latn-guarantee-attention-html-text",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "attention",
+      "variant": "html-text",
+      "text": "<p>Amader investment e protidin 5% return guaranteed, kono jhuki nei.</p>"
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-plain",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "plain",
+      "text": "Guaranteed return er protishruti theke sabdhan; egulo biswas korben na."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-upper",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "upper",
+      "text": "GUARANTEED RETURN ER PROTISHRUTI THEKE SABDHAN; EGULO BISWAS KORBEN NA."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-lower",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "lower",
+      "text": "guaranteed return er protishruti theke sabdhan; egulo biswas korben na."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-double-space",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "double-space",
+      "text": "Guaranteed  return  er  protishruti  theke  sabdhan;  egulo  biswas  korben  na."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-nbsp",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "nbsp",
+      "text": "Guaranteed return er protishruti theke sabdhan; egulo biswas korben na."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-narrow-space",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "narrow-space",
+      "text": "Guaranteed return er protishruti theke sabdhan; egulo biswas korben na."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-tabs",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "tabs",
+      "text": "Guaranteed\treturn\ter\tprotishruti\ttheke\tsabdhan;\tegulo\tbiswas\tkorben\tna."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-line-wrap",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "line-wrap",
+      "text": "Guaranteed\nreturn\ner\nprotishruti\ntheke\nsabdhan;\negulo\nbiswas\nkorben\nna."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-zero-width-space",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "zero-width-space",
+      "text": "G​u​a​r​a​n​t​e​e​d r​e​t​u​r​n e​r p​r​o​t​i​s​h​r​u​t​i t​h​e​k​e s​a​b​d​h​a​n; e​g​u​l​o b​i​s​w​a​s k​o​r​b​e​n n​a."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-word-joiner",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "word-joiner",
+      "text": "Guaranteed⁠ return⁠ er⁠ protishruti⁠ theke⁠ sabdhan;⁠ egulo⁠ biswas⁠ korben⁠ na."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-markdown",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "markdown",
+      "text": "**Guaranteed return er protishruti theke sabdhan; egulo biswas korben na.**"
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-blockquote",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "blockquote",
+      "text": "> Guaranteed return er protishruti theke sabdhan; egulo biswas korben na."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-curly-quotes",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "curly-quotes",
+      "text": "“Guaranteed return er protishruti theke sabdhan; egulo biswas korben na.”"
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-emoji",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "emoji",
+      "text": "📩 Guaranteed return er protishruti theke sabdhan; egulo biswas korben na. 📩"
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-leading-benign",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "leading-benign",
+      "text": "This is a message for discussion. Guaranteed return er protishruti theke sabdhan; egulo biswas korben na."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-trailing-benign",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "trailing-benign",
+      "text": "Guaranteed return er protishruti theke sabdhan; egulo biswas korben na. The meeting is tomorrow at noon."
+    },
+    {
+      "id": "bn-Latn-guarantee-benign-html-text",
+      "language": "bn-Latn",
+      "category": "guarantee",
+      "group": "benign",
+      "variant": "html-text",
+      "text": "<p>Guaranteed return er protishruti theke sabdhan; egulo biswas korben na.</p>"
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "schemaVersion": 1,
+  "phase": "unchanged-engine-development-baseline",
+  "fixture": "tests/fixtures/dataset-development-v1.json",
+  "fixtureSha256": "e76f142cae365d19b11b8a11942001d81a40a1a2cd0dfbcc989e549f3c474666",
+  "sourceHashes": {
+    "shared/engine.ts": "301efcea76217f266ff70cc3ffaa335d81e593f6433c68e498ee23ac9f03a97f",
+    "shared/bengali-patterns.ts": "2e0eaff19748020276f0d09d77136d6a473d87cf4c5b5da548e50cbaa0bebb28",
+    "shared/numeric-claims.ts": "ef99698c736d13bab59fa9e05a11810020422b5fdfcea29c63c3261e427a915a",
+    "shared/bengali-engine-copy.ts": "1d0c59bab47db58d8532118ea835698a27a0028b3f9385643c8fd69f2efcd1f0"
+  },
+  "networkRequests": 0,
+  "limit": "This set is used for rule development, with one AI-assisted annotator. These numbers are not independent accuracy, fraud detection or population estimates. 26 reports are outside observable-category scoring; source spam/smish labels are not Sajag ground truth.",
+  "metrics": {
+    "messages": 72,
+    "observableRiskMessages": 12,
+    "riskMessagesWithAttention": 5,
+    "riskMessagesWithExpectedCategory": 5,
+    "expectedCategoryMatches": 5,
+    "expectedCategoryTotal": 14,
+    "controls": 34,
+    "controlsWithAttention": 2,
+    "controlsWithAnyFinding": 5,
+    "notAssessable": 26,
+    "notAssessableWithAnyFinding": 1,
+    "attentionPrecisionOnScoredSubset": 0.7142857142857143,
+    "attentionRecallOnScoredSubset": 0.4166666666666667,
+    "attentionFalsePositiveRate": 0.058823529411764705
+  },
+  "byLanguage": {
+    "Banglish": {
+      "messages": 12,
+      "observableRiskMessages": 1,
+      "riskMessagesWithAttention": 1,
+      "riskMessagesWithExpectedCategory": 1,
+      "expectedCategoryMatches": 1,
+      "expectedCategoryTotal": 2,
+      "controls": 8,
+      "controlsWithAttention": 0,
+      "controlsWithAnyFinding": 1,
+      "notAssessable": 3,
+      "notAssessableWithAnyFinding": 0,
+      "attentionPrecisionOnScoredSubset": 1,
+      "attentionRecallOnScoredSubset": 1,
+      "attentionFalsePositiveRate": 0
+    },
+    "Bengali": {
+      "messages": 12,
+      "observableRiskMessages": 0,
+      "riskMessagesWithAttention": 0,
+      "riskMessagesWithExpectedCategory": 0,
+      "expectedCategoryMatches": 0,
+      "expectedCategoryTotal": 0,
+      "controls": 8,
+      "controlsWithAttention": 0,
+      "controlsWithAnyFinding": 0,
+      "notAssessable": 4,
+      "notAssessableWithAnyFinding": 1,
+      "attentionPrecisionOnScoredSubset": null,
+      "attentionRecallOnScoredSubset": null,
+      "attentionFalsePositiveRate": 0
+    },
+    "CodeMix": {
+      "messages": 12,
+      "observableRiskMessages": 1,
+      "riskMessagesWithAttention": 1,
+      "riskMessagesWithExpectedCategory": 1,
+      "expectedCategoryMatches": 1,
+      "expectedCategoryTotal": 1,
+      "controls": 8,
+      "controlsWithAttention": 2,
+      "controlsWithAnyFinding": 3,
+      "notAssessable": 3,
+      "notAssessableWithAnyFinding": 0,
+      "attentionPrecisionOnScoredSubset": 0.3333333333333333,
+      "attentionRecallOnScoredSubset": 1,
+      "attentionFalsePositiveRate": 0.25
+    },
+    "English": {
+      "messages": 36,
+      "observableRiskMessages": 10,
+      "riskMessagesWithAttention": 3,
+      "riskMessagesWithExpectedCategory": 3,
+      "expectedCategoryMatches": 3,
+      "expectedCategoryTotal": 11,
+      "controls": 10,
+      "controlsWithAttention": 0,
+      "controlsWithAnyFinding": 1,
+      "notAssessable": 16,
+      "notAssessableWithAnyFinding": 0,
+      "attentionPrecisionOnScoredSubset": 1,
+      "attentionRecallOnScoredSubset": 0.3,
+      "attentionFalsePositiveRate": 0
+    }
+  },
+  "results": [
+    {
+      "id": "dev-001",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-002",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-003",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-004",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-005",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-006",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-007",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [
+        {
+          "id": "promotion",
+          "severity": "context"
+        }
+      ],
+      "contentType": "promotional"
+    },
+    {
+      "id": "dev-008",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-009",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "account-threat",
+        "credentials"
+      ],
+      "findings": [
+        {
+          "id": "account-threat",
+          "severity": "attention"
+        },
+        {
+          "id": "urgency",
+          "severity": "attention"
+        }
+      ],
+      "contentType": "promotional"
+    },
+    {
+      "id": "dev-010",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-011",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-012",
+      "source": "bengali-train",
+      "language": "Banglish",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-013",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-014",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-015",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-016",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-017",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-018",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-019",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-020",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-021",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [
+        {
+          "id": "urgency",
+          "severity": "attention"
+        }
+      ],
+      "contentType": "promotional"
+    },
+    {
+      "id": "dev-022",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-023",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-024",
+      "source": "bengali-train",
+      "language": "Bengali",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-025",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-026",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-027",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-028",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-029",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-030",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [
+        {
+          "id": "urgency",
+          "severity": "attention"
+        }
+      ],
+      "contentType": "promotional"
+    },
+    {
+      "id": "dev-031",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [
+        {
+          "id": "promotion",
+          "severity": "context"
+        }
+      ],
+      "contentType": "promotional"
+    },
+    {
+      "id": "dev-032",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [
+        {
+          "id": "urgency",
+          "severity": "attention"
+        }
+      ],
+      "contentType": "promotional"
+    },
+    {
+      "id": "dev-033",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-034",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-035",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-036",
+      "source": "bengali-train",
+      "language": "CodeMix",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "findings": [
+        {
+          "id": "account-threat",
+          "severity": "attention"
+        },
+        {
+          "id": "urgency",
+          "severity": "attention"
+        }
+      ],
+      "contentType": "promotional"
+    },
+    {
+      "id": "dev-037",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-038",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-039",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-040",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-041",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-042",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-043",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-044",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-045",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-046",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-047",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-048",
+      "source": "bengali-train",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-049",
+      "source": "imc25",
+      "language": "English",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-050",
+      "source": "imc25",
+      "language": "English",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "findings": [
+        {
+          "id": "account-threat",
+          "severity": "attention"
+        }
+      ],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-051",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-052",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-053",
+      "source": "imc25",
+      "language": "English",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-054",
+      "source": "imc25",
+      "language": "English",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "account-threat",
+        "credentials"
+      ],
+      "findings": [
+        {
+          "id": "account-threat",
+          "severity": "attention"
+        }
+      ],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-055",
+      "source": "imc25",
+      "language": "English",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [
+        {
+          "id": "promotion",
+          "severity": "context"
+        }
+      ],
+      "contentType": "promotional"
+    },
+    {
+      "id": "dev-056",
+      "source": "imc25",
+      "language": "English",
+      "group": "no-attention-cue",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-057",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-058",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-059",
+      "source": "imc25",
+      "language": "English",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "urgency"
+      ],
+      "findings": [
+        {
+          "id": "urgency",
+          "severity": "attention"
+        }
+      ],
+      "contentType": "promotional"
+    },
+    {
+      "id": "dev-060",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-061",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-062",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-063",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-064",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-065",
+      "source": "imc25",
+      "language": "English",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-066",
+      "source": "imc25",
+      "language": "English",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "credentials"
+      ],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-067",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-068",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-069",
+      "source": "imc25",
+      "language": "English",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-070",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-071",
+      "source": "imc25",
+      "language": "English",
+      "group": "observable-risk-cue",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "findings": [],
+      "contentType": "unclear"
+    },
+    {
+      "id": "dev-072",
+      "source": "imc25",
+      "language": "English",
+      "group": "not-assessable-from-text",
+      "expectedCategories": [],
+      "findings": [],
+      "contentType": "unclear"
+    }
+  ]
+}

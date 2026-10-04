@@ -1,0 +1,1896 @@
+{
+  "schemaVersion": 1,
+  "provenance": {
+    "synthetic": true,
+    "author": "Team FirstBest",
+    "createdAt": "2026-10-03T13:03:51.355265+00:00",
+    "createdBeforeNewRules": true,
+    "purpose": "Evaluation-only, never retrieval context or development/rule-tuning data",
+    "authoringProtocol": "Fresh messages authored from published category semantics before reading expanded development rules or cases. Existing detector knowledge was not erased; the prospective separation applies to the new improvement cycle. Prior holdouts were accessed only for normalized-text digest intersection, without exposing their text.",
+    "languageGroups": [
+      "en",
+      "hi",
+      "bn",
+      "hi-Latn",
+      "bn-Latn"
+    ],
+    "perLanguage": {
+      "attention": 18,
+      "benign": 12,
+      "unassessable": 6
+    },
+    "contextOnlyCategories": [
+      "registration",
+      "promotion",
+      "nav",
+      "social-proof"
+    ],
+    "labels": "Attention labels identify observable warning language, not verified fraud. Benign/context rows expect no attention warning but may contain ordinary contextual categories. Unassessable rows are excluded from binary attention metrics; report their warning/tier distribution and never label them safe.",
+    "limits": [
+      "Synthetic and taxonomy-balanced; not representative population accuracy.",
+      "Some scenarios are parallel across languages; language rows are not independent scam families.",
+      "Translations and romanization are reviewer-authored, not independently native-speaker validated.",
+      "Expected categories identify the primary intended cue, not an exhaustive list of every defensible secondary cue. Additional attention categories on an attention row are diagnostic, not automatically false positives.",
+      "Context-only category presence is scored separately; missing a context annotation is not a benign false positive."
+    ],
+    "priorFixtureHashOnlyComparison": [
+      {
+        "path": "tests/fixtures/rag-independent-holdout.json",
+        "sha256": "863a89e2559e62aaa5ebbe753db2c2e0c482bf335a78edfb7b51498b92e13aa2",
+        "normalizedExactOverlaps": 0
+      },
+      {
+        "path": "tests/fixtures/frozen-evaluation.json",
+        "sha256": "71b314e4c512b544ccbf8813e534c3f976e4692a1fbfc4a39217ec123cb9fb1b",
+        "normalizedExactOverlaps": 0
+      },
+      {
+        "path": "tests/fixtures/frozen-bengali-evaluation.json",
+        "sha256": "c6b41415c6f5e527842dce7c4efa7fc1e48d0cbd7eb8eeb805418babd6fff8ef",
+        "normalizedExactOverlaps": 0
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "v2-en-attention-01",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedAttention": true,
+      "text": "The refund desk needs the six-digit code from your banking SMS and your card PIN. Reply here so we can attach the refund to your account.",
+      "scenarioFamily": "credentials"
+    },
+    {
+      "id": "v2-en-attention-02",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "expectedAttention": true,
+      "text": "Your wallet access is being suspended. Complete the identity form through the link in this notice to prevent permanent closure of your payment account.",
+      "scenarioFamily": "account-threat"
+    },
+    {
+      "id": "v2-en-attention-03",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "expectedAttention": true,
+      "text": "A customs investigator has opened a money-laundering case in your name. Move your savings to the verification account while the investigation clears them.",
+      "scenarioFamily": "authority-threat"
+    },
+    {
+      "id": "v2-en-attention-04",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedAttention": true,
+      "text": "Your unclaimed pension balance is ready. First transfer a verification deposit to the processing agent; the pension amount can be released only afterwards.",
+      "scenarioFamily": "release-fee"
+    },
+    {
+      "id": "v2-en-attention-05",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "expectedAttention": true,
+      "text": "Our dealer can book the same share positions privately, outside the recognised exchange. Settlement stays on our own ledger and there will be no exchange contract note.",
+      "scenarioFamily": "off-exchange"
+    },
+    {
+      "id": "v2-en-attention-06",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "expectedAttention": true,
+      "text": "Members should buy the tiny company together at the opening bell. Once the public notices the rising price, our group will sell its holdings to them.",
+      "scenarioFamily": "coordinated-pump"
+    },
+    {
+      "id": "v2-en-attention-07",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedAttention": true,
+      "text": "This investment pays a profit whatever happens to the market. Your principal cannot fall and the return is contractually certain, according to our sales desk.",
+      "scenarioFamily": "guarantee"
+    },
+    {
+      "id": "v2-en-attention-08",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "urgency"
+      ],
+      "expectedAttention": true,
+      "text": "The private investment window closes in twelve minutes. Skip further questions and send your booking payment before the countdown reaches zero.",
+      "scenarioFamily": "urgency"
+    },
+    {
+      "id": "v2-en-attention-09",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "outsized"
+      ],
+      "expectedAttention": true,
+      "text": "Our trading package takes a starting amount of 7,500 rupees to 60,000 rupees within nine days. See the illustrated account totals in the brochure.",
+      "scenarioFamily": "outsized"
+    },
+    {
+      "id": "v2-en-attention-10",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "tip"
+      ],
+      "expectedAttention": true,
+      "text": "Purchase the named shares in this alert when the market opens tomorrow and exit when they reach our target. We send the entry and exit calls.",
+      "scenarioFamily": "tip"
+    },
+    {
+      "id": "v2-en-attention-11",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "insider"
+      ],
+      "expectedAttention": true,
+      "text": "A member of the company payroll team gave us the earnings numbers before publication. Trade on those figures before ordinary investors can read them.",
+      "scenarioFamily": "insider"
+    },
+    {
+      "id": "v2-en-attention-12",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "expectedAttention": true,
+      "text": "I am the new collections officer from your lending bank. The bank now receives instalments through my personal wallet; send this month’s payment there.",
+      "scenarioFamily": "impersonation"
+    },
+    {
+      "id": "v2-en-attention-13",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "periodic"
+      ],
+      "expectedAttention": true,
+      "text": "The deposit plan sends a payout to your account every evening, seven days a week. Cash keeps arriving on this fixed schedule while your deposit remains with us.",
+      "scenarioFamily": "periodic"
+    },
+    {
+      "id": "v2-en-attention-14",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedAttention": true,
+      "text": "The online product-testing job starts after you purchase the starter task bundle. Pay for the bundle to activate your earning account and receive your first assignments.",
+      "scenarioFamily": "pay-to-earn"
+    },
+    {
+      "id": "v2-en-attention-15",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "expectedAttention": true,
+      "text": "Do not use the broker’s order screen for this allocation. Continue in our private chat and transfer the amount directly to the collection address we provide.",
+      "scenarioFamily": "off-platform"
+    },
+    {
+      "id": "v2-en-attention-16",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "expectedAttention": true,
+      "text": "The special investment arrangement depends on confidentiality. Do not discuss the payments with your family, accountant or bank, even if they ask what you are doing.",
+      "scenarioFamily": "secrecy"
+    },
+    {
+      "id": "v2-en-attention-17",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "borrow"
+      ],
+      "expectedAttention": true,
+      "text": "Use a personal loan to increase your contribution to our fund. You can also pledge your jewellery so the investment amount is larger from the start.",
+      "scenarioFamily": "borrow"
+    },
+    {
+      "id": "v2-en-attention-18",
+      "language": "en",
+      "group": "attention",
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedAttention": true,
+      "text": "A recovery consultant has traced the money you lost last year. Pay the retrieval certificate charge into the consultant’s account before any recovered money can be forwarded.",
+      "scenarioFamily": "release-fee"
+    },
+    {
+      "id": "v2-en-benign-01",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [
+        "registration"
+      ],
+      "expectedAttention": false,
+      "text": "The adviser supplied a registration number. Please compare it with the official register and check the category of registration before arranging a meeting.",
+      "scenarioFamily": "registration"
+    },
+    {
+      "id": "v2-en-benign-02",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [
+        "promotion"
+      ],
+      "expectedAttention": false,
+      "text": "Disclosure: this budgeting workshop notice is paid advertising. The advertised fee is for the class, and the class does not include a recommendation to buy investments.",
+      "scenarioFamily": "promotion"
+    },
+    {
+      "id": "v2-en-benign-03",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [
+        "nav"
+      ],
+      "expectedAttention": false,
+      "text": "For the exercise, one fund unit has NAV 18 and another has NAV 54. Those unit values alone do not tell us which fund is better value.",
+      "scenarioFamily": "nav"
+    },
+    {
+      "id": "v2-en-benign-04",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [
+        "social-proof"
+      ],
+      "expectedAttention": false,
+      "text": "An investment presenter has many followers. Audience size tells us about popularity, not whether the presenter’s financial claims are supported.",
+      "scenarioFamily": "social-proof"
+    },
+    {
+      "id": "v2-en-benign-05",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Security notice for our family: never forward a banking verification code or card PIN to a caller, including someone who offers a refund.",
+      "scenarioFamily": "credentials"
+    },
+    {
+      "id": "v2-en-benign-06",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "The consumer helpline says a demand for an advance charge to recover stolen money deserves independent checking. Do not pay a recovery caller just because they sound official.",
+      "scenarioFamily": "release-fee"
+    },
+    {
+      "id": "v2-en-benign-07",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Our lesson contrasts uncertain market outcomes with sales language that promises certainty. It asks learners to look for the risks that a confident pitch leaves out.",
+      "scenarioFamily": "guarantee"
+    },
+    {
+      "id": "v2-en-benign-08",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "I decided against taking a loan for the investment. Keeping the monthly repayment out of my budget matters more to me than increasing the starting amount.",
+      "scenarioFamily": "borrow"
+    },
+    {
+      "id": "v2-en-benign-09",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Your library membership payment of 420 rupees was recorded on Tuesday. This is a receipt for the payment you already made; no further action is requested.",
+      "scenarioFamily": "ordinary-receipt"
+    },
+    {
+      "id": "v2-en-benign-10",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Your electricity bill is visible in the provider’s app. Please open the app yourself if you want to check the due date or the available payment methods.",
+      "scenarioFamily": "ordinary-bill"
+    },
+    {
+      "id": "v2-en-benign-11",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Why does a bond fund sometimes fall when interest rates rise? I am preparing questions for a beginner financial-literacy session.",
+      "scenarioFamily": "ordinary-question"
+    },
+    {
+      "id": "v2-en-benign-12",
+      "language": "en",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "I changed my own monthly transfer amount in the bank’s settings. The next scheduled transfer is listed there; this note is only for our household records.",
+      "scenarioFamily": "ordinary-account"
+    },
+    {
+      "id": "v2-en-unassessable-01",
+      "language": "en",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "The investment details are in the screenshot I meant to attach. Is the offer genuine?",
+      "scenarioFamily": "missing-image"
+    },
+    {
+      "id": "v2-en-unassessable-02",
+      "language": "en",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Someone called my aunt about a dormant account. I have no caller number, bank name or written message. Was the caller real?",
+      "scenarioFamily": "sender-identity"
+    },
+    {
+      "id": "v2-en-unassessable-03",
+      "language": "en",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Can you tell whether the page at https://account-review.example.invalid is authentic without opening it?",
+      "scenarioFamily": "link-only"
+    },
+    {
+      "id": "v2-en-unassessable-04",
+      "language": "en",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "A neighbour says the scheme has regulatory permission. No certificate or registration details were provided. Can this be confirmed?",
+      "scenarioFamily": "missing-document"
+    },
+    {
+      "id": "v2-en-unassessable-05",
+      "language": "en",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Will the value of the fund I hold be higher exactly eighteen months from today? I have not provided the fund name.",
+      "scenarioFamily": "future-outcome"
+    },
+    {
+      "id": "v2-en-unassessable-06",
+      "language": "en",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Forwarded fragment: approved, reference 482, amount to follow. The original conversation is missing.",
+      "scenarioFamily": "fragment"
+    },
+    {
+      "id": "v2-hi-attention-01",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedAttention": true,
+      "text": "कार्ड का रिफंड जोड़ने के लिए अपना एम-पिन और मोबाइल पर आया बैंक वाला कोड हमें लिखकर भेजें। हमारी सहायता टीम इन्हीं से रिफंड चालू करेगी।",
+      "scenarioFamily": "credentials"
+    },
+    {
+      "id": "v2-hi-attention-02",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "expectedAttention": true,
+      "text": "आपके बैंक खाते पर रोक लगने वाली है। खाते को स्थायी रूप से बंद होने से बचाने के लिए इस संदेश के फॉर्म में पहचान की जानकारी भरें।",
+      "scenarioFamily": "account-threat"
+    },
+    {
+      "id": "v2-hi-attention-03",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "expectedAttention": true,
+      "text": "साइबर पुलिस की जांच में आपका खाता आया है। जांच पूरी होने तक सारी जमा रकम हमारे बताए सुरक्षित जांच खाते में भेजना अनिवार्य है।",
+      "scenarioFamily": "authority-threat"
+    },
+    {
+      "id": "v2-hi-attention-04",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedAttention": true,
+      "text": "आपके नाम की बीमा वापसी मंजूर है। वापसी की रकम भेजने से पहले फाइल खोलने का शुल्क एजेंट के खाते में जमा करना होगा।",
+      "scenarioFamily": "release-fee"
+    },
+    {
+      "id": "v2-hi-attention-05",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "expectedAttention": true,
+      "text": "एक्सचेंज की जगह हमारे निजी हिसाब में शेयर का सौदा दर्ज कराइए। भाव वही रहेगा, पर स्टॉक एक्सचेंज की रसीद और उसके नियम लागू नहीं होंगे।",
+      "scenarioFamily": "off-exchange"
+    },
+    {
+      "id": "v2-hi-attention-06",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "expectedAttention": true,
+      "text": "सब सदस्य एक साथ इस छोटे शेयर में खरीद करेंगे। बाहर के लोग बढ़ता भाव देखकर आएंगे, तब हम अपनी हिस्सेदारी उन्हें बेच देंगे।",
+      "scenarioFamily": "coordinated-pump"
+    },
+    {
+      "id": "v2-hi-attention-07",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedAttention": true,
+      "text": "इस योजना में बाजार गिरने पर भी आपकी पूंजी नहीं घटेगी। लाभ निश्चित है और निवेशक को किसी हालत में नुकसान नहीं हो सकता।",
+      "scenarioFamily": "guarantee"
+    },
+    {
+      "id": "v2-hi-attention-08",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "urgency"
+      ],
+      "expectedAttention": true,
+      "text": "निवेश की बुकिंग केवल अगले आठ मिनट तक खुली है। अभी और कागज मत मांगिए; मौका बंद होने से पहले बुकिंग की रकम भेज दीजिए।",
+      "scenarioFamily": "urgency"
+    },
+    {
+      "id": "v2-hi-attention-09",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "outsized"
+      ],
+      "expectedAttention": true,
+      "text": "हमारे कारोबार में १२,००० रुपये लगाने पर सिर्फ ग्यारह दिन में खाते में ९६,००० रुपये बनते हैं। प्रचार पत्र में यही कमाई दिखाई गई है।",
+      "scenarioFamily": "outsized"
+    },
+    {
+      "id": "v2-hi-attention-10",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "tip"
+      ],
+      "expectedAttention": true,
+      "text": "सोमवार सुबह इस सूची वाले शेयर खरीदें और हमारा बिक्री संदेश आने पर बेच दें। हर सौदे का खरीद भाव और लक्ष्य हम तय करके भेजेंगे।",
+      "scenarioFamily": "tip"
+    },
+    {
+      "id": "v2-hi-attention-11",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "insider"
+      ],
+      "expectedAttention": true,
+      "text": "कंपनी के अंदर से लाभ का अप्रकाशित आंकड़ा मिला है। सार्वजनिक घोषणा आने से पहले इसी खबर के आधार पर शेयर खरीदने का मौका है।",
+      "scenarioFamily": "insider"
+    },
+    {
+      "id": "v2-hi-attention-12",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "expectedAttention": true,
+      "text": "मैं आपकी बैंक शाखा के प्रबंधक का सहायक बोल रहा हूं। शाखा की किस्त अब मेरे निजी यूपीआई पर जमा होगी; इस महीने की रकम यहीं भेजें।",
+      "scenarioFamily": "impersonation"
+    },
+    {
+      "id": "v2-hi-attention-13",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "periodic"
+      ],
+      "expectedAttention": true,
+      "text": "जमा रकम रहते हुए योजना हर सोमवार, बुधवार और शुक्रवार को तय कमाई खाते में डालती है। यह भुगतान का नियमित कार्यक्रम हमारे पैकेज का हिस्सा है।",
+      "scenarioFamily": "periodic"
+    },
+    {
+      "id": "v2-hi-attention-14",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedAttention": true,
+      "text": "घर से ऑनलाइन फॉर्म भरने की नौकरी में कमाई चालू करने के लिए पहले काम का पैक खरीदना पड़ेगा। पैक का पैसा आने पर ही काम मिलेंगे।",
+      "scenarioFamily": "pay-to-earn"
+    },
+    {
+      "id": "v2-hi-attention-15",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "expectedAttention": true,
+      "text": "इस सौदे के लिए अधिकृत ऐप में भुगतान मत कीजिए। वहां की चैट छोड़कर हमारे अलग समूह में आइए और व्यवस्थापक के भेजे पते पर रकम डालिए।",
+      "scenarioFamily": "off-platform"
+    },
+    {
+      "id": "v2-hi-attention-16",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "expectedAttention": true,
+      "text": "यह निवेश सिर्फ चुपचाप करने वाले सदस्यों के लिए है। बैंक कर्मचारी या घर वाले पूछें तो भी इस भुगतान और समूह की बात न बताइए।",
+      "scenarioFamily": "secrecy"
+    },
+    {
+      "id": "v2-hi-attention-17",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "borrow"
+      ],
+      "expectedAttention": true,
+      "text": "निवेश बढ़ाने के लिए क्रेडिट कार्ड से नकद निकालकर लगाइए। जरूरत हो तो एक और कर्ज ले लें, ताकि योजना में आपका हिस्सा बड़ा हो जाए।",
+      "scenarioFamily": "borrow"
+    },
+    {
+      "id": "v2-hi-attention-18",
+      "language": "hi",
+      "group": "attention",
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedAttention": true,
+      "text": "पुराना निवेश खाता जोड़ने के लिए अपनी इंटरनेट बैंकिंग का पासवर्ड और पूरा कार्ड विवरण इस चैट में भेजिए। टीम आपके बदले लॉगिन पूरा कर देगी।",
+      "scenarioFamily": "credentials"
+    },
+    {
+      "id": "v2-hi-benign-01",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [
+        "registration"
+      ],
+      "expectedAttention": false,
+      "text": "निवेश सलाह देने वाले व्यक्ति का पंजीकरण नंबर मिला है। आधिकारिक सूची में नाम और पंजीकरण की श्रेणी मिलाकर देखेंगे; नंबर होना ही हर दावे का प्रमाण नहीं है।",
+      "scenarioFamily": "registration"
+    },
+    {
+      "id": "v2-hi-benign-02",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [
+        "promotion"
+      ],
+      "expectedAttention": false,
+      "text": "यह लेख प्रायोजित है: लेखक को बचत की डायरी बनाने वाली कंपनी से भुगतान मिला है। लेख किसी शेयर या निवेश योजना को खरीदने की सलाह नहीं देता।",
+      "scenarioFamily": "promotion"
+    },
+    {
+      "id": "v2-hi-benign-03",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [
+        "nav"
+      ],
+      "expectedAttention": false,
+      "text": "कक्षा में NAV २५ और NAV १०० वाले दो फंड देखे गए। केवल प्रति यूनिट कीमत कम होने से पहला फंड सस्ता सौदा साबित नहीं होता।",
+      "scenarioFamily": "nav"
+    },
+    {
+      "id": "v2-hi-benign-04",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [
+        "social-proof"
+      ],
+      "expectedAttention": false,
+      "text": "वीडियो पर लाखों व्यू हैं, लेकिन लोकप्रियता वित्तीय जानकारी की सच्चाई की जांच नहीं है। सीखने के लिए मूल दस्तावेज भी देखना चाहिए।",
+      "scenarioFamily": "social-proof"
+    },
+    {
+      "id": "v2-hi-benign-05",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "जागरूकता बैठक में बताया गया कि फोन पर पुलिस बनकर बचत किसी दूसरे खाते में भेजने का दबाव आए तो आधिकारिक नंबर से अलग से जांच करें।",
+      "scenarioFamily": "authority-threat"
+    },
+    {
+      "id": "v2-hi-benign-06",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "किसी को बैंक का पासवर्ड, ओटीपी या कार्ड पिन न बताएं। असली सहायता लेने के लिए बैंक का ऐप खुद खोलें; यह केवल सुरक्षा याद दिलाने वाला संदेश है।",
+      "scenarioFamily": "credentials"
+    },
+    {
+      "id": "v2-hi-benign-07",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "मैंने भुगतान वाला अनजान लिंक नहीं खोला। अपने परिचित आधिकारिक ऐप में जाकर ही खाते की स्थिति देखूंगा।",
+      "scenarioFamily": "off-platform"
+    },
+    {
+      "id": "v2-hi-benign-08",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "अगर कोई निवेश की बात परिवार से छिपाने को कहे तो रुककर सवाल पूछें। इस उदाहरण में ऐसा करना चेतावनी का संकेत समझाया गया है।",
+      "scenarioFamily": "secrecy"
+    },
+    {
+      "id": "v2-hi-benign-09",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "आपकी बस पास की फीस ३६० रुपये जमा दर्ज हो गई है। यह पहले किए गए भुगतान की रसीद है, दोबारा रकम नहीं मांगी जा रही।",
+      "scenarioFamily": "ordinary-receipt"
+    },
+    {
+      "id": "v2-hi-benign-10",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "हमारी वित्तीय साक्षरता कक्षा रविवार दोपहर तीन बजे पुस्तकालय में होगी। विषय है मासिक खर्च लिखना और जरूरी बचत अलग रखना।",
+      "scenarioFamily": "ordinary-schedule"
+    },
+    {
+      "id": "v2-hi-benign-11",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "अपने बैंक स्टेटमेंट में मुझे परिचित किराने की दुकान का भुगतान दिख रहा है। मैंने कल खुद यह खरीदारी की थी और रसीद संभालकर रखी है।",
+      "scenarioFamily": "ordinary-bank"
+    },
+    {
+      "id": "v2-hi-benign-12",
+      "language": "hi",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "फंड के खर्च अनुपात का अर्थ क्या है? कृपया रोजमर्रा का उदाहरण दें, मैं किसी खास योजना की खरीदारी के बारे में नहीं पूछ रहा।",
+      "scenarioFamily": "ordinary-question"
+    },
+    {
+      "id": "v2-hi-unassessable-01",
+      "language": "hi",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "फोटो में जो ऐप दिख रहा है, क्या वह असली है? फोटो यहां लगाना भूल गया हूं।",
+      "scenarioFamily": "missing-image"
+    },
+    {
+      "id": "v2-hi-unassessable-02",
+      "language": "hi",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "एक व्यक्ति ने खुद को संस्था का कर्मचारी बताया। मेरे पास उसका नाम या संस्था का नाम नहीं है। क्या उस पर भरोसा किया जा सकता है?",
+      "scenarioFamily": "sender-identity"
+    },
+    {
+      "id": "v2-hi-unassessable-03",
+      "language": "hi",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "मुझे https://pension-check.example.invalid पता मिला है। सिर्फ यह पता देखकर वेबसाइट की सच्चाई बता सकते हैं?",
+      "scenarioFamily": "link-only"
+    },
+    {
+      "id": "v2-hi-unassessable-04",
+      "language": "hi",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "किसी ने कहा कि इस बांड पर सरकारी मंजूरी है। मैंने दस्तावेज नहीं देखा। क्या आप बिना दस्तावेज के इसकी पुष्टि कर देंगे?",
+      "scenarioFamily": "missing-document"
+    },
+    {
+      "id": "v2-hi-unassessable-05",
+      "language": "hi",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "जिस शेयर की मैं सोच रहा हूं उसका नाम नहीं बता रहा। अगले साल उसका भाव आज से ज्यादा होगा या कम?",
+      "scenarioFamily": "future-outcome"
+    },
+    {
+      "id": "v2-hi-unassessable-06",
+      "language": "hi",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "इतना ही संदेश बचा है: पांच तारीख, संदर्भ ६२, आगे की सूचना बाद में। रकम या वजह नहीं लिखी है।",
+      "scenarioFamily": "fragment"
+    },
+    {
+      "id": "v2-bn-attention-01",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedAttention": true,
+      "text": "ফেরতের টাকা চালু করতে আপনার মোবাইল ব্যাংকিং পিন আর এসএমএসে আসা একবারের কোড এই চ্যাটে পাঠান। আমাদের কর্মী আপনার হয়ে কাজটি শেষ করবেন।",
+      "scenarioFamily": "credentials"
+    },
+    {
+      "id": "v2-bn-attention-02",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "expectedAttention": true,
+      "text": "আপনার পেমেন্ট অ্যাকাউন্ট বন্ধ হওয়ার তালিকায় আছে। বন্ধ হওয়া আটকাতে এই নোটিসের লিংকে গিয়ে পরিচয়ের ফর্মটি পূরণ করুন।",
+      "scenarioFamily": "account-threat"
+    },
+    {
+      "id": "v2-bn-attention-03",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "expectedAttention": true,
+      "text": "তদন্তকারী অফিসার বলছি, আপনার সঞ্চয়ের সঙ্গে একটি মামলা জড়িয়েছে। তদন্ত শেষ না হওয়া পর্যন্ত সব টাকা আমাদের দেওয়া যাচাইয়ের অ্যাকাউন্টে সরাতে হবে।",
+      "scenarioFamily": "authority-threat"
+    },
+    {
+      "id": "v2-bn-attention-04",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedAttention": true,
+      "text": "আপনার পুরনো আমানতের ফেরত অনুমোদিত হয়েছে। টাকা ছাড়ার আগে নথি যাচাইয়ের জামানত সংগ্রহকারী ব্যক্তির অ্যাকাউন্টে জমা দিন।",
+      "scenarioFamily": "release-fee"
+    },
+    {
+      "id": "v2-bn-attention-05",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "expectedAttention": true,
+      "text": "স্বীকৃত এক্সচেঞ্জে অর্ডার না দিয়ে আমাদের নিজস্ব খাতায় শেয়ারের লেনদেন করুন। হিসাব আমরা রাখব, এক্সচেঞ্জের চুক্তিপত্র বা সুরক্ষা এখানে থাকবে না।",
+      "scenarioFamily": "off-exchange"
+    },
+    {
+      "id": "v2-bn-attention-06",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "expectedAttention": true,
+      "text": "গ্রুপের সবাই একই সময়ে ছোট কোম্পানিটির শেয়ার কিনব। বাইরের লোক দাম বাড়তে দেখে কিনতে এলে আমরা নিজেদের শেয়ার তাদের কাছে বিক্রি করব।",
+      "scenarioFamily": "coordinated-pump"
+    },
+    {
+      "id": "v2-bn-attention-07",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedAttention": true,
+      "text": "এই বিনিয়োগে মূল টাকার একটুও কমবে না। বাজারের অবস্থা যেমনই হোক লাভ নিশ্চিত, লোকসানের কোনো সম্ভাবনাই রাখা হয়নি।",
+      "scenarioFamily": "guarantee"
+    },
+    {
+      "id": "v2-bn-attention-08",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "urgency"
+      ],
+      "expectedAttention": true,
+      "text": "বরাদ্দের টাকা দেওয়ার সময় আর সাত মিনিট। এখন নতুন প্রশ্ন করে দেরি করবেন না; সময় শেষ হওয়ার আগেই বুকিংয়ের টাকা পাঠান।",
+      "scenarioFamily": "urgency"
+    },
+    {
+      "id": "v2-bn-attention-09",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "outsized"
+      ],
+      "expectedAttention": true,
+      "text": "আমাদের প্যাকেজে ৯,০০০ টাকা থেকে তেরো দিনের মধ্যে ৮১,০০০ টাকা হয়। প্রচারের হিসাবে এই অল্প সময়ের বৃদ্ধিই দেখানো হচ্ছে।",
+      "scenarioFamily": "outsized"
+    },
+    {
+      "id": "v2-bn-attention-10",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "tip"
+      ],
+      "expectedAttention": true,
+      "text": "আগামী মঙ্গলবার বাজার খুললে এই তালিকার শেয়ার কিনুন। কখন বিক্রি করবেন এবং কত দামে বেরোবেন, সেই সংকেত আমাদের দল পাঠাবে।",
+      "scenarioFamily": "tip"
+    },
+    {
+      "id": "v2-bn-attention-11",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "insider"
+      ],
+      "expectedAttention": true,
+      "text": "কোম্পানির অপ্রকাশিত অধিগ্রহণের খবর ভেতরের একজন দিয়েছেন। সংবাদটি বাজারে পৌঁছানোর আগেই তার ভিত্তিতে লেনদেনের সুযোগ নিন।",
+      "scenarioFamily": "insider"
+    },
+    {
+      "id": "v2-bn-attention-12",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "expectedAttention": true,
+      "text": "আমি আপনার ঋণদাতা ব্যাংকের নতুন প্রতিনিধি। কিস্তি এখন আমার ব্যক্তিগত ওয়ালেটে নেওয়া হচ্ছে; ব্যাংকের বদলে চলতি কিস্তির টাকা এখানে দিন।",
+      "scenarioFamily": "impersonation"
+    },
+    {
+      "id": "v2-bn-attention-13",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "periodic"
+      ],
+      "expectedAttention": true,
+      "text": "প্যাকেজে টাকা রেখে দিলে প্রতি সন্ধ্যায় নির্দিষ্ট আয় জমা হয়। ছুটির দিনেও একই সময় ধরে নিয়মিত টাকা পাঠানোর ব্যবস্থা রয়েছে।",
+      "scenarioFamily": "periodic"
+    },
+    {
+      "id": "v2-bn-attention-14",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedAttention": true,
+      "text": "মোবাইলে দোকানের পণ্য রেটিং দিয়ে রোজগার করতে আগে কাজের স্তর কিনতে হবে। প্রথম স্তরের টাকা দিলেই আয় করার কাজ খুলে যাবে।",
+      "scenarioFamily": "pay-to-earn"
+    },
+    {
+      "id": "v2-bn-attention-15",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "expectedAttention": true,
+      "text": "এই বিনিয়োগের অর্ডারটি মূল অ্যাপে দেবেন না। সেখান থেকে বেরিয়ে আমাদের আলাদা মেসেজ গ্রুপে আসুন এবং দেওয়া ব্যক্তিগত পেমেন্ট ঠিকানায় টাকা পাঠান।",
+      "scenarioFamily": "off-platform"
+    },
+    {
+      "id": "v2-bn-attention-16",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "expectedAttention": true,
+      "text": "এই আর্থিক ব্যবস্থার কথা পরিবারের কাউকে বা ব্যাংককে জানানো যাবে না। তারা জানতে চাইলেও পেমেন্টের কারণ গোপন রাখতে হবে।",
+      "scenarioFamily": "secrecy"
+    },
+    {
+      "id": "v2-bn-attention-17",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "borrow"
+      ],
+      "expectedAttention": true,
+      "text": "এই ফান্ডে বেশি টাকা দিতে সোনার গয়না বন্ধক রাখুন। প্রয়োজনে ব্যক্তিগত ঋণও নিন, তাহলে শুরুতেই আপনার বিনিয়োগ বড় হবে।",
+      "scenarioFamily": "borrow"
+    },
+    {
+      "id": "v2-bn-attention-18",
+      "language": "bn",
+      "group": "attention",
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedAttention": true,
+      "text": "অনলাইনে বিজ্ঞাপনের কাজের বেতন পেতে সদস্যের কাজের কার্ড কিনুন। কার্ডের মূল্য জমা না হওয়া পর্যন্ত কোনো আয় তোলার কাজ দেওয়া হবে না।",
+      "scenarioFamily": "pay-to-earn"
+    },
+    {
+      "id": "v2-bn-benign-01",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [
+        "registration"
+      ],
+      "expectedAttention": false,
+      "text": "যিনি পরামর্শ দেবেন তাঁর পঞ্জীকরণ নম্বরটি পেয়েছি। সরকারি তালিকায় নাম এবং পঞ্জীকরণের ধরন মিলিয়ে দেখব, তারপর সাক্ষাতের সিদ্ধান্ত নেব।",
+      "scenarioFamily": "registration"
+    },
+    {
+      "id": "v2-bn-benign-02",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [
+        "promotion"
+      ],
+      "expectedAttention": false,
+      "text": "এই বাজেট শেখার অনুষ্ঠানের পোস্টটি স্পনসর করা। আয়োজক প্রচারের জন্য টাকা দিয়েছেন; এখানে কোনো শেয়ার বা বিনিয়োগ কেনার নির্দেশ দেওয়া হচ্ছে না।",
+      "scenarioFamily": "promotion"
+    },
+    {
+      "id": "v2-bn-benign-03",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [
+        "nav"
+      ],
+      "expectedAttention": false,
+      "text": "উদাহরণে এক ফান্ডের NAV ১৬, অন্যটির ৮০। শুধু প্রতি ইউনিটের মূল্য কম বলে প্রথমটিকে বেশি লাভজনক বা সস্তা বলা যায় না।",
+      "scenarioFamily": "nav"
+    },
+    {
+      "id": "v2-bn-benign-04",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [
+        "social-proof"
+      ],
+      "expectedAttention": false,
+      "text": "ভিডিওর অনুসারী অনেক হলেও আর্থিক দাবির প্রমাণ আলাদা বিষয়। লাইক বা শেয়ার দেখে কথাটি সত্য ধরে না নিয়ে মূল তথ্য দেখা দরকার।",
+      "scenarioFamily": "social-proof"
+    },
+    {
+      "id": "v2-bn-benign-05",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "হারা টাকা ফেরানোর নামে আগে আলাদা চার্জ চাইলে স্বাধীনভাবে যাচাই করুন। অপরিচিত উদ্ধারকারীর কথায় টাকা পাঠাবেন না—এটি সচেতনতার বার্তা।",
+      "scenarioFamily": "release-fee"
+    },
+    {
+      "id": "v2-bn-benign-06",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "ব্যাংকের পিন আর একবারের কোড কারও সঙ্গে ভাগ করবেন না। সাহায্য চাইলে নিজের পরিচিত ব্যাংকের অ্যাপ খুলুন বা নিজে খুঁজে পাওয়া অফিসিয়াল নম্বরে কথা বলুন।",
+      "scenarioFamily": "credentials"
+    },
+    {
+      "id": "v2-bn-benign-07",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "আমরা আলোচনা করে বিনিয়োগের জন্য ধার না নেওয়ার সিদ্ধান্ত নিয়েছি। বাড়ির নিয়মিত খরচের পাশে নতুন ঋণের কিস্তি রাখতে চাই না।",
+      "scenarioFamily": "borrow"
+    },
+    {
+      "id": "v2-bn-benign-08",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "শিক্ষক বোঝালেন, দল বেঁধে দাম তুলে অন্যের কাছে বিক্রি করার প্রস্তাব দেখলে অংশ নেওয়ার বদলে সতর্ক হওয়া দরকার। এটি কৌশল অনুসরণের পরামর্শ নয়।",
+      "scenarioFamily": "coordinated-pump"
+    },
+    {
+      "id": "v2-bn-benign-09",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "আপনার বই ফেরত দেওয়ার জরিমানা ৪০ টাকা গ্রহণ করা হয়েছে। আগে দেওয়া টাকার রসিদ এটি; আবার টাকা দেওয়ার অনুরোধ নেই।",
+      "scenarioFamily": "ordinary-receipt"
+    },
+    {
+      "id": "v2-bn-benign-10",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "জলের বিলের তথ্য নিজের পৌরসভার অ্যাপে দেখা যাচ্ছে। চাইলে অ্যাপটি নিজে খুলে হিসাব মিলিয়ে নিন; এই বার্তায় পেমেন্ট লিংক নেই।",
+      "scenarioFamily": "ordinary-bill"
+    },
+    {
+      "id": "v2-bn-benign-11",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "চক্রবৃদ্ধির উদাহরণে আগের সময়ের লাভ বা ক্ষতি কেন পরের হিসাবের অংশ হয়? ছোট সংখ্যায় বুঝিয়ে দিলে সুবিধা হবে।",
+      "scenarioFamily": "ordinary-question"
+    },
+    {
+      "id": "v2-bn-benign-12",
+      "language": "bn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "মাসের বাজারের খরচ খাতায় লিখেছি। ভাড়া আর ওষুধের জন্য আলাদা রাখা টাকা হিসাব থেকে বাদ দিয়ে বাকি বাজেট দেখব।",
+      "scenarioFamily": "ordinary-household"
+    },
+    {
+      "id": "v2-bn-unassessable-01",
+      "language": "bn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "যে সার্টিফিকেটের ছবি দেখাতে চেয়েছিলাম সেটি আপলোড হয়নি। না দেখেই কি বলবেন কাগজটি আসল?",
+      "scenarioFamily": "missing-image"
+    },
+    {
+      "id": "v2-bn-unassessable-02",
+      "language": "bn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "একজন ফোন করে একটি আর্থিক প্রতিষ্ঠানের পরিচয় দিয়েছেন। নাম বা নম্বর লিখে রাখিনি। তিনি সত্যিই সেখানে কাজ করেন কি?",
+      "scenarioFamily": "sender-identity"
+    },
+    {
+      "id": "v2-bn-unassessable-03",
+      "language": "bn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "শুধু https://deposit-status.example.invalid এই ঠিকানাটি পেয়েছি। এই তথ্য থেকেই কি সাইটের মালিককে যাচাই করা যাবে?",
+      "scenarioFamily": "link-only"
+    },
+    {
+      "id": "v2-bn-unassessable-04",
+      "language": "bn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "আত্মীয় বলেছেন একটি প্রকল্পের সব অনুমোদন আছে। কোনো নথি দেওয়া হয়নি। কথাটি কি নিশ্চিতভাবে সত্য বলা যায়?",
+      "scenarioFamily": "missing-document"
+    },
+    {
+      "id": "v2-bn-unassessable-05",
+      "language": "bn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "আগামী বর্ষার শেষে আমার বেছে নেওয়া বিনিয়োগ কত টাকা হবে? বিনিয়োগটির নাম আর শুরুর টাকাও এখানে দিইনি।",
+      "scenarioFamily": "future-outcome"
+    },
+    {
+      "id": "v2-bn-unassessable-06",
+      "language": "bn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "পুরনো চ্যাটের টুকরো: পরবর্তী ধাপ অনুমোদিত, রেফারেন্স ৭৪১। কোন কাজের কথা তা জানা নেই।",
+      "scenarioFamily": "fragment"
+    },
+    {
+      "id": "v2-hi-latn-attention-01",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedAttention": true,
+      "text": "Cashback connect karne ke liye mobile banking ka MPIN aur message mein aaya verification code yahin bhej do. Support wala tumhari taraf se login kar dega.",
+      "scenarioFamily": "credentials"
+    },
+    {
+      "id": "v2-hi-latn-attention-02",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "expectedAttention": true,
+      "text": "Tumhara payment account block hone ki list mein hai. Is notice ke verification page par details bhar do, warna account permanently band ho jayega.",
+      "scenarioFamily": "account-threat"
+    },
+    {
+      "id": "v2-hi-latn-attention-03",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "expectedAttention": true,
+      "text": "Financial investigation cell se bol rahe hain. Case clear hone tak tumhari savings ko hamare checking account mein transfer karna zaroori hai.",
+      "scenarioFamily": "authority-threat"
+    },
+    {
+      "id": "v2-hi-latn-attention-04",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedAttention": true,
+      "text": "Purana claim approve ho gaya. Claim amount bhejne se pehle document-release deposit agent ke account mein jama karna padega.",
+      "scenarioFamily": "release-fee"
+    },
+    {
+      "id": "v2-hi-latn-attention-05",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "expectedAttention": true,
+      "text": "Exchange par trade record karane ki zarurat nahin. Share ka sauda hamare private register mein hoga, exchange contract note ya investor protection nahin milega.",
+      "scenarioFamily": "off-exchange"
+    },
+    {
+      "id": "v2-hi-latn-attention-06",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "expectedAttention": true,
+      "text": "Group ke sab log ek hi waqt is chhote share ko lenge. Public ko rising price dikhe aur woh kharide, tab hum apna maal unko nikaal denge.",
+      "scenarioFamily": "coordinated-pump"
+    },
+    {
+      "id": "v2-hi-latn-attention-07",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedAttention": true,
+      "text": "Is plan mein capital kabhi kam nahin hoga. Market kisi bhi direction mein chale, profit pakka hai aur loss ka sawal hi nahin.",
+      "scenarioFamily": "guarantee"
+    },
+    {
+      "id": "v2-hi-latn-attention-08",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "urgency"
+      ],
+      "expectedAttention": true,
+      "text": "Allocation booking mein bas nau minute bache hain. Aur documents poochne mein waqt mat lagao, countdown khatam hone se pehle booking amount bhejo.",
+      "scenarioFamily": "urgency"
+    },
+    {
+      "id": "v2-hi-latn-attention-09",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "outsized"
+      ],
+      "expectedAttention": true,
+      "text": "Sirf bees din mein 6,000 rupaye ka trading package 72,000 rupaye ka balance banata hai. Hamare promotion mein yahi growth dikhayi gayi hai.",
+      "scenarioFamily": "outsized"
+    },
+    {
+      "id": "v2-hi-latn-attention-10",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "tip"
+      ],
+      "expectedAttention": true,
+      "text": "Kal opening par message mein diye shares lena. Entry level aur exit target hum denge; sell alert aaye to position band kar dena.",
+      "scenarioFamily": "tip"
+    },
+    {
+      "id": "v2-hi-latn-attention-11",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "insider"
+      ],
+      "expectedAttention": true,
+      "text": "Company ke audit staff ne results announce hone se pehle figures bheje hain. Public report se pehle is andar ki information par trade kar lo.",
+      "scenarioFamily": "insider"
+    },
+    {
+      "id": "v2-hi-latn-attention-12",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "expectedAttention": true,
+      "text": "Main tumhari insurance company ka payment officer hoon. Renewal premium company portal ke bajay mere personal UPI handle par bhejo, main entry kar dunga.",
+      "scenarioFamily": "impersonation"
+    },
+    {
+      "id": "v2-hi-latn-attention-13",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "periodic"
+      ],
+      "expectedAttention": true,
+      "text": "Membership deposit pada rahe to har dusre din fixed earning account mein aati hai. Holidays mein bhi isi schedule ke hisaab se payout chalta hai.",
+      "scenarioFamily": "periodic"
+    },
+    {
+      "id": "v2-hi-latn-attention-14",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedAttention": true,
+      "text": "Online parcel review ka job mil jayega, pehle work access pack kharidna hoga. Pack ki payment ke baad hi earning tasks activate honge.",
+      "scenarioFamily": "pay-to-earn"
+    },
+    {
+      "id": "v2-hi-latn-attention-15",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "expectedAttention": true,
+      "text": "Is purchase ko registered platform ke checkout se mat karo. Private chat mein shift ho jao aur manager jo payment address bheje us par directly transfer karo.",
+      "scenarioFamily": "off-platform"
+    },
+    {
+      "id": "v2-hi-latn-attention-16",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "expectedAttention": true,
+      "text": "Yeh investment arrangement ghar walon aur accountant se chhupa kar rakhna. Bank wale transaction ka reason poochhen to is deal ka naam mat lena.",
+      "scenarioFamily": "secrecy"
+    },
+    {
+      "id": "v2-hi-latn-attention-17",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "borrow"
+      ],
+      "expectedAttention": true,
+      "text": "Apna investment bada karne ke liye salary advance ya personal loan le lo. Ghar ke gehne girvi rakh kar bhi extra contribution arrange kar sakte ho.",
+      "scenarioFamily": "borrow"
+    },
+    {
+      "id": "v2-hi-latn-attention-18",
+      "language": "hi-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "expectedAttention": true,
+      "text": "Official trading support ko involve mat karo. Order instructions is separate messaging channel par aayengi aur paisa app ke bahar receiver ko dena hai.",
+      "scenarioFamily": "off-platform"
+    },
+    {
+      "id": "v2-hi-latn-benign-01",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [
+        "registration"
+      ],
+      "expectedAttention": false,
+      "text": "Adviser ne registration ID di hai. Official register par naam aur uski allowed service category match karenge, sirf ID dikhne se recommendation ko sach nahin maanenge.",
+      "scenarioFamily": "registration"
+    },
+    {
+      "id": "v2-hi-latn-benign-02",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [
+        "promotion"
+      ],
+      "expectedAttention": false,
+      "text": "Disclosure: yeh financial diary ka sponsored review hai. Brand ne review ke liye fee di hai; post kisi investment product ko buy karne ki recommendation nahin deta.",
+      "scenarioFamily": "promotion"
+    },
+    {
+      "id": "v2-hi-latn-benign-03",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [
+        "nav"
+      ],
+      "expectedAttention": false,
+      "text": "Example mein NAV 32 wala fund aur NAV 128 wala fund hai. Unit price kam hone se pehle fund mein zyada growth milegi, aisa nateeja nahin nikal sakte.",
+      "scenarioFamily": "nav"
+    },
+    {
+      "id": "v2-hi-latn-benign-04",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [
+        "social-proof"
+      ],
+      "expectedAttention": false,
+      "text": "Channel ke subscribers zyada hain, par audience size financial claim ki verification nahin karta. Source document dekhna phir bhi zaroori hai.",
+      "scenarioFamily": "social-proof"
+    },
+    {
+      "id": "v2-hi-latn-benign-05",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Family reminder: refund ya cashback ke naam par banking code aur password mat bhejna. Help ke liye bank ka app khud kholo.",
+      "scenarioFamily": "credentials"
+    },
+    {
+      "id": "v2-hi-latn-benign-06",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Workshop mein warning thi ki police ka naam lekar savings ko kisi checking account mein bhejne ka pressure aaye to rukna chahiye, seedhe transfer nahin karna.",
+      "scenarioFamily": "authority-threat"
+    },
+    {
+      "id": "v2-hi-latn-benign-07",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Main us kaam se hat gaya jisme pehle earning pack ke paise maange gaye the. Job dene wale ka record alag se check kiye bina payment nahin karunga.",
+      "scenarioFamily": "pay-to-earn"
+    },
+    {
+      "id": "v2-hi-latn-benign-08",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Lesson ka point tha ki market investment ka result pehle se certain nahin hota. Sirf confident bolne wale ki baat se risk gayab nahin hota.",
+      "scenarioFamily": "guarantee"
+    },
+    {
+      "id": "v2-hi-latn-benign-09",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Cycle repair ke 280 rupaye mil gaye. Yeh aaj ki service ki receipt hai; koi nayi payment request ya link nahin hai.",
+      "scenarioFamily": "ordinary-receipt"
+    },
+    {
+      "id": "v2-hi-latn-benign-10",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Community centre mein Thursday ko household budgeting session hai. Apne kharch ke headings soch kar aana, bank account details laane ki zarurat nahin.",
+      "scenarioFamily": "ordinary-meeting"
+    },
+    {
+      "id": "v2-hi-latn-benign-11",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Nominee ka role samajhna hai. Kya yeh account holder ke jeete ji ownership badal deta hai? Main sirf concept pooch raha hoon.",
+      "scenarioFamily": "ordinary-question"
+    },
+    {
+      "id": "v2-hi-latn-benign-12",
+      "language": "hi-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Maine school fees ka paisa monthly budget mein alag kar diya hai. Baaki grocery aur travel ka kharch weekend par add karenge.",
+      "scenarioFamily": "ordinary-household"
+    },
+    {
+      "id": "v2-hi-latn-unassessable-01",
+      "language": "hi-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "App ka screenshot bhejna reh gaya. Bina screenshot ke bata sakte ho yeh asli app tha ya copy?",
+      "scenarioFamily": "missing-image"
+    },
+    {
+      "id": "v2-hi-latn-unassessable-02",
+      "language": "hi-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Kisi caller ne bola woh bank ke head office se hai. Number note nahin hua aur message bhi nahin hai. Uski identity confirm kar do.",
+      "scenarioFamily": "sender-identity"
+    },
+    {
+      "id": "v2-hi-latn-unassessable-03",
+      "language": "hi-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Yeh address mila: https://renewal-desk.example.invalid. Sirf URL se kya company ko genuine declare kar sakte ho?",
+      "scenarioFamily": "link-only"
+    },
+    {
+      "id": "v2-hi-latn-unassessable-04",
+      "language": "hi-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Dost bolta hai policy ko official approval mila hai, lekin policy ka naam ya document nahin bheja. Approval sach hai kya?",
+      "scenarioFamily": "missing-document"
+    },
+    {
+      "id": "v2-hi-latn-unassessable-05",
+      "language": "hi-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Mera unnamed portfolio next quarter kitna badhega? Holdings aur starting amount share nahin kiya hai.",
+      "scenarioFamily": "future-outcome"
+    },
+    {
+      "id": "v2-hi-latn-unassessable-06",
+      "language": "hi-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Chat ka bas itna hissa hai: next stage accepted, code 815, details later. Pehle ke messages missing hain.",
+      "scenarioFamily": "fragment"
+    },
+    {
+      "id": "v2-bn-latn-attention-01",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedAttention": true,
+      "text": "Refund ta chalu korte banking app er PIN aar phone e asha ekbarer code ei chat e pathan. Amader staff apnar hoye account e dhuke kaj korbe.",
+      "scenarioFamily": "credentials"
+    },
+    {
+      "id": "v2-bn-latn-attention-02",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "account-threat"
+      ],
+      "expectedAttention": true,
+      "text": "Apnar wallet bondho korar process cholche. Account ta bachate ei notice er verification form e porichoyer tottho din, na hole access chole jabe.",
+      "scenarioFamily": "account-threat"
+    },
+    {
+      "id": "v2-bn-latn-attention-03",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "expectedAttention": true,
+      "text": "Tadontokari officer bolchi, apnar taka niye case hoyeche. Todonto shesh na howa porjonto shob savings amader verification account e sorate hobe.",
+      "scenarioFamily": "authority-threat"
+    },
+    {
+      "id": "v2-bn-latn-attention-04",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedAttention": true,
+      "text": "Apnar purono deposit er taka ferot dewa hobe. Tar age claim kholar charge agent er account e joma din, tarpor mul taka chara jabe.",
+      "scenarioFamily": "release-fee"
+    },
+    {
+      "id": "v2-bn-latn-attention-05",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "off-exchange"
+      ],
+      "expectedAttention": true,
+      "text": "Exchange e order na diye amader nijeder khatay share kenabecha korun. Exchange er contract note paben na, shob settlement amader hisab e hobe.",
+      "scenarioFamily": "off-exchange"
+    },
+    {
+      "id": "v2-bn-latn-attention-06",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "coordinated-pump"
+      ],
+      "expectedAttention": true,
+      "text": "Group er shobai eksathe oi chhoto share ta kinbo. Bairer lok dam barte dekhe jokhon kinbe, tokhon amra nijeder share oder kache beche debo.",
+      "scenarioFamily": "coordinated-pump"
+    },
+    {
+      "id": "v2-bn-latn-attention-07",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedAttention": true,
+      "text": "Ei investment e mul taka konodin kombe na. Bajar jemon e hok labh nischit, kono obosthatei loksan hobar sujog nei.",
+      "scenarioFamily": "guarantee"
+    },
+    {
+      "id": "v2-bn-latn-attention-08",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "urgency"
+      ],
+      "expectedAttention": true,
+      "text": "Booking er jonno matro egaro minute ache. Ekhon ar kagoj cheye deri korben na, countdown shesh howar age booking er taka pathiye din.",
+      "scenarioFamily": "urgency"
+    },
+    {
+      "id": "v2-bn-latn-attention-09",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "outsized"
+      ],
+      "expectedAttention": true,
+      "text": "Amader plan e 14,000 taka ponero diner moddhe 1,12,000 takar balance hoy. Ei kom somoyer growth tai brochure e dekhano ache.",
+      "scenarioFamily": "outsized"
+    },
+    {
+      "id": "v2-bn-latn-attention-10",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "tip"
+      ],
+      "expectedAttention": true,
+      "text": "Budhbar market khulle ei talikar share kinun. Koto dame dhukben aar kobe bikri korben, amader signal follow korlei order kora jabe.",
+      "scenarioFamily": "tip"
+    },
+    {
+      "id": "v2-bn-latn-attention-11",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "insider"
+      ],
+      "expectedAttention": true,
+      "text": "Company er bhitorer staff unpublished order er khobor diyeche. Public announcement er age oi khobor use kore share er position nin.",
+      "scenarioFamily": "insider"
+    },
+    {
+      "id": "v2-bn-latn-attention-12",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "impersonation"
+      ],
+      "expectedAttention": true,
+      "text": "Ami apnar bank er notun loan officer. Ei masher kisti bank portal er bodole amar personal payment handle e pathan, ami bank e record kore debo.",
+      "scenarioFamily": "impersonation"
+    },
+    {
+      "id": "v2-bn-latn-attention-13",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "periodic"
+      ],
+      "expectedAttention": true,
+      "text": "Package e taka rakhle proti tin din ontor fixed ay account e pore. Chhutir dineo eki schedule e taka dewar byabostha cholte thake.",
+      "scenarioFamily": "periodic"
+    },
+    {
+      "id": "v2-bn-latn-attention-14",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedAttention": true,
+      "text": "Online catalogue check kore ay korte hole age task token pack kinte hobe. Pack er payment korlei taka rojarer kaj gulo khule jabe.",
+      "scenarioFamily": "pay-to-earn"
+    },
+    {
+      "id": "v2-bn-latn-attention-15",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "off-platform"
+      ],
+      "expectedAttention": true,
+      "text": "Registered app e ei len-den korben na. Amader alada chat e ashun, sekhane dewa payment address e app er baire taka pathaben.",
+      "scenarioFamily": "off-platform"
+    },
+    {
+      "id": "v2-bn-latn-attention-16",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "secrecy"
+      ],
+      "expectedAttention": true,
+      "text": "Ei financial deal er kotha barir lok ba bank ke bolben na. Keu payment er karon jiggesh korleo byabostha ta gopon rakhte hobe.",
+      "scenarioFamily": "secrecy"
+    },
+    {
+      "id": "v2-bn-latn-attention-17",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "borrow"
+      ],
+      "expectedAttention": true,
+      "text": "Ei scheme e beshi taka lagate ekta personal loan nin. Proyojone gold bondhok diye aro fund jogar korun jate prothom contribution ta boro hoy.",
+      "scenarioFamily": "borrow"
+    },
+    {
+      "id": "v2-bn-latn-attention-18",
+      "language": "bn-Latn",
+      "group": "attention",
+      "expectedCategories": [
+        "authority-threat"
+      ],
+      "expectedAttention": true,
+      "text": "Revenue office er special team theke bolchi. Apnar taka legal kina dekhte amader audit wallet e savings pathan, na hole apnar biruddhe case thakbe.",
+      "scenarioFamily": "authority-threat"
+    },
+    {
+      "id": "v2-bn-latn-benign-01",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [
+        "registration"
+      ],
+      "expectedAttention": false,
+      "text": "Adviser er registration number peyechi. Official list e naam aar kon dhoroner service er registration ache seta milabo; number thakai shob dabi proman kore na.",
+      "scenarioFamily": "registration"
+    },
+    {
+      "id": "v2-bn-latn-benign-02",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [
+        "promotion"
+      ],
+      "expectedAttention": false,
+      "text": "Ei savings notebook review ta sponsored. Brand theke lekhar fee peyechi, kintu kono share ba investment kenar recommendation dichhi na.",
+      "scenarioFamily": "promotion"
+    },
+    {
+      "id": "v2-bn-latn-benign-03",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [
+        "nav"
+      ],
+      "expectedAttention": false,
+      "text": "Ek fund er NAV 28 aar arektar 112. Unit er dam kom bole prothom fund e beshi labh hobei, emon kotha bola jay na.",
+      "scenarioFamily": "nav"
+    },
+    {
+      "id": "v2-bn-latn-benign-04",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [
+        "social-proof"
+      ],
+      "expectedAttention": false,
+      "text": "Presenter er onek follower thakte pare. Follower count financial claim er evidence noy; original source tao dekha dorkar.",
+      "scenarioFamily": "social-proof"
+    },
+    {
+      "id": "v2-bn-latn-benign-05",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Banking PIN ba SMS er code karo sathe share korben na. Refund er kotha bole chaileo nijer chena official support e alada kore khoj nin.",
+      "scenarioFamily": "credentials"
+    },
+    {
+      "id": "v2-bn-latn-benign-06",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Harano taka ferot er age fee chaile agey bhalo kore jachai korun. Ojana recovery agent ke taka pathaben na, eta sotorkotar udahoron.",
+      "scenarioFamily": "release-fee"
+    },
+    {
+      "id": "v2-bn-latn-benign-07",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Payment link ta use korini. Nijer chena official app khule bill ta dekhbo; private chat e pathano address e taka dichhi na.",
+      "scenarioFamily": "off-platform"
+    },
+    {
+      "id": "v2-bn-latn-benign-08",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Poribarer kache investment lukiye rakhte bola hole theme proshno korun. Training e eta warning sign hisebe dekhano hoyeche, lukonor poramorsho noy.",
+      "scenarioFamily": "secrecy"
+    },
+    {
+      "id": "v2-bn-latn-benign-09",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "School library er boi haranor charge 95 taka joma hoyeche. Agey dewa takar receipt eta, abar taka chawar message noy.",
+      "scenarioFamily": "ordinary-receipt"
+    },
+    {
+      "id": "v2-bn-latn-benign-10",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Shonibar para club e savings aar monthly budget niye free alochona hobe. Bank details anar dorkar nei, shudhu nijer proshno niye ashun.",
+      "scenarioFamily": "ordinary-session"
+    },
+    {
+      "id": "v2-bn-latn-benign-11",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Diversification er mane ki shudhu onek account khola? Ekta shohoj udahoron chai, kono product kenar advice na.",
+      "scenarioFamily": "ordinary-question"
+    },
+    {
+      "id": "v2-bn-latn-benign-12",
+      "language": "bn-Latn",
+      "group": "benign",
+      "expectedCategories": [],
+      "expectedAttention": false,
+      "text": "Ei masher oshudh aar bhara alada khatay tule rekhechi. Grocery bill gulo mile gele baki household budget ta update korbo.",
+      "scenarioFamily": "ordinary-household"
+    },
+    {
+      "id": "v2-bn-latn-unassessable-01",
+      "language": "bn-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Certificate er chhobi attach korte bhule gechi. Chhobi chara ki eta asol bole dewa jabe?",
+      "scenarioFamily": "missing-image"
+    },
+    {
+      "id": "v2-bn-latn-unassessable-02",
+      "language": "bn-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Ekjon bolechilo tini pension office er lok. Naam ba number kichhui rakhini. Shudhu ei kothay tar porichoy check kora jabe?",
+      "scenarioFamily": "sender-identity"
+    },
+    {
+      "id": "v2-bn-latn-unassessable-03",
+      "language": "bn-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "https://benefit-record.example.invalid ei address ta esheche. URL dekhei ki website er malik ke genuine bola jay?",
+      "scenarioFamily": "link-only"
+    },
+    {
+      "id": "v2-bn-latn-unassessable-04",
+      "language": "bn-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Bondhu bolche ekta scheme er shob approval ache. Scheme er naam aar kagoj konotai deyni. Kotha ta confirm kora jabe?",
+      "scenarioFamily": "missing-document"
+    },
+    {
+      "id": "v2-bn-latn-unassessable-05",
+      "language": "bn-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Amar na-bola investment er value du bochor pore koto hobe? Shurur amount ba asset er naam o bolini.",
+      "scenarioFamily": "future-outcome"
+    },
+    {
+      "id": "v2-bn-latn-unassessable-06",
+      "language": "bn-Latn",
+      "group": "unassessable",
+      "expectedCategories": [],
+      "expectedAttention": null,
+      "text": "Message er tukro: final stage accepted, reference 293, next notice pore. Agger conversation ta nei.",
+      "scenarioFamily": "fragment"
+    }
+  ]
+}

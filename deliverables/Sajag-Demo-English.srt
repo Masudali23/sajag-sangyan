@@ -1,0 +1,279 @@
+1
+00:00:00,000 --> 00:00:04,646
+Imagine a convincing investment offer arriving in your family chat.
+
+2
+00:00:05,031 --> 00:00:09,004
+Urgent wording and unfamiliar financial terms make it hard to judge.
+
+3
+00:00:09,137 --> 00:00:12,779
+For first-time investors, the challenge is understanding the request
+
+4
+00:00:12,779 --> 00:00:14,983
+before money or personal information changes hands.
+
+5
+00:00:16,947 --> 00:00:18,519
+Now, this is Sajag.
+
+6
+00:00:18,673 --> 00:00:20,814
+Sajag connects checking with learning.
+
+7
+00:00:21,452 --> 00:00:26,140
+Bring a message, understand the quoted warning, then explore the lessons behind it.
+
+8
+00:00:26,231 --> 00:00:29,641
+Our web and Android prototype combines a private offline check
+
+9
+00:00:29,641 --> 00:00:31,094
+with an optional AI review.
+
+10
+00:00:31,094 --> 00:00:33,108
+No investment advice.
+
+11
+00:00:34,062 --> 00:00:36,098
+So, look at the quoted words on screen.
+
+12
+00:00:36,462 --> 00:00:40,603
+They explain what triggered the warnings, with relevant official guidance and context.
+
+13
+00:00:41,493 --> 00:00:43,340
+Sharing and saving remain separate choices.
+
+14
+00:00:43,767 --> 00:00:47,550
+Lessons and fictional simulations turn a warning into understanding.
+
+15
+00:00:47,788 --> 00:00:51,276
+Android Back returns sections Home after closing overlays.
+
+16
+00:00:51,683 --> 00:00:56,055
+Now that we have seen what the warning tells us and why these features matter,
+
+17
+00:00:57,282 --> 00:00:59,108
+let's put them to a test.
+
+18
+00:00:59,409 --> 00:01:02,882
+We'll move from the explanation to a few actual checks
+
+19
+00:01:02,882 --> 00:01:05,592
+to see how the system responds to different types of messages.
+
+20
+00:01:06,166 --> 00:01:09,949
+We'll start with a fictional parcel message asking for ₹49 to release a delivery.
+
+21
+00:01:10,314 --> 00:01:12,840
+We'll run it locally, give permission for AI review,
+
+22
+00:01:12,840 --> 00:01:14,939
+and then see what the result looks like.
+
+23
+00:01:15,071 --> 00:01:18,160
+Next, we'll look at a routine insurance premium notice.
+
+24
+00:01:18,840 --> 00:01:23,254
+The offline check raises a pattern warning, and the AI review label
+
+25
+00:01:23,534 --> 00:01:29,254
+shows why the warning was withdrawn while keeping the result visible as context.
+
+26
+00:01:29,745 --> 00:01:33,907
+These are genuine website checks using fictional messages,
+
+27
+00:01:34,587 --> 00:01:37,296
+to demonstrate how the system behaves
+
+28
+00:01:39,134 --> 00:01:42,412
+without making any claim about real-world accuracy.
+
+29
+00:01:43,176 --> 00:01:43,822
+AI can still be wrong.
+
+30
+00:01:44,502 --> 00:01:48,517
+Now look at the language screens: English, Hindi and Bengali are interface choices.
+
+31
+00:01:48,881 --> 00:01:55,070
+Messages can also use Hinglish and Banglish. That gives 5 tested language forms,
+
+32
+00:01:55,070 --> 00:01:58,664
+including Romanised Hindi and Bengali.
+
+33
+00:01:58,881 --> 00:02:02,516
+Bengali remains beta, awaiting native-speaker review.
+
+34
+00:02:02,923 --> 00:02:08,579
+Look at the counts from the test: 150 synthetic messages,
+
+35
+00:02:08,796 --> 00:02:12,417
+75 risky and 75 harmless, across 5 language forms.
+
+36
+00:02:12,417 --> 00:02:16,432
+Offline got 124 correct, which is 82.7%.
+
+37
+00:02:16,754 --> 00:02:23,631
+With AI, that makes 149 correct, which is 99.3%: a very good accuracy.
+
+38
+00:02:24,164 --> 00:02:29,547
+Risky messages flagged rose from 57 to 74 out of 75.
+
+39
+00:02:29,848 --> 00:02:33,926
+Harmless false alarms fell from 8 to 0 out of 75.
+
+40
+00:02:34,185 --> 00:02:39,020
+AI completed 145 reviews; 5 used offline fallback.
+
+41
+00:02:39,385 --> 00:02:41,989
+These results are not real-world guarantees,
+
+42
+00:02:42,121 --> 00:02:46,094
+but yes, these are the testing results of our product.
+
+43
+00:02:46,711 --> 00:02:48,810
+Follow the two layers on the screen.
+
+44
+00:02:49,216 --> 00:02:52,689
+Local rules and a small pattern model check wording on the device
+
+45
+00:02:52,689 --> 00:02:54,094
+without sending any message.
+
+46
+00:02:54,226 --> 00:02:57,742
+With permission, RAG retrieves relevant SEBI, RBI and government guidance
+
+47
+00:02:57,742 --> 00:02:59,272
+for Gemini, our AI model.
+
+48
+00:02:59,552 --> 00:03:03,483
+New AI warnings need matching quoted words and official guidance.
+
+49
+00:03:03,889 --> 00:03:06,472
+A second pass confirms or withdraws warnings.
+
+50
+00:03:06,878 --> 00:03:08,198
+Strong results cannot be withdrawn.
+
+51
+00:03:08,815 --> 00:03:11,756
+Offline provides access; AI adds context.
+
+52
+00:03:12,141 --> 00:03:17,236
+Next, look at 15 lessons: 7 money concepts and 8 scam lessons.
+
+53
+00:03:17,236 --> 00:03:23,251
+4 fictional chat stories reveal pressure tactics through your choices.
+
+54
+00:03:23,825 --> 00:03:27,966
+A small task-job reward can lead to deposit demands.
+
+55
+00:03:28,330 --> 00:03:34,008
+In the money simulator, a 20% loss needs a 25% rise to recover.
+
+56
+00:03:34,267 --> 00:03:36,067
+This is arithmetic, not a forecast.
+
+57
+00:03:36,730 --> 00:03:38,513
+Users create and verify their account once,
+
+58
+00:03:38,856 --> 00:03:41,187
+and returning users sign in securely with their password.
+
+59
+00:03:41,530 --> 00:03:45,804
+Before every AI check, users can see what information will be shared
+
+60
+00:03:45,804 --> 00:03:47,629
+and give explicit permission.
+
+61
+00:03:48,098 --> 00:03:53,397
+Sensitive content is masked before it leaves the device,
+
+62
+00:03:53,614 --> 00:03:57,782
+and users remain in control of what they choose to save.
+
+63
+00:03:57,782 --> 00:04:03,397
+Core features continue to work offline, while AI review is used only by user choice.
+
+64
+00:04:04,014 --> 00:04:07,592
+AI submissions may be subject to the provider's data policies,
+
+65
+00:04:07,592 --> 00:04:10,470
+and locally saved notebook data is not encrypted.
+
+66
+00:04:11,024 --> 00:04:15,817
+Sajag brings warning, explanation and practice together into a learning journey,
+
+67
+00:04:15,908 --> 00:04:20,981
+helping people not just identify a risky message, but understand why it is risky
+
+68
+00:04:20,981 --> 00:04:23,817
+and make a safer decision next time.
+
+69
+00:04:24,044 --> 00:04:27,954
+This is Sajag by Team FirstBest: Anshuman Biswal and me, Masud Ali.
+
+70
+00:04:28,781 --> 00:04:29,996
+Understand before you act.

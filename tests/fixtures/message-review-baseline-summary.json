@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "origin": "AI-authored independent synthetic wording expectations; not real-world fraud ground truth or Gemini accuracy.",
+  "metricLabelNote": "Original baseline balancedSyntheticAgreement means raw (TP+TN)/N sample agreement, not macro balanced accuracy. Current evaluator uses syntheticAgreement.",
+  "annotationStatus": "Development attention labels received internal cross-author sanity checks; room the team-2 final audit remains pending. Purpose labels contain boundary ambiguity.",
+  "development": {
+    "version": 1,
+    "runId": "baseline",
+    "evaluatedAt": "2026-10-03T13:17:56.926Z",
+    "provenance": "Independent synthetic expectations, local rules plus local official-guidance retrieval. Not Gemini/RAG model accuracy, real-world fraud truth or proof of safety. Wilson intervals are binomial summaries only; adversarial cases are not random population samples.",
+    "fixtureHashes": {
+      "tests/fixtures/message-review-en.json": "cbd5f7ab64c6e018746efd7501db2c6d1fb00771bb7c9563bc08dc802fb69a07",
+      "tests/fixtures/message-review-hi.json": "d583da733fe30b0714818a2029baaf3d4d4d87ac4f60820c21a11476f636e79b",
+      "tests/fixtures/message-review-bn.json": "8725433566ec3e8f4cad7cb4e31435d2e52a874c58febeb57d5da0b578d4ec97"
+    },
+    "sourceHashes": {
+      "shared/engine.ts": "4bc68e5b43ffbe302405581e25ce490c3b62f77645dd05be17eca94bfea98ff1",
+      "shared/numeric-claims.ts": "ef99698c736d13bab59fa9e05a11810020422b5fdfcea29c63c3261e427a915a",
+      "shared/bengali-patterns.ts": "f6d4aed605b5412c2d46bb7995659914fc8a40fe6912b759af14f60af9ff5ab5",
+      "shared/bengali-engine-copy.ts": "f610102f9c555730c19ee1801cf96cf8f71739deb908e5cef6c5eeaf7d56d971",
+      "shared/types.ts": "422d6b5c72a0308772e244b7d5bf8f963fa9c1d633fede23da3e35c407b3ddae",
+      "shared/risk.ts": "4ba9167453858d63cdbfba2765e2f3b38b3c952769c79499b5f504a4f2a26288",
+      "shared/content.ts": "84d2baa55fd99ffb52a7b39e2e45e60b250faa40b0ec605131d11e7706a98e02",
+      "server/retrieval.ts": "5079b37f0aa9c02adc481feff588f7739abb7d2764f14017584d1bfa6dd269c2",
+      "server/evidence-corpus.ts": "4308e5bedb9829397a4a023c9ba3fbab6c1cfed04b53d7ff301f4482b2e60c74",
+      "scripts/message-review.ts": "4b459bd00f0c9e65263febaf092d86f48acc64ed26277e524ec15ed9ad3bb7da"
+    },
+    "corpusVersion": "curated-2026-10-03-c7b11b4b3636131e",
+    "total": {
+      "total": 240,
+      "required": 120,
+      "truePositive": 55,
+      "falseNegative": 65,
+      "notExpected": 120,
+      "falsePositive": 25,
+      "trueNegative": 95,
+      "anyFindingOnNegative": 27,
+      "purposeScored": 212,
+      "purposeCorrect": 60,
+      "guidancePresent": 238,
+      "applicableGuidancePresent": 195,
+      "strong": 10,
+      "potential": 70,
+      "insufficient": 160,
+      "warningRecall": {
+        "numerator": 55,
+        "denominator": 120,
+        "fraction": 0.4583,
+        "wilson95": [
+          0.3719,
+          0.5474
+        ]
+      },
+      "warningPrecision": {
+        "numerator": 55,
+        "denominator": 80,
+        "fraction": 0.6875,
+        "wilson95": [
+          0.5793,
+          0.7785
+        ]
+      },
+      "attentionFalsePositiveRate": {
+        "numerator": 25,
+        "denominator": 120,
+        "fraction": 0.2083,
+        "wilson95": [
+          0.1453,
+          0.2895
+        ]
+      },
+      "balancedSyntheticAgreement": {
+        "numerator": 150,
+        "denominator": 240,
+        "fraction": 0.625,
+        "wilson95": [
+          0.5622,
+          0.6838
+        ]
+      },
+      "purposeAgreement": {
+        "numerator": 60,
+        "denominator": 212,
+        "fraction": 0.283,
+        "wilson95": [
+          0.2267,
+          0.3471
+        ]
+      }
+    },
+    "byLanguage": {
+      "en": {
+        "total": 80,
+        "required": 40,
+        "truePositive": 24,
+        "falseNegative": 16,
+        "notExpected": 40,
+        "falsePositive": 14,
+        "trueNegative": 26,
+        "anyFindingOnNegative": 14,
+        "purposeScored": 80,
+        "purposeCorrect": 27,
+        "guidancePresent": 79,
+        "applicableGuidancePresent": 68,
+        "strong": 4,
+        "potential": 34,
+        "insufficient": 42,
+        "warningRecall": {
+          "numerator": 24,
+          "denominator": 40,
+          "fraction": 0.6,
+          "wilson95": [
+            0.446,
+            0.7365
+          ]
+        },
+        "warningPrecision": {
+          "numerator": 24,
+          "denominator": 38,
+          "fraction": 0.6316,
+          "wilson95": [
+            0.4728,
+            0.7662
+          ]
+        },
+        "attentionFalsePositiveRate": {
+          "numerator": 14,
+          "denominator": 40,
+          "fraction": 0.35,
+          "wilson95": [
+            0.2213,
+            0.5049
+          ]
+        },
+        "balancedSyntheticAgreement": {
+          "numerator": 50,
+          "denominator": 80,
+          "fraction": 0.625,
+          "wilson95": [
+            0.5155,
+            0.7231
+          ]
+        },
+        "purposeAgreement": {
+          "numerator": 27,
+          "denominator": 80,
+          "fraction": 0.3375,
+          "wilson95": [
+            0.2435,
+            0.4464
+          ]
+        }
+      },
+      "hi": {
+        "total": 80,
+        "required": 40,
+        "truePositive": 14,
+        "falseNegative": 26,
+        "notExpected": 40,
+        "falsePositive": 4,
+        "trueNegative": 36,
+        "anyFindingOnNegative": 5,
+        "purposeScored": 60,
+        "purposeCorrect": 9,
+        "guidancePresent": 79,
+        "applicableGuidancePresent": 55,
+        "strong": 2,
+        "potential": 16,
+        "insufficient": 62,
+        "warningRecall": {
+          "numerator": 14,
+          "denominator": 40,
+          "fraction": 0.35,
+          "wilson95": [
+            0.2213,
+            0.5049
+          ]
+        },
+        "warningPrecision": {
+          "numerator": 14,
+          "denominator": 18,
+          "fraction": 0.7778,
+          "wilson95": [
+            0.5479,
+            0.91
+          ]
+        },
+        "attentionFalsePositiveRate": {
+          "numerator": 4,
+          "denominator": 40,
+          "fraction": 0.1,
+          "wilson95": [
+            0.0396,
+            0.2305
+          ]
+        },
+        "balancedSyntheticAgreement": {
+          "numerator": 50,
+          "denominator": 80,
+          "fraction": 0.625,
+          "wilson95": [
+            0.5155,
+            0.7231
+          ]
+        },
+        "purposeAgreement": {
+          "numerator": 9,
+          "denominator": 60,
+          "fraction": 0.15,
+          "wilson95": [
+            0.081,
+            0.2611
+          ]
+        }
+      },
+      "bn": {
+        "total": 80,
+        "required": 40,
+        "truePositive": 17,
+        "falseNegative": 23,
+        "notExpected": 40,
+        "falsePositive": 7,
+        "trueNegative": 33,
+        "anyFindingOnNegative": 8,
+        "purposeScored": 72,
+        "purposeCorrect": 24,
+        "guidancePresent": 80,
+        "applicableGuidancePresent": 72,
+        "strong": 4,
+        "potential": 20,
+        "insufficient": 56,
+        "warningRecall": {
+          "numerator": 17,
+          "denominator": 40,
+          "fraction": 0.425,
+          "wilson95": [
+            0.2851,
+            0.578
+          ]
+        },
+        "warningPrecision": {
+          "numerator": 17,
+          "denominator": 24,
+          "fraction": 0.7083,
+          "wilson95": [
+            0.5083,
+            0.8509
+          ]
+        },
+        "attentionFalsePositiveRate": {
+          "numerator": 7,
+          "denominator": 40,
+          "fraction": 0.175,
+          "wilson95": [
+            0.0875,
+            0.3195
+          ]
+        },
+        "balancedSyntheticAgreement": {
+          "numerator": 50,
+          "denominator": 80,
+          "fraction": 0.625,
+          "wilson95": [
+            0.5155,
+            0.7231
+          ]
+        },
+        "purposeAgreement": {
+          "numerator": 24,
+          "denominator": 72,
+          "fraction": 0.3333,
+          "wilson95": [
+            0.2353,
+            0.4482
+          ]
+        }
+      }
+    },
+    "tiers": {
+      "attentionRequired": {
+        "strong": 6,
+        "potential": 49,
+        "insufficient": 65
+      },
+      "attentionNotExpected": {
+        "strong": 4,
+        "potential": 21,
+        "insufficient": 95
+      }
+    },
+    "checks": {
+      "invariantChecks": 2880,
+      "invariantFailures": 0,
+      "networkCalls": 0,
+      "noAttentionExpectedCasesGivenStrongTier": 4
+    }
+  },
+  "holdout": {
+    "version": 1,
+    "runId": "holdout-baseline",
+    "evaluatedAt": "2026-10-03T13:17:57.231Z",
+    "provenance": "Independent synthetic expectations, local rules plus local official-guidance retrieval. Not Gemini/RAG model accuracy, real-world fraud truth or proof of safety. Wilson intervals are binomial summaries only; adversarial cases are not random population samples.",
+    "fixtureHashes": {
+      "tests/fixtures/message-review-en.json": "cbd5f7ab64c6e018746efd7501db2c6d1fb00771bb7c9563bc08dc802fb69a07",
+      "tests/fixtures/message-review-hi.json": "d583da733fe30b0714818a2029baaf3d4d4d87ac4f60820c21a11476f636e79b",
+      "tests/fixtures/message-review-bn.json": "8725433566ec3e8f4cad7cb4e31435d2e52a874c58febeb57d5da0b578d4ec97"
+    },
+    "sourceHashes": {
+      "shared/engine.ts": "4bc68e5b43ffbe302405581e25ce490c3b62f77645dd05be17eca94bfea98ff1",
+      "shared/numeric-claims.ts": "ef99698c736d13bab59fa9e05a11810020422b5fdfcea29c63c3261e427a915a",
+      "shared/bengali-patterns.ts": "f6d4aed605b5412c2d46bb7995659914fc8a40fe6912b759af14f60af9ff5ab5",
+      "shared/bengali-engine-copy.ts": "f610102f9c555730c19ee1801cf96cf8f71739deb908e5cef6c5eeaf7d56d971",
+      "shared/types.ts": "422d6b5c72a0308772e244b7d5bf8f963fa9c1d633fede23da3e35c407b3ddae",
+      "shared/risk.ts": "4ba9167453858d63cdbfba2765e2f3b38b3c952769c79499b5f504a4f2a26288",
+      "shared/content.ts": "84d2baa55fd99ffb52a7b39e2e45e60b250faa40b0ec605131d11e7706a98e02",
+      "server/retrieval.ts": "5079b37f0aa9c02adc481feff588f7739abb7d2764f14017584d1bfa6dd269c2",
+      "server/evidence-corpus.ts": "4308e5bedb9829397a4a023c9ba3fbab6c1cfed04b53d7ff301f4482b2e60c74",
+      "scripts/message-review.ts": "4b459bd00f0c9e65263febaf092d86f48acc64ed26277e524ec15ed9ad3bb7da"
+    },
+    "corpusVersion": "curated-2026-10-03-c7b11b4b3636131e",
+    "total": {
+      "total": 120,
+      "required": 60,
+      "truePositive": 18,
+      "falseNegative": 42,
+      "notExpected": 60,
+      "falsePositive": 8,
+      "trueNegative": 52,
+      "anyFindingOnNegative": 9,
+      "purposeScored": 106,
+      "purposeCorrect": 28,
+      "guidancePresent": 120,
+      "applicableGuidancePresent": 100,
+      "strong": 0,
+      "potential": 26,
+      "insufficient": 94,
+      "warningRecall": {
+        "numerator": 18,
+        "denominator": 60,
+        "fraction": 0.3,
+        "wilson95": [
+          0.199,
+          0.4251
+        ]
+      },
+      "warningPrecision": {
+        "numerator": 18,
+        "denominator": 26,
+        "fraction": 0.6923,
+        "wilson95": [
+          0.5001,
+          0.835
+        ]
+      },
+      "attentionFalsePositiveRate": {
+        "numerator": 8,
+        "denominator": 60,
+        "fraction": 0.1333,
+        "wilson95": [
+          0.0691,
+          0.2417
+        ]
+      },
+      "balancedSyntheticAgreement": {
+        "numerator": 70,
+        "denominator": 120,
+        "fraction": 0.5833,
+        "wilson95": [
+          0.4939,
+          0.6676
+        ]
+      },
+      "purposeAgreement": {
+        "numerator": 28,
+        "denominator": 106,
+        "fraction": 0.2642,
+        "wilson95": [
+          0.1895,
+          0.3553
+        ]
+      }
+    },
+    "byLanguage": {
+      "en": {
+        "total": 40,
+        "required": 20,
+        "truePositive": 6,
+        "falseNegative": 14,
+        "notExpected": 20,
+        "falsePositive": 3,
+        "trueNegative": 17,
+        "anyFindingOnNegative": 3,
+        "purposeScored": 40,
+        "purposeCorrect": 15,
+        "guidancePresent": 40,
+        "applicableGuidancePresent": 35,
+        "strong": 0,
+        "potential": 9,
+        "insufficient": 31,
+        "warningRecall": {
+          "numerator": 6,
+          "denominator": 20,
+          "fraction": 0.3,
+          "wilson95": [
+            0.1455,
+            0.519
+          ]
+        },
+        "warningPrecision": {
+          "numerator": 6,
+          "denominator": 9,
+          "fraction": 0.6667,
+          "wilson95": [
+            0.3542,
+            0.8794
+          ]
+        },
+        "attentionFalsePositiveRate": {
+          "numerator": 3,
+          "denominator": 20,
+          "fraction": 0.15,
+          "wilson95": [
+            0.0524,
+            0.3604
+          ]
+        },
+        "balancedSyntheticAgreement": {
+          "numerator": 23,
+          "denominator": 40,
+          "fraction": 0.575,
+          "wilson95": [
+            0.422,
+            0.7149
+          ]
+        },
+        "purposeAgreement": {
+          "numerator": 15,
+          "denominator": 40,
+          "fraction": 0.375,
+          "wilson95": [
+            0.2422,
+            0.5297
+          ]
+        }
+      },
+      "hi": {
+        "total": 40,
+        "required": 20,
+        "truePositive": 5,
+        "falseNegative": 15,
+        "notExpected": 20,
+        "falsePositive": 3,
+        "trueNegative": 17,
+        "anyFindingOnNegative": 3,
+        "purposeScored": 30,
+        "purposeCorrect": 3,
+        "guidancePresent": 40,
+        "applicableGuidancePresent": 27,
+        "strong": 0,
+        "potential": 8,
+        "insufficient": 32,
+        "warningRecall": {
+          "numerator": 5,
+          "denominator": 20,
+          "fraction": 0.25,
+          "wilson95": [
+            0.1119,
+            0.4687
+          ]
+        },
+        "warningPrecision": {
+          "numerator": 5,
+          "denominator": 8,
+          "fraction": 0.625,
+          "wilson95": [
+            0.3057,
+            0.8632
+          ]
+        },
+        "attentionFalsePositiveRate": {
+          "numerator": 3,
+          "denominator": 20,
+          "fraction": 0.15,
+          "wilson95": [
+            0.0524,
+            0.3604
+          ]
+        },
+        "balancedSyntheticAgreement": {
+          "numerator": 22,
+          "denominator": 40,
+          "fraction": 0.55,
+          "wilson95": [
+            0.3983,
+            0.6929
+          ]
+        },
+        "purposeAgreement": {
+          "numerator": 3,
+          "denominator": 30,
+          "fraction": 0.1,
+          "wilson95": [
+            0.0346,
+            0.2562
+          ]
+        }
+      },
+      "bn": {
+        "total": 40,
+        "required": 20,
+        "truePositive": 7,
+        "falseNegative": 13,
+        "notExpected": 20,
+        "falsePositive": 2,
+        "trueNegative": 18,
+        "anyFindingOnNegative": 3,
+        "purposeScored": 36,
+        "purposeCorrect": 10,
+        "guidancePresent": 40,
+        "applicableGuidancePresent": 38,
+        "strong": 0,
+        "potential": 9,
+        "insufficient": 31,
+        "warningRecall": {
+          "numerator": 7,
+          "denominator": 20,
+          "fraction": 0.35,
+          "wilson95": [
+            0.1812,
+            0.5671
+          ]
+        },
+        "warningPrecision": {
+          "numerator": 7,
+          "denominator": 9,
+          "fraction": 0.7778,
+          "wilson95": [
+            0.4526,
+            0.9368
+          ]
+        },
+        "attentionFalsePositiveRate": {
+          "numerator": 2,
+          "denominator": 20,
+          "fraction": 0.1,
+          "wilson95": [
+            0.0279,
+            0.301
+          ]
+        },
+        "balancedSyntheticAgreement": {
+          "numerator": 25,
+          "denominator": 40,
+          "fraction": 0.625,
+          "wilson95": [
+            0.4703,
+            0.7578
+          ]
+        },
+        "purposeAgreement": {
+          "numerator": 10,
+          "denominator": 36,
+          "fraction": 0.2778,
+          "wilson95": [
+            0.1585,
+            0.4399
+          ]
+        }
+      }
+    },
+    "tiers": {
+      "attentionRequired": {
+        "strong": 0,
+        "potential": 18,
+        "insufficient": 42
+      },
+      "attentionNotExpected": {
+        "strong": 0,
+        "potential": 8,
+        "insufficient": 52
+      }
+    },
+    "checks": {
+      "invariantChecks": 1440,
+      "invariantFailures": 0,
+      "networkCalls": 0,
+      "noAttentionExpectedCasesGivenStrongTier": 0
+    }
+  },
+  "artifactHashes": {
+    "fixture-freeze.json": "03cfe4a6e8173bc563baaae1ecc2cc9264d179134e004d687b8d145858827dbd",
+    "development-baseline.json": "f698a3bb8a4866b99e205f6b77f0144f59e74f9aedda9d43a67f3dfcaff9e489",
+    "development-corrections-baseline.json": "7aabe92dedee0225a37b0e52d75da9a196d58b6a7af8f78ec7a0616e83d414fc",
+    "holdout-baseline.json": "9387665473ce2e24dc550ffd0c81973d62902e873c976ef987ed5cc29f4bf49a"
+  },
+  "holdoutDisclosureAmendment": {
+    "amendedAt": "2026-10-03T13:27:44.431750+00:00",
+    "originalArtifactSha256": "c75b081f684632e9270598fe9d7b4fa73a31ff15f3666ddfbd3533284ccc7e58",
+    "removedFields": [
+      "byTag",
+      "byLanguageScript",
+      "purposeConfusion"
+    ],
+    "reason": "Fine-grained held-out buckets can expose individual outcomes. Published holdout reports only overall and fixed language aggregates.",
+    "primaryMeasurementsChanged": false
+  },
+  "heldoutPolicy": "No held-out messages, IDs, custom tags, small script buckets or individual outcomes in this summary. Do not use held-out messages for learning."
+}

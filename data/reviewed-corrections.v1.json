@@ -1,0 +1,628 @@
+{
+  "schemaVersion": 1,
+  "version": "reviewed-corrections-2026-10-03-v2",
+  "scope": "synthetic-development-only",
+  "records": [
+    {
+      "id": "memory-en-credentials",
+      "status": "reviewed",
+      "language": "en",
+      "categoryIds": ["credentials"],
+      "sourceIds": ["rbi-kyc"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": ["dev2-en-credentials-offer", "dev2-en-credentials-caution"]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["login", "code", "otp", "support", "agent", "send"],
+      "positive": {
+        "text": "Send the six-digit login code to our support agent.",
+        "explanation": "Requests a login code from the recipient; this is a possible secret-sharing cue, not proof of the sender’s identity or crime."
+      },
+      "caution": {
+        "text": "Investor safety: do not follow claims such as “Send the six-digit login code to our support agent”.",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-en-guarantee",
+      "status": "reviewed",
+      "language": "en",
+      "categoryIds": ["guarantee"],
+      "sourceIds": ["sebi-scams"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": ["dev2-en-guarantee-offer", "dev2-en-guarantee-caution"]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": [
+        "investment",
+        "plan",
+        "promises",
+        "profits",
+        "loss",
+        "guaranteed"
+      ],
+      "positive": {
+        "text": "Our investment plan promises profits with no possibility of loss.",
+        "explanation": "Promises investment profit without possible loss; this is a warning cue, not a verified prediction or investment assessment."
+      },
+      "caution": {
+        "text": "Investor safety: do not follow claims such as “Our investment plan promises profits with no possibility of loss”.",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-en-release-fee",
+      "status": "reviewed",
+      "language": "en",
+      "categoryIds": ["release-fee"],
+      "sourceIds": ["sebi-fake-apps"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": ["dev2-en-release-fee-offer", "dev2-en-release-fee-caution"]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["clearance", "charge", "release", "withdrawal", "fee", "pay"],
+      "positive": {
+        "text": "Pay a clearance charge first so we can release your withdrawal.",
+        "explanation": "Makes withdrawal conditional on an advance charge; the wording warrants independent verification, not a fraud verdict."
+      },
+      "caution": {
+        "text": "Investor safety: do not follow claims such as “Pay a clearance charge first so we can release your withdrawal”.",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-hi-credentials",
+      "status": "reviewed",
+      "language": "hi",
+      "categoryIds": ["credentials"],
+      "sourceIds": ["rbi-kyc"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": ["dev2-hi-credentials-offer", "dev2-hi-credentials-caution"]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["लॉगिन", "कोड", "ओटीपी", "भेजिए", "सहायता"],
+      "positive": {
+        "text": "छह अंकों का लॉगिन कोड हमारे सहायता एजेंट को भेजिए।",
+        "explanation": "Requests a login code from the recipient; this is a possible secret-sharing cue, not proof of the sender’s identity or crime."
+      },
+      "caution": {
+        "text": "सावधान: “छह अंकों का लॉगिन कोड हमारे सहायता एजेंट को भेजिए” जैसे संदेशों पर भरोसा मत करें।",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-hi-guarantee",
+      "status": "reviewed",
+      "language": "hi",
+      "categoryIds": ["guarantee"],
+      "sourceIds": ["sebi-scams"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": ["dev2-hi-guarantee-offer", "dev2-hi-guarantee-caution"]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["निवेश", "निश्चित", "मुनाफा", "नुकसान", "संभावना"],
+      "positive": {
+        "text": "हमारी निवेश योजना में निश्चित मुनाफा है और नुकसान की कोई संभावना नहीं।",
+        "explanation": "Promises investment profit without possible loss; this is a warning cue, not a verified prediction or investment assessment."
+      },
+      "caution": {
+        "text": "सावधान: “हमारी निवेश योजना में निश्चित मुनाफा है और नुकसान की कोई संभावना नहीं” जैसे संदेशों पर भरोसा मत करें।",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-hi-release-fee",
+      "status": "reviewed",
+      "language": "hi",
+      "categoryIds": ["release-fee"],
+      "sourceIds": ["sebi-fake-apps"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": ["dev2-hi-release-fee-offer", "dev2-hi-release-fee-caution"]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["निकासी", "क्लीयरेंस", "शुल्क", "जमा", "पैसा"],
+      "positive": {
+        "text": "निकासी का पैसा पाने के लिए पहले क्लीयरेंस शुल्क जमा कीजिए।",
+        "explanation": "Makes withdrawal conditional on an advance charge; the wording warrants independent verification, not a fraud verdict."
+      },
+      "caution": {
+        "text": "सावधान: “निकासी का पैसा पाने के लिए पहले क्लीयरेंस शुल्क जमा कीजिए” जैसे संदेशों पर भरोसा मत करें।",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-bn-credentials",
+      "status": "reviewed",
+      "language": "bn",
+      "categoryIds": ["credentials"],
+      "sourceIds": ["rbi-kyc"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": ["dev2-bn-credentials-offer", "dev2-bn-credentials-caution"]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["লগইন", "কোড", "ওটিপি", "পাঠিয়ে", "সহায়তা"],
+      "positive": {
+        "text": "ছয় সংখ্যার লগইন কোড আমাদের সহায়তা কর্মীকে পাঠিয়ে দিন।",
+        "explanation": "Requests a login code from the recipient; this is a possible secret-sharing cue, not proof of the sender’s identity or crime."
+      },
+      "caution": {
+        "text": "সাবধান থাকুন: “ছয় সংখ্যার লগইন কোড আমাদের সহায়তা কর্মীকে পাঠিয়ে দিন” এমন দাবিতে বিশ্বাস করবেন না।",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-bn-guarantee",
+      "status": "reviewed",
+      "language": "bn",
+      "categoryIds": ["guarantee"],
+      "sourceIds": ["sebi-scams"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": ["dev2-bn-guarantee-offer", "dev2-bn-guarantee-caution"]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["বিনিয়োগ", "নিশ্চিত", "লাভ", "লোকসানের", "সম্ভাবনা"],
+      "positive": {
+        "text": "আমাদের বিনিয়োগ প্রকল্পে নিশ্চিত লাভ, লোকসানের কোনো সম্ভাবনা নেই।",
+        "explanation": "Promises investment profit without possible loss; this is a warning cue, not a verified prediction or investment assessment."
+      },
+      "caution": {
+        "text": "সাবধান থাকুন: “আমাদের বিনিয়োগ প্রকল্পে নিশ্চিত লাভ, লোকসানের কোনো সম্ভাবনা নেই” এমন দাবিতে বিশ্বাস করবেন না।",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-bn-release-fee",
+      "status": "reviewed",
+      "language": "bn",
+      "categoryIds": ["release-fee"],
+      "sourceIds": ["sebi-fake-apps"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": ["dev2-bn-release-fee-offer", "dev2-bn-release-fee-caution"]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["টাকা", "তুলতে", "ক্লিয়ারেন্স", "চার্জ", "জমা"],
+      "positive": {
+        "text": "টাকা তুলতে আগে ক্লিয়ারেন্স চার্জ জমা দিন।",
+        "explanation": "Makes withdrawal conditional on an advance charge; the wording warrants independent verification, not a fraud verdict."
+      },
+      "caution": {
+        "text": "সাবধান থাকুন: “টাকা তুলতে আগে ক্লিয়ারেন্স চার্জ জমা দিন” এমন দাবিতে বিশ্বাস করবেন না।",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-hi-latn-credentials",
+      "status": "reviewed",
+      "language": "hi-Latn",
+      "categoryIds": ["credentials"],
+      "sourceIds": ["rbi-kyc"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": [
+          "dev2-hi-Latn-credentials-offer",
+          "dev2-hi-Latn-credentials-caution"
+        ]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["chhe", "login", "code", "hamare", "bhejiye"],
+      "positive": {
+        "text": "Chhe ank ka login code hamare support agent ko bhejiye.",
+        "explanation": "Requests a login code from the recipient; this is a possible secret-sharing cue, not proof of the sender’s identity or crime."
+      },
+      "caution": {
+        "text": "Savdhan: “Chhe ank ka login code hamare support agent ko bhejiye” jaise message par bharosa mat karo.",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-hi-latn-guarantee",
+      "status": "reviewed",
+      "language": "hi-Latn",
+      "categoryIds": ["guarantee"],
+      "sourceIds": ["sebi-scams"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": [
+          "dev2-hi-Latn-guarantee-offer",
+          "dev2-hi-Latn-guarantee-caution"
+        ]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["hamari", "yojana", "nishchit", "munafa", "sambhavna", "nahi"],
+      "positive": {
+        "text": "Hamari investment yojana mein nishchit munafa hai, loss ki sambhavna nahi.",
+        "explanation": "Promises investment profit without possible loss; this is a warning cue, not a verified prediction or investment assessment."
+      },
+      "caution": {
+        "text": "Savdhan: “Hamari investment yojana mein nishchit munafa hai, loss ki sambhavna nahi” jaise message par bharosa mat karo.",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-hi-latn-release-fee",
+      "status": "reviewed",
+      "language": "hi-Latn",
+      "categoryIds": ["release-fee"],
+      "sourceIds": ["sebi-fake-apps"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": [
+          "dev2-hi-Latn-release-fee-offer",
+          "dev2-hi-Latn-release-fee-caution"
+        ]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["withdrawal", "paisa", "pehle", "clearance", "fee", "jama"],
+      "positive": {
+        "text": "Withdrawal ka paisa pane ke liye pehle clearance fee jama kijiye.",
+        "explanation": "Makes withdrawal conditional on an advance charge; the wording warrants independent verification, not a fraud verdict."
+      },
+      "caution": {
+        "text": "Savdhan: “Withdrawal ka paisa pane ke liye pehle clearance fee jama kijiye” jaise message par bharosa mat karo.",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-bn-latn-credentials",
+      "status": "reviewed",
+      "language": "bn-Latn",
+      "categoryIds": ["credentials"],
+      "sourceIds": ["rbi-kyc"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": [
+          "dev2-bn-Latn-credentials-offer",
+          "dev2-bn-Latn-credentials-caution"
+        ]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["chhoy", "onker", "login", "code", "amader", "pathiye"],
+      "positive": {
+        "text": "Chhoy onker login code amader support agent ke pathiye din.",
+        "explanation": "Requests a login code from the recipient; this is a possible secret-sharing cue, not proof of the sender’s identity or crime."
+      },
+      "caution": {
+        "text": "Sabdhan thakun: “Chhoy onker login code amader support agent ke pathiye din” emon dabi bishwas korben na.",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-bn-latn-guarantee",
+      "status": "reviewed",
+      "language": "bn-Latn",
+      "categoryIds": ["guarantee"],
+      "sourceIds": ["sebi-scams"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": [
+          "dev2-bn-Latn-guarantee-offer",
+          "dev2-bn-Latn-guarantee-caution"
+        ]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": [
+        "amader",
+        "prokolpe",
+        "nishchit",
+        "labh",
+        "loksaner",
+        "sambhabona"
+      ],
+      "positive": {
+        "text": "Amader investment prokolpe nishchit labh, loksaner kono sambhabona nei.",
+        "explanation": "Promises investment profit without possible loss; this is a warning cue, not a verified prediction or investment assessment."
+      },
+      "caution": {
+        "text": "Sabdhan thakun: “Amader investment prokolpe nishchit labh, loksaner kono sambhabona nei” emon dabi bishwas korben na.",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-bn-latn-release-fee",
+      "status": "reviewed",
+      "language": "bn-Latn",
+      "categoryIds": ["release-fee"],
+      "sourceIds": ["sebi-fake-apps"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "development-360",
+        "caseIds": [
+          "dev2-bn-Latn-release-fee-offer",
+          "dev2-bn-Latn-release-fee-caution"
+        ]
+      },
+      "review": {
+        "reviewer": "AI-assisted engineering review; native-speaker review pending",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Compared the explicit action request with a quoted protective caution. The contrast illustrates context only; neither example verifies identity or safety. Category scope matches the linked official guidance."
+      },
+      "terms": ["taka", "tulte", "age", "clearance", "charge", "joma"],
+      "positive": {
+        "text": "Taka tulte age clearance charge joma din.",
+        "explanation": "Makes withdrawal conditional on an advance charge; the wording warrants independent verification, not a fraud verdict."
+      },
+      "caution": {
+        "text": "Sabdhan thakun: “Taka tulte age clearance charge joma din” emon dabi bishwas korben na.",
+        "explanation": "Quotes the request as something not to follow. This caution alone is not an offer; a separate later action request still needs review."
+      }
+    },
+    {
+      "id": "memory-en-quoted-returns",
+      "status": "reviewed",
+      "language": "en",
+      "categoryIds": ["guarantee", "periodic"],
+      "sourceIds": ["sebi-scams"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "external-development-240",
+        "caseIds": ["syn-en-dev-002", "syn-en-dev-041"]
+      },
+      "review": {
+        "reviewer": "Team FirstBest",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Approved development caution syn-en-dev-041 contrasted with visible same-family offer syn-en-dev-002. Preserve quoted, negated, cost or budget context; examples never verify safety or serve as evidence."
+      },
+      "terms": [
+        "fixed",
+        "every",
+        "day",
+        "loss",
+        "payout",
+        "screenshot",
+        "forwarded"
+      ],
+      "positive": {
+        "text": "Members of our private savings circle receive a fixed 3% every day, even on market holidays. Start with ₹5k and cash out each Sunday. No loss days ever—send your joining deposit before the evening batch closes. 💸",
+        "explanation": "Offers fixed daily profits and invites a deposit; the contrasting message quotes that promise to challenge it."
+      },
+      "caution": {
+        "text": "A forwarded invitation says, 'Fixed 3% every day, no loss days ever.' Do not treat a payout screenshot as proof that this savings circle is safe. The daily promise is a reason to stop and check independently; I am not inviting anyone to deposit.",
+        "explanation": "Quotes a return promise for criticism and explicitly refuses to invite deposits; the whole attribution matters."
+      }
+    },
+    {
+      "id": "memory-en-borrowing-cost",
+      "status": "reviewed",
+      "language": "en",
+      "categoryIds": ["borrow", "periodic"],
+      "sourceIds": ["sebi-fake-apps", "sebi-scams"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "external-development-240",
+        "caseIds": ["syn-en-dev-025", "syn-en-dev-057"]
+      },
+      "review": {
+        "reviewer": "Team FirstBest",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Approved development caution syn-en-dev-057 contrasted with visible same-family offer syn-en-dev-025. Preserve quoted, negated, cost or budget context; examples never verify safety or serve as evidence."
+      },
+      "terms": [
+        "loan",
+        "interest",
+        "annual",
+        "repayment",
+        "processing",
+        "EMI",
+        "borrowing",
+        "cost"
+      ],
+      "positive": {
+        "text": "Take a personal loan at 14% a year and place it with our desk at a fixed 5% per month. The monthly payout will comfortably cover every EMI, guaranteed. We can help you apply today if your savings are too small to join.",
+        "explanation": "Invites borrowing to fund a promised monthly investment payout; a loan cost alone is a different claim."
+      },
+      "caution": {
+        "text": "A loan advert stating 18% annual interest should be read alongside its processing charge and repayment schedule. An interest rate is a borrowing cost, not an investment payout. The worksheet compares total rupee repayments and does not ask anyone to borrow.",
+        "explanation": "Compares borrowing costs and repayments in a worksheet without asking the reader to take a loan or invest."
+      }
+    },
+    {
+      "id": "memory-hi-classroom-quote",
+      "status": "reviewed",
+      "language": "hi",
+      "categoryIds": ["guarantee", "periodic"],
+      "sourceIds": ["sebi-scams"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "external-development-240",
+        "caseIds": ["syn-hi-dev-002", "syn-hi-dev-042"]
+      },
+      "review": {
+        "reviewer": "Team FirstBest",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Approved development caution syn-hi-dev-042 contrasted with visible same-family offer syn-hi-dev-002. Preserve quoted, negated, cost or budget context; examples never verify safety or serve as evidence."
+      },
+      "terms": [
+        "काल्पनिक",
+        "कक्षा",
+        "उद्धरण",
+        "रोज़",
+        "प्रतिशत",
+        "पक्का",
+        "लाभ"
+      ],
+      "positive": {
+        "text": "नया सेविंग वॉलेट चालू है: जमा पर रोज़ ३% रिटर्न तय है। बाजार गिरे तब भी भुगतान रुकेगा नहीं। पहली जमा आज कर दें, कल से कमाई गिनिए।",
+        "explanation": "Promises a daily deposit return regardless of markets and asks for payment; this is an actionable offer."
+      },
+      "caution": {
+        "text": "आज की कक्षा में यह काल्पनिक संदेश पढ़ेंगे: “रोज़ दस प्रतिशत पक्का लाभ।” ऐसे दावे का प्रमाण कैसे जांचना है, इस पर चर्चा होगी। उद्धरण किसी योजना में पैसा लगाने का निमंत्रण नहीं है।",
+        "explanation": "Attributes the return promise to a fictional classroom sample, with discussion of evidence and no invitation to invest."
+      }
+    },
+    {
+      "id": "memory-hi-latn-negation",
+      "status": "reviewed",
+      "language": "hi-Latn",
+      "categoryIds": ["guarantee"],
+      "sourceIds": ["sebi-scams"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "external-development-240",
+        "caseIds": ["syn-hi-dev-019", "syn-hi-dev-059"]
+      },
+      "review": {
+        "reviewer": "Team FirstBest",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Approved development caution syn-hi-dev-059 contrasted with visible same-family offer syn-hi-dev-019. Preserve quoted, negated, cost or budget context; examples never verify safety or serve as evidence."
+      },
+      "terms": [
+        "guarantee",
+        "nahi",
+        "return",
+        "risk",
+        "nuksan",
+        "concepts",
+        "deposit",
+        "trade"
+      ],
+      "positive": {
+        "text": "Hamare referral fund mein paanch hazaar lagao, har hafte pandrah sau fix milega. Bank ki guarantee hamare paas hai; certificate baad mein dikha denge. Aaj entry payment kar do.",
+        "explanation": "Asks for an entry payment while claiming fixed earnings and a bank guarantee; those claims need independent checks."
+      },
+      "caution": {
+        "text": "Main return ki guarantee nahi de raha. Market mein nuksan bhi ho sakta hai. Aaj ke note mein sirf risk aur time horizon ke concepts samjha raha hoon; koi deposit ya trade karne ko nahi keh raha.",
+        "explanation": "Explicitly denies a return guarantee and explains risk without asking for a deposit or trade."
+      }
+    },
+    {
+      "id": "memory-bn-borrowing-cost",
+      "status": "reviewed",
+      "language": "bn",
+      "categoryIds": ["borrow"],
+      "sourceIds": ["sebi-fake-apps"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "external-development-240",
+        "caseIds": ["syn-bn-dev-017", "syn-bn-dev-045"]
+      },
+      "review": {
+        "reviewer": "Team FirstBest",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Approved development caution syn-bn-dev-045 contrasted with visible same-family offer syn-bn-dev-017. Preserve quoted, negated, cost or budget context; examples never verify safety or serve as evidence."
+      },
+      "terms": ["ঋণ", "সুদ", "খরচ", "ধার", "কিস্তির", "বিনিয়োগ", "টাকা"],
+      "positive": {
+        "text": "হাতে টাকা না থাকলে ক্রেডিট কার্ড থেকে ঋণ নিন। আমাদের দশ দিনের নিশ্চিত ট্রেডে লাভ দিয়েই সুদ মিটে যাবে, বাকি লাভ আপনার। ₹৬০,০০০ জোগাড় করতে পারলেই আজ ব্যাচে ঢুকবেন।",
+        "explanation": "Encourages taking credit-card debt to enter a purportedly certain trade; the promise does not remove borrowing risk."
+      },
+      "caution": {
+        "text": "মাসে ২% সুদের ঋণ সস্তা মনে হলেও বছরের মোট খরচ হিসেব করে দেখুন। প্রসেসিং ফি ও কিস্তির শর্তও পড়তে হবে। এই আলোচনায় ঋণের খরচ বোঝানো হচ্ছে, ধার নিয়ে কোনও বিনিয়োগ করতে বলা হচ্ছে না।",
+        "explanation": "Explains loan cost and repayment terms and explicitly says it is not a request to borrow for investment."
+      }
+    },
+    {
+      "id": "memory-bn-household-budget",
+      "status": "reviewed",
+      "language": "bn",
+      "categoryIds": ["periodic"],
+      "sourceIds": ["sebi-scams"],
+      "provenance": {
+        "kind": "synthetic-development",
+        "dataset": "external-development-240",
+        "caseIds": ["syn-bn-dev-003", "syn-bn-dev-048"]
+      },
+      "review": {
+        "reviewer": "Team FirstBest",
+        "reviewedAt": "2026-10-03",
+        "rationale": "Approved development caution syn-bn-dev-048 contrasted with visible same-family offer syn-bn-dev-003. Preserve quoted, negated, cost or budget context; examples never verify safety or serve as evidence."
+      },
+      "terms": [
+        "মাসিক",
+        "বাজেট",
+        "খরচ",
+        "বিদ্যুৎ",
+        "জরুরি",
+        "মাসে",
+        "আয়",
+        "প্ল্যান"
+      ],
+      "positive": {
+        "text": "পুজোর আগে বাড়তি রোজগার চান? ₹৫০,০০০ বিনিয়োগে মাসে ₹৫,০০০ পাকাপাকি পাবেন। মূলধন পুরো সুরক্ষিত, কোনও ঝুঁকি নেই। উৎসবের স্কিমে আজই বুকিং মানি দিন।",
+        "explanation": "Offers recurring investment income and asks for booking money; it is not merely a schedule of personal expenses."
+      },
+      "caution": {
+        "text": "মাসিক বাজেট: বাজার ₹৮,০০০, বিদ্যুৎ ₹১,২০০, বাসভাড়া ₹১,৫০০। যা বাঁচবে তার এক অংশ জরুরি খরচের জন্য আলাদা রাখব। ‘নিশ্চিত আয়’ ধরে বাজেট করিনি; আগে খরচগুলো লিখে নিচ্ছি।",
+        "explanation": "Lists household expenses and a planned reserve, without an investment return offer or solicitation."
+      }
+    }
+  ]
+}

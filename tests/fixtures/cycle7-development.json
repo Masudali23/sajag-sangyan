@@ -1,0 +1,1323 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-03T18:41:53.386820+00:00",
+  "purpose": "Development-only contrast cases for solicitation/context/abusive financial pressure; fifty pairs across five language forms.",
+  "provenance": {
+    "author": "Team FirstBest",
+    "authoredBeforeReadingCycle7RulePatterns": true,
+    "labels": "Semantic message expectations, not fraud truth or proof of safety.",
+    "languages": "AI-assisted English/Hindi/Bengali/Hinglish/Banglish authoring; native-speaker review pending.",
+    "sealedDataUsed": false,
+    "existingFixtureBytesChanged": false,
+    "independentAccuracyEvidence": false
+  },
+  "attentionFamilies": [
+    "guarantee",
+    "credentials",
+    "pay-to-earn",
+    "release-fee",
+    "abusive-pressure"
+  ],
+  "items": [
+    {
+      "id": "cycle7-en-01-request",
+      "pairId": "cycle7-en-01",
+      "language": "en",
+      "theme": "guarantee-solicitation",
+      "text": "Transfer 4000 rupees into our trading pool now. We guarantee you a profit every month, regardless of market losses.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "An investment solicitation asserts certain profit; its paired warning denies that anyone can promise the gain.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-01-benign",
+      "pairId": "cycle7-en-01",
+      "language": "en",
+      "theme": "guarantee-solicitation",
+      "text": "Nobody can guarantee you a profit every month from a trading pool. Do not transfer money because somebody makes that promise.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "An investment solicitation asserts certain profit; its paired warning denies that anyone can promise the gain.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-02-request",
+      "pairId": "cycle7-en-02",
+      "language": "en",
+      "theme": "quoted-guarantee",
+      "text": "Our invitation says \"the profit is guaranteed\" and we stand by it. Send your investment deposit to join today.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "A quoted claim is endorsed with a fresh investment action in the positive; the negative explicitly critiques the quotation.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-02-benign",
+      "pairId": "cycle7-en-02",
+      "language": "en",
+      "theme": "quoted-guarantee",
+      "text": "The trainer displayed \"the profit is guaranteed\" as an example of a misleading investment claim. Students must question it, not send a deposit.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "A quoted claim is endorsed with a fresh investment action in the positive; the negative explicitly critiques the quotation.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-03-request",
+      "pairId": "cycle7-en-03",
+      "language": "en",
+      "theme": "otp-request",
+      "text": "Reply to this chat with the OTP from your banking SMS so our agent can activate your refund.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive asks the recipient to send a secret to another person; the negative explicitly prohibits that disclosure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-03-benign",
+      "pairId": "cycle7-en-03",
+      "language": "en",
+      "theme": "otp-request",
+      "text": "Do not reply to any chat with the OTP from your banking SMS. Even someone offering a refund must not receive the code.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive asks the recipient to send a secret to another person; the negative explicitly prohibits that disclosure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-04-request",
+      "pairId": "cycle7-en-04",
+      "language": "en",
+      "theme": "quoted-otp-mixed",
+      "text": "Never share passwords with strangers. I am your refund agent: send me your banking password here to finish the refund.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "A caution does not neutralize a separate following instruction to share a banking secret; the negative only studies the quoted request.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-04-benign",
+      "pairId": "cycle7-en-04",
+      "language": "en",
+      "theme": "quoted-otp-mixed",
+      "text": "The security class examines the sentence \"send me your banking password here\". It is a request to reject; the teacher asks for no account details.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "A caution does not neutralize a separate following instruction to share a banking secret; the negative only studies the quoted request.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-05-request",
+      "pairId": "cycle7-en-05",
+      "language": "en",
+      "theme": "course-versus-task-fee",
+      "text": "Pay the registration deposit first and we will unlock daily paid rating tasks for you. Send the fee to the recruiter.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "Paying for a described course is an ordinary service cost; paying a deposit to unlock purported earning tasks is a warning cue.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-05-benign",
+      "pairId": "cycle7-en-05",
+      "language": "en",
+      "theme": "course-versus-task-fee",
+      "text": "The college accounting course costs 900 rupees for four classes. Registration buys lessons and materials; it does not unlock paid tasks or investment returns.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "Paying for a described course is an ordinary service cost; paying a deposit to unlock purported earning tasks is a warning cue.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-06-request",
+      "pairId": "cycle7-en-06",
+      "language": "en",
+      "theme": "bank-fee-versus-release",
+      "text": "Your withdrawal balance is ready. Pay the clearance fee into this separate wallet before we release your money.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive makes payment a prerequisite to releasing an existing withdrawal; the negative describes an ordinary bank service charge, without that condition.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-06-benign",
+      "pairId": "cycle7-en-06",
+      "language": "en",
+      "theme": "bank-fee-versus-release",
+      "text": "The bank statement lists an annual debit-card service fee. It is a charge for the card, not a payment requested to release a blocked withdrawal.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive makes payment a prerequisite to releasing an existing withdrawal; the negative describes an ordinary bank service charge, without that condition.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-07-request",
+      "pairId": "cycle7-en-07",
+      "language": "en",
+      "theme": "loan-cost-versus-earning-deposit",
+      "text": "To start earning from our typing work, pay a starter deposit to the coordinator. Your paid assignments unlock after payment.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "Ordinary borrowing costs and late fees do not imply an earning scheme; an upfront deposit required to access promised paid work does.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-07-benign",
+      "pairId": "cycle7-en-07",
+      "language": "en",
+      "theme": "loan-cost-versus-earning-deposit",
+      "text": "The loan illustration lists monthly interest and a late-payment charge. These are borrowing costs owed by the borrower, not income or a deposit for paid work.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "Ordinary borrowing costs and late fees do not imply an earning scheme; an upfront deposit required to access promised paid work does.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-08-request",
+      "pairId": "cycle7-en-08",
+      "language": "en",
+      "theme": "mixed-caution-secret",
+      "text": "Our safety lesson says never share a PIN. For your own refund now, send your card PIN to me in this chat.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The whole message must be considered: a safety preface is followed by a distinct secret-sharing request in the positive, but reinforced in the negative.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-08-benign",
+      "pairId": "cycle7-en-08",
+      "language": "en",
+      "theme": "mixed-caution-secret",
+      "text": "Our safety lesson says never share a PIN. For your own refund, contact the bank independently and keep the PIN to yourself.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The whole message must be considered: a safety preface is followed by a distinct secret-sharing request in the positive, but reinforced in the negative.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-09-request",
+      "pairId": "cycle7-en-09",
+      "language": "en",
+      "theme": "insult-versus-financial-extortion",
+      "text": "You idiot, transfer the money to me tonight or I will publish your private photos to your family.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "An insult alone is not an investment warning; an abusive financial demand backed by threatened exposure is coercive pressure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-09-benign",
+      "pairId": "cycle7-en-09",
+      "language": "en",
+      "theme": "insult-versus-financial-extortion",
+      "text": "That broken budgeting app is rubbish and its menu is damn annoying. I am uninstalling it; nobody is asking for money or private information.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "An insult alone is not an investment warning; an abusive financial demand backed by threatened exposure is coercive pressure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-10-request",
+      "pairId": "cycle7-en-10",
+      "language": "en",
+      "theme": "harassment-lesson-versus-demand",
+      "text": "Send the payment now or I will send humiliating messages about you to everyone in your contact list.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive uses humiliating threats to extract money; the negative quotes such pressure only as a rejected training example.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-en-10-benign",
+      "pairId": "cycle7-en-10",
+      "language": "en",
+      "theme": "harassment-lesson-versus-demand",
+      "text": "The harassment workshop quotes \"send the payment now or I will shame you\" as an abusive threat to report. It asks participants for no payment.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive uses humiliating threats to extract money; the negative quotes such pressure only as a rejected training example.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-01-request",
+      "pairId": "cycle7-hi-01",
+      "language": "hi",
+      "theme": "guarantee-solicitation",
+      "text": "अभी हमारे ट्रेडिंग पूल में चार हजार रुपये लगाइए। बाजार में नुकसान हो तब भी हम हर महीने पक्का मुनाफा देने की गारंटी लेते हैं।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "An investment solicitation asserts certain profit; its paired warning denies that anyone can promise the gain.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-01-benign",
+      "pairId": "cycle7-hi-01",
+      "language": "hi",
+      "theme": "guarantee-solicitation",
+      "text": "ट्रेडिंग पूल में हर महीने पक्का मुनाफा देने की गारंटी कोई नहीं दे सकता। ऐसा वादा सुनकर पैसे मत भेजिए।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "An investment solicitation asserts certain profit; its paired warning denies that anyone can promise the gain.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-02-request",
+      "pairId": "cycle7-hi-02",
+      "language": "hi",
+      "theme": "quoted-guarantee",
+      "text": "हमारे निमंत्रण में लिखा है “मुनाफे की गारंटी” और हम यह वादा करते हैं। शामिल होने के लिए आज निवेश की रकम भेजें।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "A quoted claim is endorsed with a fresh investment action in the positive; the negative explicitly critiques the quotation.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-02-benign",
+      "pairId": "cycle7-hi-02",
+      "language": "hi",
+      "theme": "quoted-guarantee",
+      "text": "शिक्षक ने “मुनाफे की गारंटी” वाला वाक्य भ्रामक निवेश दावे के उदाहरण के रूप में दिखाया। इसे जांचना सीखें, कोई रकम न भेजें।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "A quoted claim is endorsed with a fresh investment action in the positive; the negative explicitly critiques the quotation.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-03-request",
+      "pairId": "cycle7-hi-03",
+      "language": "hi",
+      "theme": "otp-request",
+      "text": "रिफंड चालू कराने के लिए बैंक के एसएमएस का ओटीपी इसी चैट में हमारे एजेंट को बताइए।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive asks the recipient to send a secret to another person; the negative explicitly prohibits that disclosure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-03-benign",
+      "pairId": "cycle7-hi-03",
+      "language": "hi",
+      "theme": "otp-request",
+      "text": "बैंक के एसएमएस का ओटीपी किसी चैट में मत बताइए। रिफंड का वादा करने वाले व्यक्ति को भी यह कोड नहीं देना है।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive asks the recipient to send a secret to another person; the negative explicitly prohibits that disclosure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-04-request",
+      "pairId": "cycle7-hi-04",
+      "language": "hi",
+      "theme": "quoted-otp-mixed",
+      "text": "अनजान लोगों को पासवर्ड न दें। मैं आपका रिफंड एजेंट हूं; रिफंड पूरा करने के लिए बैंकिंग पासवर्ड मुझे यहां भेजें।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "A caution does not neutralize a separate following instruction to share a banking secret; the negative only studies the quoted request.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-04-benign",
+      "pairId": "cycle7-hi-04",
+      "language": "hi",
+      "theme": "quoted-otp-mixed",
+      "text": "सुरक्षा कक्षा में “बैंकिंग पासवर्ड मुझे यहां भेजें” वाक्य की जांच होगी। ऐसे अनुरोध को मना करना है; शिक्षक खाते की जानकारी नहीं मांगते।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "A caution does not neutralize a separate following instruction to share a banking secret; the negative only studies the quoted request.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-05-request",
+      "pairId": "cycle7-hi-05",
+      "language": "hi",
+      "theme": "course-versus-task-fee",
+      "text": "पहले भर्ती एजेंट को रजिस्ट्रेशन डिपॉजिट भेजिए। भुगतान के बाद आपके लिए रोज पैसे देने वाले रेटिंग टास्क खुलेंगे।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "Paying for a described course is an ordinary service cost; paying a deposit to unlock purported earning tasks is a warning cue.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-05-benign",
+      "pairId": "cycle7-hi-05",
+      "language": "hi",
+      "theme": "course-versus-task-fee",
+      "text": "कॉलेज के लेखांकन कोर्स में चार कक्षाओं का शुल्क नौ सौ रुपये है। इससे पाठ और सामग्री मिलती है, कमाई वाले टास्क या निवेश लाभ नहीं।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "Paying for a described course is an ordinary service cost; paying a deposit to unlock purported earning tasks is a warning cue.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-06-request",
+      "pairId": "cycle7-hi-06",
+      "language": "hi",
+      "theme": "bank-fee-versus-release",
+      "text": "आपकी निकासी तैयार है। पहले अलग वॉलेट में क्लीयरेंस शुल्क भरें, तभी हम आपके पैसे जारी करेंगे।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive makes payment a prerequisite to releasing an existing withdrawal; the negative describes an ordinary bank service charge, without that condition.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-06-benign",
+      "pairId": "cycle7-hi-06",
+      "language": "hi",
+      "theme": "bank-fee-versus-release",
+      "text": "बैंक विवरण में डेबिट कार्ड का सालाना सेवा शुल्क दर्ज है। यह कार्ड का खर्च है, रुकी निकासी के पैसे पाने की शर्त नहीं।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive makes payment a prerequisite to releasing an existing withdrawal; the negative describes an ordinary bank service charge, without that condition.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-07-request",
+      "pairId": "cycle7-hi-07",
+      "language": "hi",
+      "theme": "loan-cost-versus-earning-deposit",
+      "text": "हमारे टाइपिंग काम से कमाई शुरू करने के लिए कोऑर्डिनेटर को शुरुआती जमा भेजें। भुगतान होते ही पैसे वाले काम खुलेंगे।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "Ordinary borrowing costs and late fees do not imply an earning scheme; an upfront deposit required to access promised paid work does.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-07-benign",
+      "pairId": "cycle7-hi-07",
+      "language": "hi",
+      "theme": "loan-cost-versus-earning-deposit",
+      "text": "ऋण के उदाहरण में मासिक ब्याज और देर से चुकाने का शुल्क दिया है। ये कर्ज के खर्च हैं, कमाई या काम पाने के लिए जमा नहीं।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "Ordinary borrowing costs and late fees do not imply an earning scheme; an upfront deposit required to access promised paid work does.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-08-request",
+      "pairId": "cycle7-hi-08",
+      "language": "hi",
+      "theme": "mixed-caution-secret",
+      "text": "हमारी सुरक्षा सीख कहती है कि पिन किसी को न दें। लेकिन अपना रिफंड पाने के लिए अभी कार्ड का पिन मुझे इस चैट में बताइए।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The whole message must be considered: a safety preface is followed by a distinct secret-sharing request in the positive, but reinforced in the negative.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-08-benign",
+      "pairId": "cycle7-hi-08",
+      "language": "hi",
+      "theme": "mixed-caution-secret",
+      "text": "हमारी सुरक्षा सीख कहती है कि पिन किसी को न दें। अपना रिफंड जानने के लिए बैंक से खुद संपर्क करें और पिन अपने पास रखें।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The whole message must be considered: a safety preface is followed by a distinct secret-sharing request in the positive, but reinforced in the negative.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-09-request",
+      "pairId": "cycle7-hi-09",
+      "language": "hi",
+      "theme": "insult-versus-financial-extortion",
+      "text": "बेवकूफ, आज रात मुझे पैसे भेजो नहीं तो तुम्हारी निजी तस्वीरें तुम्हारे परिवार को भेज दूंगा।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "An insult alone is not an investment warning; an abusive financial demand backed by threatened exposure is coercive pressure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-09-benign",
+      "pairId": "cycle7-hi-09",
+      "language": "hi",
+      "theme": "insult-versus-financial-extortion",
+      "text": "यह बजट वाला ऐप बकवास है और इसका मेनू बहुत बेकार है। मैं इसे हटा रहा हूं; यहां पैसे या निजी जानकारी देने की कोई मांग नहीं है।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "An insult alone is not an investment warning; an abusive financial demand backed by threatened exposure is coercive pressure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-10-request",
+      "pairId": "cycle7-hi-10",
+      "language": "hi",
+      "theme": "harassment-lesson-versus-demand",
+      "text": "अभी भुगतान करो, वरना तुम्हारे फोन के हर संपर्क को तुम्हारे बारे में अपमानजनक संदेश भेजूंगा।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive uses humiliating threats to extract money; the negative quotes such pressure only as a rejected training example.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-10-benign",
+      "pairId": "cycle7-hi-10",
+      "language": "hi",
+      "theme": "harassment-lesson-versus-demand",
+      "text": "कार्यशाला में “भुगतान करो वरना बदनाम करूंगा” को अपमानजनक धमकी के उदाहरण के रूप में पढ़ेंगे। इसे रिपोर्ट करना सिखाया जाएगा; कोई भुगतान नहीं मांगा जाता।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive uses humiliating threats to extract money; the negative quotes such pressure only as a rejected training example.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-01-request",
+      "pairId": "cycle7-bn-01",
+      "language": "bn",
+      "theme": "guarantee-solicitation",
+      "text": "এখনই আমাদের ট্রেডিং পুলে চার হাজার টাকা রাখুন। বাজারে লোকসান হলেও আমরা প্রতি মাসে নিশ্চিত লাভের গ্যারান্টি দিচ্ছি।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "An investment solicitation asserts certain profit; its paired warning denies that anyone can promise the gain.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-01-benign",
+      "pairId": "cycle7-bn-01",
+      "language": "bn",
+      "theme": "guarantee-solicitation",
+      "text": "ট্রেডিং পুলে প্রতি মাসে নিশ্চিত লাভের গ্যারান্টি কেউ দিতে পারে না। এমন প্রতিশ্রুতি শুনে টাকা পাঠাবেন না।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "An investment solicitation asserts certain profit; its paired warning denies that anyone can promise the gain.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-02-request",
+      "pairId": "cycle7-bn-02",
+      "language": "bn",
+      "theme": "quoted-guarantee",
+      "text": "আমাদের আমন্ত্রণে লেখা আছে “লাভের গ্যারান্টি”, আর আমরা সেই প্রতিশ্রুতি দিচ্ছি। যোগ দিতে আজই বিনিয়োগের টাকা পাঠান।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "A quoted claim is endorsed with a fresh investment action in the positive; the negative explicitly critiques the quotation.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-02-benign",
+      "pairId": "cycle7-bn-02",
+      "language": "bn",
+      "theme": "quoted-guarantee",
+      "text": "শিক্ষক “লাভের গ্যারান্টি” কথাটি বিভ্রান্তিকর বিনিয়োগ দাবির উদাহরণ হিসেবে দেখিয়েছেন। কথাটি যাচাই করতে শিখুন, কোনও টাকা পাঠাবেন না।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "A quoted claim is endorsed with a fresh investment action in the positive; the negative explicitly critiques the quotation.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-03-request",
+      "pairId": "cycle7-bn-03",
+      "language": "bn",
+      "theme": "otp-request",
+      "text": "রিফান্ড চালু করতে ব্যাংকের এসএমএসে আসা ওটিপি এই চ্যাটে আমাদের এজেন্টকে বলুন।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive asks the recipient to send a secret to another person; the negative explicitly prohibits that disclosure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-03-benign",
+      "pairId": "cycle7-bn-03",
+      "language": "bn",
+      "theme": "otp-request",
+      "text": "ব্যাংকের এসএমএসে আসা ওটিপি কোনও চ্যাটে বলবেন না। রিফান্ডের প্রতিশ্রুতি দিলেও সেই ব্যক্তিকে কোডটি দেওয়া যাবে না।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive asks the recipient to send a secret to another person; the negative explicitly prohibits that disclosure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-04-request",
+      "pairId": "cycle7-bn-04",
+      "language": "bn",
+      "theme": "quoted-otp-mixed",
+      "text": "অচেনা লোককে পাসওয়ার্ড দেবেন না। আমি আপনার রিফান্ড এজেন্ট; রিফান্ড শেষ করতে ব্যাংকিং পাসওয়ার্ড এখানে আমাকে পাঠান।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "A caution does not neutralize a separate following instruction to share a banking secret; the negative only studies the quoted request.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-04-benign",
+      "pairId": "cycle7-bn-04",
+      "language": "bn",
+      "theme": "quoted-otp-mixed",
+      "text": "নিরাপত্তা ক্লাসে “ব্যাংকিং পাসওয়ার্ড এখানে আমাকে পাঠান” বাক্যটি বিশ্লেষণ করা হবে। এমন অনুরোধ প্রত্যাখ্যান করতে হবে; শিক্ষক অ্যাকাউন্টের তথ্য চান না।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "A caution does not neutralize a separate following instruction to share a banking secret; the negative only studies the quoted request.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-05-request",
+      "pairId": "cycle7-bn-05",
+      "language": "bn",
+      "theme": "course-versus-task-fee",
+      "text": "আগে রিক্রুটারকে রেজিস্ট্রেশন ডিপোজিট দিন। পেমেন্টের পর আপনার জন্য রোজ টাকা পাওয়ার রেটিং টাস্ক খুলে যাবে।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "Paying for a described course is an ordinary service cost; paying a deposit to unlock purported earning tasks is a warning cue.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-05-benign",
+      "pairId": "cycle7-bn-05",
+      "language": "bn",
+      "theme": "course-versus-task-fee",
+      "text": "কলেজের হিসাব শেখার কোর্সে চারটি ক্লাসের ফি নয়শো টাকা। এতে পাঠ ও বই মেলে, আয়ের টাস্ক বা বিনিয়োগের লাভ নয়।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "Paying for a described course is an ordinary service cost; paying a deposit to unlock purported earning tasks is a warning cue.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-06-request",
+      "pairId": "cycle7-bn-06",
+      "language": "bn",
+      "theme": "bank-fee-versus-release",
+      "text": "আপনার তোলার টাকা তৈরি আছে। আগে আলাদা ওয়ালেটে ক্লিয়ারেন্স ফি দিন, তবেই আমরা আপনার টাকা ছাড়ব।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive makes payment a prerequisite to releasing an existing withdrawal; the negative describes an ordinary bank service charge, without that condition.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-06-benign",
+      "pairId": "cycle7-bn-06",
+      "language": "bn",
+      "theme": "bank-fee-versus-release",
+      "text": "ব্যাংকের স্টেটমেন্টে ডেবিট কার্ডের বার্ষিক পরিষেবা ফি লেখা আছে। এটি কার্ডের খরচ, আটকে থাকা টাকা তোলার জন্য আলাদা পেমেন্টের শর্ত নয়।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive makes payment a prerequisite to releasing an existing withdrawal; the negative describes an ordinary bank service charge, without that condition.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-07-request",
+      "pairId": "cycle7-bn-07",
+      "language": "bn",
+      "theme": "loan-cost-versus-earning-deposit",
+      "text": "আমাদের টাইপিং কাজ থেকে আয় শুরু করতে কোঅর্ডিনেটরকে প্রথমে ডিপোজিট দিন। পেমেন্ট হলেই টাকার কাজগুলো খুলবে।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "Ordinary borrowing costs and late fees do not imply an earning scheme; an upfront deposit required to access promised paid work does.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-07-benign",
+      "pairId": "cycle7-bn-07",
+      "language": "bn",
+      "theme": "loan-cost-versus-earning-deposit",
+      "text": "ঋণের উদাহরণে মাসিক সুদ ও দেরিতে কিস্তি দেওয়ার ফি দেখানো আছে। এগুলো ঋণের খরচ, আয় বা কাজ পাওয়ার জন্য জমা নয়।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "Ordinary borrowing costs and late fees do not imply an earning scheme; an upfront deposit required to access promised paid work does.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-08-request",
+      "pairId": "cycle7-bn-08",
+      "language": "bn",
+      "theme": "mixed-caution-secret",
+      "text": "আমাদের নিরাপত্তা পাঠ বলে পিন কাউকে দেবেন না। কিন্তু নিজের রিফান্ড পেতে এখনই কার্ডের পিন এই চ্যাটে আমাকে বলুন।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The whole message must be considered: a safety preface is followed by a distinct secret-sharing request in the positive, but reinforced in the negative.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-08-benign",
+      "pairId": "cycle7-bn-08",
+      "language": "bn",
+      "theme": "mixed-caution-secret",
+      "text": "আমাদের নিরাপত্তা পাঠ বলে পিন কাউকে দেবেন না। নিজের রিফান্ড জানতে ব্যাংকের সঙ্গে আলাদা করে যোগাযোগ করুন এবং পিন নিজের কাছে রাখুন।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The whole message must be considered: a safety preface is followed by a distinct secret-sharing request in the positive, but reinforced in the negative.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-09-request",
+      "pairId": "cycle7-bn-09",
+      "language": "bn",
+      "theme": "insult-versus-financial-extortion",
+      "text": "বোকা, আজ রাতেই আমাকে টাকা পাঠাও, না হলে তোমার ব্যক্তিগত ছবি তোমার পরিবারকে পাঠিয়ে দেব।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "An insult alone is not an investment warning; an abusive financial demand backed by threatened exposure is coercive pressure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-09-benign",
+      "pairId": "cycle7-bn-09",
+      "language": "bn",
+      "theme": "insult-versus-financial-extortion",
+      "text": "এই বাজেট অ্যাপটা একেবারে বাজে, এর মেনুও বিরক্তিকর। আমি অ্যাপটি সরিয়ে দিচ্ছি; টাকা বা ব্যক্তিগত তথ্য দেওয়ার কোনও অনুরোধ নেই।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "An insult alone is not an investment warning; an abusive financial demand backed by threatened exposure is coercive pressure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-10-request",
+      "pairId": "cycle7-bn-10",
+      "language": "bn",
+      "theme": "harassment-lesson-versus-demand",
+      "text": "এখনই পেমেন্ট করো, নইলে তোমার ফোনের সব পরিচিতকে তোমার নামে অপমানজনক বার্তা পাঠাব।",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive uses humiliating threats to extract money; the negative quotes such pressure only as a rejected training example.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-10-benign",
+      "pairId": "cycle7-bn-10",
+      "language": "bn",
+      "theme": "harassment-lesson-versus-demand",
+      "text": "কর্মশালায় “পেমেন্ট করো নইলে বদনাম করব” কথাটিকে অপমানজনক হুমকির উদাহরণ হিসেবে আলোচনা করা হবে। এটি রিপোর্ট করতে শেখানো হবে; কোনও পেমেন্ট চাওয়া হচ্ছে না।",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive uses humiliating threats to extract money; the negative quotes such pressure only as a rejected training example.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-01-request",
+      "pairId": "cycle7-hi-latn-01",
+      "language": "hi-Latn",
+      "theme": "guarantee-solicitation",
+      "text": "Abhi hamare trading pool mein chaar hazaar rupaye lagaiye. Bazaar mein nuksan ho tab bhi hum har mahine pakke munafe ki guarantee dete hain.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "An investment solicitation asserts certain profit; its paired warning denies that anyone can promise the gain.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-01-benign",
+      "pairId": "cycle7-hi-latn-01",
+      "language": "hi-Latn",
+      "theme": "guarantee-solicitation",
+      "text": "Trading pool mein har mahine pakke munafe ki guarantee koi nahi de sakta. Aisa vaada sunkar paise mat bhejiye.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "An investment solicitation asserts certain profit; its paired warning denies that anyone can promise the gain.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-02-request",
+      "pairId": "cycle7-hi-latn-02",
+      "language": "hi-Latn",
+      "theme": "quoted-guarantee",
+      "text": "Hamare invitation mein likha hai \"profit guaranteed\" aur hum yeh vaada karte hain. Join karne ke liye aaj investment ki rakam bhejo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "A quoted claim is endorsed with a fresh investment action in the positive; the negative explicitly critiques the quotation.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-02-benign",
+      "pairId": "cycle7-hi-latn-02",
+      "language": "hi-Latn",
+      "theme": "quoted-guarantee",
+      "text": "Teacher ne \"profit guaranteed\" ko gumrah karne wale investment claim ki misaal bataya. Isko parakhna seekho, koi rakam mat bhejo.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "A quoted claim is endorsed with a fresh investment action in the positive; the negative explicitly critiques the quotation.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-03-request",
+      "pairId": "cycle7-hi-latn-03",
+      "language": "hi-Latn",
+      "theme": "otp-request",
+      "text": "Refund chalu karane ke liye bank SMS ka OTP isi chat mein hamare agent ko bataiye.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive asks the recipient to send a secret to another person; the negative explicitly prohibits that disclosure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-03-benign",
+      "pairId": "cycle7-hi-latn-03",
+      "language": "hi-Latn",
+      "theme": "otp-request",
+      "text": "Bank SMS ka OTP kisi chat mein mat bataiye. Refund ka vaada karne wale ko bhi code nahi dena hai.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive asks the recipient to send a secret to another person; the negative explicitly prohibits that disclosure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-04-request",
+      "pairId": "cycle7-hi-latn-04",
+      "language": "hi-Latn",
+      "theme": "quoted-otp-mixed",
+      "text": "Anjaan logon ko password na dein. Main aapka refund agent hoon; refund poora karne ke liye banking password mujhe yahan bhejo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "A caution does not neutralize a separate following instruction to share a banking secret; the negative only studies the quoted request.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-04-benign",
+      "pairId": "cycle7-hi-latn-04",
+      "language": "hi-Latn",
+      "theme": "quoted-otp-mixed",
+      "text": "Safety class mein \"banking password mujhe yahan bhejo\" jumle ka matlab samjhenge. Aisi maang ko mana karna hai; teacher account details nahi maangte.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "A caution does not neutralize a separate following instruction to share a banking secret; the negative only studies the quoted request.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-05-request",
+      "pairId": "cycle7-hi-latn-05",
+      "language": "hi-Latn",
+      "theme": "course-versus-task-fee",
+      "text": "Pehle recruiter ko registration deposit bhejiye. Payment ke baad aapke liye roz paise dene wale rating tasks khulenge.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "Paying for a described course is an ordinary service cost; paying a deposit to unlock purported earning tasks is a warning cue.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-05-benign",
+      "pairId": "cycle7-hi-latn-05",
+      "language": "hi-Latn",
+      "theme": "course-versus-task-fee",
+      "text": "College accounting course ki chaar classes ki fee nau sau rupaye hai. Isse lessons aur material milta hai, earning tasks ya investment profit nahi.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "Paying for a described course is an ordinary service cost; paying a deposit to unlock purported earning tasks is a warning cue.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-06-request",
+      "pairId": "cycle7-hi-latn-06",
+      "language": "hi-Latn",
+      "theme": "bank-fee-versus-release",
+      "text": "Aapka withdrawal balance taiyar hai. Pehle alag wallet mein clearance fee bhariye, tabhi hum aapka paisa release karenge.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive makes payment a prerequisite to releasing an existing withdrawal; the negative describes an ordinary bank service charge, without that condition.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-06-benign",
+      "pairId": "cycle7-hi-latn-06",
+      "language": "hi-Latn",
+      "theme": "bank-fee-versus-release",
+      "text": "Bank statement mein debit card ki saalana service fee darj hai. Yeh card ka kharcha hai, ruki nikasi ka paisa paane ke liye alag payment ki shart nahi.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive makes payment a prerequisite to releasing an existing withdrawal; the negative describes an ordinary bank service charge, without that condition.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-07-request",
+      "pairId": "cycle7-hi-latn-07",
+      "language": "hi-Latn",
+      "theme": "loan-cost-versus-earning-deposit",
+      "text": "Hamare typing work se kamai shuru karne ke liye coordinator ko pehle starter deposit bhejo. Payment hote hi paid assignments unlock honge.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "Ordinary borrowing costs and late fees do not imply an earning scheme; an upfront deposit required to access promised paid work does.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-07-benign",
+      "pairId": "cycle7-hi-latn-07",
+      "language": "hi-Latn",
+      "theme": "loan-cost-versus-earning-deposit",
+      "text": "Loan example mein mahine ka byaaj aur late payment fee likhi hai. Yeh udhaar ke kharche hain, income ya kaam paane ke liye deposit nahi.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "Ordinary borrowing costs and late fees do not imply an earning scheme; an upfront deposit required to access promised paid work does.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-08-request",
+      "pairId": "cycle7-hi-latn-08",
+      "language": "hi-Latn",
+      "theme": "mixed-caution-secret",
+      "text": "Hamari safety lesson kehti hai PIN kisi ko na dein. Lekin apna refund paane ke liye abhi card PIN mujhe is chat mein bataiye.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The whole message must be considered: a safety preface is followed by a distinct secret-sharing request in the positive, but reinforced in the negative.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-08-benign",
+      "pairId": "cycle7-hi-latn-08",
+      "language": "hi-Latn",
+      "theme": "mixed-caution-secret",
+      "text": "Hamari safety lesson kehti hai PIN kisi ko na dein. Apna refund jaanne ke liye bank se khud sampark karein aur PIN apne paas rakhein.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The whole message must be considered: a safety preface is followed by a distinct secret-sharing request in the positive, but reinforced in the negative.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-09-request",
+      "pairId": "cycle7-hi-latn-09",
+      "language": "hi-Latn",
+      "theme": "insult-versus-financial-extortion",
+      "text": "Bewakoof, aaj raat mujhe paise bhejo warna tumhari private photos tumhare gharwalon ko bhej dunga.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "An insult alone is not an investment warning; an abusive financial demand backed by threatened exposure is coercive pressure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-09-benign",
+      "pairId": "cycle7-hi-latn-09",
+      "language": "hi-Latn",
+      "theme": "insult-versus-financial-extortion",
+      "text": "Yeh budget app bakwaas hai aur iska menu bahut bekaar hai. Main ise hata raha hoon; paise ya private details dene ki koi maang nahi hai.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "An insult alone is not an investment warning; an abusive financial demand backed by threatened exposure is coercive pressure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-10-request",
+      "pairId": "cycle7-hi-latn-10",
+      "language": "hi-Latn",
+      "theme": "harassment-lesson-versus-demand",
+      "text": "Abhi payment karo warna tumhare phone ke har contact ko tumhare baare mein beizzati wale messages bhejunga.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive uses humiliating threats to extract money; the negative quotes such pressure only as a rejected training example.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-hi-latn-10-benign",
+      "pairId": "cycle7-hi-latn-10",
+      "language": "hi-Latn",
+      "theme": "harassment-lesson-versus-demand",
+      "text": "Workshop mein \"payment karo warna badnaam karunga\" ko abusive dhamki ki misaal samjhenge. Isko report karna sikhaya jayega; koi payment nahi maanga jata.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive uses humiliating threats to extract money; the negative quotes such pressure only as a rejected training example.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-01-request",
+      "pairId": "cycle7-bn-latn-01",
+      "language": "bn-Latn",
+      "theme": "guarantee-solicitation",
+      "text": "Ekhoni amader trading pool e char hajar taka rakhun. Bajare lokshan holeo amra proti mashe nishchit labher guarantee dichhi.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "An investment solicitation asserts certain profit; its paired warning denies that anyone can promise the gain.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-01-benign",
+      "pairId": "cycle7-bn-latn-01",
+      "language": "bn-Latn",
+      "theme": "guarantee-solicitation",
+      "text": "Trading pool e proti mashe nishchit labher guarantee keu dite pare na. Emon protishruti shune taka pathaben na.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "An investment solicitation asserts certain profit; its paired warning denies that anyone can promise the gain.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-02-request",
+      "pairId": "cycle7-bn-latn-02",
+      "language": "bn-Latn",
+      "theme": "quoted-guarantee",
+      "text": "Amader invitation e lekha \"labher guarantee\", aar amra sei protishruti dichhi. Jog dite aaj investment er taka pathan.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "guarantee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "A quoted claim is endorsed with a fresh investment action in the positive; the negative explicitly critiques the quotation.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-02-benign",
+      "pairId": "cycle7-bn-latn-02",
+      "language": "bn-Latn",
+      "theme": "quoted-guarantee",
+      "text": "Teacher \"labher guarantee\" kothati bhul bujhiye dewa investment claim er udahoron hisebe dekhalen. Kothati jachai korte shikhun, kono taka pathaben na.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "A quoted claim is endorsed with a fresh investment action in the positive; the negative explicitly critiques the quotation.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-03-request",
+      "pairId": "cycle7-bn-latn-03",
+      "language": "bn-Latn",
+      "theme": "otp-request",
+      "text": "Refund chalu korte bank SMS e asha OTP ei chat e amader agent ke bolun.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive asks the recipient to send a secret to another person; the negative explicitly prohibits that disclosure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-03-benign",
+      "pairId": "cycle7-bn-latn-03",
+      "language": "bn-Latn",
+      "theme": "otp-request",
+      "text": "Bank SMS e asha OTP kono chat e bolben na. Refund er protishruti dileo sei lokke code dewa jabe na.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive asks the recipient to send a secret to another person; the negative explicitly prohibits that disclosure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-04-request",
+      "pairId": "cycle7-bn-latn-04",
+      "language": "bn-Latn",
+      "theme": "quoted-otp-mixed",
+      "text": "Ochena lokke password deben na. Ami apnar refund agent; refund shesh korte banking password ekhane amake pathan.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "A caution does not neutralize a separate following instruction to share a banking secret; the negative only studies the quoted request.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-04-benign",
+      "pairId": "cycle7-bn-latn-04",
+      "language": "bn-Latn",
+      "theme": "quoted-otp-mixed",
+      "text": "Safety class e \"banking password ekhane amake pathan\" bakyoti bishleshon hobe. Emon anurodh phiriye dite hobe; teacher account er tothyo chan na.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "A caution does not neutralize a separate following instruction to share a banking secret; the negative only studies the quoted request.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-05-request",
+      "pairId": "cycle7-bn-latn-05",
+      "language": "bn-Latn",
+      "theme": "course-versus-task-fee",
+      "text": "Age recruiter ke registration deposit din. Payment er por apnar jonno roj taka pawar rating task khule jabe.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "Paying for a described course is an ordinary service cost; paying a deposit to unlock purported earning tasks is a warning cue.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-05-benign",
+      "pairId": "cycle7-bn-latn-05",
+      "language": "bn-Latn",
+      "theme": "course-versus-task-fee",
+      "text": "College er accounting course e charti class er fee noysho taka. Ete lesson aar boi mele, earning task ba investment er labh noy.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "Paying for a described course is an ordinary service cost; paying a deposit to unlock purported earning tasks is a warning cue.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-06-request",
+      "pairId": "cycle7-bn-latn-06",
+      "language": "bn-Latn",
+      "theme": "bank-fee-versus-release",
+      "text": "Apnar withdrawal balance toiri ache. Age alada wallet e clearance fee din, tobei amra apnar taka chharbo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "release-fee"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive makes payment a prerequisite to releasing an existing withdrawal; the negative describes an ordinary bank service charge, without that condition.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-06-benign",
+      "pairId": "cycle7-bn-latn-06",
+      "language": "bn-Latn",
+      "theme": "bank-fee-versus-release",
+      "text": "Bank statement e debit card er bochhorer service fee lekha ache. Eta card er khoroch, atke thaka taka tolar jonno alada payment er shorto noy.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive makes payment a prerequisite to releasing an existing withdrawal; the negative describes an ordinary bank service charge, without that condition.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-07-request",
+      "pairId": "cycle7-bn-latn-07",
+      "language": "bn-Latn",
+      "theme": "loan-cost-versus-earning-deposit",
+      "text": "Amader typing work theke ay shuru korte coordinator ke prothome starter deposit din. Payment holei paid task khulbe.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "pay-to-earn"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "Ordinary borrowing costs and late fees do not imply an earning scheme; an upfront deposit required to access promised paid work does.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-07-benign",
+      "pairId": "cycle7-bn-latn-07",
+      "language": "bn-Latn",
+      "theme": "loan-cost-versus-earning-deposit",
+      "text": "Loan er udahorone masher sud aar deri kore kisti dewar fee dekhano ache. Egulo dharer khoroch, ay ba kaj pawar jonno deposit noy.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "Ordinary borrowing costs and late fees do not imply an earning scheme; an upfront deposit required to access promised paid work does.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-08-request",
+      "pairId": "cycle7-bn-latn-08",
+      "language": "bn-Latn",
+      "theme": "mixed-caution-secret",
+      "text": "Amader safety lesson bole PIN kauke deben na. Kintu nijer refund pete ekhoni card PIN ei chat e amake bolun.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "credentials"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The whole message must be considered: a safety preface is followed by a distinct secret-sharing request in the positive, but reinforced in the negative.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-08-benign",
+      "pairId": "cycle7-bn-latn-08",
+      "language": "bn-Latn",
+      "theme": "mixed-caution-secret",
+      "text": "Amader safety lesson bole PIN kauke deben na. Nijer refund jante bank er songe alada kore jogajog korun aar PIN nijer kachhe rakhun.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The whole message must be considered: a safety preface is followed by a distinct secret-sharing request in the positive, but reinforced in the negative.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-09-request",
+      "pairId": "cycle7-bn-latn-09",
+      "language": "bn-Latn",
+      "theme": "insult-versus-financial-extortion",
+      "text": "Boka, aaj ratei amake taka pathao, nahole tomar private chhobi tomar poribar ke pathiye debo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "An insult alone is not an investment warning; an abusive financial demand backed by threatened exposure is coercive pressure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-09-benign",
+      "pairId": "cycle7-bn-latn-09",
+      "language": "bn-Latn",
+      "theme": "insult-versus-financial-extortion",
+      "text": "Ei budget app ta ekebare baje, er menu o biroktikor. Ami app ta soriye dichhi; taka ba private tothyo dewar kono anurodh nei.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "An insult alone is not an investment warning; an abusive financial demand backed by threatened exposure is coercive pressure.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-10-request",
+      "pairId": "cycle7-bn-latn-10",
+      "language": "bn-Latn",
+      "theme": "harassment-lesson-versus-demand",
+      "text": "Ekhoni payment koro, noile tomar phone er sob contact ke tomar name opomanjonok message pathabo.",
+      "expectedAttention": true,
+      "expectedCategories": [
+        "abusive-pressure"
+      ],
+      "expectedNoStrong": false,
+      "rationale": "The positive uses humiliating threats to extract money; the negative quotes such pressure only as a rejected training example.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    },
+    {
+      "id": "cycle7-bn-latn-10-benign",
+      "pairId": "cycle7-bn-latn-10",
+      "language": "bn-Latn",
+      "theme": "harassment-lesson-versus-demand",
+      "text": "Workshop e \"payment koro noile bodnam korbo\" kothatike abusive humkir udahoron hisebe alochona hobe. Eta report korte shekhano hobe; kono payment chaowa hochhe na.",
+      "expectedAttention": false,
+      "expectedCategories": [],
+      "expectedNoStrong": true,
+      "rationale": "The positive uses humiliating threats to extract money; the negative quotes such pressure only as a rejected training example.",
+      "provenance": "New synthetic Cycle7 development contrast; never an independent evaluation case."
+    }
+  ]
+}

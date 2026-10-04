@@ -1,0 +1,1234 @@
+{
+  "schemaVersion": 1,
+  "selection": "Seeded SHA256 ordering within publisher category/language; 4 per Bengali training stratum, 24 English IMC reports; no engine output used in selection.",
+  "counts": {
+    "imcTotal": 33869,
+    "imcEnglish": 22078,
+    "bengaliTrain": 4903,
+    "selected": 72
+  },
+  "items": [
+    {
+      "source": "bengali-train",
+      "rowIndex": 1429,
+      "sourceLabel": "normal",
+      "language": "Banglish",
+      "text": "tumi ki amar kache aste chao?",
+      "originalTextSha256": "79e1939e6af20ee640c257b328c785875a398b56fcf3b536af8f786f8ad9cbf7",
+      "id": "dev-001",
+      "sanitizedTextSha256": "79e1939e6af20ee640c257b328c785875a398b56fcf3b536af8f786f8ad9cbf7",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 33,
+      "sourceLabel": "normal",
+      "language": "Banglish",
+      "text": "Tomar priyo rong ki?",
+      "originalTextSha256": "2ec4a929c3b3b0318f6ceb6f16c1266ab9b31705743ab377486fcf5c8e4c7b3c",
+      "id": "dev-002",
+      "sanitizedTextSha256": "2ec4a929c3b3b0318f6ceb6f16c1266ab9b31705743ab377486fcf5c8e4c7b3c",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 4442,
+      "sourceLabel": "normal",
+      "language": "Banglish",
+      "text": "Prithibir jibonta tin din er– gotokaler din ti te ja kora hoyeche shegulo niye sheti chole geche; agamikaler din ti te hoyto apni na-o pouchte paren; kintu ajker din ti apnar jonno shutorongo ja korar ajei kore nin. -[Imam Al-Hasan Al-Basri (Rh)]",
+      "originalTextSha256": "92d7fc1ad15211e09813b7122634ea18e41ebc2364cce8dc5a2fdae349a577f4",
+      "id": "dev-003",
+      "sanitizedTextSha256": "92d7fc1ad15211e09813b7122634ea18e41ebc2364cce8dc5a2fdae349a577f4",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 682,
+      "sourceLabel": "normal",
+      "language": "Banglish",
+      "text": "Kalke amader family sobai ek sathe Bashundhara City te shopping korte giyechilam. Onno rokom moja holo. Tore sathe next time plan korte hobe.",
+      "originalTextSha256": "2cd9deede472210ea2201c03b25d32226228754a9b4b74156e5c3e0fb9c63fac",
+      "id": "dev-004",
+      "sanitizedTextSha256": "2cd9deede472210ea2201c03b25d32226228754a9b4b74156e5c3e0fb9c63fac",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 1521,
+      "sourceLabel": "promo",
+      "language": "Banglish",
+      "text": "BTRC'r database-e handset ti nibandhito noy. Handset ti shoyongkriyobhabe nibondhon kora hobe.",
+      "originalTextSha256": "0681ade062c073860687405e9252df6928547508635c6ca007690a4888dfcb25",
+      "id": "dev-005",
+      "sanitizedTextSha256": "0681ade062c073860687405e9252df6928547508635c6ca007690a4888dfcb25",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 856,
+      "sourceLabel": "promo",
+      "language": "Banglish",
+      "text": "Bonus soho 7GB-130Tk-30din. Nite dial *121*5469# othoba visit [link removed]",
+      "originalTextSha256": "509cd5ba8c4b01752e803066e1fca6ed98ddd09998d63a95ac9fbd4fd81a0b86",
+      "id": "dev-006",
+      "sanitizedTextSha256": "2500bd0028fb18871373041dbf5dfe6f4c395a9f0a20ce9888b7c91b7a646cb3",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 231,
+      "sourceLabel": "promo",
+      "language": "Banglish",
+      "text": "40Tk cashback! 46GB @458Tk, 30din, nie nao akhonii: [link removed]",
+      "originalTextSha256": "7832f6a1f1a72764fa5cce21f6f72a587a804ab4e1e7856e01a0496c246244a5",
+      "id": "dev-007",
+      "sanitizedTextSha256": "7ae141f6660062fe07d2f84c8d553402022a367696c83272627ca9a93d39da5a",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 2672,
+      "sourceLabel": "promo",
+      "language": "Banglish",
+      "text": "Unimart fresh fest: Fruits and fish items up to 25% discount. Free home delivery across Dhaka city. Valid this week.",
+      "originalTextSha256": "8bb70d6366c1359554c2736bb8dbd96f460b368aa69f14953fb1d9312a4318b4",
+      "id": "dev-008",
+      "sanitizedTextSha256": "8bb70d6366c1359554c2736bb8dbd96f460b368aa69f14953fb1d9312a4318b4",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 787,
+      "sourceLabel": "smish",
+      "language": "Banglish",
+      "text": "PayPal Bangladesh activation: Apnar account block hoye geche suspicious activity er jonne. Reopen korte ekhuni login korun [link removed] and submit apnar password.",
+      "originalTextSha256": "d2085b3128d041df0b050a242fa6efa2bb61f99591907921f8fac592576f62b0",
+      "id": "dev-009",
+      "sanitizedTextSha256": "d1e68e729d17414c8c98f7afdc969a4647a35521e624609bc84e5519a63488b9",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "account-threat",
+          "credentials"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 1206,
+      "sourceLabel": "smish",
+      "language": "Banglish",
+      "text": "Apnar debit card er pin reset korte call korun [identifier removed]",
+      "originalTextSha256": "b17908effaf500aebe89844066e20d9927dd6c76a6649dcf4dbf0f9785de71dd",
+      "id": "dev-010",
+      "sanitizedTextSha256": "3d13b5f0fc8b0e4de129460969db3a763682642fa8c858e83a7e24d58aed1338",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 447,
+      "sourceLabel": "smish",
+      "language": "Banglish",
+      "text": "\"Abhinondon! Apni pasen\" \"Bkash\"\" & BRAC\"\"N.G.O\"\" pokko teke \"\"STUDENT britt\"\" (Taka-10,499/) apnar poriman ID: ekhon apnar prothoi nirbachon korun: Bistrito janta kol korun office: [identifier removed]am 11 to 5pm) othoba\"\"thik achhe\"\"lekha SMS korbo? Amra apnar kacha kol korbo.!\"",
+      "originalTextSha256": "2b4117a6ade3b5b4487300f29b064c6a034cd557616753efbe6cf0aa0cb2553d",
+      "id": "dev-011",
+      "sanitizedTextSha256": "24bca3843878e3f297f3b2aa3cfa4681b983710c7f304c2eabddf78d1be21299",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 4619,
+      "sourceLabel": "smish",
+      "language": "Banglish",
+      "text": "Casino te bet korun ebong ekti free bari jitun! Ajei shuru korun: [link removed]",
+      "originalTextSha256": "f0570d9032db2d2548e29f4807714d1c61c7c89a3cd6afc0cbcea4e7b963ce06",
+      "id": "dev-012",
+      "sanitizedTextSha256": "2531d395f72bf8957b5f7ce56a21e84844bfaf519f54b8a3e2787132f1a1d4ce",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 822,
+      "sourceLabel": "normal",
+      "language": "Bengali",
+      "text": "ব্যায়াম করতে অভ্যাস করতে হবে।",
+      "originalTextSha256": "61b48e6859dc6960cb4f5c247f7e32b18879634f0d46b35885321a957286e0b7",
+      "id": "dev-013",
+      "sanitizedTextSha256": "61b48e6859dc6960cb4f5c247f7e32b18879634f0d46b35885321a957286e0b7",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 250,
+      "sourceLabel": "normal",
+      "language": "Bengali",
+      "text": "গত সপ্তাহে নতুন একটা বই কিনেছিলাম। নামটা দারুণ ইন্টারেস্টিং, পড়া শুরু করতেই গল্পে ডুবে গেছি। কালকে শেষ করার চেষ্টা করবো।",
+      "originalTextSha256": "01b8dd34c356a48d4e77eae027a2e775a74abb9aff3025ae87083a70a99c9a7e",
+      "id": "dev-014",
+      "sanitizedTextSha256": "01b8dd34c356a48d4e77eae027a2e775a74abb9aff3025ae87083a70a99c9a7e",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 2232,
+      "sourceLabel": "normal",
+      "language": "Bengali",
+      "text": "আজ বিকেলে শাহবাগে বইমেলায় গিয়েছিলাম। প্রচুর ভিড় ছিল কিন্তু বইয়ের কালেকশন অসাধারণ। আমি তিনটা উপন্যাস কিনেছি, চাইলে তোমাকে ধার দিতে পারি।",
+      "originalTextSha256": "8c90196009e704e04da110e1ebe5268e45db70b6fc72589fec058b08e9f757ab",
+      "id": "dev-015",
+      "sanitizedTextSha256": "8c90196009e704e04da110e1ebe5268e45db70b6fc72589fec058b08e9f757ab",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 2448,
+      "sourceLabel": "normal",
+      "language": "Bengali",
+      "text": "তুমি শক্তিশালী, তুমি পারবে।",
+      "originalTextSha256": "c1c92e9a8b07bcdd103f5b1d092bb2ea8a9dd0bbc7f20bad4fd12c89d6a142aa",
+      "id": "dev-016",
+      "sanitizedTextSha256": "c1c92e9a8b07bcdd103f5b1d092bb2ea8a9dd0bbc7f20bad4fd12c89d6a142aa",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 1150,
+      "sourceLabel": "promo",
+      "language": "Bengali",
+      "text": "ডাবলসেঞ্চুরি ক্যাশব্যাক ৳২০০!৬১জিবি+১০০০মি@৳৬৯৯,৩০দিন [link removed]",
+      "originalTextSha256": "4d9b186920a1d04e14dccd2d16b65dd29e6956cba5b97909459301ea0c7b459c",
+      "id": "dev-017",
+      "sanitizedTextSha256": "52ef3f6cd4b5d29c13c037ab19482b1edf87d2836ed84148912b6d7c4da464e5",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 4815,
+      "sourceLabel": "promo",
+      "language": "Bengali",
+      "text": "ডাটা মিক্সারে করো পকেট সেভিং, নাও ৬০জিবি@৳৫৬৯, ৩০দিন: [link removed]",
+      "originalTextSha256": "a9bd1beeb16f62c088eb1fee47f1ad0fab98dc2bdb7764c43ead65a48c36babb",
+      "id": "dev-018",
+      "sanitizedTextSha256": "192f547021231757e401b8792044567a3e5eda4f44b5a5bdd9835f96f9932140",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 2870,
+      "sourceLabel": "promo",
+      "language": "Bengali",
+      "text": "২০০৳ সেইই ক্যাশব্যাক! নাও ৬০জিবি+১০০০মিনিট@৬৯৯৳ ৩০দিন: [link removed]",
+      "originalTextSha256": "438c9ecbe3bfa49ad7cd81ff0e9f1a19a1a0ddbe392eba3828a10398035832c6",
+      "id": "dev-019",
+      "sanitizedTextSha256": "19868f74b855dbe536c552f84c155c862fcc54a4ee34318ee8eb05da2d47363c",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 1949,
+      "sourceLabel": "promo",
+      "language": "Bengali",
+      "text": "১৮০৳ ক্যাশব্যাকে সেরা অফার ৬১জিবি+১০০০মি@৳৭১৯, ৩০দিন: [link removed]",
+      "originalTextSha256": "a3be0f9224b9b5164d08c4cd3b73c8394ee38b0b76ccbd1db7d321e3ebb921bf",
+      "id": "dev-020",
+      "sanitizedTextSha256": "a054556126139b142241926cbf2d7d333bfedc01d16da9efaa62cb08e1318b88",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 378,
+      "sourceLabel": "smish",
+      "language": "Bengali",
+      "text": "ক্রিপ্টো ট্রেডিং এ বিশেষ অফার! এখনই লগইন করুন: [link removed]",
+      "originalTextSha256": "608fd44b827b1be0481a6568a27db2e66ecbf9e5bdaeabdbc010f157bce66b2f",
+      "id": "dev-021",
+      "sanitizedTextSha256": "5d5615a4bd1574f02b330ba2627fd51fdc29f8257a2cf574cc8369e1a5ff9b7b",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 1146,
+      "sourceLabel": "smish",
+      "language": "Bengali",
+      "text": "সতর্কবার্তা: আপনার ইনকাম ট্যাক্স রিটার্ন পেন্ডিং। জমা দিন: [link removed]",
+      "originalTextSha256": "ef67f56766276772c2019618abdd4c3e926297e629f42be8bcdee6dc5aeecba8",
+      "id": "dev-022",
+      "sanitizedTextSha256": "01eb563576353b1a5e6f2061948cc465371a86e77e25222d05b15cfd5d088ca4",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 2617,
+      "sourceLabel": "smish",
+      "language": "Bengali",
+      "text": "২০০ টাকা বিনামূল্যে বোনাস! ৫০০০টাকা জেতার সুযোগ। [link removed]",
+      "originalTextSha256": "1fc2a140a445d3c596a97e30bd89b235a2313c2733e78f8e84792eba825c26ba",
+      "id": "dev-023",
+      "sanitizedTextSha256": "28714022e6a8b2cf00dcb22a0b66f4bb2558378c9acd8abfd794279528cf0f83",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 457,
+      "sourceLabel": "smish",
+      "language": "Bengali",
+      "text": "আপনার ব্যাংক অ্যাকাউন্টে ১ কোটি টাকা জমা হয়েছে! নিশ্চিত করতে কল করুন: [identifier removed]",
+      "originalTextSha256": "3b56be58dcace4159c6c1202b46188b9438f84d5abcda49479a41ae03f1da1ea",
+      "id": "dev-024",
+      "sanitizedTextSha256": "ccd94b0d67856119c5b6b6d50b6d55bd6c75080bd1a5b202aaa2ab10c134081c",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 4796,
+      "sourceLabel": "normal",
+      "language": "CodeMix",
+      "text": "খালা, আপনি কি free থাকবেন? I need to discuss something.",
+      "originalTextSha256": "67ee1daf9b84fe95d8a01a4c01ac3d38e30bc9bfd0679adc4d3dc6a28fb5e359",
+      "id": "dev-025",
+      "sanitizedTextSha256": "67ee1daf9b84fe95d8a01a4c01ac3d38e30bc9bfd0679adc4d3dc6a28fb5e359",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 1562,
+      "sourceLabel": "normal",
+      "language": "CodeMix",
+      "text": "Tumi onek strong, you can do it.",
+      "originalTextSha256": "22fdfdd70870979e94fc5bc8f3e9fdce849b0882741e3d33757ff204405d09eb",
+      "id": "dev-026",
+      "sanitizedTextSha256": "22fdfdd70870979e94fc5bc8f3e9fdce849b0882741e3d33757ff204405d09eb",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 3995,
+      "sourceLabel": "normal",
+      "language": "CodeMix",
+      "text": "পরশু কি তুমি free থাকবে? I want to show you the new apartment.",
+      "originalTextSha256": "77ee54f55cbffb971fd50a70dfe378cf831415ae89919018e15914093344b8a1",
+      "id": "dev-027",
+      "sanitizedTextSha256": "77ee54f55cbffb971fd50a70dfe378cf831415ae89919018e15914093344b8a1",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 3650,
+      "sourceLabel": "normal",
+      "language": "CodeMix",
+      "text": "আজকে dinner এর জন্য কি plan? তুমি cook করতে চাও নাকি বাইরে order করি? Let me know before ৮ pm",
+      "originalTextSha256": "fe6c7a802b4a2f9f39595d310130a05ae8c7b5795d1a88407bb9313a1f0eecbf",
+      "id": "dev-028",
+      "sanitizedTextSha256": "fe6c7a802b4a2f9f39595d310130a05ae8c7b5795d1a88407bb9313a1f0eecbf",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 661,
+      "sourceLabel": "promo",
+      "language": "CodeMix",
+      "text": "৩৫GB+৮০০min-৬০০TK-৩০days(bonus সহ), dial *১২১*৫২৬২# বা [link removed]",
+      "originalTextSha256": "11731ea37de2f4fef526c69440b5461925dfc1065bdc8499824ae3df0521105d",
+      "id": "dev-029",
+      "sanitizedTextSha256": "859a2aba4b9c225977ee4c4e53221fd4b7685c951e13a0c6346eaea5cf687b20",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 2891,
+      "sourceLabel": "promo",
+      "language": "CodeMix",
+      "text": "আজই last day! ৪০GB(bonus-সহ)৫০০টাকা ৩০দিন।Dial *১২১*৫০৪৯#, [link removed]",
+      "originalTextSha256": "23e15b66c1f257297ad23f43fd6210172b6131bd385682cdc1a758abf8070b9a",
+      "id": "dev-030",
+      "sanitizedTextSha256": "68eb955b25a294199e6bd05447094532f47ef46ec20e5205d1b469259164baaa",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 440,
+      "sourceLabel": "promo",
+      "language": "CodeMix",
+      "text": "Nagad app এর মাধ্যমে payment করলে cashback ১৫%। Use code: NAGAD15",
+      "originalTextSha256": "be025a23ee618a18bf3fcf4b1aa82374229b274543b42b95bb10ddb7c80bd742",
+      "id": "dev-031",
+      "sanitizedTextSha256": "be025a23ee618a18bf3fcf4b1aa82374229b274543b42b95bb10ddb7c80bd742",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 3424,
+      "sourceLabel": "promo",
+      "language": "CodeMix",
+      "text": "Digital gadget-এ ১৫% discount! আজই shop করুন এবং bonus পান।",
+      "originalTextSha256": "75e3b7a88732cf1be058e33d09e3bd93a24804fad5267d1b99208f07f3218367",
+      "id": "dev-032",
+      "sanitizedTextSha256": "75e3b7a88732cf1be058e33d09e3bd93a24804fad5267d1b99208f07f3218367",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 1010,
+      "sourceLabel": "smish",
+      "language": "CodeMix",
+      "text": "আপনি recent lottery prize জিতেছেন! Claim code [identifier removed] at [link removed]",
+      "originalTextSha256": "d47ada6a049f701a2edb98d613b88efe194cf1d84c3d265d46a1e369e629f671",
+      "id": "dev-033",
+      "sanitizedTextSha256": "ea34526c8c2ca5281f5ed8c1f14b9b98d81916cd92ad3c88ee6ecbcdb732ff67",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 2722,
+      "sourceLabel": "smish",
+      "language": "CodeMix",
+      "text": "Sonali bank account এ ১০,০০০ TK deposit হয়েছে। details জানতে এখানে click করুন: [link removed]",
+      "originalTextSha256": "36ea3340a2c91a188896bbe1c50ecdbe4f1e588fc7558650050c025ac8140607",
+      "id": "dev-034",
+      "sanitizedTextSha256": "eefabf224369f19f372e38e16cdf9354186d266da09209be68898b15a6f734b2",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 294,
+      "sourceLabel": "smish",
+      "language": "CodeMix",
+      "text": "আপনার mobile banking account update করতে call করুন [identifier removed]",
+      "originalTextSha256": "55fc1a5ca9b2ed63946a923b4b6ca5e874290c2d6d4c7e89838debf752ac5ae1",
+      "id": "dev-035",
+      "sanitizedTextSha256": "acc8581ae6dfc85156d06618d3901b825ee09b1bec9b6e4b4601065a0dfaa40c",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 2492,
+      "sourceLabel": "smish",
+      "language": "CodeMix",
+      "text": "URGENT: আপনার BRAC Bank account block হতে চলেছে। Verify করতে এখনই click করুন [link removed] before any fund loss।",
+      "originalTextSha256": "97ac4880e43388c3463d647e73199baf8e4059500937a608a8e1c99824ae438a",
+      "id": "dev-036",
+      "sanitizedTextSha256": "322a68d119bde0d5e369690da31cdd25a8fd52fab70f794adb94597cf2645e3f",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "account-threat"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 389,
+      "sourceLabel": "normal",
+      "language": "English",
+      "text": "What a very good question!",
+      "originalTextSha256": "207ee4c1e875211e4d5cc8392cc937ff4095142fec242209a2db9d2f652652f1",
+      "id": "dev-037",
+      "sanitizedTextSha256": "207ee4c1e875211e4d5cc8392cc937ff4095142fec242209a2db9d2f652652f1",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 4583,
+      "sourceLabel": "normal",
+      "language": "English",
+      "text": "This is that I am given a solution that needs to be solved.",
+      "originalTextSha256": "a0c927103c171f48c5f5771af41cac98bf363f640c5eedb0fdce6d67ffd0ea35",
+      "id": "dev-038",
+      "sanitizedTextSha256": "a0c927103c171f48c5f5771af41cac98bf363f640c5eedb0fdce6d67ffd0ea35",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 1525,
+      "sourceLabel": "normal",
+      "language": "English",
+      "text": "Reminder: Our cousin's wedding is next week. Have you bought the gift yet?",
+      "originalTextSha256": "ec3f632cf0058ad50cf9d8311949d7073dfd3824d8a48c1b874c45f4fa8f7996",
+      "id": "dev-039",
+      "sanitizedTextSha256": "ec3f632cf0058ad50cf9d8311949d7073dfd3824d8a48c1b874c45f4fa8f7996",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 3268,
+      "sourceLabel": "normal",
+      "language": "English",
+      "text": "Good morning! The sunrise over the river looks absolutely breathtaking today. Nature's perfect beauty.",
+      "originalTextSha256": "6425f82e50e37dcec4157897f30914266de21451fb096b0b635dc53228dbc034",
+      "id": "dev-040",
+      "sanitizedTextSha256": "6425f82e50e37dcec4157897f30914266de21451fb096b0b635dc53228dbc034",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 2590,
+      "sourceLabel": "promo",
+      "language": "English",
+      "text": "20GB @309TK 30 days, create your own in data mixer- [link removed]",
+      "originalTextSha256": "1dcf7a16068ad426ba465bba51bf90bbc761dad4f2b71d9c6905f9998b30c0b2",
+      "id": "dev-041",
+      "sanitizedTextSha256": "9aa42b3f14ebe923180018d00fbef874aa2a9ba93ede4143656502423246fbb8",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 3903,
+      "sourceLabel": "promo",
+      "language": "English",
+      "text": "Ajkerdeal mega sale: Electronics, clothing, home items up to 80% off!",
+      "originalTextSha256": "63917c8ff8fc486595882442ba83b2f97cdd30a191db392c8d63aa8c88ef547f",
+      "id": "dev-042",
+      "sanitizedTextSha256": "63917c8ff8fc486595882442ba83b2f97cdd30a191db392c8d63aa8c88ef547f",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 4652,
+      "sourceLabel": "promo",
+      "language": "English",
+      "text": "Fresh fish market Ramadan special! All sea fish 20% discount. Best quality guaranteed daily!",
+      "originalTextSha256": "9baac4f51223b7a0f3244e8f18d104e215ae268418c72c1715fab1cc5615360c",
+      "id": "dev-043",
+      "sanitizedTextSha256": "9baac4f51223b7a0f3244e8f18d104e215ae268418c72c1715fab1cc5615360c",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 2210,
+      "sourceLabel": "promo",
+      "language": "English",
+      "text": "June 5 World Environment Day 2023. This year's theme: Let's all join in solving plastic pollution. This year's slogan: Let's all pledge together, plastic pollution will stop. - Ministry of Environment, Forest and Climate Change.",
+      "originalTextSha256": "8f4af3050e366037bc8b46b74966fb8829d93cd9324526d386d8b0de992f0ba5",
+      "id": "dev-044",
+      "sanitizedTextSha256": "8f4af3050e366037bc8b46b74966fb8829d93cd9324526d386d8b0de992f0ba5",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "education",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 1855,
+      "sourceLabel": "smish",
+      "language": "English",
+      "text": "Call [identifier removed]to update your account information",
+      "originalTextSha256": "61c5125ff8345d4e2ff797497acbf0e83476619b11fa7fc7a15e8e53c0cf4de9",
+      "id": "dev-045",
+      "sanitizedTextSha256": "f9ee9e3b35721b3f43e408ecf8710feff75a1fcc49aa69ef3db68c2ad51f6581",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 319,
+      "sourceLabel": "smish",
+      "language": "English",
+      "text": "Bet on football and win a luxury car! Start: [link removed]",
+      "originalTextSha256": "fdb4b723b7db1803cddaa53b9561cfceef288b1cb6e1ec325639b0e2f71459a3",
+      "id": "dev-046",
+      "sanitizedTextSha256": "90c219eab015028dab6494529e2cabbdabbbe11ffaf2bc32d94d11fdfcf30378",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 535,
+      "sourceLabel": "smish",
+      "language": "English",
+      "text": "Your Dutch Bangla Bank card is blocked. Reactivate: [link removed] or call [identifier removed]",
+      "originalTextSha256": "bb0cef9cc38b4d97f36d06618893715ee61e7d9500232174051c8fa2ee3c71be",
+      "id": "dev-047",
+      "sanitizedTextSha256": "dc93f104770609b971fa76d682c1077aee6eb588e45e185ff26ccca1822559a4",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "account-threat"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "bengali-train",
+      "rowIndex": 4076,
+      "sourceLabel": "smish",
+      "language": "English",
+      "text": "Call [identifier removed]to update your mobile banking account",
+      "originalTextSha256": "e992b90405bc8628f5ca3046b73c1618fb3c22911ae3877dc7ae21571b2f3213",
+      "id": "dev-048",
+      "sanitizedTextSha256": "20a6f0b18ab9a830d5fe6c6fe0be999def10b469af7e00e04113060af744facd",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 15281,
+      "sourceLabel": "banking",
+      "language": "English",
+      "text": "Dear user, Your P-A-T-Y-M Documents has been expired <DATE_TIME>. Please call us [identifier removed] immediately. Your a/c will deactivated within <DATE_TIME>. Thank you.",
+      "originalTextSha256": "b327b7611530639a1c7f2df904ed30f82dab5a25bd149a61ef1de2ed955c3bc3",
+      "date": "1:01 PM",
+      "id": "dev-049",
+      "sanitizedTextSha256": "d897f70a7e77b7c39297b52dff18cbd0dd22d4a5dc730e6fa7469b047b2abc56",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "account-threat"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 11251,
+      "sourceLabel": "banking",
+      "language": "English",
+      "text": "Dear Customer Your HDFC Bank Account has been Suspended Today Please <NAMED_ENTITY> Here Link",
+      "originalTextSha256": "dbebd8df4b3c890d5f57aeac683d34cd6b469f1cd877a412f777673cb60ff563",
+      "date": "17:51",
+      "id": "dev-050",
+      "sanitizedTextSha256": "dbebd8df4b3c890d5f57aeac683d34cd6b469f1cd877a412f777673cb60ff563",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "account-threat"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 14318,
+      "sourceLabel": "banking",
+      "language": "English",
+      "text": "HSBC: A payment was attempted from a NEW DEVICE on 28/10 at 19:011PM If this was NOT you, please visit:[link removed]",
+      "originalTextSha256": "ab864d3856d8b1a84f225fee4c365f6a9bfabea2080d9d3bc03cb16790072077",
+      "date": "Yesterday 19:22",
+      "id": "dev-051",
+      "sanitizedTextSha256": "91ed37eb8a02b1c2826987f6ecc8ce17789540eae04ee1616cbc1f4d7d0d9966",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 17434,
+      "sourceLabel": "banking",
+      "language": "English",
+      "text": "ACH Debit mandate registered for Rs. 35000.00 /- with frequency ADHO in HDFC Bank A/c [link removed][identifier removed] for Razorpay software pvt ltd with UMRN [link removed][identifier removed].",
+      "originalTextSha256": "99e64692a725b7b8bc0e5151104ef27b1048e5391740fa06a842b92a7283bc4d",
+      "date": "Tuesday, 21 September 2021 20:20",
+      "id": "dev-052",
+      "sanitizedTextSha256": "54f5a57ededb93d58c658fc4eb633d192aeccd69f636a0f8143224bdad3d9f27",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 21139,
+      "sourceLabel": "banking",
+      "language": "English",
+      "text": "Dear customer Your SBI YONO A/c and <NAMED_ENTITY> will be block <DATE_TIME>. Please update your documents now. SBI",
+      "originalTextSha256": "345a4e0570a3ff680b1c747c9e515a58a1590ecc0a95df2b6e33c5370bf101a2",
+      "date": "Wednesday, 6 April 2022 14:33",
+      "id": "dev-053",
+      "sanitizedTextSha256": "345a4e0570a3ff680b1c747c9e515a58a1590ecc0a95df2b6e33c5370bf101a2",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "account-threat"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 2847,
+      "sourceLabel": "banking",
+      "language": "English",
+      "text": "Dear User Your SBI YONO Account Will Be Close Today Click here on the Link To Update your PAN CARD Number",
+      "originalTextSha256": "2f175b8e24348eee486ba3301c1bbc45c46c41bf62777071dd87c4d7cefc3364",
+      "date": "9:30 AM",
+      "id": "dev-054",
+      "sanitizedTextSha256": "2f175b8e24348eee486ba3301c1bbc45c46c41bf62777071dd87c4d7cefc3364",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "account-threat",
+          "credentials"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 21230,
+      "sourceLabel": "banking",
+      "language": "English",
+      "text": "Hurry up! Get Rs. 100 cashback on your first transaction with Freecharge Pay Later powered by Axis Bank. Apply Now",
+      "originalTextSha256": "89f8033c13ea56c6f133623283f34ba48430027078ea118736619aa94588a68a",
+      "date": "Sunday 4:34 pm",
+      "id": "dev-055",
+      "sanitizedTextSha256": "89f8033c13ea56c6f133623283f34ba48430027078ea118736619aa94588a68a",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "promotion",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 19969,
+      "sourceLabel": "banking",
+      "language": "English",
+      "text": "This is your CRED verification OTP. The OTP will be valid for 10 min. Do not share this <NAMED_ENTITY> with anyone.",
+      "originalTextSha256": "7a7899cedca1e410a8f87fb844a02c7ba8084e3931bda2749ae3e0362803dc11",
+      "date": "5:49 PM",
+      "id": "dev-056",
+      "sanitizedTextSha256": "7a7899cedca1e410a8f87fb844a02c7ba8084e3931bda2749ae3e0362803dc11",
+      "annotation": {
+        "group": "no-attention-cue",
+        "expectedCategories": [],
+        "purpose": "education",
+        "rationale": "Ordinary conversation, commercial promotion, informational notice or an OTP safety reminder. Publisher labels do not establish sender authenticity; promotion alone should not become an attention warning."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 24172,
+      "sourceLabel": "delivery",
+      "language": "English",
+      "text": "Parcel [[identifier removed]] has BEEN stopped at the DISTRIBUTION center. Track your shipment here: [link removed]",
+      "originalTextSha256": "8e558d540869e2d20dc8937cc381252e88bbf7c3b92d2bc0ba673aa5181e7762",
+      "date": "Sun",
+      "id": "dev-057",
+      "sanitizedTextSha256": "65d0858a464f9348c61f2a88941bb135243aecac8de3c7e94ed8c1517b5862ce",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 33457,
+      "sourceLabel": "delivery",
+      "language": "English",
+      "text": "USPostal: Your shipping address is incorrect and the postman cannot deliver it unless you change it.",
+      "originalTextSha256": "22f988b7331907b32bb8ffd66fca8d636777714a562e1b4a6afd991c30109071",
+      "date": "6:35 AM, Sunday, September 17",
+      "id": "dev-058",
+      "sanitizedTextSha256": "22f988b7331907b32bb8ffd66fca8d636777714a562e1b4a6afd991c30109071",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 24523,
+      "sourceLabel": "government",
+      "language": "English",
+      "text": "URGENT your Council Tax is overdue. Don't lose the right to pay by instalments. Pay immediately at [link removed] or call [identifier removed]",
+      "originalTextSha256": "d4a61fe938c327aea2ed41a66c7f60973355190a9fbf9eb1a3a8f82d19d346ab",
+      "date": "12:20",
+      "id": "dev-059",
+      "sanitizedTextSha256": "8e9e876ccfa464396c1980ecd8c0ad16290d1f7884efd7ce6b332c0669563493",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "urgency"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 25628,
+      "sourceLabel": "government",
+      "language": "English",
+      "text": "<NAMED_ENTITY>, You have successfully been vaccinated with your Pre-caution Dose with COVAXIN on <DATE_TIME>. You may download your vaccination Certificate from – [link removed] - CoWIN",
+      "originalTextSha256": "33b49371649018fcc8eed72bde1db54807ec847892d4e53279426b9beb9e6e67",
+      "date": "Friday, 26 August 2022 at 01:03 PM",
+      "id": "dev-060",
+      "sanitizedTextSha256": "970e9123b7729e063a921f2f4574d190462a0d73ccf2ae7f4f0e6cc8b4471912",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 25685,
+      "sourceLabel": "government",
+      "language": "English",
+      "text": "The Train is running late by <DATE_TIME> from the last destination [link removed] is likely to make [link removed]ease check exact status from NTES or <LOCATION>",
+      "originalTextSha256": "c83833e599efe043241e38241ea14f3cadd68639adac8edb0c15183cfc997f94",
+      "date": "Sun, 24 July, 1:55 am",
+      "id": "dev-061",
+      "sanitizedTextSha256": "b5219a026e8e6142a0e3716942dfb3df6d0a93f38c10fa3566998ef93a53991f",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 24529,
+      "sourceLabel": "government",
+      "language": "English",
+      "text": "Maharashtra Traffic Police Echallan No. [identifier removed] Fine:500 Pay online: [link removed] (within <DATE_TIME>)",
+      "originalTextSha256": "105d68d6736f4d8a9bb0e84d34f7ab3076187701c086d8a62d85e37b7e299d29",
+      "date": "6:37 PM",
+      "id": "dev-062",
+      "sanitizedTextSha256": "43b61c59c04a7686c8f55ea5f7c4b31cebbcd4077eae7b89d6080f112edd8b4e",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 2835,
+      "sourceLabel": "hey mum/dad",
+      "language": "English",
+      "text": "Its mum I left my phone at home and at the petrol station with the wrong card. Can you send me 250. BSB: [identifier removed]ACC: [identifier removed]. Pay you back when i get home x",
+      "originalTextSha256": "ee0689e97c3b1444463eb165f16924ecfeaff1f9df34d1eb1781d992e3d2af0d",
+      "date": "Today 18:10",
+      "id": "dev-063",
+      "sanitizedTextSha256": "88849fee63645a8f8c5c9d6ed751119735bd7aef6396e2cb9899db5ea8b7b3f3",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 27007,
+      "sourceLabel": "others",
+      "language": "English",
+      "text": "Rs. 1130 dues added by gyani <NAMED_ENTITY>,khamano [identifier removed]). Balance: Rs. 1130 due. Check detail [link removed] Welcome, gyani <NAMED_ENTITY>,khamano [identifier removed]) will send SMS for all credit or payment. If you do business, Install OkCredit for free. [link removed]",
+      "originalTextSha256": "c2e344471cc3527157c89d4cb38c537b2d45347012c0d35b7c66392be127e547",
+      "date": "9:20 PM",
+      "id": "dev-064",
+      "sanitizedTextSha256": "e42c68420c2c92751614210b3cb418570c642ec98ce0597b80345cbe6c7a1c9d",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 26292,
+      "sourceLabel": "others",
+      "language": "English",
+      "text": "We identified an unusual login attempt on your account. Log in via the secure link to avoid account suspension.",
+      "originalTextSha256": "05ac164795626f95522ade674a7eaf86ea23a0f991e38ef84fed3bda5236a208",
+      "date": "Today 19:53",
+      "id": "dev-065",
+      "sanitizedTextSha256": "05ac164795626f95522ade674a7eaf86ea23a0f991e38ef84fed3bda5236a208",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "account-threat"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 30101,
+      "sourceLabel": "others",
+      "language": "English",
+      "text": "please Update Your PAN Card number Click here link [link removed]",
+      "originalTextSha256": "480fdd5f434b4e3dd2aeec8ab20bc329c2f8e68d57fcb42b22f1483385215876",
+      "date": "12:50 pm",
+      "id": "dev-066",
+      "sanitizedTextSha256": "d4eee9860e499d088c61d5f3da965e9c5683ea32770c5fb98664ca207c212a1e",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "credentials"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 1560,
+      "sourceLabel": "others",
+      "language": "English",
+      "text": "Your CarHistory has a new entry: [link removed] yo cmlxf",
+      "originalTextSha256": "12b7a0af9563a2419d6991a1a82999f010dd6c2412805e3247999f77048ef372",
+      "date": "Wednesday, Oct 14, 2020 • 08:53",
+      "id": "dev-067",
+      "sanitizedTextSha256": "eba41b4cbea49bd60a8a99a68cca7559b8af9dc1412ee3ddba9482e4e1739cd3",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 4873,
+      "sourceLabel": "spam",
+      "language": "English",
+      "text": "YOU ARE A WINNER! You have won the lottery!",
+      "originalTextSha256": "59255906f643ce0c409d434871ec49aee440eb8f1605fd4a4c5fe17ddd80c2fd",
+      "date": "7:40 AM Wednesday April 1",
+      "id": "dev-068",
+      "sanitizedTextSha256": "59255906f643ce0c409d434871ec49aee440eb8f1605fd4a4c5fe17ddd80c2fd",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 30905,
+      "sourceLabel": "spam",
+      "language": "English",
+      "text": "Dear, Customers (congratulations) you won the 1st prize Mahindra XUV with , 14,85,000 For flipkart company your lucky coupon number [identifier removed] contests AND Registration charge deposit RS 6,500 only. Helpline [identifier removed] office no-[identifier removed]",
+      "originalTextSha256": "20158406aeccb35d88a5aa14d80e35677d1780e400894c1388dcf9f9110181f0",
+      "date": "10:08",
+      "id": "dev-069",
+      "sanitizedTextSha256": "5ebf04241f4a0f98f8249ca4e2a152eca691499ca1c1f1825601a306a8876678",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "release-fee"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 31854,
+      "sourceLabel": "telecom",
+      "language": "English",
+      "text": "AIRTEL VVIPNOOFFERFORSALE [identifier removed] [identifier removed] [identifier removed] [identifier removed] [identifier removed] [identifier removed] [name removed]-[identifier removed] [identifier removed] Price-50,000/- Plus GST",
+      "originalTextSha256": "0c6776251ff0c097845d99bc90e705d3d705004a0e933c2a52488326777ff80c",
+      "date": "Today 10:28 AM",
+      "id": "dev-070",
+      "sanitizedTextSha256": "6f5ca4164e1d3fe53ec3ae79eed8811e12d47f04beb9ceb7256afb1ed517e9e9",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 32879,
+      "sourceLabel": "telecom",
+      "language": "English",
+      "text": "Dear,customer, your sim card is suspe,nded <DATE_TIME> due incomplete of EKYC, For activation contact, customer, care, no within, <DATE_TIME>[link removed].[identifier removed]",
+      "originalTextSha256": "21ce44b13a15d12b4ddf971faffbca2cad2b8a89d1ac8f3f67932748fd382468",
+      "date": "9:53 AM",
+      "id": "dev-071",
+      "sanitizedTextSha256": "5c787d8c50d9d6b8b3506902d0b6d0cb004d6a3d6c29d51834272053360fa677",
+      "annotation": {
+        "group": "observable-risk-cue",
+        "expectedCategories": [
+          "account-threat"
+        ],
+        "purpose": "unclear",
+        "rationale": "An account restriction plus a requested contact/action, a request for private credentials/identity data, an advance fee tied to a prize, or explicit payment pressure is observable. This is not a fraud verdict."
+      }
+    },
+    {
+      "source": "imc25",
+      "rowIndex": 343,
+      "sourceLabel": "wrong number",
+      "language": "English",
+      "text": "Hi what are you up to <DATE_TIME>, any plans? I'll be here, if you want to chat:[link removed]",
+      "originalTextSha256": "13608b1a8ced0da1e1756500b9b7a9d6833a4344c1abde0b462ec22055a9f0e0",
+      "date": "Today 4:17 PM",
+      "id": "dev-072",
+      "sanitizedTextSha256": "003328697c043ad51b11fc5a3441c9240cb026e0d058b5848a73895d24a19792",
+      "annotation": {
+        "group": "not-assessable-from-text",
+        "expectedCategories": [],
+        "purpose": "unclear",
+        "rationale": "Publisher attack label retained, but text alone or the current reviewed category set cannot resolve this report. Link reputation, sender identity, consent, missing context or a new category would be needed; excluded from binary risk-cue scoring, retained in coverage reporting."
+      }
+    }
+  ],
+  "annotationProtocol": {
+    "annotator": "Sajag development agent (AI-assisted; single reviewer)",
+    "timing": "Categories assigned before any engine evaluation; baseline recorded before edits. Not independently adjudicated fraud gold.",
+    "scope": "Observable wording only. Original source labels preserved separately. No original message is asserted to be fraudulent or safe.",
+    "licences": [
+      {
+        "source": "imc25",
+        "licence": "CC-BY-4.0",
+        "attribution": "Fishing for Smishing / reportsmishing, Smishing-Dataset-IMC25",
+        "revision": "a6175560b57387199871e51fbef6bc523d2516b4"
+      },
+      {
+        "source": "bengali-train",
+        "licence": "MIT (publisher dataset card declaration; no standalone licence file)",
+        "attribution": "shariul-islam / SmishDetect-LLM, Bengali SMS Smishing Dataset",
+        "revision": "9d7c131cc63187c54dfd069d8070776c82f0be45"
+      }
+    ],
+    "sanitization": "URLs, domain names, emails, phone/account-like long numeric identifiers, named identity placeholders, claim/coupon codes and contact-name prefixes removed; short financial amounts/periods kept."
+  }
+}

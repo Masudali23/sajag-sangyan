@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Sajag</string>
+    <string name="title_activity_main">Sajag</string>
+    <string name="package_name">org.sajag.app</string>
+    <string name="custom_url_scheme">org.sajag.app</string>
+</resources>

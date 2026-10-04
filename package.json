@@ -1,0 +1,67 @@
+{
+  "name": "sajag",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Understand the claim. Learn the concept. Stay Sajag.",
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"node --watch server/index.ts\" \"vite --host 0.0.0.0\"",
+    "dev:web": "vite --host 0.0.0.0",
+    "dev:api": "node --watch server/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build && node scripts/offline.mjs && npm run build:api",
+    "start": "node dist-server/index.js",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "check": "npm run typecheck && npm test && npm run build",
+    "mobile:sync": "npm run build && node scripts/sync-mobile.mjs",
+    "mobile:android": "cap open android",
+    "build:api": "vite build --ssr server/index.ts --outDir dist-server"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.5.2",
+    "@supabase/supabase-js": "^2.117.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.13.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/ios": "^8.5.2",
+    "@playwright/test": "^1.58.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/supertest": "^6.0.3",
+    "@vitejs/plugin-react": "^6.0.0",
+    "concurrently": "^9.2.1",
+    "pptxgenjs": "^4.0.1",
+    "prettier": "^3.9.9",
+    "sharp": "^0.35.5",
+    "supertest": "^7.2.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.2",
+    "vitest": "^4.0.18"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "overrides": {
+    "xcode": {
+      "uuid": "^11.1.1"
+    },
+    "image-size": "^2.0.4"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-10-03T13:46:49.770261+00:00",
+  "status": "reviewed-development-label-sidecar",
+  "reviewer": "Team FirstBest",
+  "reviewDocument": "Team FirstBest evaluation review",
+  "sourceSha256": {
+    "tests/fixtures/message-review-en.json": "cbd5f7ab64c6e018746efd7501db2c6d1fb00771bb7c9563bc08dc802fb69a07",
+    "tests/fixtures/message-review-hi.json": "d583da733fe30b0714818a2029baaf3d4d4d87ac4f60820c21a11476f636e79b",
+    "tests/fixtures/message-review-bn.json": "8725433566ec3e8f4cad7cb4e31435d2e52a874c58febeb57d5da0b578d4ec97"
+  },
+  "partition": "development",
+  "changesFrozenLabels": false,
+  "runtimeLearning": false,
+  "authoritativeEvidence": false,
+  "purposeTaxonomy": {
+    "promotional": "Commercial or new-opportunity ask; a syllabus-plus-fee advert is not substantive teaching.",
+    "mixed": "Substantive explanation in the message plus a commercial ask.",
+    "educational": "Explains a concept, risk or safety practice with no commercial ask; includes free learning events.",
+    "unclear": "Neither explains nor sells: ordinary notes, budgets, reminders, or pretext demands for credentials/release fees."
+  },
+  "scopeNote": "These39 decisions document review of visible development labels only. They do not relabel held-out messages or claim the current purpose classifier implements this taxonomy completely. Explicit reviewer decisions take precedence over earlier purpose labels only in a separately versioned purpose-development evaluation.",
+  "decisions": [
+    {
+      "caseId": "syn-hi-dev-007",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-009",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-010",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-011",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-012",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-025",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-030",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-031",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-032",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-037",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-040",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-049",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-053",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-060",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-063",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-064",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-068",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-070",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-072",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-hi-dev-079",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-bn-dev-047",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-bn-dev-048",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-bn-dev-049",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-bn-dev-062",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-bn-dev-063",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-bn-dev-064",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-bn-dev-065",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-bn-dev-079",
+      "purpose": "unclear",
+      "reason": "Reviewer assigned a purpose to previously blank development labels under the proposed v2 taxonomy."
+    },
+    {
+      "caseId": "syn-en-dev-064",
+      "purpose": "promotional",
+      "reason": "A syllabus plus course fee is an advert; listing topics does not itself teach those concepts."
+    },
+    {
+      "caseId": "syn-en-dev-065",
+      "purpose": "promotional",
+      "reason": "A syllabus plus course fee is an advert; listing topics does not itself teach those concepts."
+    },
+    {
+      "caseId": "syn-en-dev-066",
+      "purpose": "promotional",
+      "reason": "A syllabus plus course fee is an advert; listing topics does not itself teach those concepts."
+    },
+    {
+      "caseId": "syn-en-dev-080",
+      "purpose": "promotional",
+      "reason": "A syllabus plus course fee is an advert; listing topics does not itself teach those concepts."
+    },
+    {
+      "caseId": "syn-hi-dev-047",
+      "purpose": "promotional",
+      "reason": "A syllabus plus course fee is an advert; listing topics does not itself teach those concepts."
+    },
+    {
+      "caseId": "syn-hi-dev-062",
+      "purpose": "promotional",
+      "reason": "A syllabus plus course fee is an advert; listing topics does not itself teach those concepts."
+    },
+    {
+      "caseId": "syn-hi-dev-076",
+      "purpose": "promotional",
+      "reason": "A syllabus plus course fee is an advert; listing topics does not itself teach those concepts."
+    },
+    {
+      "caseId": "syn-hi-dev-080",
+      "purpose": "promotional",
+      "reason": "A syllabus plus course fee is an advert; listing topics does not itself teach those concepts."
+    },
+    {
+      "caseId": "syn-bn-dev-050",
+      "purpose": "educational",
+      "reason": "Free non-commercial learning event with no paid enrollment ask."
+    },
+    {
+      "caseId": "syn-bn-dev-067",
+      "purpose": "educational",
+      "reason": "Free non-commercial learning event with no paid enrollment ask."
+    },
+    {
+      "caseId": "syn-bn-dev-075",
+      "purpose": "educational",
+      "reason": "Free non-commercial learning event with no paid enrollment ask."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "shield": {
+    "file": "/emoji/shield.webp",
+    "fluent": "Shield",
+    "use": "brand, safety, privacy promise"
+  },
+  "check": {
+    "file": "/emoji/check.webp",
+    "fluent": "Magnifying glass tilted left",
+    "use": "Check a message"
+  },
+  "learn": {
+    "file": "/emoji/learn.webp",
+    "fluent": "Books",
+    "use": "Learn"
+  },
+  "risk": {
+    "file": "/emoji/risk.webp",
+    "fluent": "Roller coaster",
+    "use": "Experience risk / volatility"
+  },
+  "saved": {
+    "file": "/emoji/saved.webp",
+    "fluent": "Bookmark",
+    "use": "Saved notebook"
+  },
+  "warning": {
+    "file": "/emoji/warning.webp",
+    "fluent": "Warning",
+    "use": "attention finding"
+  },
+  "tip": {
+    "file": "/emoji/tip.webp",
+    "fluent": "Light bulb",
+    "use": "tips, 'thought to take with you'"
+  },
+  "returns": {
+    "file": "/emoji/returns.webp",
+    "fluent": "Money bag",
+    "use": "return/profit claims"
+  },
+  "growth": {
+    "file": "/emoji/growth.webp",
+    "fluent": "Chart increasing",
+    "use": "compounding lesson"
+  },
+  "loss": {
+    "file": "/emoji/loss.webp",
+    "fluent": "Chart decreasing",
+    "use": "loss / simulator dip"
+  },
+  "basket": {
+    "file": "/emoji/basket.webp",
+    "fluent": "Basket",
+    "use": "diversification lesson"
+  },
+  "fees": {
+    "file": "/emoji/fees.webp",
+    "fluent": "Receipt",
+    "use": "fees / small print lesson"
+  },
+  "family": {
+    "file": "/emoji/family.webp",
+    "fluent": "People hugging",
+    "use": "nomination lesson"
+  },
+  "nav": {
+    "file": "/emoji/nav.webp",
+    "fluent": "Coin",
+    "use": "NAV lesson"
+  },
+  "message": {
+    "file": "/emoji/message.webp",
+    "fluent": "Speech balloon",
+    "use": "the message you checked"
+  },
+  "phone": {
+    "file": "/emoji/phone.webp",
+    "fluent": "Mobile phone",
+    "use": "WhatsApp forward / app"
+  },
+  "link": {
+    "file": "/emoji/link.webp",
+    "fluent": "Link",
+    "use": "link in message"
+  },
+  "bank": {
+    "file": "/emoji/bank.webp",
+    "fluent": "Bank",
+    "use": "bank / payment reminder"
+  },
+  "promo": {
+    "file": "/emoji/promo.webp",
+    "fluent": "Loudspeaker",
+    "use": "promotion cue"
+  },
+  "urgency": {
+    "file": "/emoji/urgency.webp",
+    "fluent": "Hourglass not done",
+    "use": "urgency cue"
+  },
+  "lock": {
+    "file": "/emoji/lock.webp",
+    "fluent": "Locked",
+    "use": "privacy, credentials"
+  },
+  "unknown": {
+    "file": "/emoji/unknown.webp",
+    "fluent": "Red question mark",
+    "use": "evidence gaps / still unknown"
+  },
+  "done": {
+    "file": "/emoji/done.webp",
+    "fluent": "Check mark button",
+    "use": "lesson completed"
+  },
+  "graduate": {
+    "file": "/emoji/graduate.webp",
+    "fluent": "Graduation cap",
+    "use": "learning progress"
+  },
+  "wave": {
+    "file": "/emoji/wave.webp",
+    "fluent": "Waving hand",
+    "use": "greeting"
+  },
+  "namaste": {
+    "file": "/emoji/namaste.webp",
+    "fluent": "Folded hands",
+    "use": "greeting (Hindi)"
+  },
+  "think": {
+    "file": "/emoji/think.webp",
+    "fluent": "Thinking face",
+    "use": "pause and think"
+  },
+  "stop": {
+    "file": "/emoji/stop.webp",
+    "fluent": "Stop sign",
+    "use": "pause before acting"
+  },
+  "ai": {
+    "file": "/emoji/ai.webp",
+    "fluent": "Sparkles",
+    "use": "AI-noticed cue (may be wrong)"
+  },
+  "helpline": {
+    "file": "/emoji/helpline.webp",
+    "fluent": "Telephone receiver",
+    "use": "1930 helpline"
+  },
+  "report": {
+    "file": "/emoji/report.webp",
+    "fluent": "Police car light",
+    "use": "report fraud"
+  },
+  "rights": {
+    "file": "/emoji/rights.webp",
+    "fluent": "Balance scale",
+    "use": "rights / grievance (SCORES)"
+  }
+}

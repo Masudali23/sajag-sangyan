@@ -1,0 +1,1209 @@
+{
+  "schemaVersion": 1,
+  "name": "sajag-holdout-150",
+  "author": "Team FirstBest",
+  "createdAt": "2026-10-04",
+  "itemsSha256": "dbdaf486b3d53c4d54256aef7d7e76d499538dcc196893c2854926175977e150",
+  "items": [
+    {
+      "id": "c8-en-r01",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "vip-tips",
+      "text": "Join our Premium Nifty Calls group on Telegram. Our analyst gives 3 sure-shot trades daily with 95% accuracy. Membership is ₹4,999 for lifetime — pay today and recover it in your first trade."
+    },
+    {
+      "id": "c8-en-r02",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "ipo-allotment",
+      "text": "Congratulations! You are shortlisted for HNI quota in the upcoming Sigma Green Energy IPO. Allotment is confirmed if you transfer ₹25,000 block amount to our partner account before 6 PM. Limited seats."
+    },
+    {
+      "id": "c8-en-r03",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "withdrawal-fee",
+      "text": "Dear investor, your portfolio on ZentraTrade shows profit of ₹1,84,300. To withdraw, first deposit 12% capital gains tax (₹22,116) to the settlement wallet. Funds will be released within 2 hours of payment."
+    },
+    {
+      "id": "c8-en-r04",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "kyc-link",
+      "text": "HDFC alert: Your NetBanking will be suspended today due to pending PAN KYC. Update immediately at hdfc-kyc-verify.co.in and enter the OTP received to avoid blocking."
+    },
+    {
+      "id": "c8-en-r05",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "digital-arrest",
+      "text": "This is Inspector Rawat from Mumbai Cyber Cell. A parcel with your Aadhaar contains illegal drugs. You are under digital arrest — stay on this video call and transfer ₹90,000 to the RBI verification account to clear your name. Do not tell your family."
+    },
+    {
+      "id": "c8-en-r06",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "loan-harassment",
+      "text": "Your loan from QuickRupee is overdue by 2 days. Pay ₹6,200 within 1 hour or we will send your edited photos to all your contacts and tell your office you are a fraud."
+    },
+    {
+      "id": "c8-en-r07",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "task-job",
+      "text": "Part-time job: earn ₹3,000/day by rating hotels on Google. First complete 3 free tasks, then pay ₹2,000 to unlock the VIP task level with 30% commission. Contact HR on WhatsApp."
+    },
+    {
+      "id": "c8-en-r08",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "courier-customs",
+      "text": "India Post: Your parcel is held at customs due to incomplete address. Pay ₹49 redelivery fee within 24 hours at indiapost-redeliver.top or it will be returned."
+    },
+    {
+      "id": "c8-en-r09",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "power-cut",
+      "text": "Dear consumer, your electricity connection will be disconnected tonight at 9.30 pm as last month's bill is not updated. Immediately call our electricity officer at 9876501234."
+    },
+    {
+      "id": "c8-en-r10",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "fake-advisor",
+      "text": "Hello sir, I am Neha, relationship manager at the Zerodha premium desk. To activate your free advisory account, install AnyDesk and share the code so I can set it up, then pay ₹1,500 activation charge."
+    },
+    {
+      "id": "c8-en-r11",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "crypto-doubling",
+      "text": "Bitcoin Smart Mining plan: invest ₹10,000 and get 3% daily return for 100 days. Doubling is guaranteed by our AI robot. Refer 2 friends and get bonus 10%."
+    },
+    {
+      "id": "c8-en-r12",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "prize-lottery",
+      "text": "KBC Lucky Draw 2026: Your number has won ₹25,00,000! To claim the prize, pay ₹12,500 processing and GST charges. Contact Rana Pratap Singh on WhatsApp only."
+    },
+    {
+      "id": "c8-en-r13",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "insurance-refund",
+      "text": "LIC Policy Bonus: Your policy has matured with a bonus of ₹1,42,000. To release the amount, pay ₹3,500 NOC charge and share the OTP sent to your registered mobile."
+    },
+    {
+      "id": "c8-en-r14",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "pump-dump",
+      "text": "Operator call: buy KRISHNA AGRO (penny stock) before 10 am tomorrow, target 3x in two weeks. Big players are entering. Keep this message confidential and don't post it on any group."
+    },
+    {
+      "id": "c8-en-r15",
+      "language": "en",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "romance-invest",
+      "text": "Hi dear, as I told you, my uncle works at a Hong Kong fund and the platform I use gives 20% weekly. Deposit ₹50,000 today and I will guide you, just don't tell anyone in your family yet."
+    },
+    {
+      "id": "c8-en-h01",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "bank-otp",
+      "text": "123456 is your OTP for a transaction of ₹2,340 at Amazon on your SBI card. Valid for 10 minutes. Do not share this OTP with anyone, including bank staff."
+    },
+    {
+      "id": "c8-en-h02",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "scam-lesson",
+      "text": "Scam alert from our investor club: if a stranger promises 'guaranteed 40% returns' or asks you to pay a 'withdrawal tax' before releasing profits, it is a fraud. Report it on 1930."
+    },
+    {
+      "id": "c8-en-h03",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "news-sebi",
+      "text": "News: SEBI has barred 12 entities that ran a Telegram channel recommending penny stocks and later sold their own holdings. The regulator ordered impounding of ₹8.5 crore of illegal gains."
+    },
+    {
+      "id": "c8-en-h04",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "emi-reminder",
+      "text": "Dear customer, EMI of ₹14,250 for your home loan is due on 05-Oct. Please maintain sufficient balance in your account. Ignore if already paid. - Axis Bank"
+    },
+    {
+      "id": "c8-en-h05",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "sip-confirmation",
+      "text": "Your SIP of ₹5,000 in Parag Parikh Flexi Cap Fund was processed on 03-Oct at NAV ₹78.41. Units allotted: 63.767. View your statement in the app."
+    },
+    {
+      "id": "c8-en-h06",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "friend-upi",
+      "text": "Bro, dinner bill came to ₹3,600, your share is ₹900. Send it on UPI whenever you get time, no hurry."
+    },
+    {
+      "id": "c8-en-h07",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "bill-notice",
+      "text": "Your electricity bill for September is ₹1,284. Due date 15-Oct. Pay through the official BESCOM portal or app. Ignore if already paid."
+    },
+    {
+      "id": "c8-en-h08",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "family-fd",
+      "text": "Papa, SBI is giving 6.8% on the 2-year FD and the post office scheme gives 7.5%. Should we split the amount between both?"
+    },
+    {
+      "id": "c8-en-h09",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "salary-credit",
+      "text": "Your a/c XX4521 is credited with INR 48,500.00 on 01-Oct by NEFT from ACME SOLUTIONS PVT LTD - salary. Available balance INR 61,210.40."
+    },
+    {
+      "id": "c8-en-h10",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "contract-note",
+      "text": "Contract note for your trades on 03-Oct-2026 has been emailed to your registered email ID. Please check and report discrepancies within 24 hours. - Zerodha"
+    },
+    {
+      "id": "c8-en-h11",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "fee-reminder",
+      "text": "Reminder: Second semester tuition fee of ₹42,000 is due by 20 Oct. Late fee of ₹500 applies after the due date. Pay at the college accounts office or official portal."
+    },
+    {
+      "id": "c8-en-h12",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "premium-reminder",
+      "text": "Your HDFC Life policy premium of ₹18,600 is due on 12-Oct. Pay via the HDFC Life app or website to keep your policy active."
+    },
+    {
+      "id": "c8-en-h13",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "angry-loss",
+      "text": "Man, I lost ₹12k in options this week, this market is pure madness. Never again trading on expiry day, I'm going back to my boring index fund."
+    },
+    {
+      "id": "c8-en-h14",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "relative-advice",
+      "text": "Beta, don't join those Telegram groups that promise daily profits. Before taking any tips, check if the advisor is SEBI-registered on the SEBI website."
+    },
+    {
+      "id": "c8-en-h15",
+      "language": "en",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "retail-promo",
+      "text": "Big Diwali Sale at Lakshmi Electronics: flat 20% off on TVs and fridges, plus free installation. Offer valid till 31 Oct. Visit our store on MG Road."
+    },
+    {
+      "id": "c8-hi-r01",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "vip-tips",
+      "text": "हमारे VIP शेयर टिप्स ग्रुप से जुड़िए। रोज़ 2 पक्की कॉल, हर महीने कम से कम 25% मुनाफा तय है। सदस्यता शुल्क सिर्फ ₹3,999, आज ही भुगतान करें।"
+    },
+    {
+      "id": "c8-hi-r02",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "ipo-allotment",
+      "text": "बधाई हो! आने वाले आईपीओ में आपको विशेष कोटे से शेयर मिलना पक्का है। बस ₹20,000 एडवांस हमारे एजेंट के खाते में आज शाम तक जमा करें।"
+    },
+    {
+      "id": "c8-hi-r03",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "withdrawal-fee",
+      "text": "आपके ट्रेडिंग खाते में ₹2,10,000 का मुनाफा है। पैसे निकालने से पहले 15% टैक्स (₹31,500) जमा करना ज़रूरी है, उसके बाद तुरंत रिलीज़ होगा।"
+    },
+    {
+      "id": "c8-hi-r04",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "kyc-link",
+      "text": "प्रिय ग्राहक, आपका बैंक खाता आज रात बंद कर दिया जाएगा। KYC अपडेट करने के लिए इस लिंक पर क्लिक करें और आए हुए OTP को दर्ज करें।"
+    },
+    {
+      "id": "c8-hi-r05",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "digital-arrest",
+      "text": "मैं दिल्ली पुलिस से इंस्पेक्टर बोल रहा हूँ। आपके नाम पर मनी लॉन्ड्रिंग का केस दर्ज है। गिरफ्तारी से बचना है तो वीडियो कॉल पर बने रहें और ₹75,000 जांच खाते में भेजें। किसी को मत बताइए।"
+    },
+    {
+      "id": "c8-hi-r06",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "loan-harassment",
+      "text": "आपका लोन बकाया है। एक घंटे में ₹5,000 नहीं भरे तो आपकी फोटो एडिट करके आपके सारे रिश्तेदारों को भेज देंगे और सबको बताएंगे कि आप चोर हैं।"
+    },
+    {
+      "id": "c8-hi-r07",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "task-job",
+      "text": "घर बैठे काम: यूट्यूब वीडियो लाइक करके रोज़ ₹2,500 कमाएं। अगले लेवल का टास्क खोलने के लिए ₹1,500 जमा करना होगा, कमीशन तुरंत मिलेगा।"
+    },
+    {
+      "id": "c8-hi-r08",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "courier-customs",
+      "text": "आपका पार्सल कस्टम में रुका हुआ है। ₹2,750 कस्टम ड्यूटी इस लिंक से जमा करें, नहीं तो पार्सल ज़ब्त कर लिया जाएगा और आप पर केस होगा।"
+    },
+    {
+      "id": "c8-hi-r09",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "power-cut",
+      "text": "प्रिय उपभोक्ता, आपका बिजली कनेक्शन आज रात 9 बजे काट दिया जाएगा क्योंकि पिछला बिल अपडेट नहीं है। तुरंत बिजली अधिकारी से 9812345670 पर संपर्क करें।"
+    },
+    {
+      "id": "c8-hi-r10",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "fake-advisor",
+      "text": "नमस्ते, मैं SEBI पंजीकृत सलाहकार की टीम से बोल रहा हूँ। आपका पोर्टफोलियो ठीक करने के लिए AnyDesk ऐप डाउनलोड करें और स्क्रीन शेयर करें, फिर ₹2,000 फीस भेजें।"
+    },
+    {
+      "id": "c8-hi-r11",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "crypto-doubling",
+      "text": "क्रिप्टो में निवेश करें और 60 दिन में पैसा डबल पाएं। रोज़ 2% रिटर्न की गारंटी, कोई जोखिम नहीं। दो दोस्तों को जोड़ें और बोनस पाएं।"
+    },
+    {
+      "id": "c8-hi-r12",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "prize-lottery",
+      "text": "बधाई! आपका मोबाइल नंबर लकी ड्रॉ में ₹15 लाख जीत गया है। इनाम पाने के लिए ₹9,800 प्रोसेसिंग फीस और GST पहले जमा करें।"
+    },
+    {
+      "id": "c8-hi-r13",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "insurance-refund",
+      "text": "आपकी बीमा पॉलिसी का बोनस ₹95,000 जारी होने वाला है। राशि पाने के लिए ₹2,800 चार्ज भरें और अपने मोबाइल पर आया OTP हमें बताएं।"
+    },
+    {
+      "id": "c8-hi-r14",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "pump-dump",
+      "text": "ऑपरेटर की पक्की खबर: कल सुबह 10 बजे से पहले यह पेनी स्टॉक खरीद लो, दो हफ्ते में तीन गुना होगा। यह जानकारी किसी और को मत बताना।"
+    },
+    {
+      "id": "c8-hi-r15",
+      "language": "hi",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "romance-invest",
+      "text": "जान, मैंने तुम्हें बताया था ना, मेरा प्लेटफॉर्म हर हफ्ते 15% देता है। आज ₹40,000 जमा कर दो, मैं सब सिखा दूँगी, बस घर पर अभी किसी को मत बताना।"
+    },
+    {
+      "id": "c8-hi-h01",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "bank-otp",
+      "text": "आपके SBI कार्ड से ₹1,250 के लेनदेन के लिए OTP 483920 है। यह 10 मिनट तक मान्य है। यह OTP किसी के साथ साझा न करें, बैंक कर्मचारी भी कभी OTP नहीं मांगते।"
+    },
+    {
+      "id": "c8-hi-h02",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "scam-lesson",
+      "text": "सावधान रहें: अगर कोई अनजान व्यक्ति 'पक्का मुनाफा' या 'पैसा डबल' का वादा करे, या मुनाफा निकालने से पहले टैक्स मांगे, तो यह धोखा है। ऐसे मामलों की शिकायत 1930 पर करें।"
+    },
+    {
+      "id": "c8-hi-h03",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "news-sebi",
+      "text": "खबर: SEBI ने उन लोगों पर रोक लगाई है जो टेलीग्राम चैनल पर पेनी स्टॉक की सलाह देकर बाद में अपने शेयर बेच देते थे। गैरकानूनी कमाई के ₹6 करोड़ ज़ब्त करने का आदेश दिया गया।"
+    },
+    {
+      "id": "c8-hi-h04",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "emi-reminder",
+      "text": "प्रिय ग्राहक, आपके कार लोन की ₹9,800 की EMI 7 अक्टूबर को देय है। कृपया खाते में पर्याप्त राशि रखें। यदि भुगतान हो चुका है तो इस संदेश को अनदेखा करें।"
+    },
+    {
+      "id": "c8-hi-h05",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "sip-confirmation",
+      "text": "आपकी ₹3,000 की SIP 3 अक्टूबर को NAV ₹52.10 पर प्रोसेस हो गई है। आपको 57.581 यूनिट आवंटित हुई हैं। विवरण ऐप में देखें।"
+    },
+    {
+      "id": "c8-hi-h06",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "friend-upi",
+      "text": "भाई, कल के खाने का बिल ₹2,400 आया था, तेरा हिस्सा ₹600 है। जब टाइम मिले UPI कर देना, कोई जल्दी नहीं।"
+    },
+    {
+      "id": "c8-hi-h07",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "bill-notice",
+      "text": "आपका सितंबर का बिजली बिल ₹980 है। अंतिम तिथि 18 अक्टूबर है। भुगतान आधिकारिक वेबसाइट या ऐप से करें।"
+    },
+    {
+      "id": "c8-hi-h08",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "family-fd",
+      "text": "मम्मी, पोस्ट ऑफिस की स्कीम में 7.4% ब्याज मिल रहा है और बैंक FD में 6.9%। सोच रहा हूँ आधा-आधा दोनों में रख दें, आप क्या कहती हैं?"
+    },
+    {
+      "id": "c8-hi-h09",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "salary-credit",
+      "text": "आपके खाते XX7781 में 1 अक्टूबर को ₹52,000 वेतन जमा हुआ है। उपलब्ध शेष ₹67,430 है।"
+    },
+    {
+      "id": "c8-hi-h10",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "contract-note",
+      "text": "3 अक्टूबर के आपके सौदों का कॉन्ट्रैक्ट नोट आपके पंजीकृत ईमेल पर भेज दिया गया है। कोई गड़बड़ी हो तो 24 घंटे के भीतर ब्रोकर को सूचित करें।"
+    },
+    {
+      "id": "c8-hi-h11",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "fee-reminder",
+      "text": "सूचना: कक्षा 10 की तिमाही फीस ₹8,500 की अंतिम तिथि 15 अक्टूबर है। इसके बाद ₹200 विलंब शुल्क लगेगा। फीस स्कूल कार्यालय में जमा करें।"
+    },
+    {
+      "id": "c8-hi-h12",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "premium-reminder",
+      "text": "आपकी LIC पॉलिसी का ₹12,400 का प्रीमियम 20 अक्टूबर को देय है। पॉलिसी चालू रखने के लिए LIC की आधिकारिक वेबसाइट या शाखा पर भुगतान करें।"
+    },
+    {
+      "id": "c8-hi-h13",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "angry-loss",
+      "text": "यार इस हफ्ते ऑप्शन में ₹15,000 डूब गए, बाज़ार एकदम पागल हो गया है। अब से सिर्फ इंडेक्स फंड, कोई जुगाड़ नहीं।"
+    },
+    {
+      "id": "c8-hi-h14",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "relative-advice",
+      "text": "बेटा, ये जो टेलीग्राम ग्रुप रोज़ मुनाफे का दावा करते हैं, उनसे दूर रहना। किसी की सलाह लेने से पहले SEBI की वेबसाइट पर उसका पंजीकरण ज़रूर देख लेना।"
+    },
+    {
+      "id": "c8-hi-h15",
+      "language": "hi",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "retail-promo",
+      "text": "दिवाली धमाका सेल: शर्मा वस्त्रालय में सभी साड़ियों पर 30% तक छूट। ऑफर 30 अक्टूबर तक। आज ही दुकान पर पधारें।"
+    },
+    {
+      "id": "c8-bn-r01",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "vip-tips",
+      "text": "আমাদের প্রিমিয়াম শেয়ার টিপস গ্রুপে যোগ দিন। প্রতিদিন নিশ্চিত লাভের কল, মাসে অন্তত ৩০% রিটার্ন গ্যারান্টি। মেম্বারশিপ মাত্র ₹৪,৫০০, আজই পেমেন্ট করুন।"
+    },
+    {
+      "id": "c8-bn-r02",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "ipo-allotment",
+      "text": "অভিনন্দন! আসন্ন আইপিও-তে বিশেষ কোটায় আপনার শেয়ার পাওয়া নিশ্চিত। আজ সন্ধ্যার মধ্যে আমাদের এজেন্টের অ্যাকাউন্টে ₹১৮,০০০ অগ্রিম পাঠান।"
+    },
+    {
+      "id": "c8-bn-r03",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "withdrawal-fee",
+      "text": "আপনার ট্রেডিং অ্যাকাউন্টে ₹1,60,000 লাভ জমা হয়েছে। টাকা তোলার আগে ১০% ট্যাক্স (₹16,000) জমা দিতে হবে, তারপরই টাকা ছাড়া হবে।"
+    },
+    {
+      "id": "c8-bn-r04",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "kyc-link",
+      "text": "প্রিয় গ্রাহক, KYC আপডেট না থাকায় আজ আপনার ব্যাংক অ্যাকাউন্ট ব্লক হয়ে যাবে। এই লিংকে ক্লিক করে আপনার মোবাইলে আসা OTP দিন।"
+    },
+    {
+      "id": "c8-bn-r05",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "digital-arrest",
+      "text": "আমি কলকাতা পুলিশের সাইবার সেল থেকে বলছি। আপনার আধার দিয়ে পাঠানো পার্সেলে বেআইনি জিনিস পাওয়া গেছে। গ্রেফতার এড়াতে ভিডিও কলে থাকুন আর ₹60,000 যাচাই অ্যাকাউন্টে পাঠান। কাউকে কিছু বলবেন না।"
+    },
+    {
+      "id": "c8-bn-r06",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "loan-harassment",
+      "text": "আপনার লোনের কিস্তি বাকি। এক ঘণ্টার মধ্যে ₹৪,৫০০ না দিলে আপনার ছবি এডিট করে সব আত্মীয়দের পাঠিয়ে দেব আর সবাইকে বলব আপনি প্রতারক।"
+    },
+    {
+      "id": "c8-bn-r07",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "task-job",
+      "text": "বাড়িতে বসে কাজ: রিভিউ দিয়ে দিনে ₹2,000 আয় করুন। পরের ধাপের টাস্ক খুলতে ₹1,200 জমা দিতে হবে, কমিশন সঙ্গে সঙ্গে পাবেন।"
+    },
+    {
+      "id": "c8-bn-r08",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "courier-customs",
+      "text": "আপনার পার্সেল কাস্টমসে আটকে আছে। এই লিংকে ₹১,৯৫০ কাস্টমস ডিউটি জমা দিন, না হলে পার্সেল বাজেয়াপ্ত হবে।"
+    },
+    {
+      "id": "c8-bn-r09",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "power-cut",
+      "text": "প্রিয় গ্রাহক, আগের বিল আপডেট না থাকায় আজ রাত ৯টায় আপনার বিদ্যুৎ সংযোগ বিচ্ছিন্ন করা হবে। এখনই বিদ্যুৎ অফিসারকে 9830012345 নম্বরে ফোন করুন।"
+    },
+    {
+      "id": "c8-bn-r10",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "fake-advisor",
+      "text": "নমস্কার, আমি একটি SEBI নিবন্ধিত উপদেষ্টা সংস্থা থেকে বলছি। আপনার পোর্টফোলিও ঠিক করতে AnyDesk ডাউনলোড করে স্ক্রিন শেয়ার করুন, তারপর ₹1,800 ফি পাঠান।"
+    },
+    {
+      "id": "c8-bn-r11",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "crypto-doubling",
+      "text": "ক্রিপ্টো মাইনিং প্ল্যানে বিনিয়োগ করুন, প্রতিদিন ৩% রিটার্ন নিশ্চিত, ৫০ দিনে টাকা দ্বিগুণ। কোনো ঝুঁকি নেই। বন্ধুদের যোগ করলে বোনাস।"
+    },
+    {
+      "id": "c8-bn-r12",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "prize-lottery",
+      "text": "অভিনন্দন! আপনার নম্বর লাকি ড্রতে ₹১০ লক্ষ জিতেছে। পুরস্কার পেতে আগে ₹৭,৫০০ প্রসেসিং ফি ও জিএসটি জমা দিন।"
+    },
+    {
+      "id": "c8-bn-r13",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "insurance-refund",
+      "text": "আপনার বিমা পলিসির ₹85,000 বোনাস ছাড়ার জন্য প্রস্তুত। টাকা পেতে ₹2,500 চার্জ দিন এবং মোবাইলে আসা OTP আমাদের জানান।"
+    },
+    {
+      "id": "c8-bn-r14",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "pump-dump",
+      "text": "অপারেটরের পাকা খবর: কাল সকাল ১০টার আগে এই পেনি স্টক কিনে রাখুন, দুই সপ্তাহে তিনগুণ হবে। এই খবর কাউকে বলবেন না।"
+    },
+    {
+      "id": "c8-bn-r15",
+      "language": "bn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "romance-invest",
+      "text": "সোনা, তোমাকে তো বলেছিলাম, আমার প্ল্যাটফর্মে প্রতি সপ্তাহে ১৮% লাভ হয়। আজ ₹৩৫,০০০ জমা করো, আমি সব শিখিয়ে দেব, শুধু বাড়িতে এখন কাউকে বোলো না।"
+    },
+    {
+      "id": "c8-bn-h01",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "bank-otp",
+      "text": "আপনার SBI কার্ডে ₹870 লেনদেনের OTP হল 552310। এটি ১০ মিনিট বৈধ। এই OTP কাউকে জানাবেন না, ব্যাংক কর্মীরাও কখনো OTP চান না।"
+    },
+    {
+      "id": "c8-bn-h02",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "scam-lesson",
+      "text": "সতর্ক থাকুন: কেউ যদি 'নিশ্চিত লাভ' বা 'টাকা দ্বিগুণ' করার প্রতিশ্রুতি দেয়, বা লাভ তোলার আগে ট্যাক্স চায়, তাহলে সেটা প্রতারণা। এমন ঘটনা 1930 নম্বরে জানান।"
+    },
+    {
+      "id": "c8-bn-h03",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "news-sebi",
+      "text": "খবর: টেলিগ্রাম চ্যানেলে পেনি স্টকের পরামর্শ দিয়ে পরে নিজেদের শেয়ার বিক্রি করে দেওয়া কয়েকটি সংস্থার উপর SEBI নিষেধাজ্ঞা জারি করেছে। ₹৫ কোটি অবৈধ আয় বাজেয়াপ্তের নির্দেশ দেওয়া হয়েছে।"
+    },
+    {
+      "id": "c8-bn-h04",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "emi-reminder",
+      "text": "প্রিয় গ্রাহক, আপনার হোম লোনের ₹11,200 টাকার EMI ৬ অক্টোবর দেয়। অনুগ্রহ করে অ্যাকাউন্টে পর্যাপ্ত টাকা রাখুন। ইতিমধ্যে দিয়ে থাকলে এই বার্তা উপেক্ষা করুন।"
+    },
+    {
+      "id": "c8-bn-h05",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "sip-confirmation",
+      "text": "আপনার ₹২,০০০ টাকার SIP ৩ অক্টোবর NAV ₹৪১.৩০-এ প্রসেস হয়েছে। ৪৮.৪২৬ ইউনিট বরাদ্দ হয়েছে। বিস্তারিত অ্যাপে দেখুন।"
+    },
+    {
+      "id": "c8-bn-h06",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "friend-upi",
+      "text": "দাদা, কালকের রেস্টুরেন্টের বিল ₹2,800 হয়েছিল, তোর ভাগ ₹700। সময় পেলে UPI করে দিস, কোনো তাড়া নেই।"
+    },
+    {
+      "id": "c8-bn-h07",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "bill-notice",
+      "text": "আপনার সেপ্টেম্বরের বিদ্যুৎ বিল ₹৭৬০। শেষ তারিখ ১৭ অক্টোবর। অফিসিয়াল ওয়েবসাইট বা অ্যাপের মাধ্যমে বিল দিন।"
+    },
+    {
+      "id": "c8-bn-h08",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "family-fd",
+      "text": "মা, পোস্ট অফিসের স্কিমে ৭.৪% সুদ দিচ্ছে আর ব্যাংকের এফডিতে ৬.৮%। ভাবছি অর্ধেক অর্ধেক দুই জায়গায় রাখি, তুমি কী বলো?"
+    },
+    {
+      "id": "c8-bn-h09",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "salary-credit",
+      "text": "আপনার অ্যাকাউন্ট XX3390-এ ১ অক্টোবর ₹44,000 বেতন জমা হয়েছে। বর্তমান ব্যালান্স ₹58,120।"
+    },
+    {
+      "id": "c8-bn-h10",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "contract-note",
+      "text": "৩ অক্টোবরের আপনার লেনদেনের কন্ট্রাক্ট নোট আপনার নথিভুক্ত ইমেলে পাঠানো হয়েছে। কোনো অসঙ্গতি থাকলে ২৪ ঘণ্টার মধ্যে ব্রোকারকে জানান।"
+    },
+    {
+      "id": "c8-bn-h11",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "fee-reminder",
+      "text": "বিজ্ঞপ্তি: দ্বিতীয় সেমিস্টারের ফি ₹৩৫,০০০ জমার শেষ তারিখ ২০ অক্টোবর। এরপর ₹৩০০ বিলম্ব ফি লাগবে। কলেজের অ্যাকাউন্টস অফিসে বা অফিসিয়াল পোর্টালে জমা দিন।"
+    },
+    {
+      "id": "c8-bn-h12",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "premium-reminder",
+      "text": "আপনার বিমা পলিসির ₹9,600 প্রিমিয়াম ২২ অক্টোবর দেয়। পলিসি চালু রাখতে কোম্পানির অফিসিয়াল অ্যাপ বা শাখায় টাকা দিন।"
+    },
+    {
+      "id": "c8-bn-h13",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "angry-loss",
+      "text": "ধুর, এই সপ্তাহে অপশনে ₹১০,০০০ গেল, বাজারটা পুরো পাগল হয়ে গেছে। এবার থেকে শুধু ইনডেক্স ফান্ড, আর কোনো জুয়া না।"
+    },
+    {
+      "id": "c8-bn-h14",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "relative-advice",
+      "text": "শোন, যে টেলিগ্রাম গ্রুপগুলো রোজ লাভের কথা বলে, ওগুলো থেকে দূরে থাকিস। কারো পরামর্শ নেওয়ার আগে SEBI-র ওয়েবসাইটে তার নিবন্ধন দেখে নিস।"
+    },
+    {
+      "id": "c8-bn-h15",
+      "language": "bn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "retail-promo",
+      "text": "পুজোর বিশাল সেল: দত্ত বস্ত্রালয়ে সব শাড়িতে ২৫% পর্যন্ত ছাড়। অফার ২৫ অক্টোবর পর্যন্ত। আজই দোকানে আসুন।"
+    },
+    {
+      "id": "c8-hi-Latn-r01",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "vip-tips",
+      "text": "Bhai hamare VIP trading group me join karo, daily 3 sure shot calls milti hai, monthly 25-30% profit pakka. Joining fee sirf ₹2,999, aaj hi pay karo offer khatam hone se pehle."
+    },
+    {
+      "id": "c8-hi-Latn-r02",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "ipo-allotment",
+      "text": "Congratulations sir, upcoming IPO me aapka HNI quota allotment confirm ho sakta hai. Bas ₹15,000 advance hamare agent ke account me aaj 5 baje tak bhej do."
+    },
+    {
+      "id": "c8-hi-Latn-r03",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "withdrawal-fee",
+      "text": "Sir aapke trading account me ₹1,35,000 profit hai lekin withdrawal ke liye pehle 18% tax ₹24,300 jama karna padega, uske baad turant payout ho jayega."
+    },
+    {
+      "id": "c8-hi-Latn-r04",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "kyc-link",
+      "text": "Dear customer aapka bank account aaj raat block ho jayega kyunki KYC pending hai. Is link pe click karke jo OTP aaye woh daal do turant."
+    },
+    {
+      "id": "c8-hi-Latn-r05",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "digital-arrest",
+      "text": "Main CBI office se bol raha hoon, aapke Aadhaar se money laundering hui hai. Arrest se bachna hai toh video call pe bane raho aur ₹80,000 verification account me transfer karo. Ghar walon ko mat batana."
+    },
+    {
+      "id": "c8-hi-Latn-r06",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "loan-harassment",
+      "text": "Tera loan overdue hai. 1 ghante me ₹4,000 nahi bhare toh teri morphed photos tere saare contacts ko bhej denge aur sabko bolenge tu fraud hai."
+    },
+    {
+      "id": "c8-hi-Latn-r07",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "task-job",
+      "text": "Ghar baithe kamao ₹2,500 daily, sirf Instagram posts like karne hai. Next level ke task unlock karne ke liye ₹1,800 deposit karo, commission turant milega."
+    },
+    {
+      "id": "c8-hi-Latn-r08",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "courier-customs",
+      "text": "Aapka parcel customs pe ruka hua hai. ₹1,499 customs charge is link se pay karo varna parcel seize ho jayega aur aap par case banega."
+    },
+    {
+      "id": "c8-hi-Latn-r09",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "power-cut",
+      "text": "Dear consumer aaj raat 9:30 baje aapki bijli kaat di jayegi kyunki pichla bill update nahi hai. Turant electricity officer ko 9811122233 pe call karo."
+    },
+    {
+      "id": "c8-hi-Latn-r10",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "fake-advisor",
+      "text": "Hello sir main SEBI registered advisory se bol rahi hoon, aapka portfolio recover karne ke liye AnyDesk install karke screen share kijiye aur ₹2,500 service fee bhej dijiye."
+    },
+    {
+      "id": "c8-hi-Latn-r11",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "crypto-doubling",
+      "text": "Crypto mining plan me invest karo, daily 2.5% return guaranteed, 45 din me paisa double. Koi risk nahi, 2 friends add karo toh extra bonus."
+    },
+    {
+      "id": "c8-hi-Latn-r12",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "prize-lottery",
+      "text": "Badhai ho! Aapka number KBC lucky draw me ₹25 lakh jeeta hai. Prize lene ke liye ₹8,500 processing fee aur GST pehle jama karein."
+    },
+    {
+      "id": "c8-hi-Latn-r13",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "insurance-refund",
+      "text": "Aapki insurance policy ka bonus ₹1,10,000 release hone wala hai. Amount ke liye ₹3,200 charges bharo aur mobile pe aaya OTP hume batao."
+    },
+    {
+      "id": "c8-hi-Latn-r14",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "pump-dump",
+      "text": "Operator ki pakki khabar hai: kal subah 10 baje se pehle ye penny stock le lo, 2 hafte me 3 guna hoga. Ye baat kisi aur group me mat daalna."
+    },
+    {
+      "id": "c8-hi-Latn-r15",
+      "language": "hi-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "romance-invest",
+      "text": "Baby maine tumhe bataya tha na mera platform har hafte 20% deta hai. Aaj ₹30,000 deposit kar do, main sab sikha dungi, bas abhi ghar pe kisi ko mat batana."
+    },
+    {
+      "id": "c8-hi-Latn-h01",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "bank-otp",
+      "text": "OTP 774201 aapke ICICI card se ₹640 ke transaction ke liye hai. 10 minute valid. Ye OTP kisi ko mat batana, bank wale bhi kabhi OTP nahi maangte."
+    },
+    {
+      "id": "c8-hi-Latn-h02",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "scam-lesson",
+      "text": "Dhyan rakhna: agar koi anjaan banda 'pakka profit' ya 'paisa double' ka vaada kare, ya profit nikalne se pehle tax maange, toh woh fraud hai. Aise case 1930 pe report karo."
+    },
+    {
+      "id": "c8-hi-Latn-h03",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "news-sebi",
+      "text": "News: SEBI ne kuch logon pe ban lagaya jo Telegram channel pe penny stocks recommend karke baad me apne shares bech dete the. ₹7 crore ki illegal kamai zabt karne ka order diya gaya."
+    },
+    {
+      "id": "c8-hi-Latn-h04",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "emi-reminder",
+      "text": "Dear customer, aapke personal loan ki ₹6,700 ki EMI 8 Oct ko due hai. Account me sufficient balance rakhein. Agar pay kar diya hai toh ignore karein."
+    },
+    {
+      "id": "c8-hi-Latn-h05",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "sip-confirmation",
+      "text": "Aapki ₹2,500 ki SIP 3 Oct ko NAV ₹64.20 pe process ho gayi hai, 38.941 units allot hue. Details app me dekhein."
+    },
+    {
+      "id": "c8-hi-Latn-h06",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "friend-upi",
+      "text": "Yaar kal dinner ka bill ₹2,000 aaya tha, tera share ₹500 hai. Jab time mile UPI kar dena, koi jaldi nahi."
+    },
+    {
+      "id": "c8-hi-Latn-h07",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "bill-notice",
+      "text": "Aapka September ka bijli bill ₹1,120 hai. Last date 16 Oct hai. Payment official website ya app se karein."
+    },
+    {
+      "id": "c8-hi-Latn-h08",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "family-fd",
+      "text": "Papa SBI FD pe 6.8% de raha hai aur post office scheme 7.5%. Socha aadha aadha dono me daal dete hain, aap kya bolte ho?"
+    },
+    {
+      "id": "c8-hi-Latn-h09",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "salary-credit",
+      "text": "Aapke account XX9912 me 1 Oct ko ₹46,000 salary credit hui hai. Available balance ₹59,870 hai."
+    },
+    {
+      "id": "c8-hi-Latn-h10",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "contract-note",
+      "text": "3 Oct ke trades ka contract note aapke registered email pe bhej diya gaya hai. Koi galti ho toh 24 ghante me broker ko batayein."
+    },
+    {
+      "id": "c8-hi-Latn-h11",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "fee-reminder",
+      "text": "Reminder: Hostel fee ₹22,000 ki last date 18 Oct hai, uske baad ₹250 late fee lagegi. Fee college office ya official portal pe jama karein."
+    },
+    {
+      "id": "c8-hi-Latn-h12",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "premium-reminder",
+      "text": "Aapki health insurance policy ka ₹14,800 premium 21 Oct ko due hai. Policy active rakhne ke liye company ki official app se pay karein."
+    },
+    {
+      "id": "c8-hi-Latn-h13",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "angry-loss",
+      "text": "Bhai is hafte options me ₹9,000 doob gaye, market ekdum pagal hai. Ab se sirf index fund, koi jugaad nahi."
+    },
+    {
+      "id": "c8-hi-Latn-h14",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "relative-advice",
+      "text": "Beta ye Telegram group jo roz profit ka daawa karte hain unse door rehna. Kisi ki advice lene se pehle SEBI website pe registration check kar lena."
+    },
+    {
+      "id": "c8-hi-Latn-h15",
+      "language": "hi-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "retail-promo",
+      "text": "Navratri special sale: Gupta Footwear me sab chappal aur shoes pe 25% off. Offer 24 Oct tak. Aaj hi store aao."
+    },
+    {
+      "id": "c8-bn-Latn-r01",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "vip-tips",
+      "text": "Amader VIP share tips group e join koro, roj 2 to sure shot call, mashe 25% profit guaranteed. Membership matro ₹3,500, ajkei payment koro."
+    },
+    {
+      "id": "c8-bn-Latn-r02",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "ipo-allotment",
+      "text": "Congratulations! Asonno IPO te special quota te apnar share allotment confirm. Aj sondhyar modhye amader agent er account e ₹16,000 advance pathan."
+    },
+    {
+      "id": "c8-bn-Latn-r03",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "withdrawal-fee",
+      "text": "Apnar trading account e ₹1,20,000 profit ache. Taka tolar age 12% tax ₹14,400 jama dite hobe, tarpor e taka release hobe."
+    },
+    {
+      "id": "c8-bn-Latn-r04",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "kyc-link",
+      "text": "Priyo grahok, KYC update na thakay aj apnar bank account block hoye jabe. Ei link e click kore mobile e asha OTP ta din."
+    },
+    {
+      "id": "c8-bn-Latn-r05",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "digital-arrest",
+      "text": "Ami Kolkata Police cyber cell theke bolchi. Apnar Aadhaar diye pathano parcel e beaini jinis peyechi. Arrest erate video call e thakun ar ₹70,000 verification account e pathan. Karo ke kichu bolben na."
+    },
+    {
+      "id": "c8-bn-Latn-r06",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "loan-harassment",
+      "text": "Tor loan er kisti baki. Ek ghontar modhye ₹3,500 na dile tor chobi edit kore sob attiyo der pathiye debo ar bolbo tui chor."
+    },
+    {
+      "id": "c8-bn-Latn-r07",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "task-job",
+      "text": "Barite bose kaj: review diye dine ₹2,000 income korun. Porer level er task kholar jonno ₹1,000 jama korte hobe, commission sathe sathe paben."
+    },
+    {
+      "id": "c8-bn-Latn-r08",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "courier-customs",
+      "text": "Apnar parcel customs e atke ache. Ei link e ₹1,750 customs duty jama din, na hole parcel bajeyapto hobe."
+    },
+    {
+      "id": "c8-bn-Latn-r09",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "power-cut",
+      "text": "Priyo grahok, ager bill update na thakay aj raat 9 tay apnar bidyut connection kete deoa hobe. Ekhuni electricity officer ke 9830098765 e phone korun."
+    },
+    {
+      "id": "c8-bn-Latn-r10",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "fake-advisor",
+      "text": "Nomoskar, ami SEBI registered advisory theke bolchi. Apnar portfolio thik korte AnyDesk download kore screen share korun, tarpor ₹1,500 fee pathan."
+    },
+    {
+      "id": "c8-bn-Latn-r11",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "crypto-doubling",
+      "text": "Crypto mining plan e invest korun, roj 3% return nishchit, 40 dine taka double. Kono risk nei, bondhu add korle bonus."
+    },
+    {
+      "id": "c8-bn-Latn-r12",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "prize-lottery",
+      "text": "Abhinandan! Apnar number lucky draw te ₹12 lakh jiteche. Puroskar pete age ₹6,500 processing fee ar GST jama din."
+    },
+    {
+      "id": "c8-bn-Latn-r13",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "insurance-refund",
+      "text": "Apnar insurance policy r bonus ₹90,000 release er jonno ready. Taka pete ₹2,200 charge din ar mobile e asha OTP amader janan."
+    },
+    {
+      "id": "c8-bn-Latn-r14",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "pump-dump",
+      "text": "Operator er paka khobor: kal sokal 10 tar age ei penny stock ta kine rakho, 2 soptahe tin gun hobe. Ei khobor kauke bolbe na."
+    },
+    {
+      "id": "c8-bn-Latn-r15",
+      "language": "bn-Latn",
+      "group": "risky",
+      "expectedAttention": true,
+      "family": "romance-invest",
+      "text": "Sona, tomake to bolechilam, amar platform e proti soptahe 18% profit hoy. Aj ₹25,000 jama koro, ami sob shikhiye debo, shudhu barite ekhon kauke bolo na."
+    },
+    {
+      "id": "c8-bn-Latn-h01",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "bank-otp",
+      "text": "Apnar SBI card e ₹540 transaction er OTP holo 309214. Eta 10 minute valid. Ei OTP kauke janaben na, bank er lok o kokhono OTP chay na."
+    },
+    {
+      "id": "c8-bn-Latn-h02",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "scam-lesson",
+      "text": "Sabdhan: keu jodi 'nishchit labh' ba 'taka double' er protishruti dey, ba profit tolar age tax chay, tahole seta protarona. Emon ghotona 1930 e janan."
+    },
+    {
+      "id": "c8-bn-Latn-h03",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "news-sebi",
+      "text": "Khobor: Telegram channel e penny stock er poramorsho diye pore nijeder share bikri kore deoa kichu sonsthar upor SEBI nishedhagga jari koreche. ₹4 crore obaidho aay bajeyapto korar nirdesh deoa hoyeche."
+    },
+    {
+      "id": "c8-bn-Latn-h04",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "emi-reminder",
+      "text": "Priyo grahok, apnar home loan er ₹10,500 EMI 6 October due. Account e jothesto balance rakhun. Already diye thakle ei message ignore korun."
+    },
+    {
+      "id": "c8-bn-Latn-h05",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "sip-confirmation",
+      "text": "Apnar ₹1,500 SIP 3 October NAV ₹33.80 te process hoyeche, 44.379 unit allot hoyeche. Details app e dekhun."
+    },
+    {
+      "id": "c8-bn-Latn-h06",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "friend-upi",
+      "text": "Dada, kalker restaurant er bill ₹2,400 hoyechilo, tor bhag ₹600. Somoy pele UPI kore dis, kono tara nei."
+    },
+    {
+      "id": "c8-bn-Latn-h07",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "bill-notice",
+      "text": "Apnar September er bidyut bill ₹690. Shesh tarikh 17 October. Official website ba app diye bill din."
+    },
+    {
+      "id": "c8-bn-Latn-h08",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "family-fd",
+      "text": "Ma, post office scheme e 7.4% sud dicche ar bank FD te 6.8%. Bhabchi ordhek ordhek dui jaygay rakhi, tumi ki bolo?"
+    },
+    {
+      "id": "c8-bn-Latn-h09",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "salary-credit",
+      "text": "Apnar account XX5521 e 1 October ₹41,000 salary jama hoyeche. Current balance ₹52,300."
+    },
+    {
+      "id": "c8-bn-Latn-h10",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "contract-note",
+      "text": "3 October er apnar trade er contract note apnar registered email e pathano hoyeche. Kono gormil thakle 24 ghontar modhye broker ke janan."
+    },
+    {
+      "id": "c8-bn-Latn-h11",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "fee-reminder",
+      "text": "Notice: Second semester fee ₹30,000 jama dewar shesh tarikh 20 October. Er pore ₹300 late fee lagbe. College office ba official portal e jama din."
+    },
+    {
+      "id": "c8-bn-Latn-h12",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "premium-reminder",
+      "text": "Apnar insurance policy r ₹8,900 premium 22 October due. Policy chalu rakhte company r official app ba branch e taka din."
+    },
+    {
+      "id": "c8-bn-Latn-h13",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "angry-loss",
+      "text": "Dhur, ei soptahe option e ₹8,000 gelo, bazar ta puro pagol hoye geche. Ebar theke shudhu index fund, ar kono juya na."
+    },
+    {
+      "id": "c8-bn-Latn-h14",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "relative-advice",
+      "text": "Shon, je Telegram group gulo roj profit er kotha bole, oigulo theke dure thakis. Karo poramorsho newar age SEBI r website e tar registration dekhe nis."
+    },
+    {
+      "id": "c8-bn-Latn-h15",
+      "language": "bn-Latn",
+      "group": "harmless",
+      "expectedAttention": false,
+      "family": "retail-promo",
+      "text": "Pujor special sale: Dutta Bastralaya te sob sharee te 25% porjonto chhar. Offer 25 October porjonto. Ajkei dokane asun."
+    }
+  ]
+}

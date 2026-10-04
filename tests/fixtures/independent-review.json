@@ -1,0 +1,584 @@
+[
+  {
+    "id": "S01",
+    "group": "scam",
+    "language": "EN",
+    "family": "recovery scam / advance fee",
+    "text": "Lost money to a fake trading app? Our cyber recovery team gets back 100% of your funds within 48 hours. Pay a refundable processing fee of ₹4,500 to begin.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S02",
+    "group": "scam",
+    "language": "EN",
+    "family": "KYC phishing / account-block threat",
+    "text": "Dear Investor, your demat account will be suspended today due to pending KYC. Update now at kyc-nsdl-verify.in to avoid blocking of your holdings.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S03",
+    "group": "scam",
+    "language": "HG",
+    "family": "digital arrest / safe-account transfer",
+    "text": "Main CBI officer bol raha hoon. Aapke Aadhaar se money laundering hui hai. Verification ke liye saara paisa RBI ke safe account mein transfer karo, warna aaj hi arrest hoga.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S04",
+    "group": "scam",
+    "language": "EN",
+    "family": "AI bot / daily % / accuracy claim",
+    "text": "Our AI trading bot gives 99% accurate signals and earns 4% profit every day on autopilot. Start with just $100 in USDT.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S05",
+    "group": "scam",
+    "language": "HI",
+    "family": "MLM referral + fixed daily rupee income",
+    "text": "हर नए सदस्य को जोड़ने पर ₹1,000 कमीशन और रोज़ ₹500 की पक्की कमाई। आज ही जुड़ें!",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S06",
+    "group": "scam",
+    "language": "HG",
+    "family": "forex weekly % + zero-loss guarantee",
+    "text": "Forex trading se har hafte 10% profit, zero loss guarantee. Dubai ki company hai, joining ke liye DM karo.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S07",
+    "group": "scam",
+    "language": "EN",
+    "family": "dabba trading / off-exchange",
+    "text": "Trade F&O without a demat account. No brokerage, no tax, no margin needed. Just deposit on our UPI ID and start trading today.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S08",
+    "group": "scam",
+    "language": "EN",
+    "family": "SME IPO listing-gain + arranged allotment",
+    "text": "Sure-shot listing gain! This SME IPO will list at a 90% premium. We have arranged allotment for group members — send the application money to our coordinator.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S09",
+    "group": "scam",
+    "language": "HI",
+    "family": "celebrity impersonation + 10x in 30 days",
+    "text": "रतन टाटा जी की नई निवेश योजना: केवल ₹5,000 लगाइए और 30 दिनों में ₹50,000 पाइए।",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S10",
+    "group": "scam",
+    "language": "EN",
+    "family": "crypto cloud mining daily %",
+    "text": "Join our cloud mining pool: stake 500 USDT and receive 1.5% daily rewards for life. Withdraw anytime.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S11",
+    "group": "scam",
+    "language": "HG",
+    "family": "course + guaranteed monthly income + deadline",
+    "text": "Option trading seekho aur har mahine ₹1 lakh pakka kamao. Course fee sirf ₹9,999 — offer aaj raat 12 baje tak.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S12",
+    "group": "scam",
+    "language": "EN",
+    "family": "unclaimed shares / advance fee",
+    "text": "We have traced unclaimed shares worth ₹8 lakh in your late father's name. Pay a 10% advance fee and we will transfer them to your demat in 7 days.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S13",
+    "group": "scam",
+    "language": "HI",
+    "family": "pension threat + OTP request (elderly)",
+    "text": "आपकी पेंशन बंद हो जाएगी। जीवन प्रमाण पत्र अपडेट करने के लिए आपके फ़ोन पर आया OTP हमें बताइए।",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S14",
+    "group": "scam",
+    "language": "EN",
+    "family": "pig-butchering / inside data / profit boast",
+    "text": "My uncle is a senior analyst at a Hong Kong fund. He shares inside data on our platform — I made $40,000 last month. I can help you open an account there.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S15",
+    "group": "scam",
+    "language": "HG",
+    "family": "committee/chit with no-risk promise",
+    "text": "Hamari committee mein har mahine ₹2,000 do, 10 mahine baad ₹50,000 milenge. Bilkul safe, koi risk nahi.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S16",
+    "group": "scam",
+    "language": "EN",
+    "family": "fake SEBI hold + pay to release",
+    "text": "As per SEBI circular, your trading profit of ₹3,40,000 is on hold. Deposit a 20% security amount to unfreeze your payout.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S17",
+    "group": "scam",
+    "language": "HI",
+    "family": "insurance tripling + govt guarantee",
+    "text": "इस पॉलिसी में आपका पैसा 5 साल में तीन गुना हो जाएगा, बिल्कुल सुरक्षित, सरकारी गारंटी के साथ।",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S18",
+    "group": "scam",
+    "language": "HG",
+    "family": "block deal discount + institutional + pay to account",
+    "text": "Block deal mein 30% discount pe shares milenge, sirf aaj. Hamare institutional partner ke through milega, amount is account mein bhejo.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S19",
+    "group": "scam",
+    "language": "EN",
+    "family": "pump coordination",
+    "text": "Next call at 10:15 AM sharp. Everyone buy together, we will push it up 40% and then exit. Don't miss the train!",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S20",
+    "group": "scam",
+    "language": "HG",
+    "family": "claimed registration + sure-shot calls + loss refund",
+    "text": "Main SEBI registered hoon. Mere paid group mein roz 2-3 sure shot calls milti hain, loss hua toh paisa wapas.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S21",
+    "group": "scam",
+    "language": "HI",
+    "family": "gold scheme doubling (Devanagari 'डबल')",
+    "text": "सोने में निवेश करें — हमारी स्कीम में 18 महीने में रकम डबल।",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "S22",
+    "group": "scam",
+    "language": "EN",
+    "family": "finfluencer prediction + 5x proof + paid Telegram",
+    "text": "Watch till the end: this small cap will be the next Tata Motors. My subscribers already made 5x. Link in bio for my premium Telegram.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B01",
+    "group": "benign",
+    "language": "EN",
+    "family": "market news",
+    "text": "Sensex closed 312 points higher on Monday, led by gains in IT and banking stocks.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B02",
+    "group": "benign",
+    "language": "EN",
+    "family": "policy news",
+    "text": "The RBI kept the repo rate unchanged at its latest monetary policy meeting.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B03",
+    "group": "benign",
+    "language": "EN",
+    "family": "education: diversification",
+    "text": "Diversification means spreading your money across different kinds of investments, so one fall does not hurt everything.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B04",
+    "group": "benign",
+    "language": "EN",
+    "family": "bank safety notice (PIN/OTP/1930)",
+    "text": "Your bank will never ask for your PIN, password or OTP. If you lose money to fraud, call 1930 immediately.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B05",
+    "group": "benign",
+    "language": "HG",
+    "family": "family chat about pausing SIP",
+    "text": "Papa, maine apni SIP do mahine ke liye rok di hai, salary aane ke baad phir se shuru karunga.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B06",
+    "group": "benign",
+    "language": "HI",
+    "family": "education: compounding",
+    "text": "चक्रवृद्धि ब्याज का मतलब है कि ब्याज पर भी ब्याज मिलता है, इसलिए लंबे समय में रकम तेज़ी से बढ़ती है।",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B07",
+    "group": "benign",
+    "language": "EN",
+    "family": "corporate action: split",
+    "text": "In a 1:2 stock split, each share becomes two shares and the price per share roughly halves; the total value of your holding stays the same.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B08",
+    "group": "benign",
+    "language": "EN",
+    "family": "legit nomination deadline",
+    "text": "Reminder: add a nominee to your demat account or formally opt out. Accounts without a nomination choice may be frozen for debits.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B09",
+    "group": "benign",
+    "language": "EN",
+    "family": "tax fact",
+    "text": "Long-term capital gains on listed shares above ₹1.25 lakh in a financial year are taxed at 12.5%.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B10",
+    "group": "benign",
+    "language": "HG",
+    "family": "corrective: doubling warning",
+    "text": "Agar koi kahe ki paisa 3 mahine mein double ho jayega, toh samajh lo ki ye fraud ho sakta hai. Pehle SEBI registration check karo.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B11",
+    "group": "benign",
+    "language": "HI",
+    "family": "corrective: unknown-link app",
+    "text": "किसी अनजान लिंक से भेजा गया ऐप इंस्टॉल न करें। निवेश ऐप केवल आधिकारिक ऐप स्टोर से डाउनलोड करें।",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B12",
+    "group": "benign",
+    "language": "HG",
+    "family": "question: expense ratio",
+    "text": "Mujhe samajh nahi aa raha ki expense ratio kya hota hai, koi simple bhasha mein samjha sakta hai?",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B13",
+    "group": "benign",
+    "language": "EN",
+    "family": "historical CAGR + standard disclaimer",
+    "text": "Over the past 20 years the Nifty 50 grew around 12% a year on average, but past performance does not guarantee future returns.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B14",
+    "group": "benign",
+    "language": "EN",
+    "family": "legit IPO process (ASBA/UPI)",
+    "text": "The IPO opens on 7 October with a price band of ₹100–105. Investors can apply through their own bank or broker using ASBA or UPI.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B15",
+    "group": "benign",
+    "language": "EN",
+    "family": "dividend announcement",
+    "text": "The company declared a final dividend of ₹5 per share; the record date is 15 October.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B16",
+    "group": "benign",
+    "language": "EN",
+    "family": "education: term insurance",
+    "text": "Term insurance pays only if the insured person dies during the policy term; it has no maturity value.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B17",
+    "group": "benign",
+    "language": "HI",
+    "family": "market fall + calm advice",
+    "text": "आज सेंसेक्स 600 अंक गिरा। बाज़ार में उतार-चढ़ाव सामान्य है, घबराकर कोई फ़ैसला न लें।",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B18",
+    "group": "benign",
+    "language": "HG",
+    "family": "corrective: recovery-agent fees",
+    "text": "Agar aapke saath fraud hua hai toh cybercrime.gov.in par complaint karo ya 1930 par call karo. Jo 'recovery agent' fees maange, us par bharosa mat karo.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B19",
+    "group": "benign",
+    "language": "EN",
+    "family": "factsheet: expense ratio/exit load",
+    "text": "The fund's expense ratio is 0.45% and an exit load of 1% applies if units are redeemed within one year.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B20",
+    "group": "benign",
+    "language": "HI",
+    "family": "post office RD (monthly deposit)",
+    "text": "डाकघर आवर्ती जमा (RD) में हर महीने एक तय राशि जमा होती है और ब्याज दर सरकार तय करती है।",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B21",
+    "group": "benign",
+    "language": "EN",
+    "family": "exchange advisory (assured returns prohibited)",
+    "text": "Investors are cautioned not to subscribe to any scheme offering indicative, assured or guaranteed returns in the stock market, as this is prohibited by law.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "B22",
+    "group": "benign",
+    "language": "HG",
+    "family": "peer personal-finance chat",
+    "text": "Bhai, emergency fund ke liye 6 mahine ka kharcha FD ya savings account mein rakhna theek rehta hai.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "M01",
+    "group": "mixed",
+    "language": "EN",
+    "family": "free lesson + paid daily stock picks",
+    "text": "Learn what the P/E ratio means in this free video. For daily stock picks, subscribe to our premium plan at ₹999/month.",
+    "expected": {
+      "contentType": "mixed"
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "M02",
+    "group": "mixed",
+    "language": "HG",
+    "family": "SIP explanation + app cashback",
+    "text": "SIP ka matlab hai har mahine thoda-thoda invest karna. Hamare app se SIP shuru karo aur ₹500 cashback pao.",
+    "expected": {
+      "contentType": "mixed"
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "O01",
+    "group": "unsupported",
+    "language": "MR",
+    "family": "Marathi: fixed monthly + 100% guarantee",
+    "text": "फक्त ₹10,000 गुंतवा आणि दर महिन्याला ₹20,000 मिळवा, १००% हमी.",
+    "expected": null,
+    "scored": false,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "O02",
+    "group": "unsupported",
+    "language": "BN",
+    "family": "Bengali: doubling in 30 days + guarantee",
+    "text": "মাত্র ₹৫,০০০ বিনিয়োগ করুন, ৩০ দিনে টাকা দ্বিগুণ, গ্যারান্টি সহ।",
+    "expected": null,
+    "scored": false,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "O03",
+    "group": "unsupported",
+    "language": "TA",
+    "family": "Tamil: doubling in 30 days + guarantee",
+    "text": "₹5,000 முதலீடு செய்து 30 நாட்களில் இரட்டிப்பு லாபம் பெறுங்கள், உத்தரவாதம்.",
+    "expected": null,
+    "scored": false,
+    "provenance": "Team FirstBest review"
+  }
+]

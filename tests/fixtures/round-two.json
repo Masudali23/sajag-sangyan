@@ -1,0 +1,402 @@
+[
+  {
+    "id": "R2-S01",
+    "group": "scam",
+    "text": "Join my Telegram channel for daily intraday calls with 95% accuracy. Entry 245, target 280, SL 238.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S02",
+    "group": "scam",
+    "text": "Ye share kal 20% upar jayega, abhi kharid lo, baad mein pachtaoge",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S03",
+    "group": "scam",
+    "text": "आज खरीदो, कल दोगुना! यह शेयर पक्का ऊपर जाएगा",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S04",
+    "group": "scam",
+    "text": "RBI approved scheme: invest ₹50,000 and get ₹1 lakh in 6 months",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S05",
+    "group": "scam",
+    "text": "Mukesh Ambani's new investment platform pays 25,000 rupees per day. Register now, spots are limited.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S06",
+    "group": "scam",
+    "text": "We will manage your demat account. Share your login ID and password, profit sharing 50-50.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S07",
+    "group": "scam",
+    "text": "Withdraw your profits after paying 18% GST first. Pay the tax to release your funds.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S08",
+    "group": "scam",
+    "text": "Earn 2% weekly on your deposit, paid every Friday",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S09",
+    "group": "scam",
+    "text": "हर हफ्ते 5% मुनाफा, बिना किसी जोखिम के",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S10",
+    "group": "scam",
+    "text": "Exclusive: block deal info from promoter group, BTST call, don't share with anyone",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S11",
+    "group": "scam",
+    "text": "Our app gives you 30% welcome bonus on first deposit. Download APK from link",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S12",
+    "group": "scam",
+    "text": "SEBI registered research analyst (INH000012345) - jackpot stock for tomorrow 🚀🚀",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S13",
+    "group": "scam",
+    "text": "Forex trading with guaranteed 10% monthly returns, minimum ₹10,000",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S14",
+    "group": "scam",
+    "text": "Bas ₹500 se shuru karo aur roz ₹2000 kamao",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S15",
+    "group": "scam",
+    "text": "Limited period IPO allotment through our HNI quota — confirm by paying ₹25,000 to this account",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S16",
+    "group": "scam",
+    "text": "Mere 50,000 members ne pichle mahine 300% return kamaya. Proof dekho screenshots mein.",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S17",
+    "group": "scam",
+    "text": "Pump alert 🚨 Buy XYZ at 12, we are taking it to 50 this week",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-S18",
+    "group": "scam",
+    "text": "गुप्त टिप: यह पेनी स्टॉक अगले हफ्ते 5 गुना होगा",
+    "expected": {
+      "minAttention": 1
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B01",
+    "group": "benign",
+    "text": "SEBI warns investors against unregistered entities promising guaranteed returns on social media.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B02",
+    "group": "benign",
+    "text": "Mutual fund investments are subject to market risks, read all scheme related documents carefully.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B03",
+    "group": "benign",
+    "text": "Shares of XYZ hit the upper circuit after strong quarterly results.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B04",
+    "group": "benign",
+    "text": "What is a stop loss? A stop loss is an order to sell when the price falls to a set level.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B05",
+    "group": "benign",
+    "text": "Insider trading is illegal in India under SEBI regulations.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B06",
+    "group": "benign",
+    "text": "Never pay a fee to withdraw your own money — that is a common scam tactic.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B07",
+    "group": "benign",
+    "text": "The Finance Minister presented the Union Budget today, announcing changes to capital gains tax.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B08",
+    "group": "benign",
+    "text": "Compounding means your returns earn returns. For example, 10% a year doubles money in about 7 years.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B09",
+    "group": "benign",
+    "text": "PPF offers a fixed interest rate set by the government every quarter, currently 7.1% per annum.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B10",
+    "group": "benign",
+    "text": "Bank FD: 7% per annum, interest paid monthly.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B11",
+    "group": "benign",
+    "text": "RBI keeps repo rate unchanged at 6.5%.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B12",
+    "group": "benign",
+    "text": "Please don't share your OTP with anyone, even if they claim to be from your bank.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B13",
+    "group": "benign",
+    "text": "Download the official app only from Google Play Store or App Store.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B14",
+    "group": "benign",
+    "text": "Diversification means not putting all your eggs in one basket.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B15",
+    "group": "benign",
+    "text": "SIP में हर महीने एक तय रकम निवेश की जाती है। रिटर्न की गारंटी नहीं होती।",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B16",
+    "group": "benign",
+    "text": "Mera beta har mahine 5000 rupaye SIP mein daalta hai",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B17",
+    "group": "benign",
+    "text": "Nifty gave about 12% CAGR over the last 20 years, but past returns do not guarantee future results.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B18",
+    "group": "benign",
+    "text": "Scam alert: fraudsters are impersonating SEBI officials and asking for registration fees.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B19",
+    "group": "benign",
+    "text": "Company XYZ announced a 1:1 bonus issue; your shares will double in number but not in value.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B20",
+    "group": "benign",
+    "text": "Gold has historically been used as a hedge against inflation.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B21",
+    "group": "benign",
+    "text": "Ek SEBI registered advisor se salah lein, aur kabhi bhi guaranteed return ke vaade par bharosa na karein",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  },
+  {
+    "id": "R2-B22",
+    "group": "benign",
+    "text": "Senior citizens savings scheme pays interest every quarter at 8.2% per annum, set by the government.",
+    "expected": {
+      "maxFindings": 0
+    },
+    "scored": true,
+    "provenance": "Team FirstBest review"
+  }
+]

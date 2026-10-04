@@ -1,0 +1,45 @@
+SAJAG: THIRD-PARTY COMPONENTS AND DATA USE
+Team FirstBest: Anshuman Biswal · Masud Ali · Version 2.0
+
+
+SOFTWARE COMPONENTS
+
+Component                                   Use                                              Licence
+React, React DOM, React Router              Web interface and routing                        MIT
+Vite, TypeScript                            Build and language                               MIT; Apache-2.0
+Express, CORS, Helmet, express-rate-limit   API server and security middleware               MIT
+dotenv                                      Server configuration                             BSD-2-Clause
+Zod                                         Input validation                                 MIT
+Capacitor                                   Android app shell; speech and text-sharing       MIT
+                                            bridge
+Supabase JS                                 Account sign-in and opt-in notebook backup       MIT
+Lucide React                                Interface icons                                  ISC
+Microsoft Fluent Emoji                      Bundled illustrations                            MIT
+DM Sans, Lora, Noto Sans Bengali            Self-hosted fonts                                SIL Open Font License
+NumPy, SciPy, scikit-learn                  Training the small pattern model (development    BSD-3-Clause
+                                            only; the app runs TypeScript inference)
+Vitest, Supertest, Playwright, axe-core     Automated testing (development only)             MIT / Apache-2.0 / MPL-2.0
+PptxGenJS                                   Presentation authoring                           MIT
+FFmpeg                                      Video editing for the demo                       LGPL/GPL (build licence applies)
+faster-whisper, CTranslate2, Whisper        Caption timing for the demo narration            MIT
+
+Full dependency versions are recorded in package-lock.json.
+
+
+HOSTED SERVICES AND APIS
+
+- Google Gemini API (Gemini 3.5 Flash-Lite): optional AI review. It runs only after the user gives permission for that message. Personal details are masked first (best effort). Under Google's unpaid-service terms, inputs and outputs may be used to improve Google's products and may be seen by human reviewers. API keys stay on the server and are never shipped in the app.
+- Supabase: email and password sign-in, one-time email verification and opt-in notebook backup. Each user can access only their own records.
+- Vercel: hosting for the website and API.
+- OpenAI API: an optional server adapter exists in the code but is not enabled in this release.
+- Device speech services (Android SpeechRecognizer and TextToSpeech, browser Web Speech API): Speak it and Listen. Available languages and voices depend on the device, and some services process audio or text online. Sajag does not store microphone audio. Voice notes forwarded from chat apps are not imported.
+
+
+CONTENT AND DATA
+
+- Official guidance: Sajag's educational explanations are original summaries that link to public SEBI, RBI and Government of India publications. They are not official translations, and no regulator endorsement is claimed.
+- Bengali content is in beta, pending native-speaker review.
+- Retrieval (RAG) uses a local BM25 index over 22 curated guidance cards. It does not search the web, and it does not verify senders, registrations or links.
+- The pattern model was trained on the project's synthetic development examples, never on user messages. Selected public SMS datasets were used only during development and evaluation, under their own attribution and licence terms.
+- The server keeps a short-lived memory cache (up to six hours) of text-free review results: warning categories, positions and guidance identifiers, never the message text. Nothing is written to disk.
+- Saving and cloud backup happen only when the user chooses. The notebook stored on the device is not encrypted.

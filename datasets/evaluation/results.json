@@ -1,0 +1,88 @@
+{
+  "dataset": "datasets/evaluation/holdout-150.json",
+  "messages": 150,
+  "risky": 75,
+  "harmless": 75,
+  "note": "Synthetic held-out messages, written before tuning and scored once per mode. Not a real-world guarantee.",
+  "modes": {
+    "offline": {
+      "correct": 124,
+      "accuracy": 82.7,
+      "riskyFlagged": 57,
+      "harmlessFlagged": 8,
+      "harmlessStrong": 0,
+      "byForm": {
+        "English": {
+          "correct": 25,
+          "accuracy": 83.3,
+          "riskyFlagged": 12,
+          "harmlessFlagged": 2
+        },
+        "Hindi": {
+          "correct": 25,
+          "accuracy": 83.3,
+          "riskyFlagged": 11,
+          "harmlessFlagged": 1
+        },
+        "Bengali": {
+          "correct": 25,
+          "accuracy": 83.3,
+          "riskyFlagged": 12,
+          "harmlessFlagged": 2
+        },
+        "Hinglish": {
+          "correct": 24,
+          "accuracy": 80.0,
+          "riskyFlagged": 12,
+          "harmlessFlagged": 3
+        },
+        "Banglish": {
+          "correct": 25,
+          "accuracy": 83.3,
+          "riskyFlagged": 10,
+          "harmlessFlagged": 0
+        }
+      }
+    },
+    "withAiReview": {
+      "correct": 149,
+      "accuracy": 99.3,
+      "riskyFlagged": 74,
+      "harmlessFlagged": 0,
+      "harmlessStrong": 0,
+      "byForm": {
+        "English": {
+          "correct": 30,
+          "accuracy": 100.0,
+          "riskyFlagged": 15,
+          "harmlessFlagged": 0
+        },
+        "Hindi": {
+          "correct": 29,
+          "accuracy": 96.7,
+          "riskyFlagged": 14,
+          "harmlessFlagged": 0
+        },
+        "Bengali": {
+          "correct": 30,
+          "accuracy": 100.0,
+          "riskyFlagged": 15,
+          "harmlessFlagged": 0
+        },
+        "Hinglish": {
+          "correct": 30,
+          "accuracy": 100.0,
+          "riskyFlagged": 15,
+          "harmlessFlagged": 0
+        },
+        "Banglish": {
+          "correct": 30,
+          "accuracy": 100.0,
+          "riskyFlagged": 15,
+          "harmlessFlagged": 0
+        }
+      },
+      "aiReviewsCompleted": 145
+    }
+  }
+}

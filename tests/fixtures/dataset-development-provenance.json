@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "totalDownloadedBytes": 9958395,
+  "files": [
+    {
+      "file": "imc.csv",
+      "url": "https://raw.githubusercontent.com/reportsmishing/Smishing-Dataset-IMC25/a6175560b57387199871e51fbef6bc523d2516b4/dataset/final_dataset_output.csv",
+      "bytes": 9462365,
+      "sha256": "1bbd1e9e82c3ea023112207b80da268a5c4a07d2353c2b0898360ab037fa9a64"
+    },
+    {
+      "file": "imc-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/reportsmishing/Smishing-Dataset-IMC25/a6175560b57387199871e51fbef6bc523d2516b4/LICENSE.txt",
+      "bytes": 18650,
+      "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661"
+    },
+    {
+      "file": "bn-train.parquet",
+      "url": "https://huggingface.co/datasets/shariul-islam/bengali-sms-smishing-dataset/resolve/9d7c131cc63187c54dfd069d8070776c82f0be45/data/train-00000-of-00001.parquet",
+      "bytes": 403979,
+      "sha256": "9fb92ea7e185297f4dd66442a7ed5f11ffc82d501c1ca2ea38385f430b9fe18e"
+    },
+    {
+      "file": "bn-README.md",
+      "url": "https://huggingface.co/datasets/shariul-islam/bengali-sms-smishing-dataset/resolve/9d7c131cc63187c54dfd069d8070776c82f0be45/README.md",
+      "bytes": 3030,
+      "sha256": "96ef40f0466dbd2a40f2e0ce7da8d4a2650257f4dee7d6f656c4d63952b47abc"
+    },
+    {
+      "file": "hyparquet-1.31.2.tgz",
+      "url": "https://registry.npmjs.org/hyparquet/-/hyparquet-1.31.2.tgz",
+      "bytes": 70371,
+      "sha256": "13ccf3c38db5fc94151092783790d6a8550561f99828d57a014dfbf7c8b9d1f7"
+    }
+  ],
+  "counts": {
+    "imcTotal": 33869,
+    "imcEnglish": 22078,
+    "bengaliTrain": 4903,
+    "selected": 72
+  },
+  "sources": [
+    {
+      "id": "imc25",
+      "revision": "a6175560b57387199871e51fbef6bc523d2516b4",
+      "publisher": "reportsmishing / Fishing for Smishing, IMC 2025",
+      "licence": "CC BY 4.0",
+      "licenseUrl": "https://github.com/reportsmishing/Smishing-Dataset-IMC25/blob/a6175560b57387199871e51fbef6bc523d2516b4/LICENSE.txt",
+      "selectedRows": 24,
+      "split": "English reports, seeded development subset; upstream no train/test split used"
+    },
+    {
+      "id": "bengali-train",
+      "revision": "9d7c131cc63187c54dfd069d8070776c82f0be45",
+      "publisher": "shariul-islam / SmishDetect-LLM",
+      "licence": "MIT declared by publisher dataset card; no standalone licence file in pinned tree",
+      "licenseUrl": "https://huggingface.co/datasets/shariul-islam/bengali-sms-smishing-dataset/blob/9d7c131cc63187c54dfd069d8070776c82f0be45/README.md",
+      "selectedRows": 48,
+      "split": "train only; test and validation parquet not downloaded"
+    },
+    {
+      "id": "hyparquet",
+      "version": "1.31.2",
+      "publisher": "Hyperparam",
+      "licence": "MIT",
+      "purpose": "Local-only Parquet decoding; not an application dependency, model, or dataset"
+    }
+  ],
+  "controls": {
+    "downloadCapBytes": 10000000,
+    "datasetPayloadBytes": 9866344,
+    "trainingOrModelDownloads": false,
+    "applicationIntegration": "Only generalized local rules change; no dataset records added to UI, provider prompt, RAG corpus or model training.",
+    "excluded": "Existing frozen fixtures and new independent holdout were neither read nor changed."
+  },
+  "fixture": {
+    "path": "tests/fixtures/dataset-development-v1.json",
+    "sha256": "e76f142cae365d19b11b8a11942001d81a40a1a2cd0dfbcc989e549f3c474666"
+  }
+}
